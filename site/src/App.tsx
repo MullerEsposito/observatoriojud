@@ -3,7 +3,7 @@ import "./styles.css";
 import { loadAllData, type SeriesMensalRow, type TopDestinoRow, type TopTrtRow } from "./lib/data";
 import { sum } from "./lib/format";
 import { Panel } from "./components/Panel";
-import { KpiCard } from "./components/Kpicard";
+import { KpiCard } from "./components/KpiCard";
 import { ChartLine } from "./components/ChartLine";
 import { ChartBar } from "./components/ChartBar";
 import { Filters } from "./components/Filters";
