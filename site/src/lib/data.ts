@@ -3,11 +3,14 @@ export type TopDestinoRow = { destino: string; total: number };
 export type TopTrtRow = { trt: string; total: number };
 
 async function loadJson<T>(path: string): Promise<T> {
-  const url = new URL(path, import.meta.env.BASE_URL).toString();
+  const base = import.meta.env.BASE_URL || "/";
+  const url = new URL(path, window.location.origin + base).toString();
+
   const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Falha ao carregar ${path}: ${res.status}`);
+  if (!res.ok) throw new Error(`Falha ao carregar ${url}: ${res.status}`);
   return res.json();
 }
+
 
 export async function loadAllData() {
   const [series, topDestinos, topTrts] = await Promise.all([
