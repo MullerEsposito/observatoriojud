@@ -1,0 +1,8 @@
+[
+  { "destino": "Ministério da Fazenda", "total": 6 },
+  { "destino": "Banco Central", "total": 4 },
+  { "destino": "CGU", "total": 3 },
+  { "destino": "INSS", "total": 3 },
+  { "destino": "Secretaria de Fazenda (Estadual)", "total": 2 },
+  { "destino": "Universidade Federal", "total": 2 }
+]

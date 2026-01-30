@@ -1,0 +1,88 @@
+# pipeline/rules.yaml
+
+# -------------------------
+# 1. ÓRGÃOS DO JUDICIÁRIO
+# (se o destino cair aqui → NÃO é evasão)
+# -------------------------
+judiciario_keywords:
+  - TRT
+  - Tribunal Regional do Trabalho
+  - TST
+  - Tribunal Superior do Trabalho
+  - TRF
+  - Tribunal Regional Federal
+  - TJ
+  - Tribunal de Justiça
+  - TRE
+  - Tribunal Regional Eleitoral
+  - STF
+  - STJ
+  - STM
+  - TJM
+  - CNJ
+  - Conselho Nacional de Justiça
+
+# -------------------------
+# 2. FORA DO JUDICIÁRIO
+# (se cair aqui → É evasão)
+# -------------------------
+fora_judiciario_keywords:
+  - Ministério
+  - Secretaria
+  - Governo do Estado
+  - Prefeitura
+  - Autarquia
+  - Agência
+  - Banco Central
+  - BACEN
+  - INSS
+  - IBGE
+  - Ministério Público
+  - MPF
+  - MPT
+  - MPE
+  - Defensoria
+  - Assembleia Legislativa
+  - Câmara dos Deputados
+  - Senado
+  - Tribunal de Contas
+  - Universidade
+  - Instituto Federal
+  - IFET
+
+# -------------------------
+# 3. SERVIDOR DE TI
+# (qualquer termo relacionado)
+# -------------------------
+ti_keywords:
+  - informática
+  - tecnologia da informação
+  - TI
+  - TIC
+  - sistemas
+  - desenvolvimento
+  - programador
+  - software
+  - hardware
+  - infraestrutura
+  - redes
+  - servidores
+  - suporte
+  - help desk
+  - service desk
+  - segurança da informação
+  - cibersegurança
+  - dados
+  - banco de dados
+  - dba
+  - governança de TI
+  - gestão de TI
+
+# -------------------------
+# 4. PADRÕES DE SAÍDA
+# -------------------------
+exit_patterns:
+  - redistribui.*\bpara\b
+  - vac[âa]ncia.*posse.*(cargo|emprego)
+  - exonera.*a pedido
+  - posse.*em

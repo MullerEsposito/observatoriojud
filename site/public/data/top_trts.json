@@ -1,0 +1,8 @@
+[
+  { "trt": "TRT-1", "total": 5 },
+  { "trt": "TRT-2", "total": 3 },
+  { "trt": "TRT-4", "total": 6 },
+  { "trt": "TRT-8", "total": 2 },
+  { "trt": "TRT-15", "total": 4 },
+  { "trt": "TRT-18", "total": 1 }
+]
