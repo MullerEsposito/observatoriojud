@@ -1,6 +1,43 @@
 import re
+import spacy
 from dataclasses import dataclass
-from typing import List, Dict
+from typing import List, Dict, Optional
+
+# Lazy loader for SpaCy
+_nlp = None
+
+# List of known names for NLP seeding
+KNOWN_NAMES = [
+    "DIOGO COUCEIRO LEMOS", "IGOR CEZAR PEREIRA GALINDO", "EDUARDO FERREIRA DE SOUZA",
+    "ANDERSON DA SILVA SANTOS", "IGOR MARCEL LEAL DE MORAIS", "RUBIA RODRIGUES RICARDO",
+    "JOSUE LENNON DE SOUZA PAES", "JUN MIYAZAKI", "VITOR VALSICHI CUZIOL",
+    "THAYANNE ANTAO VIEGAS", "LUCAS BATISTA LEITE DE SOUZA", "EDSON ELIAS DOS REIS",
+    "ANDRÉ ADOLFO KORK ADRIAZOLA", "HUGO ARDISSON E SOUZA", "CLAUDIO SANTANA DE VASCONCELOS",
+    "VICTOR HUGO ARDISSON E SOUZA", "JOAO BATISTA ARAUJO BARBOSA JUNIOR", "GHANEM YOUSSEF ARFOX",
+    "GIBSON ALMEIDA JERONIMO DOS SANTOS", "ALESSANDRA OLIVEIRA DA SILVA",
+    "DANIEL ALVES DA FONSECA MACIEL", "IL JOSE OLIVEIRA E REBOUCAS", "LUCAS CAMARGO CARDOSO",
+    "ALIPIO CORREIA MENDES", "RAFAEL RODRIGUES DE CARVALHO", "MULLER ESPOSITO NUNES",
+    "MARCO AURELIO SHIBAYAMA", "JOYCE QUEIROZ E SILVA", "JOSINALDO AMORIM DIAS DE SOUSA"
+]
+
+def get_nlp():
+    global _nlp
+    if _nlp is None:
+        try:
+            print("⏳ Carregando modelo SpaCy (pt_core_news_sm)...")
+            _nlp = spacy.load("pt_core_news_sm")
+            
+            # Add EntityRuler for known names
+            if "entity_ruler" not in _nlp.pipe_names:
+                 ruler = _nlp.add_pipe("entity_ruler", before="ner")
+                 patterns = [{"label": "PER", "pattern": name} for name in KNOWN_NAMES]
+                 ruler.add_patterns(patterns)
+                 
+            print("✅ Modelo carregado com dicionário de nomes!")
+        except Exception as e:
+            print(f"❌ Erro ao carregar SpaCy: {e}")
+            return None
+    return _nlp
 
 @dataclass
 class Event:
@@ -12,26 +49,125 @@ class Event:
     source_pdf: str
     nome: str = "" # New field
 
+# Noise blacklist (names of presidents, departments, boilerplate text, etc.)
+BLACKLIST = [
+    "SUA PUBLICAÇÃO", "HORTA",
+    "NA POLÍTICA", "DA MAGISTRATURA", "DE GESTÃO", "DO TRABALHO", "DA SECRETARIA",
+    "ABAIXO INDICADO", "PELO SERVIDOR", "PELA SERVIDORA", "O CANDIDATO", "A CANDIDATA",
+    "DE PESSOAL", "DE TECNOLOGIA", "DA INFORMAÇÃO", "DE SAÚDE", "DE SEGURANÇA",
+    "DE TRANSPORTE", "DE APOIO", "JUDICIÁRIO", "ADMINISTRATIVO", "ESPECIALIZADA",
+    "DE CARREIRA", "DE PROVIMENTO", "DE VACÂNCIA", "DE RECURSOS", "DE HUMANOS",
+    "NA DATA", "DA PUBLICAÇÃO", "DO DIÁRIO", "DA UNIÃO", "DA JUSTIÇA",
+    "DA DÉCIMA", "DA VIGÉSIMA", "DA SEXTA", "DA SÉTIMA", "DA OITAVA",
+    "NEPOMUCENO", "MOHALLEM", "DO QUADRO",
+    "ESTE CONTEÚDO", "PUBLICAÇÃO", "O DESEMBARGADOR", "A PRESIDENTE", "DÊ-SE CIÊNCIA",
+    "TECNOLOGIA DA INFORMAÇÃO", "GESTAO DE PESSOAS", "OUTUBRO DE", "JANEIRO DE", 
+    "FEVEREIRO DE", "MARCO DE", "ABRIL DE", "MAIO DE", "JUNHO DE", "JULHO DE", 
+    "AGOSTO DE", "SETEMBRO DE", "NOVEMBRO DE", "DEZEMBRO DE",
+    "SERVIDOR SEM INSTITUIÇÃO DE PENSÃO", "SEM INSTITUIÇÃO DE PENSÃO", 
+    "CANDIDATO NOMEADO", "CANDIDATA NOMEADA", "AMPLA CONCORRÊNCIA", 
+    "CESSAÇÃO DOS EFEITOS", "SECRETARIA DE", "DIRETORIA DE", "COORDENADORIA DE",
+    "PODER JUDICIÁRIO", "JUSTIÇA DO TRABALHO", "TRIBUNAL REGIONAL",
+    "PODER JUDICIÁRIO", "JUSTIÇA DO TRABALHO", "TRIBUNAL REGIONAL",
+    "COM O QUE DISPÕEM", "COM O QUE DISPÕE", "ABAIXO RELACIONADO", "ABAIXO RELACIONADOS",
+    "INCISO", "ALÍNEA", "ARTIGO", "ART.", "RUBRICA", "PARÁGRAFO",
+    "NÍVEL SUPERIOR", "NÍVEL INTERMEDIÁRIO", "NIVEL SUPERIOR", "NIVEL INTERMEDIARIO"
+]
+
 def extract_nome(block: str) -> str:
-    # Patterns to find name:
-    # 1. "ocupado pelo servidor X"
-    # 2. "servidor(a) X" (careful with generic usage)
-    # 3. "nomear/exonerar X"
+    # List of patterns to find names in administrative acts
+    patterns = [
+        # Pattern for lists: 1º lugar - NAME (allowing "pela lista...")
+        r"(?:\d+º\s+(?:lugar|LUGAR)\s+(?:.*?)-\s+)([A-ZÀ-Ú ][A-ZÀ-Ú ]{4,60})",
+        # List format: NAME/ classification
+        r"^([A-ZÀ-Ú ][A-ZÀ-Ú ]{4,60})/\s+\d+º\s+(?:colocado|COLOCADO|lugar|LUGAR|classificado|CLASSIFICADO)",
+        # List format: NAME, classificado em
+        r"([A-ZÀ-Ú ][A-ZÀ-Ú ]{4,60}),?\s+(?:classificado|CLASSIFICADO)\s+(?:em|EM)",
+        # "ocupado por [Nome]" - refined for pelo(a) and cleanup
+        r"(?:[Oo]cupado|OCUPADO)\s+(?:pelo|PELO|pela|PELA|por|POR|pl|PL|p)(?:[a-z\(\)A-Z]+)?(?:.*?)\s+(?:[Ss]ervidor|SERVIDOR)(?:a|A)?\s+[^A-ZÀ-Ú]*?([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+        # Broad Ocupado (Strict Uppercase Name) - Catches "ocupado por JOSINALDO"
+        r"(?:[Oo]cupado|OCUPADO)\s+(?:pelo|PELO|pela|PELA|por|POR)\s+[^A-ZÀ-Ú]*?([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+        # "referente ao candidato abaixo relacionado: NAME"
+        r"(?:[Cc]andidato|CANDIDATO)\s+(?:abaixo|ABAIXO)\s+(?:relacionado|RELACIONADO):\s*([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+        # Explicit "Dispensar o servidor NAME" (TRT4)
+        r"(?:[Dd]ispensar|DISPENSAR)\s+(?:o|a|O|A)?\s+(?:[Ss]ervidor|SERVIDOR)(?:a|A)?\s+[^A-ZÀ-Ú]*?([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+        # Colon nomination (very strong signal): Nomear ... : NAME
+        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR)(?:.{1,300}?)[:]\s*([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+        # Nomear NAME (Direct) - Strict Uppercase Name matches "Nomear MANOEL" but skips "Nomear o candidato"
+        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR)\s+[^A-ZÀ-Ú]*?([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+         # Broad nomination with MANDATORY candidate/servidor anchor AND gap after
+        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR|[Nn]omea[çc][ãa]o|NOMEA[ÇC][ÃA]O\s+(?:de|DE)?)(?:[^;]{1,300}?)(?:o|a|os|as|O|A|OS|AS)?\s*(?:seguintes?|SEGUINTES?)?\s*(?:[Cc]andidat|[Cc]ANDIDAT|[Ss]ervido|SERVIDO)(?:[oa]s?|[OA]S?|r|R|ra|RA|res?|RES?)(?:[^;]{1,300}?)\s+([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+        # Fallback broad match (careful)
+        r"(?:[Tt]ornar\s+sem\s+efeito|TORNAR\s+SEM\s+EFEITO|[Dd]eclarar\s+vago|DECLARAR\s+VAGO).*?\s+(?:o|a|O|A)?\s+(?:[Ss]ervidor|SERVIDOR|[Cc]andidato|CANDIDATO|(?:[Nn]omea[çc][ãa]o|NOMEA[ÇC][ÃA]O)\s+(?:de|DE))\s+([A-ZÀ-Ú ][A-ZÀ-Ú ]{4,60})"
+    ]
     
-    # Try explicit "ocupado pelo servidor" first (high confidence)
-    m = re.search(r"ocupado\s+(?:pelo|pela)?\s+servidor(?:a)?\s+([A-ZÀ-Ú\s]{5,60})", block, re.IGNORECASE)
-    if m:
-        # cleanup: stop at comma or significant punctuation
-        raw = m.group(1)
-        return re.split(r"[,;]|\s+matr[íi]cula", raw, flags=re.IGNORECASE)[0].strip()
-        
-    # Generic "servidor(a) X" - risky, might catch "servidor do quadro"
-    # Let's try simple uppercase sequence if it looks like a name
+    for p in patterns:
+        m = re.search(p, block) # NO IGNORECASE!
+        if m:
+            raw = m.group(1).strip()
+            # Uppercase check: if we are relying on regex case-insensitivity, we must verify the content
+            # allows for a few lowercase chars (typos) but mostly upper
+            # This filters out "para exercer" matched by [A-Z ]+ in IGNORECASE mode
+            if not raw or sum(1 for c in raw if c.isupper()) / (len(raw) + 1) < 0.5:
+                continue
+
+            # Clean up: stop at common delimiters after the name
+            clean = re.split(r"[,;.]|\s+matr[íi]cula|\s+para\s+|\s+do\s+cargo|\s+em\s+virtude|\s+que\s+nomeou|\s+vaga\s+|\s+e\s+(?=[A-ZÀ-Ú])|\s+Art\.|vigência|decorrência|classificado|colocado|\s+cargo\s+criado|\s+cargo\s+decorrente|\s+desta\s+Universidade", raw, flags=re.IGNORECASE)[0].strip()
+            
+            # Clean Prefix: "Nível Superior NAME"
+            clean = re.sub(r"^(?:N[ÍI]VEL\s+(?:SUPERIOR|INTERMEDI[ÁA]RIO)|T[Éé]CNICO\s+JUDICI[ÁA]RIO|ANALISTA\s+JUDICI[ÁA]RIO)\s+", "", clean, flags=re.IGNORECASE).strip()
+
+            # Strip titles
+            
+            # Strip titles
+            clean = re.sub(r"^(O|A)\s+(CANDIDATO|CANDIDATA|SERVIDOR|SERVIDORA)\s+", "", clean, flags=re.IGNORECASE)
+            
+            # Final sanity check: names should have at least 2 words and not be too generic
+            if len(clean.split()) >= 2:
+                upper_name = clean.upper()
+                if any(noise in upper_name for noise in BLACKLIST):
+                    continue
+                if not upper_name.startswith("DO QUADRO"):
+                    return upper_name
+                
+    # --- FALLBACK: SPACY NER ---
+    # If regex failed, try to use Named Entity Recognition
+    nlp = get_nlp()
+    if nlp:
+        # Limit text window to avoid processing huge blocks
+        doc = nlp(block)
+        candidates = []
+        for ent in doc.ents:
+            if ent.label_ == "PER":
+                name = ent.text.strip()
+                # Basic validation
+                if len(name) > 3 and " " in name:
+                    # Check noise
+                    upper_name = name.upper()
+                    if any(noise in upper_name for noise in BLACKLIST):
+                        continue
+                    if upper_name.startswith("DO QUADRO"):
+                        continue
+                    
+                    # Heuristic: return the first valid PER entity found
+                    # (This is simplistic; ideally we'd look for proximity to keywords)
+                    candidates.append(name.title())
+
+        if candidates:
+            # Prefer longer names or matching KNOWN_NAMES exactly
+            for name in candidates:
+                upper = name.upper()
+                if upper in KNOWN_NAMES:
+                    print(f"   🎯 Dictionary Match: {upper}")
+                    return upper
+            return candidates[0]
+
     return ""
 
 def extract_event_date(block: str) -> str:
     # Look for "a partir de DD/MM/YYYY" or "a contar de DD/MM/YYYY"
-    m = re.search(r"(?:a partir de|a contar de|em)\s+(\d{1,2}/\d{1,2}/\d{2,4})", block, re.IGNORECASE)
+    # Removed "em" because it matches legislative dates (e.g. "Lei de 1996")
+    m = re.search(r"(?:a partir de|a contar de|efeitos a partir de)\s+(\d{1,2}/\d{1,2}/\d{2,4})", block, re.IGNORECASE)
     if m:
         dstr = m.group(1)
         parts = dstr.split("/")
