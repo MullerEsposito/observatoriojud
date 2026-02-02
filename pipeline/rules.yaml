@@ -29,8 +29,8 @@ judiciario_keywords:
 fora_judiciario_keywords:
   - Ministério
   - Secretaria
-  - Governo do Estado
   - Prefeitura
+  - Governo do Estado
   - Autarquia
   - Agência
   - Banco Central
@@ -42,13 +42,13 @@ fora_judiciario_keywords:
   - MPT
   - MPE
   - Defensoria
-  - Assembleia Legislativa
-  - Câmara dos Deputados
+  - Assembleia
+  - Câmara
   - Senado
   - Tribunal de Contas
   - Universidade
   - Instituto Federal
-  - IFET
+  - IF
 
 # -------------------------
 # 3. SERVIDOR DE TI
@@ -60,29 +60,38 @@ ti_keywords:
   - TI
   - TIC
   - sistemas
-  - desenvolvimento
-  - programador
+  - desenvolvimento de sistemas
+  - desenvolvimento de software
+  - analista de desenvolvimento
+  - program
   - software
   - hardware
   - infraestrutura
   - redes
-  - servidores
+
   - suporte
   - help desk
   - service desk
   - segurança da informação
-  - cibersegurança
+  - ciber
   - dados
   - banco de dados
   - dba
-  - governança de TI
-  - gestão de TI
+  - governança
+  - it
+  - devops
 
 # -------------------------
 # 4. PADRÕES DE SAÍDA
 # -------------------------
 exit_patterns:
-  - redistribui.*\bpara\b
-  - vac[âa]ncia.*posse.*(cargo|emprego)
-  - exonera.*a pedido
-  - posse.*em
+  - redistribui
+  - vacância
+  - vacancia
+  - posse
+  - exonera
+  - vacância por posse
+  - cargo inacumulável
+  - declarar vago
+  - posse em cargo inacumulável
+  - posse em cargo inacumulavel

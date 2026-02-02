@@ -66,7 +66,7 @@ export default function App() {
   );
 
   const barTrts = useMemo(
-    () => topTrts.slice(0, 10).map((r) => ({ label: r.trt, value: r.total })),
+    () => topTrts.slice(0, 10).map((r) => ({ label: r.trt, value: r.total, details: r.details })),
     [topTrts]
   );
 

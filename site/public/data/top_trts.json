@@ -1,8 +1,706 @@
 [
-  { "trt": "TRT-1", "total": 5 },
-  { "trt": "TRT-2", "total": 3 },
-  { "trt": "TRT-4", "total": 6 },
-  { "trt": "TRT-8", "total": 2 },
-  { "trt": "TRT-15", "total": 4 },
-  { "trt": "TRT-18", "total": 1 }
+  {
+    "trt": "TRT7",
+    "total": 18,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2022-04-27"
+      },
+      {
+        "nome": "RAYRONE ZIRTANY NUNES MARQUES",
+        "data": "2021-01-19"
+      },
+      {
+        "nome": "EDSON ELIAS DOS REIS",
+        "data": "2024-02-09"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-05-12"
+      },
+      {
+        "nome": "MANOEL MARIANO SIQUEIRA JUNIOR",
+        "data": "2022-04-08"
+      },
+      {
+        "nome": "FILIPE SAMPAIO CANITO",
+        "data": "2022-01-24"
+      },
+      {
+        "nome": "LEONARDO DE SOUSA DIAS",
+        "data": "2023-07-26"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-03-22"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-04-11"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-12-29"
+      },
+      {
+        "nome": "FELLYPPE CARLOS SANTOS DE LIMA",
+        "data": "2021-11-11"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-07-27"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-05-24"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-02-09"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-03-24"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-08-22"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-11-22"
+      },
+      {
+        "nome": "WENDELL MILITÃO FERNANDES MENDES",
+        "data": "2023-03-23"
+      }
+    ]
+  },
+  {
+    "trt": "TRT4",
+    "total": 16,
+    "details": [
+      {
+        "nome": "FELIPE LUIZ CHRISTOFOLLI GIOTTO",
+        "data": "2020-07-31"
+      },
+      {
+        "nome": "LEOPOLDO ULISSIS MEIRELES ANDRIES",
+        "data": "2022-06-01"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-11-21"
+      },
+      {
+        "nome": "EDSON ELIAS DOS REIS",
+        "data": "2021-10-21"
+      },
+      {
+        "nome": "DINEI ANDRÉ ROCKENBACH",
+        "data": "2021-10-07"
+      },
+      {
+        "nome": "THIAGO GREGORIO FAGUNDES",
+        "data": "2023-02-23"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-02-04"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-11-10"
+      },
+      {
+        "nome": "DIOGO PIRES GILI",
+        "data": "2022-06-27"
+      },
+      {
+        "nome": "EDUARDO MARTINS DA ROCHA",
+        "data": "2022-06-24"
+      },
+      {
+        "nome": "GUILHERME COSTA MACIEL",
+        "data": "2022-05-12"
+      },
+      {
+        "nome": "SILAS RODRIGUES DO REGO JUNIOR",
+        "data": "2023-10-04"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-12-06"
+      },
+      {
+        "nome": "EDUARDO ALCANTARA DE OLIVEIRA",
+        "data": "2022-07-27"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-10-11"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-03-13"
+      }
+    ]
+  },
+  {
+    "trt": "TRT8",
+    "total": 15,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2023-11-21"
+      },
+      {
+        "nome": "RENAN COUTINHO DINIZ",
+        "data": "2023-06-23"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-10-22"
+      },
+      {
+        "nome": "PAULO VINICIUS NASCIMENTO SANTOS DE CARVALHO",
+        "data": "2023-05-09"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-11-11"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-11-10"
+      },
+      {
+        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
+        "data": "2023-02-06"
+      },
+      {
+        "nome": "EWERTON ALMEIDA SILVA",
+        "data": "2023-02-06"
+      },
+      {
+        "nome": "RAPHAEL EUSTÁQUIO ALVES VILELA",
+        "data": "2021-09-01"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-10-06"
+      },
+      {
+        "nome": "RENAN COUTINHO DINIZ",
+        "data": "2023-06-01"
+      },
+      {
+        "nome": "RENAN COUTINHO DINIZ",
+        "data": "2023-06-01"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-10-01"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-04-14"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-09-01"
+      }
+    ]
+  },
+  {
+    "trt": "TRT16",
+    "total": 12,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2023-08-18"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2019-11-08"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-10-15"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-08-24"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-08-02"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-04-17"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-09-26"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-11-09"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-12-19"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-04-26"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-09-27"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-03-31"
+      }
+    ]
+  },
+  {
+    "trt": "TRT14",
+    "total": 11,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2020-07-15"
+      },
+      {
+        "nome": "FELYPP DE ASSIS OLIVEIRA",
+        "data": "2021-10-14"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-01-19"
+      },
+      {
+        "nome": "WINDSON DE SOUSA VIANA",
+        "data": "2022-12-05"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-05-03"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-10-20"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-10-20"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-11-04"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-11-04"
+      },
+      {
+        "nome": "BRUNO SEVERO DE SOUZA",
+        "data": "2022-01-28"
+      },
+      {
+        "nome": "JOAQUIM SILVA MENEZES",
+        "data": "2023-04-27"
+      }
+    ]
+  },
+  {
+    "trt": "TRT24",
+    "total": 10,
+    "details": [
+      {
+        "nome": "EDMUNDO BORGES DO AMARAL JUNIOR",
+        "data": "2021-10-28"
+      },
+      {
+        "nome": "SIMONE DUTRA BARBOSA BALSANELLI",
+        "data": "2021-11-23"
+      },
+      {
+        "nome": "GABRIEL PEREIRA DE OLIVEIRA ALENCAR",
+        "data": "2023-08-17"
+      },
+      {
+        "nome": "CRISTINA GARCIA GOMES OLIVEIRA",
+        "data": "2022-03-22"
+      },
+      {
+        "nome": "TIAGO DE NOVAIS SILVEIRA",
+        "data": "2022-02-07"
+      },
+      {
+        "nome": "REGINA KANASHIRO",
+        "data": "2022-02-14"
+      },
+      {
+        "nome": "SIMONE DUTRA BARBOSA BALSANELLI",
+        "data": "2021-11-11"
+      },
+      {
+        "nome": "EDMUNDO BORGES DO AMARAL JUNIOR",
+        "data": "2021-09-30"
+      },
+      {
+        "nome": "EDMUNDO BORGES DO AMARAL JUNIOR",
+        "data": "2021-11-22"
+      },
+      {
+        "nome": "DERIK NOVAES CARDOSO",
+        "data": "2023-05-08"
+      }
+    ]
+  },
+  {
+    "trt": "TRT18",
+    "total": 9,
+    "details": [
+      {
+        "nome": "IL JOSÉ OLIVEIRA E REBOUÇAS",
+        "data": "2022-01-25"
+      },
+      {
+        "nome": "LUCAS CAMARGO CARDOSO",
+        "data": "2022-01-28"
+      },
+      {
+        "nome": "LUCAS CAMARGO CARDOSO",
+        "data": "2022-06-22"
+      },
+      {
+        "nome": "ALÍPIO CORREIA MENDES",
+        "data": "2021-10-08"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-12-19"
+      },
+      {
+        "nome": "DANILO RODRIGUES DE CARVALHO",
+        "data": "2021-07-21"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-08-21"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-08-21"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-09-01"
+      }
+    ]
+  },
+  {
+    "trt": "TRT23",
+    "total": 9,
+    "details": [
+      {
+        "nome": "VICTOR HUGO ARDISSON E SOUZA",
+        "data": "2021-10-22"
+      },
+      {
+        "nome": "CLAUDIO SANTANA DE VANSCOCELOS",
+        "data": "2017-07-11"
+      },
+      {
+        "nome": "CLAUDIO SANTANA DE VASCONCELOS",
+        "data": "2017-07-11"
+      },
+      {
+        "nome": "JOÃO BATISTA ARAUJO BARBOSA JUNIOR",
+        "data": "2022-07-05"
+      },
+      {
+        "nome": "GHANEM YOUSSEF ARFOX",
+        "data": "2020-03-05"
+      },
+      {
+        "nome": "SAMY ARIEL DE WITT",
+        "data": "2022-07-19"
+      },
+      {
+        "nome": "BRUNO HENRIQUE DINIZ ROLO",
+        "data": "2022-12-16"
+      },
+      {
+        "nome": "ELIZEU OLIVEIRA DA SILVA",
+        "data": "2023-08-31"
+      },
+      {
+        "nome": "DANIEL ALVES DA FONSECA MACIEL",
+        "data": "2020-11-09"
+      }
+    ]
+  },
+  {
+    "trt": "TRT3",
+    "total": 8,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2024-02-07"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2024-03-22"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2024-03-20"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-06-27"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2024-03-11"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2024-02-19"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2024-02-19"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-03-27"
+      }
+    ]
+  },
+  {
+    "trt": "TRT6",
+    "total": 7,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2024-01-15"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2012-10-03"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "1996-12-26"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-06-15"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2012-10-03"
+      },
+      {
+        "nome": "DIOGO COUCEIRO LEMOS",
+        "data": "2023-02-16"
+      },
+      {
+        "nome": "DIANA RUBIA RODRIGUES RICARDO",
+        "data": "2023-09-01"
+      }
+    ]
+  },
+  {
+    "trt": "TRT15",
+    "total": 4,
+    "details": [
+      {
+        "nome": "SAULO VALIM",
+        "data": "2020-11-24"
+      },
+      {
+        "nome": "GEAN RIBEIRO DOS SANTOS",
+        "data": "2021-07-29"
+      },
+      {
+        "nome": "GABRIEL BRESSANE SILVA",
+        "data": "2024-03-13"
+      },
+      {
+        "nome": "FABRÍCIO MARTINS VELOSO",
+        "data": "2021-07-13"
+      }
+    ]
+  },
+  {
+    "trt": "TRT17",
+    "total": 4,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2023-06-27"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-10-21"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-07-11"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-01-20"
+      }
+    ]
+  },
+  {
+    "trt": "TRT20",
+    "total": 4,
+    "details": [
+      {
+        "nome": "LEONARDO ARAUJO ZOEHLER BRUM",
+        "data": "2023-06-15"
+      },
+      {
+        "nome": "AIRTON ANTONIO DE JESUS JUNIOR",
+        "data": "2023-06-21"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-08-17"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-10-20"
+      }
+    ]
+  },
+  {
+    "trt": "TRT19",
+    "total": 4,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2022-10-26"
+      },
+      {
+        "nome": "JOYCE QUEIROZ E SILVA",
+        "data": "2023-04-27"
+      },
+      {
+        "nome": "LUÍS CARLOS MOREIRA SILVA JÚNIOR",
+        "data": "2023-09-08"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-09-27"
+      }
+    ]
+  },
+  {
+    "trt": "TRT1",
+    "total": 3,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2021-09-24"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-02-16"
+      },
+      {
+        "nome": "JOAO RAUL JARDIM MENESES",
+        "data": "2021-11-30"
+      }
+    ]
+  },
+  {
+    "trt": "TRT22",
+    "total": 3,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2023-04-04"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-03-21"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-03-27"
+      }
+    ]
+  },
+  {
+    "trt": "TRT5",
+    "total": 3,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2020-10-08"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2023-05-09"
+      },
+      {
+        "nome": "ANTONIO RUY GARRIDO DE ABREU JUNIOR com efeitos a contar de",
+        "data": "2023-06-12"
+      }
+    ]
+  },
+  {
+    "trt": "TRT10",
+    "total": 3,
+    "details": [
+      {
+        "nome": "MARCELA GOMES CORREA",
+        "data": "2024-03-04"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2022-12-05"
+      },
+      {
+        "nome": "MAURILIO COSTA DA SILVA",
+        "data": "2023-03-13"
+      }
+    ]
+  },
+  {
+    "trt": "TRT9",
+    "total": 2,
+    "details": [
+      {
+        "nome": "RODRIGO NOHLACK CORREA CESAR",
+        "data": "2022-12-13"
+      },
+      {
+        "nome": "Não identificado",
+        "data": "2021-11-11"
+      }
+    ]
+  },
+  {
+    "trt": "TRT",
+    "total": 1,
+    "details": [
+      {
+        "nome": "Não identificado",
+        "data": "2023-08-14"
+      }
+    ]
+  }
 ]

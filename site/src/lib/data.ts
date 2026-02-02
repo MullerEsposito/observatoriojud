@@ -1,6 +1,10 @@
 export type SeriesMensalRow = { mes: string; evasoes: number };
 export type TopDestinoRow = { destino: string; total: number };
-export type TopTrtRow = { trt: string; total: number };
+export type TopTrtRow = {
+  trt: string;
+  total: number;
+  details?: { nome: string; data: string }[];
+};
 
 async function loadJson<T>(path: string): Promise<T> {
   const base = import.meta.env.BASE_URL || "/";
