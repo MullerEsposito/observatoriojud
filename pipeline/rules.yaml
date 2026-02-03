@@ -95,3 +95,24 @@ exit_patterns:
   - declarar vago
   - posse em cargo inacumulável
   - posse em cargo inacumulavel
+  - aposentadoria
+  - aposentar
+  - falecimento
+  - falecer
+
+# -------------------------
+# 5. PADRÕES DE ENTRADA / IGNORAR
+# (se o verbo principal for um destes, ignoramos o bloco)
+# -------------------------
+entry_patterns:
+  - nomear
+  - provimento
+  - admissão
+  - contratado
+  - contratar
+
+skip_patterns:
+  - retificar
+  - retificação
+  - retificacao
+  - torna sem efeito

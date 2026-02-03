@@ -1,0 +1,1530 @@
+[
+  {
+    "date": "2010-05-21",
+    "name": "ALEXANDRE KUPAC",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "4",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2010-09-21",
+    "name": "ERICO JHON DO BOM FIM",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2010-09-21",
+    "name": "ROBSON ANDRE SANTOS DE SOUZA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2010-09-21",
+    "name": "TULIO MOTA DE SOUZA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: False | Extração Sistêmica"
+  },
+  {
+    "date": "2010-11-21",
+    "name": "DAVID JONES FERREIRA DE LUCENA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "19",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2010-11-21",
+    "name": "RICARDO PINHEIRO DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "21",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2010-11-23",
+    "name": "VILMAR FERREIRA DE MORAES JÚNIOR",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2010-12-21",
+    "name": "RUI MOREIRA DE OLIVEIRA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "18",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2011-03-24",
+    "name": "THAYANNE ANTÃO VIEGAS",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "3",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2011-04-22",
+    "name": "RAFAEL DA SILVA XIMENES",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2011-11-21",
+    "name": "FELLYPPE CARLOS SANTOS DE LIMA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2011-11-21",
+    "name": "THIAGO VIANA FERNANDES",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "2",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2011-11-21",
+    "name": "WAGNER DE SOUZA TOLOSA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2011-11-22",
+    "name": "EDUARDO DE OLIVEIRA VASCONCELOS",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "19",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2012-01-24",
+    "name": "DENILSON DE ALBUQUERQUE CARVALHO",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "17",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2012-05-22",
+    "name": "RAMON PEREIRA RODRIGUES",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2012-06-23",
+    "name": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "5",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2012-07-22",
+    "name": "RESOLUÇÃO ADMINISTRATIVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2012-11-21",
+    "name": "TIAGO DE NOVAIS SILVEIRA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2013-01-20",
+    "name": "AMANDA DIÓGENES LUCAS",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "2",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2013-03-24",
+    "name": "GABRIEL BRESSANE SILVA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "15",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2013-07-21",
+    "name": "LUCAS DE OLIVEIRA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "15",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2013-10-21",
+    "name": "CAMILA SILVA BAETA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2013-12-21",
+    "name": "JOSÉ AIRTON BEZERRA LIMA JUNIOR",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2013-12-22",
+    "name": "RODRIGO NOHLACK CORREA CESAR",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "9",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2014-04-23",
+    "name": "LEONARDO JUNQUEIRA DA SILVA VALENTE",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2014-10-21",
+    "name": "FELYPP DE ASSIS OLIVEIRA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2014-12-21",
+    "name": "GEORGE FERREIRA PIMENTA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2015-07-20",
+    "name": "ROBSON ANDRE SANTOS DE SOUZA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "1",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2015-09-21",
+    "name": "JOÃO JOSINO SOBRINHO NETO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2015-09-21",
+    "name": "YURI RANIERI WANDERLEY KOYANAGI",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "20",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2015-09-22",
+    "name": "ORMY DA CONCEIÇÃO DIAS BENTES",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2015-12-21",
+    "name": "ORMY DA CONCEIÇÃO DIAS BENTES",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2016-02-22",
+    "name": "EDITH TOURINHO",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "1",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2016-12-20",
+    "name": "WAINNER BRUM CAETANO",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-03-23",
+    "name": "CARLOS EDUARDO FERREIRA MARINS",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "16",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-04-23",
+    "name": "JUCELINO COSTA DE OLIVEIRA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "16",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-06-20",
+    "name": "GEORGE SOUZA FARIAS",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-07-11",
+    "name": "CLAUDIO SANTANA DE VASCONCELOS",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "23",
+    "details": "Técnico Judiciário - TI (Operação de Computadores)"
+  },
+  {
+    "date": "2017-08-22",
+    "name": "EDITH TOURINHO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "1",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-08-23",
+    "name": "IGOR OLIVEIRA CRISÓSTOMO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "3",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-08-23",
+    "name": "LUIS CARLOS MOREIRA SILVA JUNIOR",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "3",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-08-23",
+    "name": "MÁRCIO RICARDO ALVES GADELHA DE ARAÚJO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "3",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-11-21",
+    "name": "ALEX DE BASTOS DO AMARAL",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2017-12-21",
+    "name": "ISABELA VIANNA ALLENDE MOZZER",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2018-05-22",
+    "name": "GUILHERME COSTA MACIEL",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "4",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2018-08-23",
+    "name": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "16",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-01-21",
+    "name": "RAYRONE ZIRTANY NUNES MARQUES",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-02-24",
+    "name": "EDSON ELIAS DOS REIS",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "3",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-02-24",
+    "name": "LUCAS BATISTA LEITE DE SOUZA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "3",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-03-24",
+    "name": "MARCELA GOMES CORREA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "10",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-04-23",
+    "name": "FRANCISCO DAS CHAGAS PEDROSA JÚNIOR",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-04-23",
+    "name": "MARCOS ANTONIO PEREIRA DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-06-23",
+    "name": "ANDRESSA FABIANE FRATA DE ARAUJO",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-07-23",
+    "name": "CLASSIFICAÇÃO NOME",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "17",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-09-22",
+    "name": "BRENO VEISACK LARA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-09-22",
+    "name": "KATHISUCIA DOS ANJOS KRUTSCH",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-09-22",
+    "name": "KLERISSON RODRIGUES",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-09-22",
+    "name": "RAFAEL REALTO DA CRUZ",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-09-22",
+    "name": "RIO BRANCO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-09-22",
+    "name": "RODRIGO SEPEDA SOARES",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-09-23",
+    "name": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "16",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-10-21",
+    "name": "JONATAS FREDMAN DE ALMEIDA DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-10-21",
+    "name": "LEONARDO COURINOS LIMA DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-10-21",
+    "name": "REINALDO GIL LIMA DE CARVALHO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "AFONSO GONÇALVES DE SOUZA NETO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "ALEX FRANCO BASTOS",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "ALEXSANDRO RODRIGUES DE SOUZA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "FILLIPE DE OLIVEIRA MOTA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "FLÁVIO MACHADO DA SILVA",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "GRAZZIELLA ROMÃO MACIEL",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "HELOÍSA HELENA SOUZA OLIVEIRA",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "JONATAS FREDMAN DE ALMEIDA DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "JÚLIO AUGUSTO GROTH",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "KLEBER JORGE DE ARAÚJO",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "MATEUS AIRES CORREA DE SÁ",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "THADEU RIBEIRO PEREIRA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2020-02-26",
+    "name": "GHANEM YOUSSEF ARFOX",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "23",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2020-03-02",
+    "name": "GHANEM YOUSSEF ARFOX",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "23",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2020-03-23",
+    "name": "LAIRTO JOSÉ VELOSO",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-03-24",
+    "name": "JUN MIYAZAKI",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "3",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-04-03",
+    "name": "ALEXANDRE ANTONIO SIMOES DE ALMEIDA",
+    "type": "evasão",
+    "reason": "exoneração a pedido",
+    "trt": "23",
+    "details": "Analista Judiciário - Oficial de Justiça"
+  },
+  {
+    "date": "2020-04-23",
+    "name": "RODRIGO PETROLI",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "21",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-07-22",
+    "name": "GERALDO VALÉRIO ALVES LEAL",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-08-21",
+    "name": "ADRIANO CESAR DE OLIVEIRA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "2",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-08-21",
+    "name": "ALESSANDRE DE MOURA CAVALCANTE",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "2",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-09-21",
+    "name": "ORMY DA CONCEIÇÃO DIAS BENTES",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-10-16",
+    "name": "ANA GABRIELLE LADISLAU DE SENA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "23",
+    "details": "Analista Judiciário - Oficial de Justiça"
+  },
+  {
+    "date": "2020-10-16",
+    "name": "FERNANDO HENRIQUE COELHO MORAES",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "23",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2020-10-21",
+    "name": "JOSE LUIZ DE OLIVEIRA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "20",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-10-21",
+    "name": "MAIRA ISABEL DRISCHEL DA SILVA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-10-21",
+    "name": "MARCO AURELIO SHIBAYAMA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2020-12-21",
+    "name": "ALEX AUGUSTUS MELO DE ANDRADE",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "10",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-02-09",
+    "name": "FELIPE PETERSEN",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "4",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2021-02-09",
+    "name": "KLAUS ALBERT SPITZ ENGELMANN",
+    "type": "evasão",
+    "reason": "exoneração",
+    "trt": "4",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2021-03-23",
+    "name": "LUIZ HIRAM DE AGUIAR BEZERRA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "2",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-06-28",
+    "name": "DANILO RODRIGUES DE CARVALHO",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "18",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2021-07-22",
+    "name": "TICIANE ANDRADE AGUIAR",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "16",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-08-18",
+    "name": "TATIANE VOLLES",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "14",
+    "details": "Analista Judiciária"
+  },
+  {
+    "date": "2021-09-20",
+    "name": "FELIPE MEDEIROS RODRIGUES",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-09-20",
+    "name": "RILMA APARECIDA HEMETÉRIO",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "2",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-09-23",
+    "name": "GLEISSON DE SOUZA FREITAS",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "13",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-09-28",
+    "name": "MARCOS VINÍCIUS VIEIRA DOS SANTOS",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "8",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2021-09-28",
+    "name": "MÁRCIO MAGALHÃES DE ANDRADE SILVA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "8",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2021-09-29",
+    "name": "CARLOS AUGUSTO NANTES DE CASTILHO RIVILINO",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "4",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2021-09-29",
+    "name": "DINEI ANDRE ROCKENBACH",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "4",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2021-09-30",
+    "name": "MAYANA DE CARVALHO SILVA BANDEIRA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "24",
+    "details": "Analista Judiciário"
+  },
+  {
+    "date": "2021-10-21",
+    "name": "EDSON ELIAS DOS REIS",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "4",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2021-10-21",
+    "name": "ORMY DA CONCEIÇÃO DIAS BENTES",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-11-08",
+    "name": "EDER ALMEIDA COSTA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "4",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2021-11-09",
+    "name": "DAVID JONES FERREIRA DE LUCENA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "19",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2021-11-09",
+    "name": "RICARDO PINHEIRO DA SILVA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "21",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2021-11-19",
+    "name": "NAIR MONEGAT CAVALHEIRO",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "23",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2021-11-19",
+    "name": "ROSINALDO DOS PASSOS LIMA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-11-23",
+    "name": "MARCUS AUGUSTO LOSADA MAIA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2021-12-15",
+    "name": "SAID BOSCO FERREIRA RAMOS",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2021-12-22",
+    "name": "WINDSON DE SOUSA VIANA",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-01-26",
+    "name": "MARCOS GERALDO DE CASTRO JUSTINO",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "15",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-02-07",
+    "name": "TIAGO DE NOVAIS SILVEIRA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "24",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2022-03-22",
+    "name": "ANTÔNIO EDWARD FACUNDO ARAÚJO",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-03-24",
+    "name": "JOSUÉ LENNON DE SOUZA PAES",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "3",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-03-30",
+    "name": "DAVID JONES FERREIRA DE LUCENA",
+    "type": "evasão",
+    "reason": "exoneração a pedido",
+    "trt": "19",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2022-04-11",
+    "name": "MANOEL MARIANO SIQUEIRA JÚNIOR",
+    "type": "evasão",
+    "reason": "posse em cargo inacumulável",
+    "trt": "7",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2022-04-26",
+    "name": "TICIANE ANDRADE AGUIAR",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "16",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-05-03",
+    "name": "GUSTAVO SIMONETTI BOMFIM",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "11",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-05-03",
+    "name": "PHABLO PONTES COSTA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "14",
+    "details": "Técnico Judiciário"
+  },
+  {
+    "date": "2022-05-23",
+    "name": "RESOLUÇÃO ADMINISTRATIVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-06-10",
+    "name": "CLAUDEMIR BEZERRA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "24",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-06-10",
+    "name": "LUCAS FREITAS DO ROSÁRIO",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "24",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-06-22",
+    "name": "LUCAS CAMARGO CARDOSO",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "18",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-06-23",
+    "name": "DANILO ROGERIO GUIMARAES",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-07-07",
+    "name": "EDNALDO DIAS DA SILVA",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "6",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2022-07-16",
+    "name": "JOSÉ RICARDO DE OLIVEIRA",
+    "type": "evasão",
+    "reason": "exoneração",
+    "trt": "7",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-07-21",
+    "name": "GEORGE SOUZA FARIAS",
+    "type": "evasão",
+    "reason": "redistribuição",
+    "trt": "8",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2022-08-23",
+    "name": "ANEXO CARGO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "5",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-08-23",
+    "name": "CRISTIANO LIMA SOBRINHO",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "13",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-09-15",
+    "name": "EVANDRO ARAUJO NASCIMENTO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "6",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2022-10-21",
+    "name": "MARCOS VINÍCIUS VIEIRA DOS SANTOS",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-11-03",
+    "name": "CION AYRES DO NASCIMENTO",
+    "type": "evasão",
+    "reason": "exoneração a pedido",
+    "trt": "9",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-11-07",
+    "name": "EDUARDO ALCANTARA DE OLIVEIRA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "2",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-11-09",
+    "name": "OSVALDO MARTINS RIBEIRO JÚNIOR",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "19",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2022-11-21",
+    "name": "DANILO DE LIMA CAPOBIANCO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "2",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-11-21",
+    "name": "LUIS MIGUEL MESSIAS",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "ALBERIQUE PINHEIRO NETO",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "10",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "FERNANDO CHAVARRY DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "10",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "FLAVIA GONTIJO CORREA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "10",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "MARIA EULILIA CAVALCANTE AMORIM PONTES",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "10",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2023-01-13",
+    "name": "MARCUS FLAVIUS BORBA LINS DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "5",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2023-01-24",
+    "name": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "8",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2023-01-25",
+    "name": "EWERTON ALMEIDA SILVA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "8",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2023-02-28",
+    "name": "RACHEL HELENA RIBEIRO CARDINOT",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "1",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2023-02-28",
+    "name": "SONIA CRISTINA ROCHA",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "1",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2023-03-13",
+    "name": "MAURILIO COSTA DA SILVA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "10",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2023-03-21",
+    "name": "LUCAS ALÉSSIO ANUNCIADO SILVA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "22",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2023-03-23",
+    "name": "WENDELL MILITÃO FERNANDES MENDES",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2023-03-24",
+    "name": "CARLOS EDUARDO DIONIZIO FIUSA JUNIOR",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "23",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2023-03-24",
+    "name": "CLEBER DE MATTOS CASALI",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "3",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2023-03-24",
+    "name": "ROBERTO CESAR BOLSONI FROIS",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "23",
+    "details": "Analista Judiciário"
+  },
+  {
+    "date": "2023-03-24",
+    "name": "RUBENS ALLAN SANTOS",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "23",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2023-04-20",
+    "name": "JACIRA ROSA DOS SANTOS ALVES",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "24",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2023-04-20",
+    "name": "PAULO GILSON LIMA",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "21",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2023-05-02",
+    "name": "JOYCE QUEIROZ E SILVA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "19",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2023-06-01",
+    "name": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "5",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2023-06-13",
+    "name": "LINDOMAR GOLÇALVES DE ALCANTARA NETO",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "8",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2023-06-23",
+    "name": "RENAN COUTINHO DINIZ",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2023-07-07",
+    "name": "ARTHUR BARBOSA DOS SANTOS",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "5",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2023-07-11",
+    "name": "JOYCE QUEIROZ E SILVA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "5",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2023-08-09",
+    "name": "JOYCE QUEIROZ E SILVA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "16",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2023-08-23",
+    "name": "NOME CARGO ORIGEM VAGA GLEISSON DE SOUZA FFREITAS",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "13",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2023-08-30",
+    "name": "JOSÉ CARLOS DA SILVA",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "15",
+    "details": "Audited from all_candidates.txt"
+  },
+  {
+    "date": "2023-09-27",
+    "name": "ANTONIO RAIMUNDO DE BRITO ALHO",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "16",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2023-09-27",
+    "name": "DANIEL RANINE PENA DE SÁ",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "19",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2023-10-10",
+    "name": "ENZO HIDEKI NAKAMURA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "17",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2023-10-11",
+    "name": "ELIAS CORREA SILVA",
+    "type": "evasão",
+    "reason": "posse em outro cargo",
+    "trt": "17",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2023-11-22",
+    "name": "ANDERSON FÉLIX DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "19",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-01-22",
+    "name": "FILIPE SAMPAIO CANITO",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-01-24",
+    "name": "LEANDRO CANGUSSU DE OLIVEIRA ROCHA",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "17",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2024-01-24",
+    "name": "RAFAEL TIUSSI BROSEGHINI",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "17",
+    "details": "Técnico Judiciário - TI"
+  },
+  {
+    "date": "2024-02-27",
+    "name": "JÉSSICA RAMAYANNA SILVA ALBUQUERQUE",
+    "type": "ingresso",
+    "reason": "nomeação",
+    "trt": "5",
+    "details": "Analista Judiciário - TI"
+  },
+  {
+    "date": "2024-03-21",
+    "name": "SOLANGE MARIA SANTIAGO MORAIS",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-03-23",
+    "name": "AUDALIPHAL HILDEBRANDO DA SILVA",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "11",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-03-23",
+    "name": "LEONARDO DE SOUSA DIAS",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-05-22",
+    "name": "DANIEL CASTRO CIDADE",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "7",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-08-21",
+    "name": "EMERSON THOME HEYDT",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "14",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-08-22",
+    "name": "FLORISVALDA RODRIGUES DOS SANTOS",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "6",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-09-21",
+    "name": "EDITH MARIA CORRÊA TOURINHO",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "1",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-11-20",
+    "name": "SAULO VALIM",
+    "type": "evasão",
+    "reason": "posse em outro cargo inacumulável",
+    "trt": "15",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2024-12-20",
+    "name": "LISTA GERAL",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "8",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2025-07-22",
+    "name": "LUCAS BARRETO MENDES",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "1",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2025-07-22",
+    "name": "LUCAS BARRETO MENDES",
+    "type": "evasão",
+    "reason": "aposentadoria",
+    "trt": "5",
+    "details": "TI: True | Extração Sistêmica"
+  },
+  {
+    "date": "2025-09-23",
+    "name": "NOME CARGO ORIGEM VAGA THIAGO HENRIQUE SANTOS",
+    "type": "evasão",
+    "reason": "falecimento",
+    "trt": "13",
+    "details": "TI: True | Extração Sistêmica"
+  }
+]

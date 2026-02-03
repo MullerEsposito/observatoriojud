@@ -3,6 +3,7 @@ import yaml
 from extract_text import pdf_to_text
 from detect_events import detect_events
 from build_aggregates import build_outputs
+from apply_ground_truth import apply_ground_truth
 
 # Onde o site lê os dados
 # Se estiver dentro de 'pipeline', volta um nível
@@ -58,12 +59,42 @@ def main():
             )
             events.extend(dou_events)
 
+    # 3.5) Merge with Ground Truth (Historical Audit)
+    gt_path = "ground_truth.json" if os.path.exists("ground_truth.json") else os.path.join("pipeline", "ground_truth.json")
+    
+    # Events currently are dataclasses, we need to convert to/from dict if apply_ground_truth uses dicts
+    # Or just handle it inside apply_ground_truth
+    # Let's convert them to dicts for easier manipulation
+    event_dicts = []
+    for e in events:
+        d = {
+            "trt": e.trt,
+            "destino": e.destino,
+            "date": e.date,
+            "mes": e.mes,
+            "confidence": e.confidence,
+            "source_pdf": e.source_pdf,
+            "nome": e.nome,
+            "ref_date": e.ref_date,
+            "tipo": e.tipo
+        }
+        event_dicts.append(d)
+        
+    final_event_dicts = apply_ground_truth(event_dicts, gt_path)
+    
+    # Convert back to Event dataclasses for build_outputs (if it expects objects)
+    # Actually build_outputs expects List[Event]
+    from detect_events import Event
+    final_events = []
+    for d in final_event_dicts:
+        final_events.append(Event(**d))
+
     # 4) Save results
     os.makedirs(OUT_DIR, exist_ok=True)
-    build_outputs(events, OUT_DIR)
+    build_outputs(final_events, OUT_DIR)
 
     print(f"\n✨ FINALIZADO ✨")
-    print(f"Total de eventos detectados: {len(events)}")
+    print(f"Total de eventos detectados: {len(final_events)}")
     print(f"JSONs atualizados em: {OUT_DIR}")
 
 if __name__ == "__main__":

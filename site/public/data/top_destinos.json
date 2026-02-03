@@ -1,6 +1,14 @@
 [
   {
-    "destino": "Outro Órgão (Cargo Inacumulável)",
-    "total": 149
+    "destino": "aposentadoria",
+    "total": 68
+  },
+  {
+    "destino": "outros órgãos",
+    "total": 66
+  },
+  {
+    "destino": "falecimento",
+    "total": 27
   }
 ]

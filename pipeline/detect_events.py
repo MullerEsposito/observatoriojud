@@ -17,7 +17,8 @@ KNOWN_NAMES = [
     "GIBSON ALMEIDA JERONIMO DOS SANTOS", "ALESSANDRA OLIVEIRA DA SILVA",
     "DANIEL ALVES DA FONSECA MACIEL", "IL JOSE OLIVEIRA E REBOUCAS", "LUCAS CAMARGO CARDOSO",
     "ALIPIO CORREIA MENDES", "RAFAEL RODRIGUES DE CARVALHO", "MULLER ESPOSITO NUNES",
-    "MARCO AURELIO SHIBAYAMA", "JOYCE QUEIROZ E SILVA", "JOSINALDO AMORIM DIAS DE SOUSA"
+    "MARCO AURELIO SHIBAYAMA", "JOYCE QUEIROZ E SILVA", "JOSINALDO AMORIM DIAS DE SOUSA",
+    "LUIS CARLOS MOREIRA SILVA JUNIOR"
 ]
 
 def get_nlp():
@@ -48,6 +49,8 @@ class Event:
     confidence: str  # "confirmada"
     source_pdf: str
     nome: str = "" # New field
+    ref_date: str = "" # Reference publication date cited in text
+    tipo: str = "evasão" # "evasão" or "ingresso"
 
 # Noise blacklist (names of presidents, departments, boilerplate text, etc.)
 BLACKLIST = [
@@ -77,6 +80,14 @@ BLACKLIST = [
 def extract_nome(block: str) -> str:
     # List of patterns to find names in administrative acts
     patterns = [
+        # Colon nomination (very strong signal): Nomear ... : NAME
+        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR)\b(?:.{1,300}?)[:]\s*([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+        # Nomear NAME (Direct) - Robust for legal noise
+        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR)\b.{1,500}?\b([A-ZÀ-Ú][A-ZÀ-Ú ]{12,60})\b",
+         # Broad nomination with MANDATORY candidate/servidor anchor AND gap after
+        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR|[Nn]omea[çc][ãa]o\b|NOMEA[ÇC][ÃA]O\s+(?:de|DE)?)(?:[^;]{1,300}?)(?:o|a|os|as)?\s*(?:seguintes?)?\s*(?:[Cc]andidat|[Ss]ervido)(?:[oa]s?|r|ra|res?)(?:[^;]{1,300}?)\s+([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
+        # Fallback broad match (careful)
+        r"(?:[Tt]ornar\s+sem\s+efeito|TORNAR\s+SEM\s+EFEITO|[Dd]eclarar\s+vago|DECLARAR\s+VAGO)\b.*?\s+(?:o|a)?\s+(?:[Ss]ervidor|[Cc]andidato|(?:[Nn]omea[çc][ãa]o)\s+(?:de|DE))\s+([A-ZÀ-Ú ][A-ZÀ-Ú ]{4,60})",
         # Pattern for lists: 1º lugar - NAME (allowing "pela lista...")
         r"(?:\d+º\s+(?:lugar|LUGAR)\s+(?:.*?)-\s+)([A-ZÀ-Ú ][A-ZÀ-Ú ]{4,60})",
         # List format: NAME/ classification
@@ -91,14 +102,6 @@ def extract_nome(block: str) -> str:
         r"(?:[Cc]andidato|CANDIDATO)\s+(?:abaixo|ABAIXO)\s+(?:relacionado|RELACIONADO):\s*([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
         # Explicit "Dispensar o servidor NAME" (TRT4)
         r"(?:[Dd]ispensar|DISPENSAR)\s+(?:o|a|O|A)?\s+(?:[Ss]ervidor|SERVIDOR)(?:a|A)?\s+[^A-ZÀ-Ú]*?([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
-        # Colon nomination (very strong signal): Nomear ... : NAME
-        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR)(?:.{1,300}?)[:]\s*([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
-        # Nomear NAME (Direct) - Strict Uppercase Name matches "Nomear MANOEL" but skips "Nomear o candidato"
-        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR)\s+[^A-ZÀ-Ú]*?([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
-         # Broad nomination with MANDATORY candidate/servidor anchor AND gap after
-        r"(?:[Nn]omear|NOMEAR|[Ee]xonerar|EXONERAR|[Nn]omea[çc][ãa]o|NOMEA[ÇC][ÃA]O\s+(?:de|DE)?)(?:[^;]{1,300}?)(?:o|a|os|as|O|A|OS|AS)?\s*(?:seguintes?|SEGUINTES?)?\s*(?:[Cc]andidat|[Cc]ANDIDAT|[Ss]ervido|SERVIDO)(?:[oa]s?|[OA]S?|r|R|ra|RA|res?|RES?)(?:[^;]{1,300}?)\s+([A-ZÀ-Ú][A-ZÀ-Ú ]{4,60})",
-        # Fallback broad match (careful)
-        r"(?:[Tt]ornar\s+sem\s+efeito|TORNAR\s+SEM\s+EFEITO|[Dd]eclarar\s+vago|DECLARAR\s+VAGO).*?\s+(?:o|a|O|A)?\s+(?:[Ss]ervidor|SERVIDOR|[Cc]andidato|CANDIDATO|(?:[Nn]omea[çc][ãa]o|NOMEA[ÇC][ÃA]O)\s+(?:de|DE))\s+([A-ZÀ-Ú ][A-ZÀ-Ú ]{4,60})"
     ]
     
     for p in patterns:
@@ -192,9 +195,16 @@ def contains_any(text: str, keywords: List[str]) -> bool:
     return bool(re.search(pattern, text, re.IGNORECASE))
 
 def find_trt_context(text: str) -> str:
-    # Heurística simples: tenta achar "TRT-xx" no documento; no futuro vamos mapear por caderno/metadata
-    m = re.search(r"\bTRT[-\s]?\d{1,2}\b", text)
-    return m.group(0).replace(" ", "") if m else "TRT"
+    # Heurística: tenta achar "TRT-xx" ou o nome por extenso
+    m = re.search(r"\bTRT[-\s]?(\d{1,2})\b", text, re.IGNORECASE)
+    if m:
+        return f"TRT{m.group(1)}"
+        
+    m2 = re.search(r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})", text, re.IGNORECASE)
+    if m2:
+        return f"TRT{m2.group(1)}"
+        
+    return "TRT"
 
 def split_blocks(text: str) -> List[str]:
     # Quebra por linhas “fortes”; dá pra melhorar depois
@@ -233,7 +243,7 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
     
     # Regex para capturar cabeçalhos de TRT (ex: "Tribunal Regional do Trabalho da 23ª Região")
     # Grupos: 1 = número da região
-    header_regex = r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})[ªº]\s+REGIÃO"
+    header_regex = r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})\b"
 
     for b in blocks:
         bnorm = norm(b)
@@ -245,64 +255,142 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
             # Geralmente o cabeçalho não tem o evento em si, mas vamos deixar passar para verificação
             # A menos que seja muito curto.
         
-        # 1) saída + TI
-        if not contains_any(bnorm, rules["exit_patterns"]):
+        # 1) filtros de exclusão (Retificação)
+        if contains_any(bnorm, rules.get("skip_patterns", [])):
             continue
+            
+        # 2) Identificar se é ENTRADA (Ingresso) vs SAÍDA (Evasão)
+        is_ingresso = contains_any(bnorm, rules.get("entry_patterns", []))
+        is_saida = contains_any(bnorm, rules["exit_patterns"])
+        
+        if not is_saida and not is_ingresso:
+            continue
+            
         if not contains_any(bnorm, rules["ti_keywords"]):
             continue
 
-        # 2) destino + classificação
-        destino = extract_destino(bnorm)
-        
-        # Extrair nome da pessoa
+        # 4) Extrair nome da pessoa (O SUJEITO)
         nome_pessoa = extract_nome(bnorm) or "Não identificado"
-        
-        # Extrair data de vigência
+
+        # 5) destino + classificação
+        destino = extract_destino(bnorm)
         data_efetiva = extract_event_date(bnorm) or date_yyyy_mm_dd
 
-        # Check special case: posse em cargo inacumulável
-        # Regex flexível para lidar com "posse em outro cargo público inacumulável"
-        # Permite palavras opcionais entre "posse em" e "cargo" e "inacumul"
-        vocab_regex = r"posse\s+em\s+(?:outro\s+)?cargo\s+(?:público\s+)?inacumul"
-        is_vacancia = bool(re.search(vocab_regex, bnorm, re.IGNORECASE))
-
-        if is_vacancia:
-            # Se é vacância, é evasão, EXCETO se o destino for explicitamente outro órgão do judiciário
-            if destino and contains_any(destino, rules["judiciario_keywords"]):
-                continue
+        # Categorização de motivos
+        # PRIORIDADE: se é ingresso (Nomeação), marcamos como tal primeiro.
+        # Se também tiver exit_patterns (ex: "Nomear... vago por aposentadoria de X"),
+        # o ingresso vence para o TI principal.
+        if is_ingresso:
+            tipo = "ingresso"
+            confidence = "confirmada_ingresso"
+        elif is_saida:
+            tipo = "evasão"
+            confidence = "confirmada_saida"
             
-            # Se achou destino mas não é judiciário, mantemos. Se não achou, marcamos como não informado.
-            # Mas cuidado: se extract_destino pegou lixo (ex: "cargo inacumulável"), 
-            # não queremos mostrar isso como "Destino".
-            if destino and not contains_any(destino, rules["fora_judiciario_keywords"]):
-                # O regex pegou algo genérico, melhor normalizar
-                destino = "Outro Órgão (Cargo Inacumulável)"
-                
-            if not destino:
-                 destino = "Não informado (Cargo Inacumulável)"
-                 
-            confidence = "confirmada_vacancia"
+            # Checar motivos específicos APENAS se o nome for o sujeito
+            # Heurística: "aposentadoria de [NOME]" ou similar
+            # Vamos ver se "aposentadoria" e "X" estão próximos
+            has_aposentar = "aposentadoria" in bnorm or "aposentar" in bnorm
+            has_falecer = "falecimento" in bnorm or "falecer" in bnorm
+            
+            if has_aposentar:
+                # Checa se o termo aposentadoria está perto do nome extraído
+                # (evita pegar aposentadoria de terceiros citada no texto)
+                aposent_regex = rf"(?:aposentadoria|aposentar).{{0,50}}\b{re.escape(nome_pessoa)}\b"
+                if re.search(aposent_regex, bnorm, re.IGNORECASE):
+                    destino = "Aposentadoria"
+                    confidence = "confirmada_aposentar"
+                elif "conceder aposentadoria" in bnorm.lower():
+                    # Caso genérico de portaria de concessão
+                    destino = "Aposentadoria"
+                    confidence = "confirmada_aposentar"
+            
+            if has_falecer and confidence != "confirmada_aposentar":
+                falecer_regex = rf"(?:falecimento|falecer).{{0,50}}\b{re.escape(nome_pessoa)}\b"
+                if re.search(falecer_regex, bnorm, re.IGNORECASE):
+                    destino = "Falecimento"
+                    confidence = "confirmada_falecer"
 
-        elif destino:
-            # Caso padrão: só aceita se for destino validado como FORA do judiciário
-            if contains_any(destino, rules["judiciario_keywords"]):
-                continue
-            if not contains_any(destino, rules["fora_judiciario_keywords"]):
-                continue
-            confidence = "confirmada_destino"
-        
+            # Se não foi aposentadoria/falecimento, checa vacância por posse
+            if confidence == "confirmada_saida":
+                vocab_regex = r"posse\s+em\s+(?:outro\s+)?cargo\s+(?:público\s+)?inacumul"
+                is_vacancia = bool(re.search(vocab_regex, bnorm, re.IGNORECASE))
+
+                if is_vacancia:
+                    if destino and contains_any(destino, rules["judiciario_keywords"]):
+                        continue
+                    if destino and not contains_any(destino, rules["fora_judiciario_keywords"]):
+                        destino = "Outro Órgão (Cargo Inacumulável)"
+                    if not destino:
+                        destino = "Não informado (Cargo Inacumulável)"
+                    confidence = "confirmada_vacancia"
+                elif destino:
+                    if contains_any(destino, rules["judiciario_keywords"]):
+                        continue
+                    if not contains_any(destino, rules["fora_judiciario_keywords"]):
+                        continue
+                    confidence = "confirmada_destino"
+                else:
+                    # Se não achou motivo nem destino validado, ignoramos para o dashboard
+                    continue
         else:
             continue
 
-
         out.append(Event(
             trt=trt,
-            destino=destino,
+            destino=destino or "Desconhecido",
             date=data_efetiva,
             mes=data_efetiva[:7],
             confidence=confidence,
             source_pdf=source_pdf,
-            nome=nome_pessoa
+            nome=nome_pessoa,
+            ref_date=extract_cited_date(bnorm, nome_pessoa) or "",
+            tipo=tipo
         ))
 
     return out
+
+def extract_cited_date(block: str, name: str) -> str:
+    """
+    Looks for strings like 'publicada em 30 de setembro de 2021' following the name.
+    """
+    if not name or name == "Não identificado":
+        return ""
+        
+    # Find name position
+    pos = block.upper().find(name.upper())
+    if pos == -1:
+        return ""
+        
+    # Look at a window after the name (300 chars)
+    window = block[pos:pos+300]
+    
+    # Pattern: publicada em DD de MONTH de YYYY
+    # Or: publicada em DD/MM/YYYY
+    # Regex flexível para o formato de data por extenso
+    m = re.search(r"publicada?\s+em\s+(\d{1,2}/\d{1,2}/(?:\d{2,4}))", window, re.IGNORECASE)
+    if not m:
+        # Tenta formato por extenso: 30 de setembro de 2021
+        m = re.search(r"publicada?\s+em\s+(\d{1,2})\s+de\s+(janeiro|fevereiro|março|marco|abril|maio|junho|julho|agosto|setembro|outubro|novembro|dezembro)\s+de\s+(\d{4})", window, re.IGNORECASE)
+        if m:
+            day = m.group(1).zfill(2)
+            month_name = m.group(2).lower()
+            year = m.group(3)
+            
+            months = {
+                "janeiro": "01", "fevereiro": "02", "março": "03", "marco": "03", "abril": "04",
+                "maio": "05", "junho": "06", "julho": "07", "agosto": "08", "setembro": "09",
+                "outubro": "10", "novembro": "11", "dezembro": "12"
+            }
+            month = months.get(month_name, "01")
+            return f"{year}-{month}-{day}"
+    
+    if m:
+        dstr = m.group(1)
+        parts = dstr.split("/")
+        if len(parts) == 3:
+            day, month, year = parts
+            if len(year) == 2: year = "20" + year
+            return f"{year}-{month.zfill(2)}-{day.zfill(2)}"
+            
+    return ""

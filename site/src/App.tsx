@@ -57,18 +57,18 @@ export default function App() {
 
   // Para o MVP (dados agregados separados), filtros de TRT/destino ainda não “recalculam” tudo.
   // Eles vão funcionar de verdade quando o pipeline gerar agregados por dimensão.
-  const trts = useMemo(() => topTrts.map((r) => r.trt).sort(), [topTrts]);
+  const trts = useMemo(() => topTrts.map((r) => r.orgao).sort(), [topTrts]);
   const destinos = useMemo(() => topDestinos.map((r) => r.destino).sort(), [topDestinos]);
 
   const barDestinos = useMemo(
-    () => topDestinos.slice(0, 10).map((r) => ({ label: r.destino, value: r.total })),
+    () => topDestinos.map((r) => ({ label: r.destino, value: r.total })),
     [topDestinos]
   );
 
-  const barTrts = useMemo(
-    () => topTrts.slice(0, 10).map((r) => ({ label: r.trt, value: r.total, details: r.details })),
-    [topTrts]
-  );
+  const barTrts = useMemo(() => {
+    const sorted = [...topTrts].sort((a, b) => a.total - b.total); // crescente para aparecer no topo
+    return sorted.map((r) => ({ label: r.orgao.toUpperCase(), value: r.total, details: r.details }));
+  }, [topTrts]);
 
   if (loading) {
     return (
@@ -133,11 +133,11 @@ export default function App() {
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
             <Panel title="Top destinos (fora do Judiciário)">
-              <ChartBar rows={barDestinos} />
+              <ChartBar rows={[...barDestinos].sort((a, b) => a.value - b.value)} />
             </Panel>
 
-            <Panel title="Top TRTs (origem)">
-              <ChartBar rows={barTrts} />
+            <Panel title="Evasões (origem)">
+              <ChartBar rows={barTrts} height={400} />
             </Panel>
           </div>
         </main>
