@@ -154,34 +154,40 @@ def build_outputs(events: List[Event], out_dir: str):
             "destino": dest_display
         })
         
-    # Agrega e formata o ranking
-    top_orgaos = []
+    # Agrega e formata o ranking por orgao_label (ex: TRT14 e 14 -> trt14)
+    # Isso garante que diferentes nomes para o mesmo órgão sejam agrupados
+    aggregated_by_label = defaultdict(list)
     for orgao, items in trts_agg.items():
+        orgao_upper = orgao.upper().strip()
+
         # TRT: Numerico (14) ou Prefixo (TRT14)
         if orgao.isdigit():
             orgao_label = f"trt{orgao}"
-        elif orgao.upper().startswith("TRT") and any(c.isdigit() for c in orgao):
-            orgao_label = orgao.lower()
+        elif orgao_upper.startswith("TRT") and any(c.isdigit() for c in orgao):
+            # Remove espaços e hífens para padronizar TRT 14 -> trt14
+            orgao_label = orgao_upper.replace(" ", "").replace("-", "").lower()
             
-        # TRF: Prefixo TRF (TRF1)
-        elif orgao.upper().startswith("TRF"):
-            orgao_label = orgao.lower()
+        # TRF: Todos os TRFs agrupados (TRF1, TRF2...) em 'trf'
+        elif orgao_upper.startswith("TRF") or "TRIBUNAL REGIONAL FEDERAL" in orgao_upper:
+            orgao_label = "trf"
             
-        # TRE: Prefixo TRE (TRE SP -> tre_sp)
-        elif orgao.upper().startswith("TRE"):
-            # Normalize spaces/dashes to underscore
-            clean_tre = orgao.replace(" ", "_").replace("-", "_")
-            orgao_label = clean_tre.lower()
+        # TRE: Todos os TREs agrupados em 'tre'
+        elif orgao_upper.startswith("TRE") or "TRIBUNAL REGIONAL ELEITORAL" in orgao_upper:
+            orgao_label = "tre"
             
         # Genérico ou outros
-        elif orgao.upper() == "TRT":
+        elif orgao_upper == "TRT" or "TRIBUNAL REGIONAL DO TRABALHO" in orgao_upper:
             orgao_label = "trt_indefinido"
         else:
-            # Outros órgãos (mantém original, mas talvez lowercase?)
+            # Outros órgãos
             orgao_label = orgao.lower() if len(orgao) < 10 else orgao
 
+        aggregated_by_label[orgao_label].extend(items)
+
+    top_orgaos = []
+    for label, items in aggregated_by_label.items():
         top_orgaos.append({
-            "orgao": orgao_label,
+            "orgao": label,
             "total": len(items),
             "details": items
         })
