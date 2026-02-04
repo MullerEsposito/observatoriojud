@@ -1,14 +1,14 @@
 [
   {
-    "destino": "aposentadoria",
-    "total": 68
+    "destino": "outros órgãos",
+    "total": 834
   },
   {
-    "destino": "outros órgãos",
-    "total": 66
+    "destino": "aposentadoria",
+    "total": 136
   },
   {
     "destino": "falecimento",
-    "total": 27
+    "total": 24
   }
 ]

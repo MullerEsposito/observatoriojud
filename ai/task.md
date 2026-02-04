@@ -1,0 +1,72 @@
+# Task: Infrastructure and Data Quality Improvements
+
+- [x] LLM Ground Truth Enrichment (Historical Data) <!-- id: 13 -->
+    - [x] Create [extract_candidates.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/extract_candidates.py) to dump all TI-related acts
+    - [x] Perform LLM audit of candidates to generate [ground_truth.json](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/ground_truth.json)
+    - [x] Implement [apply_ground_truth.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/apply_ground_truth.py) to override pipeline results
+- [x] Expand Evasion Detection (Retirement & Death) <!-- id: 14 -->
+    - [x] Update [detect_events.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/detect_events.py) with retirement/death name patterns
+    - [x] Verify detection of audited retirement/death cases
+    - [x] Re-run pipeline and update dashboard data
+    - [x] Comprehensive Systematic Audit (All TRTs)
+        - [x] Identify and fix specific missing cases (Claudio Santana)
+        - [x] Identify and remove incorrect cases (Giancarlo Frigo - comissionado)
+        - [x] Run systematic extraction script for all TRTs
+        - [x] Validate effectively only effective servers are included
+        - [x] Update ground_truth.json with all findings
+        - [x] Final pipeline run and UI verification
+- [x] Identify Server Destinations and Reasons <!-- id: 12 -->
+- [x] Clean Historical Parquet Data <!-- id: 10 -->
+    - [x] Inspect parquet schema and organ names
+    - [x] Implement filtering script to remove non-judiciary records
+    - [x] Verify filtered dataset size and content
+    - [x] Backup and update production cache
+- [x] Fix Event Detection False Positives and Negatives
+- [x] Documentation and Cleanup
+    - [x] Update README.md
+    - [x] Remove temporary scripts and logs
+    - [x] Update walkthrough.md
+
+- [x] Refine [rules.yaml](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/rules.yaml)
+- [x] Fix issues for other TRTs (TRT4, TRT5, TRT6, TRT7, TRT14, TRT16, TRT18, TRT19, TRT20, TRT22, TRT24) <!-- id: 4 -->
+    - [x] Create diagnostic scripts (`debug_names.py`, `inspect_trt7.py`, `inspect_trt17.py`)
+    - [x] Investigate TRT17 vs TRT7 misclassification
+    - [x] Investigate TRT16 "Não identificado" (fixed with "ocupado por" pattern)
+    - [x] Investigate TRT6 "Não identificado" (fixed regex for list/nomination)
+    - [x] Investigate TRT18 "Não identificado" (fixed regex for "Cargo criado")
+    - [x] Investigate TRT7 "Não identificado" (fixed "candidato abaixo relacionado")
+    - [x] Run final verification pipeline
+- [x] Eliminate ALL remaining "Não identificado" entries (Strict User Requirement) <!-- id: 6 -->
+    - [x] Inspect raw text for remaining cases
+    - [x] Refine [detect_events.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/detect_events.py) for each failure cluster
+    - [x] Fix TRT16 regression (10 new unknowns)
+    - [x] Implement SpaCy Fallback (User Request) <!-- id: 7 -->
+        - [x] Install `spacy` and `pt_core_news_sm`
+        - [x] Integrate SpaCy NER into [detect_events.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/detect_events.py) as fallback
+        - [x] Test against remaining unknown cases
+    - [x] Enhance NLP with Known Names (User Dictionary) <!-- id: 9 -->
+        - [x] Add `EntityRuler` logic to [detect_events.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/detect_events.py)
+        - [x] Process pipeline with enhanced model
+    - [x] Verify near-zero unknowns (99.3% accuracy)
+- [x] Refine Extraction Quality (User Report) <!-- id: 8 -->
+    - [x] Fix False Positives (Inciso, Artigo) in Blacklist
+    - [x] Clean Job Titles (Nível Superior) from names
+    - [x] Fix Date Extraction (remove loose "em" match)
+    - [x] Re-run pipeline to clean dataset
+- [x] Finalize and document fixes <!-- id: 5 -->
+- [x] Fix partial match for short keywords (TI/TIC)
+- [x] Fix strict vacancy matching (TRT23)
+- [x] Fix TRT context extraction (TRT21 vs TRT23)
+- [x] Enhancing Chart Tooltips
+    - [x] Update [detect_events.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/detect_events.py) to extract Person Name (regex)
+    - [x] Extract Effective Date from text (e.g., "a contar de")
+    - [x] Update [build_aggregates.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/build_aggregates.py) to include details in [top_trts.json](file:///c:/Users/M361-1/Developer/observatoriojud/site/public/data/top_trts.json)
+    - [x] Update Dashboard UI for tooltips
+- [x] Historical Data via DOU (2019-2024)
+    - [x] Ingest 9,187 historical records
+    - [x] Process 149 events
+    - [x] Document data sources
+- [x] Federal Cross-Crossing Expansion (DOU Ingestion)
+    - [x] Update [ingest_dou.py](file:///c:/Users/M361-1/Developer/observatoriojud/pipeline/ingest_dou.py) broad query for all federal nominations
+    - [x] Increase database ingestion for federal TI candidates
+    - [x] Update matching logic to handle non-judiciary destinations

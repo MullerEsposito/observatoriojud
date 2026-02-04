@@ -49,7 +49,8 @@ def query_dou_history(
     print(f"🔍 Consultando DOU BigQuery ({start_date} a {end_date})...")
     print(f"🔑 Projeto: {project_id}\n")
     
-    # SQL optimized for TRT personnel acts
+    # SQL expanded to catch nominations in ANY federal organ (for cross-matching)
+    # plus any TRT-related personnel acts.
     query = f"""
     SELECT 
         data_publicacao,
@@ -60,8 +61,26 @@ def query_dou_history(
     FROM `basedosdados.br_imprensa_nacional_dou.secao_2` 
     WHERE data_publicacao BETWEEN '{start_date}' AND '{end_date}'
       AND (
+        -- 1. All Judiciary acts (TRT, TRF, TRE)
         LOWER(orgao) LIKE '%tribunal regional do trabalho%'
         OR LOWER(texto_completo) LIKE '%tribunal regional do trabalho%'
+        OR LOWER(orgao) LIKE '%tribunal regional federal%'
+        OR LOWER(texto_completo) LIKE '%tribunal regional federal%'
+        OR LOWER(orgao) LIKE '%tribunal regional eleitoral%'
+        OR LOWER(texto_completo) LIKE '%tribunal regional eleitoral%'
+        
+        -- 2. Broad Federal nominations/possessions with TI keywords
+        OR (
+          (LOWER(texto_completo) LIKE '%nomea%' OR LOWER(texto_completo) LIKE '%posse%')
+          AND (
+            LOWER(texto_completo) LIKE '%tecnologia da informação%'
+            OR LOWER(texto_completo) LIKE '%informática%'
+            OR LOWER(texto_completo) LIKE '%analista de sistemas%'
+            OR LOWER(texto_completo) LIKE '%desenvolvimento de sistemas%'
+            OR LOWER(texto_completo) LIKE '%infraestrutura de ti%'
+            OR LOWER(texto_completo) LIKE '%segurança da informação%'
+          )
+        )
       )
       AND (
         LOWER(texto_completo) LIKE '%vago%'
@@ -79,6 +98,10 @@ def query_dou_history(
         print(f"✅ Download concluído: {len(df)} registros encontrados")
         
         if len(df) > 0:
+            # Ensure compatible types for parquet
+            if 'data_publicacao' in df.columns:
+                df['data_publicacao'] = pd.to_datetime(df['data_publicacao']).dt.date
+            
             df.to_parquet(cache_path, index=False)
             print(f"💾 Dados salvos em cache: {cache_path}")
             

@@ -30,10 +30,14 @@ def apply_ground_truth(events: List[Dict], ground_truth_path: str) -> List[Dict]
     overridden_count = 0
 
     for gt in gt_data:
-        # Standardize GT entry to match Event structure
+        # Determine the best source for 'destino'
+        # Priority: destination_matched > reason > Default
+        gt_reason = gt.get("reason", "Desconhecido")
+        gt_dest = gt.get("destination_matched") or gt_reason
+        
         gt_event = {
             "trt": gt.get("trt", ""),
-            "destino": gt.get("reason", "Desconhecido") if gt.get("type") == "evasão" else gt.get("trt", ""),
+            "destino": gt_dest if gt.get("type") == "evasão" else gt.get("trt", ""),
             "date": gt.get("date", ""),
             "mes": gt.get("date", "")[:7],
             "confidence": "ground_truth",

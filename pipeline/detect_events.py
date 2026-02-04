@@ -242,18 +242,54 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
     out: List[Event] = []
     
     # Regex para capturar cabeçalhos de TRT (ex: "Tribunal Regional do Trabalho da 23ª Região")
-    # Grupos: 1 = número da região
     header_regex = r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})\b"
+    
+    # Regex para capturar metadado ORGAO inserido pelo ingest_dou.py
+    orgao_meta_regex = r"^ORGAO:\s*(.*)$"
 
     for b in blocks:
         bnorm = norm(b)
         
-        # 0) Atualiza contexto se achar cabeçalho
+        # 0) Contexto: Tenta pegar do metadado ORGAO primeiro (mais confiável para DOU)
+        m_orgao = re.search(orgao_meta_regex, b, re.MULTILINE)
+        if m_orgao:
+            raw_orgao = m_orgao.group(1).strip()
+            
+            # TRT Match
+            m_trt_num = re.search(r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})", raw_orgao, re.IGNORECASE)
+            # TRF Match
+            # Ex: "Tribunal Regional Federal da 1ª Região" ou "TRF1"
+            # Updated to handle "1ª", "5a", etc.
+            m_trf_num = re.search(r"TRIBUNAL\s+REGIONAL\s+FEDERAL\s+DA\s+(\d{1,2})", raw_orgao, re.IGNORECASE)
+            
+            # TRE Match
+            # Ex: "Tribunal Regional Eleitoral de Mato Grosso"
+            m_tre = re.search(r"TRIBUNAL\s+REGIONAL\s+ELEITORAL\s+(?:DO|DA|DE)\s+([A-ZÀ-Ú ]+)", raw_orgao, re.IGNORECASE)
+            
+            # TSE
+            m_tse = re.search(r"Tribunal\s+Superior\s+Eleitoral", raw_orgao, re.IGNORECASE)
+
+            if m_trt_num:
+                trt = f"{m_trt_num.group(1)}" 
+            elif m_trf_num:
+                trt = f"TRF{m_trf_num.group(1)}"
+            elif m_tre:
+                state_name = m_tre.group(1).split("/")[0].strip()
+                # Remove "Estado do"
+                state_name = re.sub(r"Estado\s+(?:do|da|de)\s+", "", state_name, flags=re.IGNORECASE)
+                trt = f"TRE {state_name}"
+            elif m_tse:
+                trt = "TSE"
+            else:
+                # Remove prefixes
+                cleaned = raw_orgao.replace("Poder Judiciário/", "").split("/")[0].strip()
+                trt = cleaned
+        
+        # Se não achou no metadado, tenta procurar no texto (cabeçalho padrão de PDF)
+        # Note: cabeçalhos de TRF/TRE podem variar, vamos focar no metadado pois vem do DOU estruturado
         m_head = re.search(header_regex, bnorm, re.IGNORECASE)
-        if m_head:
-            trt = f"TRT{m_head.group(1)}"
-            # Geralmente o cabeçalho não tem o evento em si, mas vamos deixar passar para verificação
-            # A menos que seja muito curto.
+        if m_head and trt == "TRT": # Só sobrescreve se ainda for o default genérico
+            trt = f"{m_head.group(1)}"
         
         # 1) filtros de exclusão (Retificação)
         if contains_any(bnorm, rules.get("skip_patterns", [])):
@@ -268,6 +304,18 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
             
         if not contains_any(bnorm, rules["ti_keywords"]):
             continue
+
+        # FILTRO EXTRA: Evitar falsos positivos de outros cargos (Oficial de Justiça, etc.)
+        # Se o texto contém termos de TI mas também contém termos de outros cargos FORTES,
+        # e o termo de cargo for o mais próximo do verbo, ignoramos.
+        non_ti_roles = ["OFICIAL DE JUSTIÇA", "ANALISTA JUDICIÁRIO - ÁREA JUDICIÁRIA", "MÉDICO", "ENFERMEIRO"]
+        if contains_any(bnorm, non_ti_roles):
+            # Se contém cargo não-TI, verificamos se o termo de TI é apenas ruído lateral
+            # (Ex: "Nomear X para Analista Judiciário que vagou por posse de Y [TI]")
+            # Se for esse o caso, o bloco pode ser complexo.
+            # Por segurança, se não houver citação EXPLICITA de TI vinculada ao cargo do sujeito:
+            if not re.search(r"TI|TECNOLOGIA|INFORMAÇÃO|INFORM[ÁA]TICA", bnorm, re.IGNORECASE):
+                 continue
 
         # 4) Extrair nome da pessoa (O SUJEITO)
         nome_pessoa = extract_nome(bnorm) or "Não identificado"

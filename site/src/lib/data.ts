@@ -1,6 +1,6 @@
 export type SeriesMensalRow = { mes: string; evasoes: number };
 export type TopDestinoRow = { destino: string; total: number };
-export type TopTrtRow = {
+export type TopOrgaoRow = {
   orgao: string;
   total: number;
   details?: { nome: string; data: string; destino: string }[];
@@ -17,11 +17,11 @@ async function loadJson<T>(path: string): Promise<T> {
 
 
 export async function loadAllData() {
-  const [series, topDestinos, topTrts] = await Promise.all([
+  const [series, topDestinos, topOrgaos] = await Promise.all([
     loadJson<SeriesMensalRow[]>("data/series_mensal.json"),
     loadJson<TopDestinoRow[]>("data/top_destinos.json"),
-    loadJson<TopTrtRow[]>("data/top_trts.json"),
+    loadJson<TopOrgaoRow[]>("data/top_orgaos.json"),
   ]);
 
-  return { series, topDestinos, topTrts };
+  return { series, topDestinos, topOrgaos };
 }

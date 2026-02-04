@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import "./styles.css";
-import { loadAllData, type SeriesMensalRow, type TopDestinoRow, type TopTrtRow } from "./lib/data";
+import { loadAllData, type SeriesMensalRow, type TopDestinoRow, type TopOrgaoRow } from "./lib/data";
 import { sum } from "./lib/format";
 import { Panel } from "./components/Panel";
 import { KpiCard } from "./components/KpiCard";
@@ -8,13 +8,13 @@ import { ChartLine } from "./components/ChartLine";
 import { ChartBar } from "./components/ChartBar";
 import { Filters } from "./components/Filters";
 
-type FiltersState = { start: string; end: string; trt: string; destino: string };
+type FiltersState = { start: string; end: string; orgao: string; destino: string };
 
 export default function App() {
   const [loading, setLoading] = useState(true);
   const [series, setSeries] = useState<SeriesMensalRow[]>([]);
   const [topDestinos, setTopDestinos] = useState<TopDestinoRow[]>([]);
-  const [topTrts, setTopTrts] = useState<TopTrtRow[]>([]);
+  const [topOrgaos, setTopOrgaos] = useState<TopOrgaoRow[]>([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -23,7 +23,7 @@ export default function App() {
         const data = await loadAllData();
         setSeries(data.series);
         setTopDestinos(data.topDestinos);
-        setTopTrts(data.topTrts);
+        setTopOrgaos(data.topOrgaos);
       } catch (e: any) {
         setError(e?.message ?? "Falha ao carregar dados.");
       } finally {
@@ -38,7 +38,7 @@ export default function App() {
   const [filters, setFilters] = useState<FiltersState>({
     start: minMes,
     end: maxMes,
-    trt: "",
+    orgao: "",
     destino: "",
   });
 
@@ -55,9 +55,9 @@ export default function App() {
   const totalAno = useMemo(() => sum(series.map((r) => r.evasoes)), [series]);
   const ultimoMes = useMemo(() => (series.at(-1)?.evasoes ?? 0), [series]);
 
-  // Para o MVP (dados agregados separados), filtros de TRT/destino ainda não “recalculam” tudo.
+  // Para o MVP (dados agregados separados), filtros de Orgao/destino ainda não “recalculam” tudo.
   // Eles vão funcionar de verdade quando o pipeline gerar agregados por dimensão.
-  const trts = useMemo(() => topTrts.map((r) => r.orgao).sort(), [topTrts]);
+  const orgaos = useMemo(() => topOrgaos.map((r) => r.orgao).sort(), [topOrgaos]);
   const destinos = useMemo(() => topDestinos.map((r) => r.destino).sort(), [topDestinos]);
 
   const barDestinos = useMemo(
@@ -65,10 +65,10 @@ export default function App() {
     [topDestinos]
   );
 
-  const barTrts = useMemo(() => {
-    const sorted = [...topTrts].sort((a, b) => a.total - b.total); // crescente para aparecer no topo
+  const barOrgaos = useMemo(() => {
+    const sorted = [...topOrgaos].sort((a, b) => a.total - b.total); // crescente para aparecer no topo
     return sorted.map((r) => ({ label: r.orgao.toUpperCase(), value: r.total, details: r.details }));
-  }, [topTrts]);
+  }, [topOrgaos]);
 
   if (loading) {
     return (
@@ -92,9 +92,9 @@ export default function App() {
     <div className="container">
       <header className="header">
         <div className="title">
-          <h1 className="h1">Observatório — Evasão de TI (TRTs → fora do Judiciário)</h1>
+          <h1 className="h1">Observatório — Evasão de TI (Órgãos Judiciários → fora)</h1>
           <p className="subtitle">
-            Contagem pública agregada de saídas confirmadas de servidores(as) de tecnologia dos TRTs
+            Contagem pública agregada de saídas confirmadas de servidores(as) de tecnologia dos TRTs/TRFs/TREs
             para órgãos fora do Poder Judiciário.
           </p>
         </div>
@@ -107,16 +107,16 @@ export default function App() {
           <Filters
             minMes={minMes}
             maxMes={maxMes}
-            trts={trts}
+            trts={orgaos}
             destinos={destinos}
-            value={filters}
-            onChange={setFilters}
+            value={{ ...filters, trt: filters.orgao }}
+            onChange={(v) => setFilters({ ...v, orgao: v.trt })}
           />
           <hr className="hr" />
           <p className="subtitle">
-            * No MVP, TRT/Destino ainda não recalculam os gráficos porque os dados mock estão em
-            agregados separados. Quando ligarmos o pipeline, vamos gerar agregados por TRT/destino
-            por mês e os filtros passam a funcionar de verdade.
+            * No MVP, Órgão/Destino ainda não recalculam os gráficos porque os dados mock estão em
+            agregados separados. Quando ligarmos o pipeline, vamos gerar agregados por dimensão
+            e os filtros passam a funcionar de verdade.
           </p>
         </aside>
 
@@ -124,7 +124,7 @@ export default function App() {
           <div className="kpiRow">
             <KpiCard label="Evasões no período (total)" value={totalAno} hint="Confirmadas (destino fora do Judiciário identificado)" />
             <KpiCard label="Último mês" value={ultimoMes} hint="Consolidado do mês mais recente no dataset" />
-            <KpiCard label="Cobertura" value="TRTs (Admin)" hint="Cadernos administrativos por tribunal" />
+            <KpiCard label="Cobertura" value="Órgãos (Admin)" hint="Cadernos administrativos analisados" />
           </div>
 
           <Panel title="Evolução mensal">
@@ -137,7 +137,7 @@ export default function App() {
             </Panel>
 
             <Panel title="Evasões (origem)">
-              <ChartBar rows={barTrts} height={400} />
+              <ChartBar rows={barOrgaos} height={400} />
             </Panel>
           </div>
         </main>

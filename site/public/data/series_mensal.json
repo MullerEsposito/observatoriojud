@@ -5,7 +5,7 @@
   },
   {
     "mes": "2010-09",
-    "evasoes": 3
+    "evasoes": 2
   },
   {
     "mes": "2010-11",
@@ -37,10 +37,6 @@
   },
   {
     "mes": "2012-06",
-    "evasoes": 1
-  },
-  {
-    "mes": "2012-07",
     "evasoes": 1
   },
   {
@@ -80,16 +76,8 @@
     "evasoes": 1
   },
   {
-    "mes": "2015-07",
-    "evasoes": 1
-  },
-  {
     "mes": "2015-09",
     "evasoes": 3
-  },
-  {
-    "mes": "2015-12",
-    "evasoes": 1
   },
   {
     "mes": "2016-02",
@@ -117,7 +105,7 @@
   },
   {
     "mes": "2017-08",
-    "evasoes": 4
+    "evasoes": 3
   },
   {
     "mes": "2017-11",
@@ -133,7 +121,7 @@
   },
   {
     "mes": "2018-08",
-    "evasoes": 1
+    "evasoes": 2
   },
   {
     "mes": "2019-01",
@@ -149,7 +137,11 @@
   },
   {
     "mes": "2019-04",
-    "evasoes": 2
+    "evasoes": 5
+  },
+  {
+    "mes": "2019-05",
+    "evasoes": 4
   },
   {
     "mes": "2019-06",
@@ -160,168 +152,232 @@
     "evasoes": 1
   },
   {
+    "mes": "2019-08",
+    "evasoes": 1
+  },
+  {
     "mes": "2019-09",
-    "evasoes": 7
+    "evasoes": 6
   },
   {
     "mes": "2019-10",
-    "evasoes": 3
+    "evasoes": 13
+  },
+  {
+    "mes": "2019-11",
+    "evasoes": 7
   },
   {
     "mes": "2019-12",
-    "evasoes": 12
+    "evasoes": 24
+  },
+  {
+    "mes": "2020-01",
+    "evasoes": 23
+  },
+  {
+    "mes": "2020-02",
+    "evasoes": 3
   },
   {
     "mes": "2020-03",
-    "evasoes": 3
+    "evasoes": 12
   },
   {
     "mes": "2020-04",
-    "evasoes": 2
+    "evasoes": 4
+  },
+  {
+    "mes": "2020-05",
+    "evasoes": 1
+  },
+  {
+    "mes": "2020-06",
+    "evasoes": 3
   },
   {
     "mes": "2020-07",
-    "evasoes": 1
+    "evasoes": 5
   },
   {
     "mes": "2020-08",
-    "evasoes": 2
+    "evasoes": 6
   },
   {
     "mes": "2020-09",
-    "evasoes": 1
+    "evasoes": 3
   },
   {
     "mes": "2020-10",
-    "evasoes": 3
+    "evasoes": 15
+  },
+  {
+    "mes": "2020-11",
+    "evasoes": 16
   },
   {
     "mes": "2020-12",
-    "evasoes": 1
+    "evasoes": 17
+  },
+  {
+    "mes": "2021-01",
+    "evasoes": 22
   },
   {
     "mes": "2021-02",
-    "evasoes": 2
+    "evasoes": 7
   },
   {
     "mes": "2021-03",
-    "evasoes": 1
+    "evasoes": 6
+  },
+  {
+    "mes": "2021-04",
+    "evasoes": 2
+  },
+  {
+    "mes": "2021-05",
+    "evasoes": 3
   },
   {
     "mes": "2021-06",
-    "evasoes": 1
+    "evasoes": 9
   },
   {
     "mes": "2021-07",
-    "evasoes": 1
+    "evasoes": 10
   },
   {
     "mes": "2021-08",
-    "evasoes": 1
+    "evasoes": 8
   },
   {
     "mes": "2021-09",
-    "evasoes": 3
+    "evasoes": 18
   },
   {
     "mes": "2021-10",
-    "evasoes": 2
+    "evasoes": 17
   },
   {
     "mes": "2021-11",
-    "evasoes": 3
+    "evasoes": 19
   },
   {
     "mes": "2021-12",
-    "evasoes": 2
+    "evasoes": 24
+  },
+  {
+    "mes": "2022-01",
+    "evasoes": 18
   },
   {
     "mes": "2022-02",
-    "evasoes": 1
+    "evasoes": 12
   },
   {
     "mes": "2022-03",
-    "evasoes": 3
+    "evasoes": 18
   },
   {
     "mes": "2022-04",
-    "evasoes": 2
+    "evasoes": 15
   },
   {
     "mes": "2022-05",
-    "evasoes": 1
+    "evasoes": 34
   },
   {
     "mes": "2022-06",
-    "evasoes": 2
+    "evasoes": 22
   },
   {
     "mes": "2022-07",
-    "evasoes": 3
+    "evasoes": 42
   },
   {
     "mes": "2022-08",
-    "evasoes": 2
+    "evasoes": 31
   },
   {
     "mes": "2022-09",
-    "evasoes": 1
+    "evasoes": 18
   },
   {
     "mes": "2022-10",
-    "evasoes": 1
+    "evasoes": 16
   },
   {
     "mes": "2022-11",
-    "evasoes": 4
+    "evasoes": 16
   },
   {
     "mes": "2022-12",
-    "evasoes": 4
+    "evasoes": 25
   },
   {
     "mes": "2023-01",
-    "evasoes": 3
+    "evasoes": 6
   },
   {
     "mes": "2023-02",
-    "evasoes": 2
+    "evasoes": 25
   },
   {
     "mes": "2023-03",
-    "evasoes": 3
+    "evasoes": 27
   },
   {
     "mes": "2023-04",
-    "evasoes": 2
+    "evasoes": 17
   },
   {
     "mes": "2023-05",
-    "evasoes": 1
+    "evasoes": 30
   },
   {
     "mes": "2023-06",
-    "evasoes": 3
+    "evasoes": 30
+  },
+  {
+    "mes": "2023-07",
+    "evasoes": 30
   },
   {
     "mes": "2023-08",
-    "evasoes": 3
+    "evasoes": 23
+  },
+  {
+    "mes": "2023-09",
+    "evasoes": 18
   },
   {
     "mes": "2023-10",
-    "evasoes": 1
+    "evasoes": 29
   },
   {
     "mes": "2023-11",
-    "evasoes": 1
+    "evasoes": 18
+  },
+  {
+    "mes": "2023-12",
+    "evasoes": 12
   },
   {
     "mes": "2024-01",
-    "evasoes": 1
+    "evasoes": 31
+  },
+  {
+    "mes": "2024-02",
+    "evasoes": 34
   },
   {
     "mes": "2024-03",
-    "evasoes": 3
+    "evasoes": 28
+  },
+  {
+    "mes": "2024-04",
+    "evasoes": 1
   },
   {
     "mes": "2024-05",
@@ -329,7 +385,7 @@
   },
   {
     "mes": "2024-08",
-    "evasoes": 2
+    "evasoes": 1
   },
   {
     "mes": "2024-09",
@@ -337,10 +393,6 @@
   },
   {
     "mes": "2024-11",
-    "evasoes": 1
-  },
-  {
-    "mes": "2024-12",
     "evasoes": 1
   },
   {

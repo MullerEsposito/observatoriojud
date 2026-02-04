@@ -24,14 +24,6 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2010-09-21",
-    "name": "TULIO MOTA DE SOUZA",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "14",
-    "details": "TI: False | Extração Sistêmica"
-  },
-  {
     "date": "2010-11-21",
     "name": "DAVID JONES FERREIRA DE LUCENA",
     "type": "evasão",
@@ -136,14 +128,6 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2012-07-22",
-    "name": "RESOLUÇÃO ADMINISTRATIVA",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "11",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2012-11-21",
     "name": "TIAGO DE NOVAIS SILVEIRA",
     "type": "evasão",
@@ -224,14 +208,6 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2015-07-20",
-    "name": "ROBSON ANDRE SANTOS DE SOUZA",
-    "type": "evasão",
-    "reason": "posse em outro cargo inacumulável",
-    "trt": "1",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2015-09-21",
     "name": "JOÃO JOSINO SOBRINHO NETO",
     "type": "evasão",
@@ -249,14 +225,6 @@
   },
   {
     "date": "2015-09-22",
-    "name": "ORMY DA CONCEIÇÃO DIAS BENTES",
-    "type": "evasão",
-    "reason": "falecimento",
-    "trt": "11",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
-    "date": "2015-12-21",
     "name": "ORMY DA CONCEIÇÃO DIAS BENTES",
     "type": "evasão",
     "reason": "falecimento",
@@ -310,14 +278,6 @@
     "reason": "falecimento",
     "trt": "23",
     "details": "Técnico Judiciário - TI (Operação de Computadores)"
-  },
-  {
-    "date": "2017-08-22",
-    "name": "EDITH TOURINHO",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "1",
-    "details": "TI: True | Extração Sistêmica"
   },
   {
     "date": "2017-08-23",
@@ -432,14 +392,6 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2019-07-23",
-    "name": "CLASSIFICAÇÃO NOME",
-    "type": "evasão",
-    "reason": "posse em outro cargo inacumulável",
-    "trt": "17",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2019-09-22",
     "name": "BRENO VEISACK LARA",
     "type": "evasão",
@@ -473,26 +425,10 @@
   },
   {
     "date": "2019-09-22",
-    "name": "RIO BRANCO",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "14",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
-    "date": "2019-09-22",
     "name": "RODRIGO SEPEDA SOARES",
     "type": "evasão",
     "reason": "aposentadoria",
     "trt": "14",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
-    "date": "2019-09-23",
-    "name": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
-    "type": "evasão",
-    "reason": "posse em outro cargo inacumulável",
-    "trt": "16",
     "details": "TI: True | Extração Sistêmica"
   },
   {
@@ -577,14 +513,6 @@
   },
   {
     "date": "2019-12-16",
-    "name": "JONATAS FREDMAN DE ALMEIDA DA SILVA",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "11",
-    "details": "Audited from all_candidates.txt"
-  },
-  {
-    "date": "2019-12-16",
     "name": "JÚLIO AUGUSTO GROTH",
     "type": "evasão",
     "reason": "aposentadoria",
@@ -629,7 +557,8 @@
     "type": "evasão",
     "reason": "posse em outro cargo inacumulável",
     "trt": "23",
-    "details": "Técnico Judiciário - TI"
+    "details": "Técnico Judiciário - TI | Destino identificado: Interno (TRT23)",
+    "destination_matched": "Interno (TRT23)"
   },
   {
     "date": "2020-03-23",
@@ -688,14 +617,6 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2020-09-21",
-    "name": "ORMY DA CONCEIÇÃO DIAS BENTES",
-    "type": "evasão",
-    "reason": "falecimento",
-    "trt": "11",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2020-10-16",
     "name": "ANA GABRIELLE LADISLAU DE SENA",
     "type": "ingresso",
@@ -717,14 +638,6 @@
     "type": "evasão",
     "reason": "aposentadoria",
     "trt": "20",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
-    "date": "2020-10-21",
-    "name": "MAIRA ISABEL DRISCHEL DA SILVA",
-    "type": "evasão",
-    "reason": "posse em outro cargo inacumulável",
-    "trt": "14",
     "details": "TI: True | Extração Sistêmica"
   },
   {
@@ -782,14 +695,6 @@
     "reason": "posse em outro cargo inacumulável",
     "trt": "16",
     "details": "TI: True | Extração Sistêmica"
-  },
-  {
-    "date": "2021-08-18",
-    "name": "TATIANE VOLLES",
-    "type": "evasão",
-    "reason": "posse em outro cargo",
-    "trt": "14",
-    "details": "Analista Judiciária"
   },
   {
     "date": "2021-09-20",
@@ -856,43 +761,11 @@
     "details": "Analista Judiciário"
   },
   {
-    "date": "2021-10-21",
-    "name": "EDSON ELIAS DOS REIS",
-    "type": "evasão",
-    "reason": "posse em outro cargo",
-    "trt": "4",
-    "details": "Audited from all_candidates.txt"
-  },
-  {
-    "date": "2021-10-21",
-    "name": "ORMY DA CONCEIÇÃO DIAS BENTES",
-    "type": "evasão",
-    "reason": "falecimento",
-    "trt": "11",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2021-11-08",
     "name": "EDER ALMEIDA COSTA",
     "type": "ingresso",
     "reason": "nomeação",
     "trt": "4",
-    "details": "Analista Judiciário - TI"
-  },
-  {
-    "date": "2021-11-09",
-    "name": "DAVID JONES FERREIRA DE LUCENA",
-    "type": "ingresso",
-    "reason": "nomeação",
-    "trt": "19",
-    "details": "Analista Judiciário - TI"
-  },
-  {
-    "date": "2021-11-09",
-    "name": "RICARDO PINHEIRO DA SILVA",
-    "type": "ingresso",
-    "reason": "nomeação",
-    "trt": "21",
     "details": "Analista Judiciário - TI"
   },
   {
@@ -944,14 +817,6 @@
     "details": "Técnico Judiciário - TI"
   },
   {
-    "date": "2022-02-07",
-    "name": "TIAGO DE NOVAIS SILVEIRA",
-    "type": "evasão",
-    "reason": "posse em outro cargo",
-    "trt": "24",
-    "details": "Audited from all_candidates.txt"
-  },
-  {
     "date": "2022-03-22",
     "name": "ANTÔNIO EDWARD FACUNDO ARAÚJO",
     "type": "evasão",
@@ -968,28 +833,12 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2022-03-30",
-    "name": "DAVID JONES FERREIRA DE LUCENA",
-    "type": "evasão",
-    "reason": "exoneração a pedido",
-    "trt": "19",
-    "details": "Analista Judiciário - TI"
-  },
-  {
     "date": "2022-04-11",
     "name": "MANOEL MARIANO SIQUEIRA JÚNIOR",
     "type": "evasão",
     "reason": "posse em cargo inacumulável",
     "trt": "7",
     "details": "Audited from all_candidates.txt"
-  },
-  {
-    "date": "2022-04-26",
-    "name": "TICIANE ANDRADE AGUIAR",
-    "type": "evasão",
-    "reason": "posse em outro cargo",
-    "trt": "16",
-    "details": "Técnico Judiciário - TI"
   },
   {
     "date": "2022-05-03",
@@ -1006,14 +855,6 @@
     "reason": "nomeação",
     "trt": "14",
     "details": "Técnico Judiciário"
-  },
-  {
-    "date": "2022-05-23",
-    "name": "RESOLUÇÃO ADMINISTRATIVA",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "11",
-    "details": "TI: True | Extração Sistêmica"
   },
   {
     "date": "2022-06-10",
@@ -1064,22 +905,6 @@
     "details": "Técnico Judiciário - TI"
   },
   {
-    "date": "2022-07-21",
-    "name": "GEORGE SOUZA FARIAS",
-    "type": "evasão",
-    "reason": "redistribuição",
-    "trt": "8",
-    "details": "Analista Judiciário - TI"
-  },
-  {
-    "date": "2022-08-23",
-    "name": "ANEXO CARGO",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "5",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2022-08-23",
     "name": "CRISTIANO LIMA SOBRINHO",
     "type": "evasão",
@@ -1094,14 +919,6 @@
     "reason": "aposentadoria",
     "trt": "6",
     "details": "Audited from all_candidates.txt"
-  },
-  {
-    "date": "2022-10-21",
-    "name": "MARCOS VINÍCIUS VIEIRA DOS SANTOS",
-    "type": "evasão",
-    "reason": "posse em outro cargo inacumulável",
-    "trt": "8",
-    "details": "TI: True | Extração Sistêmica"
   },
   {
     "date": "2022-11-03",
@@ -1296,14 +1113,6 @@
     "details": "Técnico Judiciário - TI"
   },
   {
-    "date": "2023-06-01",
-    "name": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
-    "type": "evasão",
-    "reason": "posse em outro cargo",
-    "trt": "5",
-    "details": "Técnico Judiciário - TI"
-  },
-  {
     "date": "2023-06-13",
     "name": "LINDOMAR GOLÇALVES DE ALCANTARA NETO",
     "type": "evasão",
@@ -1328,24 +1137,8 @@
     "details": "Analista Judiciário - TI"
   },
   {
-    "date": "2023-07-11",
-    "name": "JOYCE QUEIROZ E SILVA",
-    "type": "ingresso",
-    "reason": "nomeação",
-    "trt": "5",
-    "details": "Analista Judiciário - TI"
-  },
-  {
-    "date": "2023-08-09",
-    "name": "JOYCE QUEIROZ E SILVA",
-    "type": "evasão",
-    "reason": "posse em outro cargo",
-    "trt": "16",
-    "details": "Analista Judiciário - TI"
-  },
-  {
     "date": "2023-08-23",
-    "name": "NOME CARGO ORIGEM VAGA GLEISSON DE SOUZA FFREITAS",
+    "name": "GLEISSON DE SOUZA FFREITAS",
     "type": "evasão",
     "reason": "falecimento",
     "trt": "13",
@@ -1464,14 +1257,6 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2024-08-21",
-    "name": "EMERSON THOME HEYDT",
-    "type": "evasão",
-    "reason": "posse em outro cargo inacumulável",
-    "trt": "14",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2024-08-22",
     "name": "FLORISVALDA RODRIGUES DOS SANTOS",
     "type": "evasão",
@@ -1496,14 +1281,6 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2024-12-20",
-    "name": "LISTA GERAL",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "8",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2025-07-22",
     "name": "LUCAS BARRETO MENDES",
     "type": "evasão",
@@ -1512,16 +1289,8 @@
     "details": "TI: True | Extração Sistêmica"
   },
   {
-    "date": "2025-07-22",
-    "name": "LUCAS BARRETO MENDES",
-    "type": "evasão",
-    "reason": "aposentadoria",
-    "trt": "5",
-    "details": "TI: True | Extração Sistêmica"
-  },
-  {
     "date": "2025-09-23",
-    "name": "NOME CARGO ORIGEM VAGA THIAGO HENRIQUE SANTOS",
+    "name": "THIAGO HENRIQUE SANTOS",
     "type": "evasão",
     "reason": "falecimento",
     "trt": "13",

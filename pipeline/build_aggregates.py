@@ -61,7 +61,7 @@ def deduplicate_events(events: List[Event]) -> List[Event]:
 def match_destinations(events: List[Event]) -> List[Event]:
     """
     Tenta associar destinos para eventos de evasão baseando-se em nomeações
-    ocorridas nos 30 dias anteriores.
+    ocorridas em uma janela de 45 dias.
     """
     # Filtra por tipo
     evasions = [e for e in events if e.tipo == "evasão"]
@@ -89,12 +89,19 @@ def match_destinations(events: List[Event]) -> List[Event]:
             except:
                 continue
                 
-            # Procura nomeação ocorrida até 30 dias ANTES
-            # ou no mesmo dia
+            # Procura nomeação ocorrida em uma janela de 45 dias
             for en_date, en_trt in entry_map[ev.nome]:
-                diff = (ev_date - en_date).days
-                if 0 <= diff <= 30:
-                    ev.destino = en_trt
+                diff = abs((ev_date - en_date).days)
+                if diff <= 45:
+                    # Helper to format organ name
+                    def format_organ(o):
+                        return f"TRT{o}" if o.isdigit() else o
+
+                    if ev.trt == en_trt:
+                        ev.destino = f"Interno ({format_organ(en_trt)})"
+                    else:
+                        ev.destino = format_organ(en_trt)
+                        
                     ev.confidence += "_matched"
                     matched_count += 1
                     break
@@ -123,38 +130,66 @@ def categorize_destino(destino: str) -> str:
 def build_outputs(events: List[Event], out_dir: str):
     from collections import Counter, defaultdict
     
-    # 1. Deduplicação (aplica em todos para limpar ruído de publicação repetida)
+    # 1. Deduplicação
     events = deduplicate_events(events)
     
-    # 2. Match de Destinos (Usa os ingressos para enriquecer as evasões, depois descarta ingressos)
+    # 2. Match de Destinos
     evasion_events = match_destinations(events)
     
     # série mensal
     by_month = Counter(e.mes for e in evasion_events)
     series = [{"mes": m, "evasoes": by_month[m]} for m in sorted(by_month.keys())]
 
-    # top trts with formatted organ name
+    # top trts with details
     trts_agg = defaultdict(list)
     for e in evasion_events:
+        # Formata o destino para exibição amigável
+        dest_display = e.destino
+        if "Não informado" in dest_display or "Desconhecido" in dest_display:
+            dest_display = "Outro Órgão"
+
         trts_agg[e.trt].append({
             "nome": e.nome,
-            "data": e.date, # YYYY-MM-DD
-            "destino": e.destino
+            "data": e.date,
+            "destino": dest_display
         })
         
-    # Sort by total count desc
-    top_trts = []
-    for trt, items in trts_agg.items():
-        top_trts.append({
-            "orgao": f"trt{trt}",  # Format as "trt23" instead of "23"
+    # Agrega e formata o ranking
+    top_orgaos = []
+    for orgao, items in trts_agg.items():
+        # TRT: Numerico (14) ou Prefixo (TRT14)
+        if orgao.isdigit():
+            orgao_label = f"trt{orgao}"
+        elif orgao.upper().startswith("TRT") and any(c.isdigit() for c in orgao):
+            orgao_label = orgao.lower()
+            
+        # TRF: Prefixo TRF (TRF1)
+        elif orgao.upper().startswith("TRF"):
+            orgao_label = orgao.lower()
+            
+        # TRE: Prefixo TRE (TRE SP -> tre_sp)
+        elif orgao.upper().startswith("TRE"):
+            # Normalize spaces/dashes to underscore
+            clean_tre = orgao.replace(" ", "_").replace("-", "_")
+            orgao_label = clean_tre.lower()
+            
+        # Genérico ou outros
+        elif orgao.upper() == "TRT":
+            orgao_label = "trt_indefinido"
+        else:
+            # Outros órgãos (mantém original, mas talvez lowercase?)
+            orgao_label = orgao.lower() if len(orgao) < 10 else orgao
+
+        top_orgaos.append({
+            "orgao": orgao_label,
             "total": len(items),
             "details": items
         })
     
-    top_trts.sort(key=lambda x: x["total"], reverse=True)
-    top_trts = top_trts[:20]
+    top_orgaos.sort(key=lambda x: x["total"], reverse=True)
+    top_orgaos = top_orgaos[:50] # Increase limit to show more organs
 
-    # top destinos - categorized into 3 groups
+    # top destinos
     destino_categories = Counter()
     for e in evasion_events:
         category = categorize_destino(e.destino)
@@ -163,5 +198,5 @@ def build_outputs(events: List[Event], out_dir: str):
     top_destinos = [{"destino": k, "total": v} for k, v in destino_categories.most_common()]
 
     write_json(f"{out_dir}/series_mensal.json", series)
-    write_json(f"{out_dir}/top_trts.json", top_trts)
+    write_json(f"{out_dir}/top_orgaos.json", top_orgaos)
     write_json(f"{out_dir}/top_destinos.json", top_destinos)

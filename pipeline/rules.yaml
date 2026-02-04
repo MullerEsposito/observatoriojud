@@ -90,6 +90,8 @@ exit_patterns:
   - vacancia
   - posse
   - exonera
+  - exonerar
+  - exoneração
   - vacância por posse
   - cargo inacumulável
   - declarar vago
@@ -97,6 +99,7 @@ exit_patterns:
   - posse em cargo inacumulavel
   - aposentadoria
   - aposentar
+  - conceder aposentadoria
   - falecimento
   - falecer
 

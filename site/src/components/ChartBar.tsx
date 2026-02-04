@@ -94,7 +94,7 @@ export function ChartBar({ rows, height = 320 }: { rows: Row[]; height?: number 
                 <span className="tooltipTitle">Data do Ato</span>
                 <span className="tooltipContent">{d.data.split("-").reverse().join("/")}</span>
                 <span className="tooltipTitle">Destino</span>
-                <span className="tooltipContent">{d.destino || "Não identificado"}</span>
+                <span className="tooltipContent">{d.destino || "Outro Órgão"}</span>
               </div>
             </div>
           ))}
