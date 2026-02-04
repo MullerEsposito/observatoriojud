@@ -213,7 +213,15 @@ def find_trt_context(text: str) -> str:
     if m4:
         return f"TRF{m4.group(1)}"
 
-    # TRE Match (Simplified in text, metadata is better)
+    # TRE Match
+    m5 = re.search(r"TRIBUNAL\s+REGIONAL\s+ELEITORAL\s+(?:DO|DA|DE)\s+([A-ZÀ-Ú ]+)", text, re.IGNORECASE)
+    if m5:
+        state_name = m5.group(1).split("/")[0].strip()
+        state_name = re.sub(r"Estado\s+(?:do|da|de)\s+", "", state_name, flags=re.IGNORECASE)
+        # Take up to 4 words for state name (catches "MATO GROSSO DO SUL")
+        state_name = " ".join(state_name.split()[:4])
+        return f"TRE {state_name}"
+
     if re.search(r"TRIBUNAL\s+REGIONAL\s+ELEITORAL", text, re.IGNORECASE):
         return "TRE"
         
@@ -291,6 +299,8 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
                 state_name = m_tre.group(1).split("/")[0].strip()
                 # Remove "Estado do"
                 state_name = re.sub(r"Estado\s+(?:do|da|de)\s+", "", state_name, flags=re.IGNORECASE)
+                # Take up to 4 words for state name
+                state_name = " ".join(state_name.split()[:4])
                 trt = f"TRE {state_name}"
             elif m_tse:
                 trt = "TSE"

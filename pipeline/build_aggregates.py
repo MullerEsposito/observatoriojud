@@ -1,8 +1,19 @@
 import json
+import re
 from collections import Counter, defaultdict
 from typing import List
 from datetime import datetime
 from detect_events import Event
+
+STATES_MAP = {
+    "ACRE": "ac", "ALAGOAS": "al", "AMAPÁ": "ap", "AMAZONAS": "am",
+    "BAHIA": "ba", "CEARÁ": "ce", "DISTRITO FEDERAL": "df", "ESPÍRITO SANTO": "es",
+    "GOIÁS": "go", "MARANHÃO": "ma", "MATO GROSSO": "mt", "MATO GROSSO DO SUL": "ms",
+    "MINAS GERAIS": "mg", "PARÁ": "pa", "PARAÍBA": "pb", "PARANÁ": "pr",
+    "PERNAMBUCO": "pe", "PIAUÍ": "pi", "RIO DE JANEIRO": "rj", "RIO GRANDE DO NORTE": "rn",
+    "RIO GRANDE DO SUL": "rs", "RONDÔNIA": "ro", "RORAIMA": "rr", "SANTA CATARINA": "sc",
+    "SÃO PAULO": "sp", "SERGIPE": "se", "TOCANTINS": "to"
+}
 
 def write_json(path: str, obj):
     with open(path, "w", encoding="utf-8") as f:
@@ -167,13 +178,34 @@ def build_outputs(events: List[Event], out_dir: str):
             # Remove espaços e hífens para padronizar TRT 14 -> trt14
             orgao_label = orgao_upper.replace(" ", "").replace("-", "").lower()
             
-        # TRF: Todos os TRFs agrupados (TRF1, TRF2...) em 'trf'
-        elif orgao_upper.startswith("TRF") or "TRIBUNAL REGIONAL FEDERAL" in orgao_upper:
-            orgao_label = "trf"
+        # TRF: Regionalizado (trf1, trf2...)
+        elif orgao_upper.startswith("TRF"):
+            orgao_label = orgao_upper.replace(" ", "").replace("-", "").lower()
+        elif "TRIBUNAL REGIONAL FEDERAL" in orgao_upper:
+            m = re.search(r"(\d{1,2})", orgao_upper)
+            orgao_label = f"trf{m.group(1)}" if m else "trf_indefinido"
             
-        # TRE: Todos os TREs agrupados em 'tre'
-        elif orgao_upper.startswith("TRE") or "TRIBUNAL REGIONAL ELEITORAL" in orgao_upper:
-            orgao_label = "tre"
+        # TRE: Regionalizado (tre-sp, tre-rj...)
+        elif orgao_upper.startswith("TRE"):
+            # Extrai o estado (pode ser sigla ou nome completo)
+            # Remove o prefixo TRE e qualquer hífen/espaço
+            state_part = re.sub(r"^TRE[\s-]*", "", orgao_upper).strip()
+            if not state_part:
+                orgao_label = "tre_indefinido"
+            else:
+                # Tenta mapear se for nome completo, senão usa o que sobrou (sigla?)
+                abbr = STATES_MAP.get(state_part, state_part.lower())
+                orgao_label = f"tre-{abbr}"
+        elif "TRIBUNAL REGIONAL ELEITORAL" in orgao_upper:
+            # Tenta achar o estado no nome longo usando o STATES_MAP
+            # Ordena por tamanho decrescente para pegar match mais longo (ex: Mato Grosso do Sul antes de Mato Grosso)
+            found_state = None
+            sorted_names = sorted(STATES_MAP.keys(), key=len, reverse=True)
+            for name in sorted_names:
+                if name in orgao_upper:
+                    found_state = STATES_MAP[name]
+                    break
+            orgao_label = f"tre-{found_state}" if found_state else "tre_indefinido"
             
         # Genérico ou outros
         elif orgao_upper in ["TRT", "TRIBUNAL REGIONAL DO TRABALHO", "DESCONHECIDO"]:
