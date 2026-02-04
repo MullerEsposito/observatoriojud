@@ -35,9 +35,14 @@ def apply_ground_truth(events: List[Dict], ground_truth_path: str) -> List[Dict]
         gt_reason = gt.get("reason", "Desconhecido")
         gt_dest = gt.get("destination_matched") or gt_reason
         
+        # Get organ name (prefer 'orgao' field if exists, fallback to 'trt' formatted)
+        gt_orgao = gt.get("orgao")
+        if not gt_orgao and gt.get("trt"):
+            gt_orgao = f"trt{gt['trt']}"
+
         gt_event = {
-            "trt": gt.get("trt", ""),
-            "destino": gt_dest if gt.get("type") == "evasão" else gt.get("trt", ""),
+            "orgao": gt_orgao,
+            "destino": gt_dest if gt.get("type") == "evasão" else gt_orgao,
             "date": gt.get("date", ""),
             "mes": gt.get("date", "")[:7],
             "confidence": "ground_truth",

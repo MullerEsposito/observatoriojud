@@ -42,7 +42,7 @@ def get_nlp():
 
 @dataclass
 class Event:
-    trt: str
+    orgao: str
     destino: str
     date: str   # YYYY-MM-DD
     mes: str    # YYYY-MM
@@ -257,7 +257,7 @@ def extract_destino(block: str) -> str:
 def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str) -> List[Event]:
     blocks = split_blocks(text)
     # Valor inicial (fallback)
-    trt = find_trt_context(text)
+    orgao_val = find_trt_context(text)
     mes = date_yyyy_mm_dd[:7]
 
     out: List[Event] = []
@@ -292,28 +292,28 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
             m_tse = re.search(r"Tribunal\s+Superior\s+Eleitoral", raw_orgao, re.IGNORECASE)
 
             if m_trt_num:
-                trt = f"{m_trt_num.group(1)}" 
+                orgao_val = f"trt{m_trt_num.group(1)}"
             elif m_trf_num:
-                trt = f"TRF{m_trf_num.group(1)}"
+                orgao_val = f"trf{m_trf_num.group(1)}"
             elif m_tre:
                 state_name = m_tre.group(1).split("/")[0].strip()
                 # Remove "Estado do"
                 state_name = re.sub(r"Estado\s+(?:do|da|de)\s+", "", state_name, flags=re.IGNORECASE)
                 # Take up to 4 words for state name
                 state_name = " ".join(state_name.split()[:4])
-                trt = f"TRE {state_name}"
+                orgao_val = f"tre-{state_name}"
             elif m_tse:
-                trt = "TSE"
+                orgao_val = "tse"
             else:
                 # Remove prefixes
                 cleaned = raw_orgao.replace("Poder Judiciário/", "").split("/")[0].strip()
-                trt = cleaned
+                orgao_val = cleaned
         
         # Se não achou no metadado, tenta procurar no texto (cabeçalho padrão de PDF)
         # Note: cabeçalhos de TRF/TRE podem variar, vamos focar no metadado pois vem do DOU estruturado
         m_head = re.search(header_regex, bnorm, re.IGNORECASE)
-        if m_head and trt == "DESCONHECIDO": # Só sobrescreve se ainda for o default genérico
-            trt = f"{m_head.group(1)}"
+        if m_head and orgao_val == "DESCONHECIDO": # Só sobrescreve se ainda for o default genérico
+            orgao_val = f"trt{m_head.group(1)}"
         
         # 1) filtros de exclusão (Retificação)
         if contains_any(bnorm, rules.get("skip_patterns", [])):
@@ -409,7 +409,7 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
             continue
 
         out.append(Event(
-            trt=trt,
+            orgao=orgao_val,
             destino=destino or "Desconhecido",
             date=data_efetiva,
             mes=data_efetiva[:7],

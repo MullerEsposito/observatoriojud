@@ -1,7 +1,7 @@
 [
   {
-    "orgao": "trt_indefinido",
-    "total": 788,
+    "orgao": "Ministério da Educação",
+    "total": 609,
     "details": [
       {
         "nome": "ADAILTON SARAIVA",
@@ -14,9 +14,24 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "ADAUTO CAVALCANTE MENEZES",
+        "data": "2021-12-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ADMINISTRADOR DE EDIFÍCIOS",
+        "data": "2023-04-03",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "ADO CARDOSO DA SILVA",
         "data": "2021-05-27",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
+        "nome": "ADONYS BEZERRA BARRETO",
+        "data": "2019-12-09",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "ADRIANA UCHÔA BRITO",
@@ -24,13 +39,13 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ADRIANO CESAR DE OLIVEIRA",
-        "data": "2024-02-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "ADRIANO PRADO CAVALHEIRO",
         "data": "2023-10-30",
+        "destino": "TRT4"
+      },
+      {
+        "nome": "ADROALDO RODRIGUES SANTOS",
+        "data": "2023-12-07",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -39,13 +54,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "ALAN DOS SANTOS ANDRADE FERREIRA",
+        "data": "2023-12-01",
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
         "nome": "ALANA JESSICA VILELA MESSIAS",
         "data": "2020-11-12",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ALBERTO SAMPAIO DE ARAÚJO NETO",
-        "data": "2019-05-03",
+        "nome": "ALCEMIR HORÁCIO ROSA",
+        "data": "2023-02-07",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -54,43 +74,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ALCIR AMARAL SILVA",
-        "data": "2022-10-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ALESSANDRO COELHO PORTO",
-        "data": "2023-02-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ALESSANDRO COELHO PORTO",
-        "data": "2023-10-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ALEX AMORIM DUTRA",
-        "data": "2019-12-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ALEX AUGUSTUS MELO DE ANDRADE",
-        "data": "2021-12-23",
-        "destino": "TRT10"
-      },
-      {
         "nome": "ALEX DA SILVA ROBERTO",
         "data": "2019-12-02",
         "destino": "EXERCÍCIO DO CARGO DE REITORA DA FUNDAÇÃO UNIVERSIDADE FEDERAL DO ABC (UFABC), nomeada pela Portaria UFABC nº 161, de 16"
       },
       {
-        "nome": "ALEX FERNANDO DUARTE MONTEIRO",
-        "data": "2020-04-06",
+        "nome": "ALEX DE SOUZA ANASTÁCIO",
+        "data": "2021-01-26",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ALEX PEREZ SANTOS",
-        "data": "2021-01-14",
+        "nome": "ALEX FERNANDO DUARTE MONTEIRO",
+        "data": "2020-04-06",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -106,16 +101,16 @@
       {
         "nome": "ALEXANDRE GOMES DA COSTA",
         "data": "2022-07-18",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "ALEXANDRE MATOS DE ARAUJO",
-        "data": "2022-09-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "ALEXSANDRO WEBER BRITO",
         "data": "2023-05-09",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ALINE DA SILVA FUHRMANN",
+        "data": "2023-08-14",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -134,11 +129,6 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ALTAMIR ARAUJO GUIMARÃES JUNIOR",
-        "data": "2023-02-13",
-        "destino": "Serviços Públicos/Secretaria de Gestão Corporativa/Departamento de Gestão de Pessoas/Coordenação-Geral de Gestão de Pess"
-      },
-      {
         "nome": "ALVARO ALVES DE OLIVEIRA",
         "data": "2022-08-10",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -149,23 +139,28 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ALYSSON BARROS DE MORAIS",
-        "data": "2022-07-13",
+        "nome": "ALYSSON DE SOUSA RIBEIRO",
+        "data": "2020-12-22",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "AMANDA FONSECA CAMPANHARO",
-        "data": "2022-07-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ANA CAROLINA LOPES DE JESUS",
-        "data": "2022-07-18",
+        "nome": "AMILTON DAMAS DE OLIVEIRA",
+        "data": "2023-05-23",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "ANA CAROLINA SAYURI NAGAMATSU",
         "data": "2022-05-10",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ANALY CASTILHO POLIZEL DE SOUZA",
+        "data": "2022-08-24",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ANDERSON DA SILVA SANTOS",
+        "data": "2023-06-15",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -179,6 +174,11 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "ANDERSON LIMA MIRANDA",
+        "data": "2024-02-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "ANDERSON MALAQUIAS CARDOSO",
         "data": "2022-05-12",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -189,9 +189,9 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ANDRE THIAGO SOUZA DA SILVA",
-        "data": "2022-01-21",
-        "destino": "Interno (TRT)"
+        "nome": "ANDREA FRANCISCHINI LEAL",
+        "data": "2023-07-19",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "ANDREIA REGINA ALVES PEREIRA",
@@ -209,16 +209,6 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ANDRÉ PORTO TRONCHINI",
-        "data": "2021-11-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ANGELO BRUNO PEREIRA DOS SANTOS",
-        "data": "2019-11-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "ANGELO MACEDO GONÇALVES FERREIRA",
         "data": "2022-07-29",
         "destino": "EXERCÍCIO DA REITORIA, DA UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO -UFTM, nomeada pela Portaria n"
@@ -229,8 +219,13 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ANTÔNIO DE PÁDUA CARVALHO LOPES",
-        "data": "2024-01-18",
+        "nome": "ANTONIO CARLOS PAIVA",
+        "data": "2022-02-25",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "ANTONIO RODRIGUES ROCHA",
+        "data": "2022-06-23",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -264,123 +259,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "AZAMOR CAMARA AREIAS FILHO",
-        "data": "2020-03-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Adauto Cavalcante Menezes",
-        "data": "2021-12-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Administrador De Edifícios",
-        "data": "2023-04-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Adonys Bezerra Barreto",
-        "data": "2019-12-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Adroaldo Rodrigues Santos",
-        "data": "2023-12-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Alan Dos Santos Andrade Ferreira",
-        "data": "2023-12-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Alcemir Horácio Rosa",
-        "data": "2023-02-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Alcir Amaral Silva",
-        "data": "2022-09-20",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Alex De Souza Anastácio",
-        "data": "2021-01-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Aline Da Silva Fuhrmann",
-        "data": "2023-08-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Alysson De Sousa Ribeiro",
-        "data": "2020-12-22",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Amilton Damas De Oliveira",
-        "data": "2023-05-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Analy Castilho Polizel De Souza",
-        "data": "2022-08-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Anderson Lima Miranda",
-        "data": "2024-02-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Andrea Francischini Leal",
-        "data": "2023-07-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Antonio Carlos Paiva",
-        "data": "2022-02-25",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Antonio Rodrigues Rocha",
-        "data": "2022-06-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Apoio Especializado",
-        "data": "2024-03-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Assessor Analista I",
-        "data": "2021-04-12",
-        "destino": "conjunto com a Secretária da Autarquia, no uso de suas competências legais e regimentais conferidas na Lei nº 5"
-      },
-      {
-        "nome": "Assistente Ii",
-        "data": "2021-06-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Assistente Ii",
-        "data": "2023-10-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Assistente Ii",
-        "data": "2024-01-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Augusto Carvalho Soares",
+        "nome": "AUGUSTO CARVALHO SOARES",
         "data": "2023-08-11",
         "destino": "EXERCÍCIO DA UNIVERSIDADE FEDERAL DE UBERLÂNDIA no uso de suas atribuições delegadas pela Portaria de Pessoal nº 1288, d"
       },
       {
-        "nome": "Ayrton Amaral Mendonça",
+        "nome": "AYRTON AMARAL MENDONÇA",
         "data": "2024-01-19",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "AZAMOR CAMARA AREIAS FILHO",
+        "data": "2020-03-19",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -394,6 +284,11 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "BOLETIM DE SERVIÇO EXTRA",
+        "data": "2024-02-20",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "BRAIAN VARJAO GAMA BISPO",
         "data": "2022-10-10",
         "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA BAHIA, no uso de suas atribuições legais e considera"
@@ -402,11 +297,6 @@
         "nome": "BRUNO EDUARDO GOMES BARRETO",
         "data": "2020-03-02",
         "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "BRUNO MARTINS MARQUES AUGUSTO MIGOWSKI CARVALHO",
-        "data": "2021-09-10",
-        "destino": "Interno (TRT)"
       },
       {
         "nome": "BRUNO MILET GUIMARAES",
@@ -419,23 +309,8 @@
         "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 10"
       },
       {
-        "nome": "BRUNO PINHEIRO DE SOUSA",
-        "data": "2023-09-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "BRUNO ROBERTO SANTOS",
-        "data": "2021-03-10",
-        "destino": "Interno (TRT)"
-      },
-      {
         "nome": "BRYAN HALMENSCHLAGER PEREIRA",
         "data": "2023-06-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Boletim De Serviço Extra",
-        "data": "2024-02-20",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -459,8 +334,23 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "CAMILO PAIVA MATOS PIMENTEL",
-        "data": "2020-08-28",
+        "nome": "CAMILO SILVA PINHEIRO",
+        "data": "2024-02-02",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CAMPUS BURITICUPU",
+        "data": "2023-03-21",
+        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 190"
+      },
+      {
+        "nome": "CAMPUS JARU",
+        "data": "2023-04-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CAMPUS JARU",
+        "data": "2024-04-02",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -469,8 +359,8 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "CARLA CRISTINA BARROS",
-        "data": "2020-12-07",
+        "nome": "CARLOS ANDRÉ BULHÕES MENDES",
+        "data": "2023-10-20",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -484,19 +374,34 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "CARLOS VIEIRA MOTA",
-        "data": "2020-07-21",
+        "nome": "CARLOS EDUARDO PINTO PROCOPIO",
+        "data": "2024-01-15",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "CASSIO ALVES DE OLIVEIRA",
-        "data": "2024-01-30",
+        "nome": "CARLOS HENRIQUE DOS SANTOS",
+        "data": "2022-07-21",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CARLOS VIEIRA MOTA",
+        "data": "2020-07-21",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "CELSO DE OLIVEIRA PACHECO JUNIOR",
         "data": "2023-03-06",
         "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 10"
+      },
+      {
+        "nome": "CHARLES PITTER DA SILVA SARGES",
+        "data": "2023-12-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CHEFE DE GABINETE DO INSTITUTO FEDERAL DE EDUCAÇÃO",
+        "data": "2023-05-22",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "CHRISTIANE NISHIBE",
@@ -506,12 +411,7 @@
       {
         "nome": "CHRISTIANE NISHIBE",
         "data": "2022-11-23",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "CLARA APARECIDA MILANEZ",
-        "data": "2022-07-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "CLASSIFICAÇÃO NOME DO",
@@ -519,9 +419,9 @@
         "destino": "Aposentadoria"
       },
       {
-        "nome": "CLAUDIO FERREIRA DA SILVA",
-        "data": "2023-11-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "CLAUDENY SANTOS PORTELA",
+        "data": "2024-01-24",
+        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 127"
       },
       {
         "nome": "CLAUDIVAN DE CARVALHO CELESTINO",
@@ -536,7 +436,7 @@
       {
         "nome": "CLEBER DOS REIS SOUZA",
         "data": "2023-03-14",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "CLEBER GOMES DE OLIVEIRA JUNIOR",
@@ -549,14 +449,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "CLEIRTON MONTE DE SOUSA",
-        "data": "2023-05-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "CLEIVISON SOUZA DE JESUS",
         "data": "2023-07-03",
         "destino": "exercício do cargo de REITOR da UNIVERSIDADE FEDERAL DO SUL DA BAHIA, no uso de suas atribuições legais e estatutárias,"
+      },
+      {
+        "nome": "CLEVERTON DE SOUSA LIMA",
+        "data": "2023-04-03",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "CLEYSSON JOHNNY COPPINI",
@@ -571,6 +471,31 @@
       {
         "nome": "CLÉSIO DE ARAÚJO GONÇALVES",
         "data": "2020-01-24",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "COLÉGIO PEDRO II",
+        "data": "2022-05-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "COLÉGIO PEDRO II",
+        "data": "2022-10-26",
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
+        "nome": "COLÉGIO PEDRO II",
+        "data": "2023-10-25",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "COORDENADORA DO CURSO DE GRADUAÇÃO DO DEPARTAMENTO DE ARTES VISUAIS DO IDA",
+        "data": "2023-03-24",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "COORDENADORA DO CURSO DE PÓS-GRADUAÇÃO EM CIÊNCIAS MECÂNICAS",
+        "data": "2021-06-01",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -599,119 +524,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "CRISTIANO SOARES ABADIA",
-        "data": "2022-11-08",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "Camilo Silva Pinheiro",
-        "data": "2024-02-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Campus Buriticupu",
-        "data": "2023-03-21",
-        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 190"
-      },
-      {
-        "nome": "Campus Jaru",
-        "data": "2023-04-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Campus Jaru",
-        "data": "2024-04-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Carlos André Bulhões Mendes",
-        "data": "2023-10-20",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Carlos Cesar Mendonça Filho",
-        "data": "2022-01-24",
-        "destino": "uso das atribuições constantes no artigo 359 do Regimento Interno da Secretaria Especial da Receita Federal do Brasil, a"
-      },
-      {
-        "nome": "Carlos Eduardo Pinto Procopio",
-        "data": "2024-01-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Carlos Henrique Dos Santos",
-        "data": "2022-07-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Carolina Nogueira De Souza",
-        "data": "2022-10-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Charles Pitter Da Silva Sarges",
-        "data": "2023-12-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Chefe De Gabinete Do Instituto Federal De Educação",
-        "data": "2023-05-22",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Clarissa Galbiati Grava",
-        "data": "2021-07-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Claudeny Santos Portela",
-        "data": "2024-01-24",
-        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 127"
-      },
-      {
-        "nome": "Cleverton De Sousa Lima",
-        "data": "2023-04-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Colégio Pedro Ii",
-        "data": "2022-05-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Colégio Pedro Ii",
-        "data": "2022-10-26",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "Colégio Pedro Ii",
-        "data": "2023-10-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Coordenadora Do Curso De Graduação Do Departamento De Artes Visuais Do Ida",
-        "data": "2023-03-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Coordenadora Do Curso De Pós-Graduação Em Ciências Mecânicas",
-        "data": "2021-06-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "CRISTINA GARCIA GOMES OLIVEIRA",
+        "data": "2022-03-22",
+        "destino": "TRT24"
       },
       {
         "nome": "DANIEL ACÁCIO DE MOURA",
         "data": "2019-11-11",
         "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "DANIEL CARVALHO DIAS",
-        "data": "2023-06-16",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "DANIEL DE SOUZA VASCONCELOS",
-        "data": "2024-01-19",
-        "destino": "Interno (TRT)"
       },
       {
         "nome": "DANIEL RAGE ABDALA",
@@ -729,19 +549,19 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "DANIELE QUEIROZ NICÁCIO HONDA",
+        "data": "2021-01-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "DANIELE SOUZA DE ARAUJO",
         "data": "2023-03-28",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "DANILO BARBOSA DE ARAÚJO",
-        "data": "2021-09-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "DANILO DA COSTA PEREIRA",
         "data": "2021-09-17",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "DANILO JOSE SILVA OLIVEIRA MENDES",
@@ -771,7 +591,7 @@
       {
         "nome": "DARLAN EZIQUIEL FELISBERTO DA SILVA",
         "data": "2022-06-22",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "DAYVSON BRUNO PEREIRA DA SILVA",
@@ -794,6 +614,11 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "DERIK NOVAES CARDOSO",
+        "data": "2023-05-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "DEYVISON COURAS ROLIM",
         "data": "2023-04-28",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -811,11 +636,21 @@
       {
         "nome": "DIEGO ASCANIO SANTOS",
         "data": "2023-06-13",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
+        "nome": "DIEGO ASSIS SIQUEIRA GOIS",
+        "data": "2023-10-02",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "DIEGO FERREIRA DA SILVA",
         "data": "2023-11-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "DIEGO FONSECA SILVA",
+        "data": "2021-08-27",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -844,11 +679,6 @@
         "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 10"
       },
       {
-        "nome": "DIEGO VINICIUS DA SILVA VIEIRA DE ALBUQUERQUE",
-        "data": "2020-12-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "DIOGO CAMPIOLO SANCHES",
         "data": "2022-10-06",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -864,11 +694,6 @@
         "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 10"
       },
       {
-        "nome": "DIOGO FRANKLIN DE OLIVEIRA",
-        "data": "2021-12-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "DIOGO GOMES SULPINO",
         "data": "2023-07-21",
         "destino": "EXERCÍCIO DA UNIVERSIDADE FEDERAL DE CAMPINA GRANDE, tendo em vista a Lei n"
@@ -881,12 +706,12 @@
       {
         "nome": "DIOGO LUIZ CECCON",
         "data": "2022-03-15",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
-        "nome": "DIVINO DE ASSIS JUNIOR",
-        "data": "2021-12-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "DIONATAM PINTO ALVES",
+        "data": "2022-08-09",
+        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ, designada nos termos da Portaria n"
       },
       {
         "nome": "DOUGLAS BUYTENDORP BIZARRO",
@@ -896,27 +721,12 @@
       {
         "nome": "DOUGLAS DE FRANÇA ALVES",
         "data": "2020-06-01",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
-        "nome": "Daniele Queiroz Nicácio Honda",
-        "data": "2021-01-13",
+        "nome": "EDGARD DA CONCEIÇÃO SANT' ANNA",
+        "data": "2023-10-11",
         "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Diego Assis Siqueira Gois",
-        "data": "2023-10-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Diego Fonseca Silva",
-        "data": "2021-08-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Dionatam Pinto Alves",
-        "data": "2022-08-09",
-        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ, designada nos termos da Portaria n"
       },
       {
         "nome": "EDILBERTO GUIMARÃES RODRIGUES",
@@ -934,9 +744,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "EDUARDO DE OLIVEIRA VASCONCELOS",
-        "data": "2023-06-05",
-        "destino": "Interno (TRT)"
+        "nome": "EDUARDO AMARAL DE PAULA",
+        "data": "2022-07-26",
+        "destino": "exercício da Pró-reitoria de Gestão de Pessoas da Universidade Federal de Juiz de Fora, no uso de suas atribuições e de"
+      },
+      {
+        "nome": "EDUARDO FARIAS BRINDS LEY FOX",
+        "data": "2021-01-20",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "EDUARDO FERNANDES",
@@ -964,13 +779,33 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ELANNE MELILO DE SOUZA",
-        "data": "2022-09-15",
+        "nome": "ELAINE BORGES MONTEIRO",
+        "data": "2020-01-29",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ELIANDRA ISYS SANDES BELLE",
-        "data": "2023-10-24",
+        "nome": "ELAINE BORGES MONTEIRO",
+        "data": "2020-03-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ELAINE BORGES MONTEIRO",
+        "data": "2023-03-30",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ELAINE BORGES MONTEIRO",
+        "data": "2023-11-10",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ELAINE BORGES MONTEIRO CASSIANO PORTARIAS",
+        "data": "2023-05-16",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ELANNE MELILO DE SOUZA",
+        "data": "2022-09-15",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1004,14 +839,39 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "ELOY GUIMARAES PIRES",
+        "data": "2021-08-02",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "ELTON SARMANHO SIQUEIRA",
         "data": "2022-08-09",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ELVIS RODRIGUES RIBEIRO SILVA",
-        "data": "2020-11-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "EMENDA CONSTITUCIONAL",
+        "data": "2020-01-02",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "EMENDA CONSTITUCIONAL",
+        "data": "2022-05-18",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "EMENDA CONSTITUCIONAL",
+        "data": "2022-10-11",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "EMENDA CONSTITUCIONAL",
+        "data": "2023-09-01",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "EMENDA CONSTITUCIONAL",
+        "data": "2024-01-24",
+        "destino": "Aposentadoria"
       },
       {
         "nome": "EMERIS SILVA SANTOS",
@@ -1024,14 +884,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "ERIC ALVIM ALCANTARA BARBOSA",
+        "data": "2021-01-27",
+        "destino": "TRF1"
+      },
+      {
         "nome": "ERICK ARAUJO BOLORINI",
         "data": "2022-05-06",
         "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 10"
-      },
-      {
-        "nome": "ERICK TEIXEIRA BARRETO",
-        "data": "2021-12-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "ERIK THAGO MUGARTT QUEIROZ",
@@ -1041,11 +901,6 @@
       {
         "nome": "ERIK THAGO MUGARTT QUEIROZ",
         "data": "2023-11-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ERIKA FERRAZ CAMPOS FLORENTINO",
-        "data": "2021-08-31",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1064,6 +919,11 @@
         "destino": "Aposentadoria"
       },
       {
+        "nome": "EVA MICHELLY CARVALHO SANTANA NOBRE",
+        "data": "2024-03-01",
+        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 1"
+      },
+      {
         "nome": "EWERTON MAIA BARBOSA",
         "data": "2023-06-01",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -1072,86 +932,6 @@
         "nome": "EZEQUIEL SEVERIANO DA SILVA",
         "data": "2022-12-22",
         "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Edgard Da Conceição Sant' Anna",
-        "data": "2023-10-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Eduardo Amaral De Paula",
-        "data": "2022-07-26",
-        "destino": "exercício da Pró-reitoria de Gestão de Pessoas da Universidade Federal de Juiz de Fora, no uso de suas atribuições e de"
-      },
-      {
-        "nome": "Eduardo Farias Brinds Ley Fox",
-        "data": "2021-01-20",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Elaine Borges Monteiro",
-        "data": "2020-01-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Elaine Borges Monteiro",
-        "data": "2020-03-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Elaine Borges Monteiro",
-        "data": "2023-03-30",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Elaine Borges Monteiro",
-        "data": "2023-11-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Elaine Borges Monteiro Cassiano Portarias",
-        "data": "2023-05-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Eloy Guimaraes Pires",
-        "data": "2021-08-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Emenda Constitucional",
-        "data": "2020-01-02",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Emenda Constitucional",
-        "data": "2022-05-18",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Emenda Constitucional",
-        "data": "2022-10-11",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Emenda Constitucional",
-        "data": "2023-09-01",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Emenda Constitucional",
-        "data": "2024-01-24",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Eric Alvim Alcantara Barbosa",
-        "data": "2021-01-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Eva Michelly Carvalho Santana Nobre",
-        "data": "2024-03-01",
-        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 1"
       },
       {
         "nome": "FABIANO FAUSTINO DE OLIVEIRA",
@@ -1169,23 +949,8 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "FABIO HITSUKI NITTO",
-        "data": "2021-10-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "FABIO PEREIRA ALVES",
         "data": "2021-09-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FABIO RODRIGO DA COSTA DIAS",
-        "data": "2024-01-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FABIO RONAN GUGELER",
-        "data": "2019-10-29",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1219,19 +984,14 @@
         "destino": "Aposentadoria"
       },
       {
-        "nome": "FELIX BONA NETO",
-        "data": "2022-12-13",
-        "destino": "Interno (TRT)"
-      },
-      {
         "nome": "FERNANDO ATHAYDE VELOSO MADUREIRA",
         "data": "2021-02-11",
         "destino": "exercício da Reitoria da Universidade Federal do Estado do Rio de Janeiro - UNIRIO, usando das atribuições regimentais,"
       },
       {
-        "nome": "FERNANDO FERREIRA TINELLI",
-        "data": "2021-12-20",
-        "destino": "TRT2"
+        "nome": "FERNANDO KENJI NAMPO",
+        "data": "2022-08-23",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "FERNANDO MENDES DOS SANTOS",
@@ -1241,7 +1001,7 @@
       {
         "nome": "FERNANDO MORAIS PEIXOTO",
         "data": "2023-03-28",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "TRT22"
       },
       {
         "nome": "FERNANDO QUEIROZ DE ALMEIDA",
@@ -1264,13 +1024,13 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "FRANCIELE MARQUES REDIGOLO",
-        "data": "2023-05-26",
+        "nome": "FILIPE REIS",
+        "data": "2023-05-02",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "FRANCISCO DAVID COSTA DE OLIVEIRA",
-        "data": "2021-04-19",
+        "nome": "FRANCIELE MARQUES REDIGOLO",
+        "data": "2023-05-26",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1281,7 +1041,7 @@
       {
         "nome": "FRANCISCO HENRIQUE LEMOS ANDRADE",
         "data": "2022-12-01",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "FRANCISCO JOSÉ MAREIRO BATISTA",
@@ -1294,44 +1054,29 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "FRANKLEY FRANCOLINO DA ROCHA",
-        "data": "2021-01-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Fernando Kenji Nampo",
-        "data": "2022-08-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Filipe Reis",
-        "data": "2023-05-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FÁBIO DOS SANTOS GASPARONI",
-        "data": "2019-12-04",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FÁBIO MARQUES MOREIRA",
-        "data": "2019-12-04",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FÁBIO RODRIGO DA COSTA DIAS",
-        "data": "2023-02-08",
-        "destino": "Serviços Públicos/Secretaria de Gestão Corporativa/Departamento de Gestão de Pessoas URL: http://www"
+        "nome": "GABINETE PORTARIAS",
+        "data": "2020-05-26",
+        "destino": "Aposentadoria"
       },
       {
         "nome": "GABRIEL BELINAZO",
         "data": "2021-11-26",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "GABRIEL ESCOBAR PAES",
         "data": "2023-09-06",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
+        "nome": "GABRIEL GOMES DOS REIS",
+        "data": "2024-02-22",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "GABRIEL HENRIQUE GONCALVES SILVEIRA",
+        "data": "2023-02-27",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "GABRIEL PARREIRA BEZERRA",
@@ -1339,8 +1084,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "GABRIEL PEREIRA DE OLIVEIRA ALENCAR",
+        "data": "2023-08-17",
+        "destino": "TRT24"
+      },
+      {
         "nome": "GABRIELA BONASPETTI CHADANOWICZ",
         "data": "2023-05-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "GABRIELA DUARTE LANZA",
+        "data": "2022-05-31",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1351,6 +1106,11 @@
       {
         "nome": "GABRIELA NUNES PEREIRA",
         "data": "2022-06-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "GEANCARLO SALDANHA MAYDANA",
+        "data": "2022-08-02",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1366,7 +1126,7 @@
       {
         "nome": "GEOVANI LOPES SILVA",
         "data": "2022-09-26",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "GEOVANI LOPES SILVA",
@@ -1384,8 +1144,8 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "GILBERTO JOSÉ ROSSA JÚNIOR",
-        "data": "2024-02-09",
+        "nome": "GIANCARLO SANTILLI",
+        "data": "2024-03-01",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1394,13 +1154,13 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "GIOVANE COSTA SILVA",
-        "data": "2021-06-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "GILSON ANTONIO CARNEIRO",
+        "data": "2023-09-29",
+        "destino": "Aposentadoria"
       },
       {
-        "nome": "GISELLE DIAS MENDONÇA",
-        "data": "2019-10-29",
+        "nome": "GIOVANE COSTA SILVA",
+        "data": "2021-06-01",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1409,24 +1169,19 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "GLAUBERT DO NASCIMENTO SANTOS",
-        "data": "2021-09-10",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "GLAUCO LUCIO GONÇALVES LOPES",
-        "data": "2021-01-19",
+        "nome": "GLAUCO BATISTA DE SOUSA",
+        "data": "2019-05-10",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "GRACIELLY COSTA FONTES CARDOSO",
         "data": "2022-03-08",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "GREGÓRIO TAKASHI HIGASHIKAWA",
         "data": "2023-04-14",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "GREISTOM DA SILVA OLIVEIRA",
@@ -1434,23 +1189,18 @@
         "destino": "Aposentadoria"
       },
       {
-        "nome": "GUILHERME DE OLIVEIRA FALCÃO",
-        "data": "2022-05-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "GUILHERME FERNANDES LEMOS",
+        "data": "2023-06-27",
+        "destino": "TRT19"
       },
       {
         "nome": "GUILHERME NICCHIO PINOTTE",
         "data": "2022-09-05",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "GUILHERME RICKEN MATTIELLO",
         "data": "2019-12-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "GUSTAVO BRITO FLORES",
-        "data": "2020-12-29",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1459,64 +1209,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "GUSTAVO EMANUEL OLIVEIRA BASTOS",
-        "data": "2024-01-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Gabinete Portarias",
-        "data": "2020-05-26",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Gabriel Gomes Dos Reis",
-        "data": "2024-02-22",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Gabriel Henrique Goncalves Silveira",
-        "data": "2023-02-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Gabriela Duarte Lanza",
-        "data": "2022-05-31",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Geancarlo Saldanha Maydana",
-        "data": "2022-08-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Giancarlo Santilli",
-        "data": "2024-03-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Gilson Antonio Carneiro",
-        "data": "2023-09-29",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Glauco Batista De Sousa",
-        "data": "2019-05-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Guilherme Fernandes Lemos",
-        "data": "2023-06-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "HAILTON CESAR ALVES DOS REIS",
         "data": "2022-07-28",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "HANS NEWTON FONSECA CANTANHEDE",
-        "data": "2024-02-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "HARLAN PORTO SANTANA",
+        "data": "2022-12-02",
+        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 190"
       },
       {
         "nome": "HEITOR SAMPAIO GUIMARÃES",
@@ -1529,16 +1229,6 @@
         "destino": "exercício da REITORIA da UNIVERSIDADE FEDERAL FLUMINENSE, no uso de suas atribuições, tendo em vista a Lei nº 9"
       },
       {
-        "nome": "HELDER SOUZA LIMA",
-        "data": "2019-11-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "HENRIQUE PAULINO MENDES LIMA",
-        "data": "2021-09-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "HERALDO GONÇALVES LIMA JUNIOR",
         "data": "2021-09-01",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -1549,27 +1239,7 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "HEVERSON DE ALMEIDA BRAGA",
-        "data": "2023-10-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "HUDSON PENA MAGALHÃES",
-        "data": "2022-11-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "HUGO DE PAULA SANTOS",
-        "data": "2023-11-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Harlan Porto Santana",
-        "data": "2022-12-02",
-        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 190"
-      },
-      {
-        "nome": "Http://Www.In.Gov.Br/Web/Dou/-/Portarias-De-7-De-Julho-De-2023-495518931 ---",
+        "nome": "HTTP://WWW.IN.GOV.BR/WEB/DOU/-/PORTARIAS-DE-7-DE-JULHO-DE-2023-495518931 ---",
         "data": "2023-07-25",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
@@ -1604,14 +1274,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "IGOR PIRES FERREIRA",
-        "data": "2020-08-13",
+        "nome": "ISABELA GONÇALVES MAGALHÃES",
+        "data": "2018-08-18",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "ISAIAS FREDERICK JANUARIO",
         "data": "2022-11-03",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "ISMAEL FÉLIX COUTINHO NETO",
@@ -1636,26 +1306,11 @@
       {
         "nome": "IZAIAS ARAUJO GOMES DA SILVA",
         "data": "2020-12-30",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "IZAIAS ARAÚJO GOMES DA SILVA",
         "data": "2020-01-28",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Iara De Morais",
-        "data": "2023-05-18",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Isabela Gonçalves Magalhães",
-        "data": "2018-08-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JACKSON EMANUEL BENEVIDES PRADO JÚNIOR",
-        "data": "2022-03-21",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1664,14 +1319,19 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "JANEFFER CHAVES ANTUNES",
-        "data": "2023-08-09",
-        "destino": "Interno (TRT)"
+        "nome": "JAIME CAVALCANTE ALVES",
+        "data": "2021-11-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "JANYLSON VICTOR LACERDA DE OLIVEIRA",
-        "data": "2023-09-04",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "JANDRÉ LÚCIO VAL PINHEIRO",
+        "data": "2019-12-02",
+        "destino": "Exercício da ReitoriaDO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 7304"
+      },
+      {
+        "nome": "JANEFFER CHAVES ANTUNES",
+        "data": "2023-08-09",
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "JEAN TOMAZ DA SILVA",
@@ -1694,6 +1354,16 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "JOAO PAULO BARBOSA",
+        "data": "2019-12-18",
+        "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 6909 de 08 de"
+      },
+      {
+        "nome": "JOAO PAULO BARBOSA",
+        "data": "2021-01-14",
+        "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 6909 de 08 de"
+      },
+      {
         "nome": "JOAO PAULO DAS MERCES SANTA BARBARA",
         "data": "2022-07-13",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -1701,11 +1371,6 @@
       {
         "nome": "JOAO PAULO LOBIANCO SILVA",
         "data": "2022-09-12",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JOAO PAULO MONTENEGRO COELHO",
-        "data": "2023-07-06",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1734,11 +1399,6 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "JONATHAN TERHORST RAUBER",
-        "data": "2020-12-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "JORDANA DE CASTRO BALDUINO PARANAHYBA",
         "data": "2024-02-27",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -1764,11 +1424,6 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "JOSE SALOMAO FERNANDES PEREIRA",
-        "data": "2020-10-19",
-        "destino": "EXERCÍCIO DO MINISTÉRIO PÚBLICO FEDERAL, no uso da competência que lhe foi atribuída pelo art"
-      },
-      {
         "nome": "JOSUÉ DE ALMEIDA RESENDE",
         "data": "2022-08-23",
         "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 10"
@@ -1779,19 +1434,24 @@
         "destino": "EXERCÍCIO, DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE PERNAMBUCO, em substituição à Reitora nomeada pelo"
       },
       {
-        "nome": "JOSÉ FREDSON DOS SANTOS",
-        "data": "2023-05-05",
+        "nome": "JOSÉ OLINDA DA SILVA",
+        "data": "2022-09-01",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "JOSÉ RODRIGUES BEM",
+        "data": "2021-03-11",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "JOSÉ VALDY CAMPELO JÚNIOR",
+        "data": "2021-12-01",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "JOÃO ALEXANDRE FREIRE",
         "data": "2023-07-12",
         "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO SERTÃO PERNAMBUCANO, no uso da competência que lhe f"
-      },
-      {
-        "nome": "JOÃO GABRIEL CORDEIRO D",
-        "data": "2021-01-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "JOÃO GABRIEL SILVA GOMES",
@@ -1809,9 +1469,19 @@
         "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO RIO GRANDE DO SUL, no uso das atribuições legais que"
       },
       {
-        "nome": "JOÃO PAULO DE ANDRADE CONTI",
-        "data": "2021-08-31",
+        "nome": "JOÃO PAULO ANDRADE LIMA",
+        "data": "2023-10-02",
         "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JOÃO VICTOR LUCAS",
+        "data": "2023-12-06",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JOÃO VITOR DE OLIVEIRA GARCIA",
+        "data": "2022-09-15",
+        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ, designada nos termos da Portaria n"
       },
       {
         "nome": "JUAREZ DE MORAES CARDOSO",
@@ -1839,78 +1509,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "JULIO CÉSAR DOS SANTOS",
+        "data": "2023-12-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "JUNIO SÉRGIO DE MELO",
         "data": "2023-07-26",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Jaime Cavalcante Alves",
-        "data": "2021-11-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Jairo Simão Santana Melo",
-        "data": "2023-02-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Jandré Lúcio Val Pinheiro",
-        "data": "2019-12-02",
-        "destino": "Exercício da ReitoriaDO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 7304"
-      },
-      {
-        "nome": "Jenval Gonçalves De Farias",
-        "data": "2023-10-24",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Joao Paulo Barbosa",
-        "data": "2019-12-18",
-        "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 6909 de 08 de"
-      },
-      {
-        "nome": "Joao Paulo Barbosa",
-        "data": "2021-01-14",
-        "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 6909 de 08 de"
-      },
-      {
-        "nome": "José Eduardo Semedo Abeijon",
-        "data": "2020-11-04",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "José Olinda Da Silva",
-        "data": "2022-09-01",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "José Rodrigues Bem",
-        "data": "2021-03-11",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "José Valdy Campelo Júnior",
-        "data": "2021-12-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "João Paulo Andrade Lima",
-        "data": "2023-10-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "João Victor Lucas",
-        "data": "2023-12-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "João Vitor De Oliveira Garcia",
-        "data": "2022-09-15",
-        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ, designada nos termos da Portaria n"
-      },
-      {
-        "nome": "Julio César Dos Santos",
-        "data": "2023-12-14",
+        "nome": "KAIO OLIVEIRA GOMES",
+        "data": "2023-07-19",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -1929,14 +1539,9 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Kaio Oliveira Gomes",
-        "data": "2023-07-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LASTENYA PEREIRA DA SILVEIRA",
-        "data": "2021-11-12",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "LAMARCK SOUZA ALCANTARA ARAUJO",
+        "data": "2024-02-09",
+        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 190"
       },
       {
         "nome": "LAUDSON FERREIRA DA SILVA",
@@ -1969,6 +1574,11 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "LEANDRO JÚNIO DE SOUZA",
+        "data": "2022-07-21",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "LEANDRO KOITI SATO",
         "data": "2024-03-11",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -1979,23 +1589,23 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "LEANDRO SILVA DO NASCIMENTO",
+        "data": "2021-01-13",
+        "destino": "TRF1"
+      },
+      {
         "nome": "LENO PEREIRA FERREIRA",
         "data": "2021-07-20",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LEONARDO AUGUSTO RODRIGUES",
-        "data": "2019-10-23",
+        "nome": "LEONARDO DA ROCHA FREITAS",
+        "data": "2024-03-08",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
-        "data": "2022-06-20",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
-        "data": "2023-03-22",
+        "nome": "LEONARDO GAMA DOS REIS",
+        "data": "2023-10-25",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2004,8 +1614,8 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LEONARDO HENRIQUE DE JESUS SANTOS",
-        "data": "2019-12-09",
+        "nome": "LEONARDO SOUZA SANTOS",
+        "data": "2022-12-01",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2016,11 +1626,6 @@
       {
         "nome": "LEOPOLDINA VERAS CAMELOPORTARIA",
         "data": "2020-01-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEVI LOPES SOARES",
-        "data": "2020-09-18",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2054,11 +1659,6 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LUAN GOMES DE ALMEIDA ARAÚJO",
-        "data": "2023-09-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "LUCAS ALVES DOS SANTOS",
         "data": "2019-12-24",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -2066,21 +1666,6 @@
       {
         "nome": "LUCAS ARAKAKI TAKEMOTO",
         "data": "2022-07-28",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUCAS BENEVIDES DIAS",
-        "data": "2023-06-28",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "LUCAS BRAGA RIBEIRO",
-        "data": "2021-01-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUCAS CAMARGO CARDOSO",
-        "data": "2022-10-11",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2104,8 +1689,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "LUCAS VIEIRA DOS SANTOS",
+        "data": "2024-03-15",
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
         "nome": "LUCAS VINICIUS DIAS",
         "data": "2020-01-07",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "LUCIA MARIA",
+        "data": "2023-07-12",
         "destino": "Aposentadoria"
       },
       {
@@ -2131,7 +1726,7 @@
       {
         "nome": "LUIS GUSTAVO SALES DE SOUZA FRANÇA",
         "data": "2022-07-29",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "LUIS GUSTAVO SALES DE SOUZA FRANÇA",
@@ -2144,8 +1739,8 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LUIZ AUGUSTO DA SILVA ALVES",
-        "data": "2022-07-22",
+        "nome": "LUIZ AMERICO DA SILVA",
+        "data": "2023-03-02",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2154,18 +1749,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "LUIZ FELIPE DA SILVA SANTOS",
+        "data": "2019-10-25",
+        "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 6909 de 08 de"
+      },
+      {
         "nome": "LUIZ FERNANDO MENDES OSORIO",
         "data": "2020-07-05",
         "destino": "Aposentadoria"
       },
       {
-        "nome": "LUIZ GONZAGA DE ALBUQUERQUE NETO",
-        "data": "2022-12-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUIZ HENRIQUE DO ESPIRITO SANTO ANDRADE",
-        "data": "2022-07-11",
+        "nome": "LUIZ FILIPE RIBEIRO",
+        "data": "2022-07-15",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2174,112 +1769,22 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LUÍS ANTÔNIO RIGOTTI",
-        "data": "2023-02-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Lamarck Souza Alcantara Araujo",
-        "data": "2024-02-09",
-        "destino": "EXERCÍCIO DA REITORIA DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO, designado pela Portaria nº 190"
-      },
-      {
-        "nome": "Leandro Júnio De Souza",
-        "data": "2022-07-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Leandro Silva Do Nascimento",
-        "data": "2021-01-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Lei Complementar",
-        "data": "2019-11-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Lei Complementar",
-        "data": "2021-10-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Lei Complementar",
-        "data": "2022-12-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Leonardo Da Rocha Freitas",
-        "data": "2024-03-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Leonardo Dos Santos Lage De Oliveira",
-        "data": "2022-08-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Leonardo Gama Dos Reis",
-        "data": "2023-10-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Leonardo Souza Santos",
-        "data": "2022-12-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Levi Miranda Da Silva",
-        "data": "2020-01-31",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Lucas Nolêto De Arruda",
-        "data": "2023-09-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Lucas Vieira Dos Santos",
-        "data": "2024-03-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Lucia Maria",
-        "data": "2023-07-12",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Luiz Americo Da Silva",
-        "data": "2023-03-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Luiz Felipe Da Silva Santos",
-        "data": "2019-10-25",
-        "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 6909 de 08 de"
-      },
-      {
-        "nome": "Luiz Filipe Ribeiro",
-        "data": "2022-07-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Luiz Roberto Carvalho Antunes Filho",
+        "nome": "LUIZ ROBERTO CARVALHO ANTUNES FILHO",
         "data": "2022-06-13",
         "destino": "Aposentadoria"
       },
       {
-        "nome": "Luiz Simao",
+        "nome": "LUIZ SIMAO",
         "data": "2019-05-10",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Lusofonia Afro-Brasileira",
+        "nome": "LUSOFONIA AFRO-BRASILEIRA",
         "data": "2024-01-23",
         "destino": "EXERCÍCIO DA REITORIA DA UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA - UNILAB, no uso de suas"
       },
       {
-        "nome": "Luís Cláudio De Araújo Ladeira",
+        "nome": "LUÍS CLÁUDIO DE ARAÚJO LADEIRA",
         "data": "2021-10-08",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
@@ -2289,14 +1794,19 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LÍVIO CORRÊA CARNEIRO",
-        "data": "2021-12-09",
+        "nome": "MACHADO WEBER",
+        "data": "2020-06-04",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "MAGNO BARROSO DE ALBUQUERQUE",
         "data": "2023-11-30",
         "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MAICON DHIEGO DOS SANTOS",
+        "data": "2023-03-22",
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "MANOEL BASTOS DE FIGUEIREDO NETO",
@@ -2314,11 +1824,6 @@
         "destino": "EXERCÍCIO DA REITORIA DA UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA - UNILAB, no uso de suas"
       },
       {
-        "nome": "MARCELA GOMES CORRÊA",
-        "data": "2023-05-30",
-        "destino": "Serviços Públicos/Secretaria de Gestão Corporativa/Diretoria de Gestão de Pessoas/Coordenação-Geral de Gestão de Pessoas"
-      },
-      {
         "nome": "MARCELO ARAÚJO TORRES",
         "data": "2022-07-22",
         "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO CEARÁ, designado mediante a Portaria nº 997/GABR/REI"
@@ -2334,9 +1839,19 @@
         "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MATO GROSSO DO SUL (IFMS), no uso de suas atribuiçõe"
       },
       {
+        "nome": "MARCELO BRITO CARNEIRO LEÃO",
+        "data": "2023-02-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "MARCELO HIDEKI SIRASUMA",
         "data": "2019-07-31",
         "destino": "Aposentadoria"
+      },
+      {
+        "nome": "MARCELO MARCHESAN",
+        "data": "2020-10-05",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "MARCELO MORENO COSTA",
@@ -2344,14 +1859,19 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MARCELO REZENDE BUENO",
-        "data": "2020-10-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "MARCELO RODRIGUES DE OLIVEIRA",
+        "data": "2021-10-15",
+        "destino": "TRT14"
       },
       {
         "nome": "MARCELO SILVEIRA DOS SANTOS",
         "data": "2021-02-24",
         "destino": "TRT7"
+      },
+      {
+        "nome": "MARCELO SOARES MACHADO",
+        "data": "2021-01-18",
+        "destino": "exercício DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, no uso de suas atribuições, considerando o disposto na Portaria"
       },
       {
         "nome": "MARCIA PRANTE ASSMANN",
@@ -2361,11 +1881,6 @@
       {
         "nome": "MARCIO DE SANTANA CARVALHO",
         "data": "2021-08-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARCO AURÉLIO DE AGUIAR SANTOS",
-        "data": "2021-07-26",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2386,7 +1901,7 @@
       {
         "nome": "MARCOS ADRIEL SAMPAIO ROST",
         "data": "2020-10-22",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "MARCOS ANDRÉ DA SILVA",
@@ -2399,13 +1914,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MARCUS HENRIQUE LUCAS MOTA",
-        "data": "2021-09-06",
+        "nome": "MARCOS CERON GONÇALVES",
+        "data": "2024-01-22",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "MARCOS CESAR HOLANDA DOS SANTOS",
+        "data": "2023-07-03",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MARCUS VINICIUS PEREIRA DE MENEZES",
-        "data": "2021-01-08",
+        "nome": "MARCOS JOSE FERREIRA NETO",
+        "data": "2024-02-06",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2424,13 +1944,28 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MARIA CAROLINA REVOREDO MARTINIANO",
-        "data": "2022-03-18",
+        "nome": "MARIA JOSÉ NUNES GADELHA",
+        "data": "2020-11-12",
+        "destino": "uso da competência que lhe foi delegada pelo Decreto de 8 de fevereiro de 2017 do Ministério da Educação (D"
+      },
+      {
+        "nome": "MARILIA BORGES",
+        "data": "2022-02-24",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MARINA DAOUD JUNGBLUT",
-        "data": "2024-03-01",
+        "nome": "MARILIA BORGES",
+        "data": "2022-08-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARILIA BORGES",
+        "data": "2023-12-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARILIA BORGES",
+        "data": "2024-03-08",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2474,11 +2009,6 @@
         "destino": "Aposentadoria"
       },
       {
-        "nome": "MATHEUS COSTA BARBOSA",
-        "data": "2023-03-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "MATHEUS HENRIQUE DIAS RODRIGUES",
         "data": "2022-09-14",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -2489,13 +2019,48 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MATHEUS PETRONILLIO HERNANDES",
-        "data": "2022-01-31",
+        "nome": "MATRÍCULA SIAPE",
+        "data": "2020-10-09",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MATRÍCULA SIAPE",
+        "data": "2020-12-10",
+        "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 6909 de 08 de"
+      },
+      {
+        "nome": "MATRÍCULA SIAPE",
+        "data": "2022-01-28",
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
+        "nome": "MATRÍCULA SIAPE",
+        "data": "2022-07-19",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "MATRÍCULA SIAPE",
+        "data": "2023-02-10",
+        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO RIO GRANDE DO NORTE, no uso de suas atribuições lega"
+      },
+      {
+        "nome": "MATRÍCULA SIAPE",
+        "data": "2023-06-16",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "MATRÍCULA SIAPE",
+        "data": "2023-08-22",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "MAYAN SILVA SOEIRO DOS SANTOS",
         "data": "2023-09-05",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "MEIO AMBIENTE",
+        "data": "2020-11-12",
         "destino": "Aposentadoria"
       },
       {
@@ -2506,7 +2071,7 @@
       {
         "nome": "MICHEL MOTTA DA SILVA",
         "data": "2023-06-13",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "MICHELE BERNADINO FIDELIS",
@@ -2526,7 +2091,7 @@
       {
         "nome": "MONARA PEREIRA DA ROSA MAEDA",
         "data": "2024-02-26",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "MURILO ALVARES VIEIRA",
@@ -2549,154 +2114,9 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Machado Weber",
-        "data": "2020-06-04",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Maicon Dhiego Dos Santos",
-        "data": "2023-03-22",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marcelo Brito Carneiro Leão",
-        "data": "2023-02-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marcelo Marchesan",
-        "data": "2020-10-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marcelo Rodrigues De Oliveira",
-        "data": "2021-10-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marcelo Soares Machado",
-        "data": "2021-01-18",
-        "destino": "exercício DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, no uso de suas atribuições, considerando o disposto na Portaria"
-      },
-      {
-        "nome": "Marcos Ceron Gonçalves",
-        "data": "2024-01-22",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Marcos Cesar Holanda Dos Santos",
-        "data": "2023-07-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marcos Jose Ferreira Neto",
-        "data": "2024-02-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Maria Cristina Nunes De Oliveira Ribeiro",
-        "data": "2021-11-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Maria José Nunes Gadelha",
-        "data": "2020-11-12",
-        "destino": "uso da competência que lhe foi delegada pelo Decreto de 8 de fevereiro de 2017 do Ministério da Educação (D"
-      },
-      {
-        "nome": "Mariana Abreu Souza Dos Santos",
-        "data": "2021-02-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marilia Borges",
-        "data": "2022-02-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marilia Borges",
-        "data": "2022-08-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marilia Borges",
-        "data": "2023-12-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marilia Borges",
-        "data": "2024-03-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Marina Daoud Jungblut",
-        "data": "2024-02-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Matrícula Siape",
-        "data": "2020-10-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Matrícula Siape",
-        "data": "2020-12-10",
-        "destino": "uso da competência delegada pela Reitora da Universidade Federal do Rio de Janeiro, através da Portaria nº 6909 de 08 de"
-      },
-      {
-        "nome": "Matrícula Siape",
-        "data": "2022-01-28",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "Matrícula Siape",
-        "data": "2022-07-19",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Matrícula Siape",
-        "data": "2023-02-10",
-        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO RIO GRANDE DO NORTE, no uso de suas atribuições lega"
-      },
-      {
-        "nome": "Matrícula Siape",
-        "data": "2023-06-16",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Matrícula Siape",
-        "data": "2023-08-28",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Meio Ambiente",
-        "data": "2020-11-12",
-        "destino": "Aposentadoria"
-      },
-      {
         "nome": "MÁRCIO APARECIDO SIENA",
         "data": "2022-07-29",
         "destino": "EXERCÍCIO DA REITORIA, DA UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO -UFTM, nomeada pela Portaria n"
-      },
-      {
-        "nome": "MÁRCIO MAGALHÃES DE ANDRADE SILVA",
-        "data": "2021-11-12",
-        "destino": "TRT8"
-      },
-      {
-        "nome": "MÁRCIO PEREIRA LIMA",
-        "data": "2022-07-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MÁRIO OLIVEIRA CANOSSI",
-        "data": "2024-02-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Márcio Ricardo Alves Gadelha De Araújo",
-        "data": "2022-12-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "NAILSON LIMA DE OLIVEIRA",
@@ -2709,14 +2129,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "NATALIE SOUZA FREITAS ZAMPROGNO",
-        "data": "2023-08-14",
+        "nome": "NATACHA DE OLIVEIRA HOEPFNER",
+        "data": "2021-09-30",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "NAYARA BENEVENUTO LANNA",
-        "data": "2023-08-25",
-        "destino": "Interno (TRT)"
+        "nome": "NATALIE SOUZA FREITAS ZAMPROGNO",
+        "data": "2023-08-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "NAYSE PEREIRA DO NASCIMENTO",
@@ -2724,54 +2144,39 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Natacha De Oliveira Hoepfner",
-        "data": "2021-09-30",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Não identificado",
+        "nome": "NÃO IDENTIFICADO",
         "data": "2020-01-29",
         "destino": "exercício DA UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL, no uso de suas atribuições, considerando o disposto na Portaria"
       },
       {
-        "nome": "Não identificado",
+        "nome": "NÃO IDENTIFICADO",
         "data": "2021-02-01",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Não identificado",
+        "nome": "NÃO IDENTIFICADO",
         "data": "2022-01-17",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
-        "nome": "Não identificado",
+        "nome": "NÃO IDENTIFICADO",
         "data": "2022-02-23",
         "destino": "uso das atribuições que lhe confere o Artigo 9º, inciso XVII, do Regimento Geral desta Universidade e, tendo em vista o"
       },
       {
-        "nome": "Não identificado",
-        "data": "2022-04-25",
-        "destino": "exercício do cargo de REITOR DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAZONAS - IFAM, no uso de suas a"
+        "nome": "NÃO IDENTIFICADO",
+        "data": "2022-04-04",
+        "destino": "Interno (Ministério da Educação)"
       },
       {
-        "nome": "Não identificado",
+        "nome": "NÃO IDENTIFICADO",
         "data": "2022-06-20",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
-        "nome": "Não identificado",
+        "nome": "NÃO IDENTIFICADO",
         "data": "2023-07-10",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "Não identificado",
-        "data": "2023-07-20",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "Não identificado",
-        "data": "2024-02-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "TRF2"
       },
       {
         "nome": "O REITOR DO INSTITUTO FEDERAL DE EDUCAÇÃO",
@@ -2784,24 +2189,19 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "OTTO JULIO AHLERT PINNO DA SILVA",
+        "data": "2021-02-03",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "OTÁVIO DE OLIVEIRA SANTOS",
         "data": "2023-06-28",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Otto Julio Ahlert Pinno Da Silva",
-        "data": "2021-02-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "PABLO ROBERT PEREIRA ALVES",
-        "data": "2020-10-29",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "PABLO ROBERT PEREIRA ALVES",
-        "data": "2021-08-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "PADRÃO DE VENCIMENTO",
+        "data": "2023-07-14",
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "PATRIC EVERTON DA SILVA NASCIMENTO",
@@ -2814,8 +2214,13 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "PAULA GRIPP DE MELO BATISTA",
-        "data": "2021-01-19",
+        "nome": "PATRÍCIA NASCIMENTO SILVA",
+        "data": "2022-03-30",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PAULO ALEX DOS SANTOS MARANHÃO",
+        "data": "2023-04-10",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2849,23 +2254,18 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "PAULO HENRIQUE FÉLIX DE MELO",
-        "data": "2023-03-17",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "PAULO HENRIQUE SILVA AZEVEDO",
         "data": "2024-01-26",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "PAULO JORGE LINO SILVA JUNIOR",
-        "data": "2022-03-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "PAULO ROBERTO KAMMER",
         "data": "2023-08-31",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PAULO ROBERTO MARINHO CARDOSO",
+        "data": "2024-02-05",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2874,8 +2274,8 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "PEDRO ALEIXO DA SILVA NETO",
-        "data": "2023-03-14",
+        "nome": "PEDRO HENRIQUE APARECIDO DAMASO DE MELO",
+        "data": "2023-09-26",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2889,28 +2289,13 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "PEDRO PAULO MENDES PEREIRA",
-        "data": "2023-03-20",
-        "destino": "Serviços Públicos/Secretaria de Gestão Corporativa/Departamento de Gestão de Pessoas/Coordenação-Geral de Gestão de Pess"
-      },
-      {
         "nome": "PERICLES CHRISTIAN MORAES LOPES",
         "data": "2024-01-29",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "PETTERSON BRENO SOUZA COSTA",
-        "data": "2021-06-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "PHELLIPE MARINHO SANTIS",
         "data": "2023-02-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "PIERRY ÂNGELO PEREIRA",
-        "data": "2022-07-07",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -2934,77 +2319,37 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Padrão De Vencimento",
-        "data": "2023-07-14",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "Padrão Iii",
-        "data": "2022-07-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Padrão Iii",
-        "data": "2024-01-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Patrícia Nascimento Silva",
-        "data": "2022-03-30",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Paulo Alex Dos Santos Maranhão",
-        "data": "2023-04-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Paulo Roberto Marinho Cardoso",
-        "data": "2024-02-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Pedro Henrique Aparecido Damaso De Melo",
-        "data": "2023-09-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Processo N. 0005415-94.2021.6.21.8000",
-        "data": "2021-06-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Professor De Ensino Básico",
+        "nome": "PROFESSOR DE ENSINO BÁSICO",
         "data": "2023-07-27",
         "destino": "Aposentadoria"
       },
       {
-        "nome": "Professor Do Ensino Básico",
+        "nome": "PROFESSOR DO ENSINO BÁSICO",
         "data": "2020-11-13",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
-        "nome": "Professor Do Ensino Básico",
+        "nome": "PROFESSOR DO ENSINO BÁSICO",
         "data": "2021-09-10",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
-        "nome": "Professor Do Ensino Básico Técnico",
+        "nome": "PROFESSOR DO ENSINO BÁSICO TÉCNICO",
         "data": "2022-06-03",
         "destino": "Aposentadoria"
       },
       {
-        "nome": "Professor Do Magistério Superior",
+        "nome": "PROFESSOR DO MAGISTÉRIO SUPERIOR",
         "data": "2021-12-15",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Professor Do Magistério Superior",
+        "nome": "PROFESSOR DO MAGISTÉRIO SUPERIOR",
         "data": "2023-04-24",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Professor Do Magistério Superior",
+        "nome": "PROFESSOR DO MAGISTÉRIO SUPERIOR",
         "data": "2024-01-09",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
@@ -3014,13 +2359,8 @@
         "destino": "EXERCÍCIO DA REITORIA DA FUNDAÇÃO UNIVERSIDADE FEDERAL DO ABC (UFABC), nomeado pela Portaria UFABC nº 133, de 13 de març"
       },
       {
-        "nome": "RAFAEL DA SILVA XIMENES",
-        "data": "2020-01-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RAFAEL DA SILVA XIMENES",
-        "data": "2022-07-15",
+        "nome": "RAFAEL DE OLIVEIRA",
+        "data": "2023-10-06",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3039,24 +2379,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "RAFAEL LIMA DA SILVA",
+        "data": "2024-02-16",
+        "destino": "EXERCÍCIO DA REITORIA, DA UNIVERSIDADE FEDERAL DO DELTA DO PARNAÍBA - UFDPar, no uso de suas atribuições legais e estatu"
+      },
+      {
         "nome": "RAFAEL LUZ ARAÚJO",
         "data": "2019-12-11",
         "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RAFAEL SILVA VASCONCELLOS",
-        "data": "2022-01-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RAFAEL TAVARES KRATKA",
-        "data": "2023-04-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RAFAELA ALVIM BARBOSA",
-        "data": "2023-11-21",
-        "destino": "uso da competência que lhe foi atribuída pelo artigo 92 da Portaria PGT/MPT nº 1"
       },
       {
         "nome": "RAFAELLA RIBEIRO DE AGUIAR",
@@ -3066,12 +2396,12 @@
       {
         "nome": "RAFFAELE PUGLIESE DI SCHIAVI",
         "data": "2022-05-03",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "RAFFAELE PUGLIESE DI SCHIAVI",
         "data": "2022-09-05",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "RAILAINE RAMOS DOS SANTO",
@@ -3087,6 +2417,11 @@
         "nome": "RAITAN BIZ RIGON",
         "data": "2023-08-17",
         "destino": "Exercício, do Departamento de Administração de Pessoal da Universidade Federal de Santa Catarina, no uso de suas atribui"
+      },
+      {
+        "nome": "RAMIRES MACHADO",
+        "data": "2023-11-10",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "RAPHAEL GOVEIA RODEGHIERO",
@@ -3111,22 +2446,12 @@
       {
         "nome": "RAYANE KELLI DOS REIS FERREIRA",
         "data": "2023-08-21",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "RAYSSA MARIANA SILVA SANTANA",
         "data": "2023-11-23",
         "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "REGIANE MARIA ALVES DIAS",
-        "data": "2021-01-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "REGIANE MARIA ALVES DIAS",
-        "data": "2022-11-09",
-        "destino": "TRT10"
       },
       {
         "nome": "REGINALDO BARBOZA NUNES",
@@ -3136,12 +2461,27 @@
       {
         "nome": "REGINALDO SOUZA OLIVEIRA",
         "data": "2023-01-03",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "REGINALDO SOUZA OLIVEIRA",
         "data": "2023-07-27",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
+        "nome": "REITOR DA UFG",
+        "data": "2019-10-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "REITORIA PORTARIAS",
+        "data": "2020-01-13",
+        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ, designado nos termos da Portaria nº 975/2019/"
+      },
+      {
+        "nome": "REITORIA PORTARIAS",
+        "data": "2020-02-19",
+        "destino": "Aposentadoria"
       },
       {
         "nome": "RENAN FELIPE DE MARCOS",
@@ -3156,16 +2496,16 @@
       {
         "nome": "RENATA BRAGA DE ANDRADE",
         "data": "2023-05-23",
+        "destino": "TRF5"
+      },
+      {
+        "nome": "REYNALDO GARCIA JUNIOR",
+        "data": "2022-05-18",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "RENATO SANTOS DA SILVA",
-        "data": "2022-03-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RICARDO BARBOSA CUEVAS",
-        "data": "2022-10-18",
+        "nome": "RICARDO BARBALHO DA SILVA",
+        "data": "2022-05-13",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3194,18 +2534,23 @@
         "destino": "uso da competência que lhe foi delegada pelo Decreto de 08 de fevereiro de 2017 do Ministério da Educação (D"
       },
       {
+        "nome": "RICARDO SANTOS ALMEIDA",
+        "data": "2023-09-25",
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
         "nome": "RICARDO SHODI HIRATSUKA",
         "data": "2022-05-09",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "RICHARD SABINO TENORIO",
-        "data": "2022-02-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "ROBER MAYER",
         "data": "2024-01-18",
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
+        "nome": "ROBERT PESSINGA DA SILVA",
+        "data": "2024-02-26",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3214,13 +2559,13 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ROBERTO PANTOJA MACHADO",
-        "data": "2020-10-02",
+        "nome": "ROBERTO BRUNO",
+        "data": "2020-02-19",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ROBERTO RODRIGUES RENOVATO",
-        "data": "2021-12-07",
+        "nome": "ROBERTO PANTOJA MACHADO",
+        "data": "2020-10-02",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3244,11 +2589,6 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "RODRIGO CARVALHO BENEVIDES",
-        "data": "2024-03-12",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "RODRIGO DOS SANTOS ALVES",
         "data": "2021-12-20",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -3259,14 +2599,9 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "RODRIGO FONSECA BORGES",
-        "data": "2022-05-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "RODRIGO MADALOZZO BORDINI",
         "data": "2022-07-08",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "RODRIGO SCHAEFER GUIMARAES",
@@ -3279,14 +2614,14 @@
         "destino": "Aposentadoria"
       },
       {
-        "nome": "ROGÉRIO DA SILVA",
-        "data": "2020-09-17",
+        "nome": "ROGER RUBENS MACHADO",
+        "data": "2022-01-03",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ROGÉRIO MAIA MENDES",
-        "data": "2021-11-11",
-        "destino": "TRT6"
+        "nome": "ROGÉRIO DA SILVA",
+        "data": "2020-09-17",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "ROMARIO DE LIMA OLIVEIRA",
@@ -3339,121 +2674,6 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Rafael De Oliveira",
-        "data": "2023-10-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Rafael Lima Da Silva",
-        "data": "2024-02-16",
-        "destino": "EXERCÍCIO DA REITORIA, DA UNIVERSIDADE FEDERAL DO DELTA DO PARNAÍBA - UFDPar, no uso de suas atribuições legais e estatu"
-      },
-      {
-        "nome": "Ramires Machado",
-        "data": "2023-11-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Reitor Da Ufg",
-        "data": "2019-10-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Reitoria Portarias",
-        "data": "2020-01-13",
-        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ, designado nos termos da Portaria nº 975/2019/"
-      },
-      {
-        "nome": "Reitoria Portarias",
-        "data": "2020-02-19",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Renato Archer",
-        "data": "2019-04-29",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Renato Archer",
-        "data": "2019-10-22",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Renato Archer",
-        "data": "2020-06-25",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Renato Archer",
-        "data": "2020-11-11",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Renato Archer",
-        "data": "2021-06-09",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Renato Archer",
-        "data": "2021-09-30",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Renato Archer",
-        "data": "2022-03-31",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Renato Archer",
-        "data": "2023-04-26",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Reynaldo Garcia Junior",
-        "data": "2022-05-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Ricardo Barbalho Da Silva",
-        "data": "2022-05-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Ricardo Santos Almeida",
-        "data": "2023-09-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Robert Pessinga Da Silva",
-        "data": "2024-02-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Roberta Lima",
-        "data": "2022-10-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Roberto Bruno",
-        "data": "2020-02-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Rodolfo Menjou De Paula Vieira",
-        "data": "2022-11-04",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Roger Rubens Machado",
-        "data": "2022-01-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Rogério Souza Mascarenhas",
-        "data": "2023-07-10",
-        "destino": "Serviços Públicos/Secretaria de Governo Digital URL: http://www"
-      },
-      {
         "nome": "RÔMULO RIBEIRO FRANCO DE CARVALHO",
         "data": "2022-04-08",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -3464,18 +2684,13 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "SAMUEL VALERIO OZORIO DUTRA",
-        "data": "2022-01-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "SAMYR ABDO NUNES RAIM BARBOSA",
-        "data": "2023-03-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "SANDERSON SIQUEIRA PANTOJA",
         "data": "2024-03-06",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "SANDRA DA CONCEIÇÃO MOURA",
+        "data": "2021-03-29",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3499,8 +2714,18 @@
         "destino": "EXERCÍCIO DO CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS, autarquia de regime especial, no uso de suas atribu"
       },
       {
-        "nome": "SILLAS LABARBA MACIEL MOREIRA",
-        "data": "2023-02-15",
+        "nome": "SERGIO ARANTES DANNA",
+        "data": "2022-06-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "SERVIDOR NILSON",
+        "data": "2021-11-05",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "SHALTON VIANA DOS SANTOS",
+        "data": "2023-05-25",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3514,54 +2739,19 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "STEFANO WALKER PEREIRA PONTES",
-        "data": "2020-10-28",
-        "destino": "Interno (TRT)"
-      },
-      {
-        "nome": "Sandra Da Conceição Moura",
-        "data": "2021-03-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Sergio Arantes Danna",
-        "data": "2022-06-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Servidor Nilson",
-        "data": "2021-11-05",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Shalton Viana Dos Santos",
-        "data": "2023-05-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Simone Luna Valins",
-        "data": "2020-03-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Sirlene Pio Gomes Da Silva Peixoto",
+        "nome": "SIRLENE PIO GOMES DA SILVA PEIXOTO",
         "data": "2022-08-08",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Soares De Lima Di/01",
+        "nome": "SOARES DE LIMA DI/01",
         "data": "2022-07-20",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Sueli Da Silva Guilherme Calmon",
-        "data": "2022-12-15",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Superintendência Estadual Do Ibge",
-        "data": "2024-01-12",
-        "destino": "Morrinhos, do(a) Superintendência Estadual do IBGE em Goiás, FCE - 1"
+        "nome": "STEFANO WALKER PEREIRA PONTES",
+        "data": "2020-10-28",
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "SÉRGIO YOSHIMITSU FUJII",
@@ -3589,24 +2779,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "TASSO IURI LOPES DE MIRANDA",
-        "data": "2022-07-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "TATIANE COSTA CAVAGNA DA SILVA",
         "data": "2021-09-06",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "TAUAME AGUIAR PACCE",
-        "data": "2023-06-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "TERRA CARNIO",
-        "data": "2021-08-31",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "TEMPO INTEGRAL DE CONTRIBUIÇÃO",
+        "data": "2022-05-03",
+        "destino": "Aposentadoria"
       },
       {
         "nome": "THAISA ALVES ANDRADE",
@@ -3619,6 +2799,11 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "THEOPHILO ROSA RODRIGUES BRAGA",
+        "data": "2022-09-23",
+        "destino": "Aposentadoria"
+      },
+      {
         "nome": "THIAGO BARBOSA DA SILVA",
         "data": "2019-10-09",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -3629,11 +2814,6 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "THIAGO NUNES COSTA",
-        "data": "2021-10-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "THIAGO WIRLEY FARIAS DA SILVA FONSECA",
         "data": "2020-08-24",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -3641,16 +2821,6 @@
       {
         "nome": "THIAGO YASUTAKA IKEDA",
         "data": "2022-05-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "THOR CASTILHOS SANCHOTENE",
-        "data": "2024-02-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "TIAGO DA COSTA SILVA",
-        "data": "2020-03-03",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3669,6 +2839,11 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "TIAGO VIANA BATISTA",
+        "data": "2022-12-20",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "TIELLE DA SILVA ALEXANDRE",
         "data": "2023-10-19",
         "destino": "exercício da REITORIA da UNIVERSIDADE FEDERAL FLUMINENSE, no uso de suas atribuições e tendo em vista o que consta no Pr"
@@ -3679,22 +2854,7 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Tempo Integral De Contribuição",
-        "data": "2022-05-03",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Theophilo Rosa Rodrigues Braga",
-        "data": "2022-09-23",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "Tiago Viana Batista",
-        "data": "2022-12-20",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Tássio Guerreiro Antunes Virgínio",
+        "nome": "TÁSSIO GUERREIRO ANTUNES VIRGÍNIO",
         "data": "2022-03-09",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
@@ -3724,13 +2884,28 @@
         "destino": "Aposentadoria"
       },
       {
+        "nome": "VANDER CAMARGOS PINTO COSTA",
+        "data": "2022-02-02",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "VANDER CAMARGOS PINTO COSTA",
+        "data": "2023-06-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "VICENTE BISSOLI SESSA",
         "data": "2023-07-10",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "VICTOR DE SOUZA OLIVEIRA",
-        "data": "2021-10-26",
+        "nome": "VINICIUS ALVES HAX",
+        "data": "2021-06-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "VINICIUS BARBOSA DA SILVA",
+        "data": "2023-03-28",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3751,7 +2926,7 @@
       {
         "nome": "VINICIUS VERONEZE DOS REIS COSTA",
         "data": "2024-03-07",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "VIRGILIA AUGUSTA DA COSTA NUNES",
@@ -3769,39 +2944,14 @@
         "destino": "EXERCÍCIO DA UNIVERSIDADE FEDERAL DA FRONTEIRA SUL (UFFS), no uso de suas atribuições legais, tendo em vista o Processo"
       },
       {
-        "nome": "Vander Camargos Pinto Costa",
-        "data": "2022-02-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "WALLACE NASCIMENTO PARAIZO",
+        "data": "2021-12-22",
+        "destino": "exercício da Pró-Reitoria de Gestão de Pessoas da Universidade Federal de Juiz de Fora, no uso de suas atribuições e de"
       },
       {
-        "nome": "Vander Camargos Pinto Costa",
-        "data": "2023-06-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Vinicius Alves Hax",
-        "data": "2021-06-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Vinicius Barbosa Da Silva",
-        "data": "2023-03-28",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "WAINNER BRUM CAETANO",
-        "data": "2021-01-12",
-        "destino": "TRT14"
-      },
-      {
-        "nome": "WALBERT EMANUEL DA SILVA NASCIMENTO",
-        "data": "2020-04-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "WEBERSON PEREIRA DA SILVA",
-        "data": "2021-07-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "WANDRESON CARDOSO CAVALCANTE",
+        "data": "2023-08-15",
+        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ, no uso de suas atribuições legais que foram d"
       },
       {
         "nome": "WEINER SOARES DE LIMA",
@@ -3816,7 +2966,7 @@
       {
         "nome": "WELDER ALONSO DE OLIVEIRA",
         "data": "2024-02-26",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "WELITON DA COSTA RODRIGUES PEREIRA",
@@ -3831,7 +2981,7 @@
       {
         "nome": "WENDLY VIEIRA CUSTER",
         "data": "2022-04-14",
-        "destino": "Interno (TRT)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "WESLEY JHONNES RAMOS ROLIM",
@@ -3839,9 +2989,14 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
+        "nome": "WESLEY LEANDRO SOARES DOS SANTOS",
+        "data": "2023-11-23",
+        "destino": "Interno (Ministério da Educação)"
+      },
+      {
         "nome": "WESLEY ORTIZ FERNANDES",
         "data": "2024-03-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "Interno (Ministério da Educação)"
       },
       {
         "nome": "WILLIAN DE OLIVEIRA MARQUES JÚNIOR",
@@ -3854,33 +3009,8 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "WILLIAN VICTOR DA SILVA",
-        "data": "2024-03-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "WILLYAN CANDIDO SILVA",
         "data": "2022-11-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Wallace Nascimento Paraizo",
-        "data": "2021-12-22",
-        "destino": "exercício da Pró-Reitoria de Gestão de Pessoas da Universidade Federal de Juiz de Fora, no uso de suas atribuições e de"
-      },
-      {
-        "nome": "Wandreson Cardoso Cavalcante",
-        "data": "2023-08-15",
-        "destino": "EXERCÍCIO DO INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAPÁ, no uso de suas atribuições legais que foram d"
-      },
-      {
-        "nome": "Wesley Leandro Soares Dos Santos",
-        "data": "2023-11-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "WÉRTIZ DANTAS DA SILVA JÚNIOR",
-        "data": "2021-01-19",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
@@ -3904,11 +3034,6 @@
         "destino": "Aposentadoria"
       },
       {
-        "nome": "YURI NUNES RANGEL COSTA",
-        "data": "2020-07-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "YURI RANGEL RABELO PALHETA",
         "data": "2022-08-24",
         "destino": "Outro Órgão (Cargo Inacumulável)"
@@ -3919,35 +3044,161 @@
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "ÁLVARO LECHNER",
-        "data": "2022-03-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
         "nome": "ÁTILA NUNES",
         "data": "2022-02-25",
         "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "Ministério da Economia",
+    "total": 28,
+    "details": [
+      {
+        "nome": "ALEX AUGUSTUS MELO DE ANDRADE",
+        "data": "2021-12-23",
+        "destino": "TRT10"
       },
       {
-        "nome": "Área Apoio Especializado",
-        "data": "2020-11-27",
+        "nome": "ALEX PEREZ SANTOS",
+        "data": "2021-01-14",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Área Apoio Especializado - Programação De Sistemas",
-        "data": "2024-02-27",
+        "nome": "ALYSSON BARROS DE MORAIS",
+        "data": "2022-07-13",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Área Judiciária",
-        "data": "2019-11-11",
+        "nome": "AMANDA FONSECA CAMPANHARO",
+        "data": "2022-07-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "BRUNO MARTINS MARQUES AUGUSTO MIGOWSKI CARVALHO",
+        "data": "2021-09-10",
+        "destino": "Tribunal de Justiça do Distrito Federal e dos Territórios"
+      },
+      {
+        "nome": "BRUNO ROBERTO SANTOS",
+        "data": "2021-03-10",
+        "destino": "TRF1"
+      },
+      {
+        "nome": "CARLOS CESAR MENDONÇA FILHO",
+        "data": "2022-01-24",
+        "destino": "uso das atribuições constantes no artigo 359 do Regimento Interno da Secretaria Especial da Receita Federal do Brasil, a"
+      },
+      {
+        "nome": "DIOGO FRANKLIN DE OLIVEIRA",
+        "data": "2021-12-09",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "FABIO HITSUKI NITTO",
+        "data": "2021-10-06",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "FELIX BONA NETO",
+        "data": "2022-12-13",
+        "destino": "TRF4"
+      },
+      {
+        "nome": "FRANCISCO DAVID COSTA DE OLIVEIRA",
+        "data": "2021-04-19",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "FÁBIO DOS SANTOS GASPARONI",
+        "data": "2019-12-04",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "FÁBIO MARQUES MOREIRA",
+        "data": "2019-12-04",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "HELDER SOUZA LIMA",
+        "data": "2019-11-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LUIZ HENRIQUE DO ESPIRITO SANTO ANDRADE",
+        "data": "2022-07-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARCELO REZENDE BUENO",
+        "data": "2020-10-19",
+        "destino": "TRE-RJ"
+      },
+      {
+        "nome": "MARCUS VINICIUS PEREIRA DE MENEZES",
+        "data": "2021-01-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MÁRCIO PEREIRA LIMA",
+        "data": "2022-07-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PADRÃO III",
+        "data": "2022-07-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PAULA GRIPP DE MELO BATISTA",
+        "data": "2021-01-19",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PETTERSON BRENO SOUZA COSTA",
+        "data": "2021-06-10",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RAFAEL DA SILVA XIMENES",
+        "data": "2020-01-16",
+        "destino": "Superior Tribunal de Justiça"
+      },
+      {
+        "nome": "REGIANE MARIA ALVES DIAS",
+        "data": "2021-01-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "REGIANE MARIA ALVES DIAS",
+        "data": "2022-11-09",
+        "destino": "TRT10"
+      },
+      {
+        "nome": "RODRIGO FONSECA BORGES",
+        "data": "2022-05-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "WALBERT EMANUEL DA SILVA NASCIMENTO",
+        "data": "2020-04-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "WEBERSON PEREIRA DA SILVA",
+        "data": "2021-07-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "WÉRTIZ DANTAS DA SILVA JÚNIOR",
+        "data": "2021-01-19",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
   },
   {
     "orgao": "trt14",
-    "total": 24,
+    "total": 28,
     "details": [
       {
         "nome": "ALEX DE BASTOS DO AMARAL",
@@ -3990,6 +3241,11 @@
         "destino": "posse em outro cargo inacumulável"
       },
       {
+        "nome": "FELYPP DE ASSIS OLIVEIRA",
+        "data": "2021-10-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "GEORGE FERREIRA PIMENTA",
         "data": "2014-12-21",
         "destino": "aposentadoria"
@@ -3998,6 +3254,11 @@
         "nome": "ISABELA VIANNA ALLENDE MOZZER",
         "data": "2017-12-21",
         "destino": "aposentadoria"
+      },
+      {
+        "nome": "JOAQUIM SILVA MENEZES",
+        "data": "2023-04-27",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "JONATAS FREDMAN DE ALMEIDA DA SILVA",
@@ -4035,6 +3296,11 @@
         "destino": "posse em outro cargo inacumulável"
       },
       {
+        "nome": "MARCO AURELIO SHIBAYAMA",
+        "data": "2021-11-04",
+        "destino": "Interno (TRT14)"
+      },
+      {
         "nome": "RAFAEL REALTO DA CRUZ",
         "data": "2019-09-22",
         "destino": "aposentadoria"
@@ -4068,6 +3334,531 @@
         "nome": "WINDSON DE SOUSA VIANA",
         "data": "2021-12-22",
         "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "WINDSON DE SOUSA VIANA",
+        "data": "2022-12-05",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "Ministério Público da União",
+    "total": 23,
+    "details": [
+      {
+        "nome": "ANDRE THIAGO SOUZA DA SILVA",
+        "data": "2022-01-21",
+        "destino": "Interno (Ministério Público da União)"
+      },
+      {
+        "nome": "ANGELO BRUNO PEREIRA DOS SANTOS",
+        "data": "2019-11-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ANTÔNIO DE PÁDUA CARVALHO LOPES",
+        "data": "2024-01-18",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CAROLINA NOGUEIRA DE SOUZA",
+        "data": "2022-10-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "DIEGO VINICIUS DA SILVA VIEIRA DE ALBUQUERQUE",
+        "data": "2020-12-15",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "DIVINO DE ASSIS JUNIOR",
+        "data": "2021-12-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "FABIO RONAN GUGELER",
+        "data": "2019-10-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JOSE SALOMAO FERNANDES PEREIRA",
+        "data": "2020-10-19",
+        "destino": "EXERCÍCIO DO MINISTÉRIO PÚBLICO FEDERAL, no uso da competência que lhe foi atribuída pelo art"
+      },
+      {
+        "nome": "LEI COMPLEMENTAR",
+        "data": "2019-11-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LEI COMPLEMENTAR",
+        "data": "2021-10-05",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LEI COMPLEMENTAR",
+        "data": "2022-12-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LEONARDO AUGUSTO RODRIGUES",
+        "data": "2019-10-23",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARCUS HENRIQUE LUCAS MOTA",
+        "data": "2021-09-06",
+        "destino": "TRT4"
+      },
+      {
+        "nome": "MATHEUS COSTA BARBOSA",
+        "data": "2023-03-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MATHEUS PETRONILLIO HERNANDES",
+        "data": "2022-01-31",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PABLO ROBERT PEREIRA ALVES",
+        "data": "2020-10-29",
+        "destino": "TRE-SP"
+      },
+      {
+        "nome": "RAFAEL TAVARES KRATKA",
+        "data": "2023-04-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RAFAELA ALVIM BARBOSA",
+        "data": "2023-11-21",
+        "destino": "uso da competência que lhe foi atribuída pelo artigo 92 da Portaria PGT/MPT nº 1"
+      },
+      {
+        "nome": "RENATO SANTOS DA SILVA",
+        "data": "2022-03-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RICHARD SABINO TENORIO",
+        "data": "2022-02-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ROBERTA LIMA",
+        "data": "2022-10-21",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RODRIGO CARVALHO BENEVIDES",
+        "data": "2024-03-12",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "TIAGO DA COSTA SILVA",
+        "data": "2020-03-03",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "trf1",
+    "total": 21,
+    "details": [
+      {
+        "nome": "BRUNO PINHEIRO DE SOUSA",
+        "data": "2023-09-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CARLA CRISTINA BARROS",
+        "data": "2020-12-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "DANIEL DE SOUZA VASCONCELOS",
+        "data": "2024-01-19",
+        "destino": "Superior Tribunal de Justiça"
+      },
+      {
+        "nome": "DANILO BARBOSA DE ARAÚJO",
+        "data": "2021-09-24",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ELIANDRA ISYS SANDES BELLE",
+        "data": "2023-10-24",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ERIKA FERRAZ CAMPOS FLORENTINO",
+        "data": "2021-08-31",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "GLAUBERT DO NASCIMENTO SANTOS",
+        "data": "2021-09-10",
+        "destino": "Tribunal de Justiça do Distrito Federal e dos Territórios"
+      },
+      {
+        "nome": "GUSTAVO BRITO FLORES",
+        "data": "2020-12-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "HANS NEWTON FONSECA CANTANHEDE",
+        "data": "2024-02-19",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "HUGO DE PAULA SANTOS",
+        "data": "2023-11-10",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JOÃO PAULO DE ANDRADE CONTI",
+        "data": "2021-08-31",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LUAN GOMES DE ALMEIDA ARAÚJO",
+        "data": "2023-09-18",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LUCAS BRAGA RIBEIRO",
+        "data": "2021-01-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARCO AURÉLIO DE AGUIAR SANTOS",
+        "data": "2021-07-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARIA CAROLINA REVOREDO MARTINIANO",
+        "data": "2022-03-18",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "NAYARA BENEVENUTO LANNA",
+        "data": "2023-08-25",
+        "destino": "Tribunal Superior do Trabalho"
+      },
+      {
+        "nome": "PAULO JORGE LINO SILVA JUNIOR",
+        "data": "2022-03-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PIERRY ÂNGELO PEREIRA",
+        "data": "2022-07-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "SAMUEL VALERIO OZORIO DUTRA",
+        "data": "2022-01-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "SAMYR ABDO NUNES RAIM BARBOSA",
+        "data": "2023-03-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "WILLIAN VICTOR DA SILVA",
+        "data": "2024-03-05",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "trt7",
+    "total": 20,
+    "details": [
+      {
+        "nome": "ANTÔNIO EDWARD FACUNDO ARAÚJO",
+        "data": "2022-03-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "DANIEL CASTRO CIDADE",
+        "data": "2024-05-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "EDSON ELIAS DOS REIS",
+        "data": "2024-02-09",
+        "destino": "TRT3"
+      },
+      {
+        "nome": "FELLYPPE CARLOS SANTOS DE LIMA",
+        "data": "2011-11-21",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "FELLYPPE CARLOS SANTOS DE LIMA",
+        "data": "2021-11-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "FILIPE SAMPAIO CANITO",
+        "data": "2022-01-24",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "FILIPE SAMPAIO CANITO",
+        "data": "2024-01-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "FRANCISCO DAS CHAGAS PEDROSA JÚNIOR",
+        "data": "2019-04-23",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "JOSÉ RICARDO DE OLIVEIRA",
+        "data": "2022-07-16",
+        "destino": "exoneração"
+      },
+      {
+        "nome": "LEONARDO DE SOUSA DIAS",
+        "data": "2023-07-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LEONARDO DE SOUSA DIAS",
+        "data": "2024-03-23",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "LUIS MIGUEL MESSIAS",
+        "data": "2022-11-21",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "MANOEL MARIANO SIQUEIRA JUNIOR",
+        "data": "2022-04-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MANOEL MARIANO SIQUEIRA JÚNIOR",
+        "data": "2022-04-11",
+        "destino": "posse em cargo inacumulável"
+      },
+      {
+        "nome": "MARCOS ANTONIO PEREIRA DA SILVA",
+        "data": "2019-04-23",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "RAFAEL DA SILVA XIMENES",
+        "data": "2011-04-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "RAMON PEREIRA RODRIGUES",
+        "data": "2012-05-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "RAYRONE ZIRTANY NUNES MARQUES",
+        "data": "2019-01-21",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "RAYRONE ZIRTANY NUNES MARQUES",
+        "data": "2021-01-19",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "WENDELL MILITÃO FERNANDES MENDES",
+        "data": "2023-03-23",
+        "destino": "posse em outro cargo inacumulável"
+      }
+    ]
+  },
+  {
+    "orgao": "Superior Tribunal de Justiça",
+    "total": 17,
+    "details": [
+      {
+        "nome": "ALCIR AMARAL SILVA",
+        "data": "2022-09-20",
+        "destino": "TRF1"
+      },
+      {
+        "nome": "ALEX AMORIM DUTRA",
+        "data": "2019-12-23",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ANA CAROLINA LOPES DE JESUS",
+        "data": "2022-07-18",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ASSISTENTE II",
+        "data": "2021-06-25",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ASSISTENTE II",
+        "data": "2023-10-25",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ASSISTENTE II",
+        "data": "2024-01-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CAMILO PAIVA MATOS PIMENTEL",
+        "data": "2020-08-28",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CLAUDIO FERREIRA DA SILVA",
+        "data": "2023-11-03",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CRISTIANO SOARES ABADIA",
+        "data": "2022-11-08",
+        "destino": "Tribunal Superior do Trabalho"
+      },
+      {
+        "nome": "GISELLE DIAS MENDONÇA",
+        "data": "2019-10-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "HENRIQUE PAULINO MENDES LIMA",
+        "data": "2021-09-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JOSÉ FREDSON DOS SANTOS",
+        "data": "2023-05-05",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LEONARDO HENRIQUE DE JESUS SANTOS",
+        "data": "2019-12-09",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARINA DAOUD JUNGBLUT",
+        "data": "2024-02-21",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PAULO HENRIQUE FÉLIX DE MELO",
+        "data": "2023-03-17",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RAFAEL DA SILVA XIMENES",
+        "data": "2022-07-15",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "VICTOR DE SOUZA OLIVEIRA",
+        "data": "2021-10-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "trt4",
+    "total": 17,
+    "details": [
+      {
+        "nome": "ALEXANDRE KUPAC",
+        "data": "2010-05-21",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "DINEI ANDRÉ ROCKENBACH",
+        "data": "2021-10-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "DIOGO PIRES GILI",
+        "data": "2022-06-27",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "EDSON ELIAS DOS REIS",
+        "data": "2021-10-21",
+        "destino": "Interno (TRT4)"
+      },
+      {
+        "nome": "EDUARDO ALCANTARA DE OLIVEIRA",
+        "data": "2022-07-27",
+        "destino": "TRT2"
+      },
+      {
+        "nome": "EDUARDO MARTINS DA ROCHA",
+        "data": "2022-06-24",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "EMENDA CONSTITUCIONAL",
+        "data": "2021-05-10",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "FELIPE LUIZ CHRISTOFOLLI GIOTTO",
+        "data": "2020-07-31",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "FELIPE PETERSEN",
+        "data": "2021-02-09",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "GUILHERME COSTA MACIEL",
+        "data": "2018-05-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "GUILHERME COSTA MACIEL",
+        "data": "2022-05-12",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "GUILHERME COSTA MACIEL",
+        "data": "2022-12-06",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "KLAUS ALBERT SPITZ ENGELMANN",
+        "data": "2021-02-09",
+        "destino": "exoneração"
+      },
+      {
+        "nome": "LEOPOLDO ULISSIS MEIRELES ANDRIES",
+        "data": "2022-06-01",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PERSIO MARIANO",
+        "data": "2022-04-29",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "SILAS RODRIGUES DO REGO JUNIOR",
+        "data": "2023-10-04",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "THIAGO GREGORIO FAGUNDES",
+        "data": "2023-02-23",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
   },
@@ -4158,155 +3949,84 @@
     ]
   },
   {
-    "orgao": "trt7",
+    "orgao": "tre-sp",
     "total": 14,
     "details": [
       {
-        "nome": "ANTÔNIO EDWARD FACUNDO ARAÚJO",
-        "data": "2022-03-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "DANIEL CASTRO CIDADE",
-        "data": "2024-05-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "FELLYPPE CARLOS SANTOS DE LIMA",
-        "data": "2011-11-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "FILIPE SAMPAIO CANITO",
-        "data": "2024-01-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "FRANCISCO DAS CHAGAS PEDROSA JÚNIOR",
-        "data": "2019-04-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "JOSÉ RICARDO DE OLIVEIRA",
-        "data": "2022-07-16",
-        "destino": "exoneração"
-      },
-      {
-        "nome": "LEONARDO DE SOUSA DIAS",
-        "data": "2024-03-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "LUIS MIGUEL MESSIAS",
-        "data": "2022-11-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "MANOEL MARIANO SIQUEIRA JÚNIOR",
-        "data": "2022-04-11",
-        "destino": "posse em cargo inacumulável"
-      },
-      {
-        "nome": "MARCOS ANTONIO PEREIRA DA SILVA",
-        "data": "2019-04-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "RAFAEL DA SILVA XIMENES",
-        "data": "2011-04-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "RAMON PEREIRA RODRIGUES",
-        "data": "2012-05-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "RAYRONE ZIRTANY NUNES MARQUES",
-        "data": "2019-01-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "WENDELL MILITÃO FERNANDES MENDES",
-        "data": "2023-03-23",
-        "destino": "posse em outro cargo inacumulável"
-      }
-    ]
-  },
-  {
-    "orgao": "trt4",
-    "total": 13,
-    "details": [
-      {
-        "nome": "DINEI ANDRÉ ROCKENBACH",
-        "data": "2021-10-07",
+        "nome": "ALESSANDRO COELHO PORTO",
+        "data": "2023-10-03",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "DIOGO PIRES GILI",
-        "data": "2022-06-27",
+        "nome": "CLARISSA GALBIATI GRAVA",
+        "data": "2021-07-05",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "EDSON ELIAS DOS REIS",
-        "data": "2021-10-21",
-        "destino": "Interno (TRT4)"
-      },
-      {
-        "nome": "EDUARDO ALCANTARA DE OLIVEIRA",
-        "data": "2022-07-27",
-        "destino": "TRT2"
-      },
-      {
-        "nome": "EDUARDO MARTINS DA ROCHA",
-        "data": "2022-06-24",
+        "nome": "FABIO RODRIGO DA COSTA DIAS",
+        "data": "2024-01-29",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Emenda Constitucional",
-        "data": "2021-05-10",
+        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
+        "data": "2023-03-22",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LUCAS CAMARGO CARDOSO",
+        "data": "2022-10-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARIA CRISTINA NUNES DE OLIVEIRA RIBEIRO",
+        "data": "2021-11-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARIANA ABREU SOUZA DOS SANTOS",
+        "data": "2021-02-10",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PABLO ROBERT PEREIRA ALVES",
+        "data": "2021-08-09",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "PEDRO ALEIXO DA SILVA NETO",
+        "data": "2023-03-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RAFAEL SILVA VASCONCELLOS",
+        "data": "2022-01-25",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RODOLFO MENJOU DE PAULA VIEIRA",
+        "data": "2022-11-04",
         "destino": "Aposentadoria"
       },
       {
-        "nome": "FELIPE LUIZ CHRISTOFOLLI GIOTTO",
-        "data": "2020-07-31",
+        "nome": "ROGÉRIO MAIA MENDES",
+        "data": "2021-11-11",
+        "destino": "TRT6"
+      },
+      {
+        "nome": "SIMONE LUNA VALINS",
+        "data": "2020-03-06",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "GUILHERME COSTA MACIEL",
-        "data": "2022-05-12",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Guilherme Costa Maciel",
-        "data": "2022-12-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEOPOLDO ULISSIS MEIRELES ANDRIES",
-        "data": "2022-06-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Persio Mariano",
-        "data": "2022-04-29",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "SILAS RODRIGUES DO REGO JUNIOR",
-        "data": "2023-10-04",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "THIAGO GREGORIO FAGUNDES",
-        "data": "2023-02-23",
+        "nome": "TERRA CARNIO",
+        "data": "2021-08-31",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
   },
   {
     "orgao": "trt8",
-    "total": 11,
+    "total": 14,
     "details": [
       {
         "nome": "EWERTON ALMEIDA SILVA",
@@ -4339,9 +4059,24 @@
         "destino": "falecimento"
       },
       {
+        "nome": "MARCO AURÉLIO FIDELIS RÊGO",
+        "data": "2023-09-01",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
         "nome": "MARCUS AUGUSTO LOSADA MAIA",
         "data": "2021-11-23",
         "destino": "aposentadoria"
+      },
+      {
+        "nome": "PAULO VINICIUS NASCIMENTO SANTOS DE CARVALHO",
+        "data": "2023-05-09",
+        "destino": "TRF6"
+      },
+      {
+        "nome": "RAPHAEL EUSTÁQUIO ALVES VILELA",
+        "data": "2021-09-01",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "RENAN COUTINHO DINIZ",
@@ -4366,8 +4101,130 @@
     ]
   },
   {
+    "orgao": "trf4",
+    "total": 12,
+    "details": [
+      {
+        "nome": "ANDRÉ PORTO TRONCHINI",
+        "data": "2021-11-23",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "CLARA APARECIDA MILANEZ",
+        "data": "2022-07-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "EDUARDO DE OLIVEIRA VASCONCELOS",
+        "data": "2023-06-05",
+        "destino": "TRE-BA"
+      },
+      {
+        "nome": "FERNANDO FERREIRA TINELLI",
+        "data": "2021-12-20",
+        "destino": "TRT2"
+      },
+      {
+        "nome": "GLAUCO LUCIO GONÇALVES LOPES",
+        "data": "2021-01-19",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "IGOR PIRES FERREIRA",
+        "data": "2020-08-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JONATHAN TERHORST RAUBER",
+        "data": "2020-12-15",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RICARDO BARBOSA CUEVAS",
+        "data": "2022-10-18",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "TAUAME AGUIAR PACCE",
+        "data": "2023-06-01",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "THIAGO NUNES COSTA",
+        "data": "2021-10-14",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "THOR CASTILHOS SANCHOTENE",
+        "data": "2024-02-27",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ÁLVARO LECHNER",
+        "data": "2022-03-16",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "trt16",
+    "total": 10,
+    "details": [
+      {
+        "nome": "CARLOS EDUARDO FERREIRA MARINS",
+        "data": "2017-03-23",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "CARLOS EDUARDO FERREIRA MARINS",
+        "data": "2022-12-19",
+        "destino": "TRT22"
+      },
+      {
+        "nome": "JOYCE QUEIROZ",
+        "data": "2023-08-02",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JUCELINO COSTA DE OLIVEIRA",
+        "data": "2017-04-23",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
+        "data": "2018-08-23",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
+        "data": "2023-08-24",
+        "destino": "Interno (TRT16)"
+      },
+      {
+        "nome": "MARCELO HENRIQUE DE OLIVEIRA LIMA",
+        "data": "2021-10-15",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ROGÉRIO CARVALHO DOS SANTOS",
+        "data": "2023-09-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "TICIANE ANDRADE AGUIAR",
+        "data": "2021-07-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "TICIANE ANDRADE AGUIAR",
+        "data": "2022-04-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
     "orgao": "trt2",
-    "total": 8,
+    "total": 9,
     "details": [
       {
         "nome": "ADRIANO CESAR DE OLIVEIRA",
@@ -4400,6 +4257,11 @@
         "destino": "aposentadoria"
       },
       {
+        "nome": "NOBUYUKI YOSHIDA",
+        "data": "2022-06-21",
+        "destino": "Aposentadoria"
+      },
+      {
         "nome": "RILMA APARECIDA HEMETÉRIO",
         "data": "2021-09-20",
         "destino": "posse em outro cargo inacumulável"
@@ -4408,6 +4270,52 @@
         "nome": "THIAGO VIANA FERNANDES",
         "data": "2011-11-21",
         "destino": "aposentadoria"
+      }
+    ]
+  },
+  {
+    "orgao": "trt10",
+    "total": 8,
+    "details": [
+      {
+        "nome": "ALBERIQUE PINHEIRO NETO",
+        "data": "2022-12-05",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "ALEX AUGUSTUS MELO DE ANDRADE",
+        "data": "2020-12-21",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "FERNANDO CHAVARRY DA SILVA",
+        "data": "2022-12-05",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "FLAVIA GONTIJO CORREA",
+        "data": "2022-12-05",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "MARCELA GOMES CORREA",
+        "data": "2019-03-24",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "MARCELA GOMES CORREA",
+        "data": "2024-03-04",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MARIA EULILIA CAVALCANTE AMORIM PONTES",
+        "data": "2022-12-05",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "MAURILIO COSTA DA SILVA",
+        "data": "2023-03-13",
+        "destino": "posse em outro cargo"
       }
     ]
   },
@@ -4458,157 +4366,162 @@
     ]
   },
   {
-    "orgao": "trt10",
-    "total": 7,
+    "orgao": "trt15",
+    "total": 8,
     "details": [
       {
-        "nome": "ALBERIQUE PINHEIRO NETO",
-        "data": "2022-12-05",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "ALEX AUGUSTUS MELO DE ANDRADE",
-        "data": "2020-12-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "FERNANDO CHAVARRY DA SILVA",
-        "data": "2022-12-05",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "FLAVIA GONTIJO CORREA",
-        "data": "2022-12-05",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "MARCELA GOMES CORREA",
-        "data": "2019-03-24",
+        "nome": "GABRIEL BRESSANE SILVA",
+        "data": "2013-03-24",
         "destino": "posse em outro cargo inacumulável"
       },
       {
-        "nome": "MARIA EULILIA CAVALCANTE AMORIM PONTES",
-        "data": "2022-12-05",
-        "destino": "aposentadoria"
+        "nome": "GABRIEL BRESSANE SILVA",
+        "data": "2024-03-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MAURILIO COSTA DA SILVA",
-        "data": "2023-03-13",
-        "destino": "posse em outro cargo"
+        "nome": "GEAN RIBEIRO DOS SANTOS",
+        "data": "2021-07-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JOSÉ CARLOS DA SILVA",
+        "data": "2023-08-30",
+        "destino": "falecimento"
+      },
+      {
+        "nome": "LUCAS DE OLIVEIRA",
+        "data": "2013-07-21",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "LUCAS DE OLIVEIRA",
+        "data": "2021-07-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "SAULO VALIM",
+        "data": "2020-11-24",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "SAULO VALIM",
+        "data": "2024-11-20",
+        "destino": "posse em outro cargo inacumulável"
       }
     ]
   },
   {
-    "orgao": "trt7",
-    "total": 7,
-    "details": [
-      {
-        "nome": "EDSON ELIAS DOS REIS",
-        "data": "2024-02-09",
-        "destino": "TRT3"
-      },
-      {
-        "nome": "FELLYPPE CARLOS SANTOS DE LIMA",
-        "data": "2021-11-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FILIPE SAMPAIO CANITO",
-        "data": "2022-01-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEONARDO DE SOUSA DIAS",
-        "data": "2023-07-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MANOEL MARIANO SIQUEIRA JUNIOR",
-        "data": "2022-04-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Matrícula Siape",
-        "data": "2023-08-22",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RAYRONE ZIRTANY NUNES MARQUES",
-        "data": "2021-01-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt16",
+    "orgao": "trt23",
     "total": 6,
     "details": [
       {
-        "nome": "CARLOS EDUARDO FERREIRA MARINS",
-        "data": "2022-12-19",
+        "nome": "ALEXANDRE ANTONIO SIMOES DE ALMEIDA",
+        "data": "2020-04-03",
+        "destino": "exoneração a pedido"
+      },
+      {
+        "nome": "CLAUDIO SANTANA DE VASCONCELOS",
+        "data": "2017-07-11",
+        "destino": "falecimento"
+      },
+      {
+        "nome": "DANIEL ALVES DA FONSECA MACIEL",
+        "data": "2020-11-09",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "JOYCE QUEIROZ",
-        "data": "2023-08-02",
+        "nome": "GHANEM YOUSSEF ARFOX",
+        "data": "2020-03-02",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "JOÃO BATISTA ARAUJO BARBOSA JUNIOR",
+        "data": "2022-07-05",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
-        "data": "2023-08-24",
-        "destino": "Interno (TRT16)"
-      },
-      {
-        "nome": "MARCELO HENRIQUE DE OLIVEIRA LIMA",
-        "data": "2021-10-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ROGÉRIO CARVALHO DOS SANTOS",
-        "data": "2023-09-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "TICIANE ANDRADE AGUIAR",
-        "data": "2022-04-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "NAIR MONEGAT CAVALHEIRO",
+        "data": "2021-11-19",
+        "destino": "falecimento"
       }
     ]
   },
   {
-    "orgao": "trt24",
-    "total": 5,
+    "orgao": "trt18",
+    "total": 6,
     "details": [
       {
-        "nome": "CRISTINA GARCIA GOMES OLIVEIRA",
-        "data": "2022-03-22",
-        "destino": "Interno (TRT24)"
-      },
-      {
-        "nome": "DERIK NOVAES CARDOSO",
-        "data": "2023-05-08",
+        "nome": "ALÍPIO CORREIA MENDES",
+        "data": "2021-10-08",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "EDMUNDO BORGES DO AMARAL JUNIOR",
-        "data": "2021-09-30",
-        "destino": "Interno (TRT24)"
+        "nome": "DANILO RODRIGUES DE CARVALHO",
+        "data": "2021-06-28",
+        "destino": "posse em outro cargo"
       },
       {
-        "nome": "GABRIEL PEREIRA DE OLIVEIRA ALENCAR",
-        "data": "2023-08-17",
-        "destino": "Interno (TRT24)"
+        "nome": "IL JOSÉ OLIVEIRA",
+        "data": "2022-01-25",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "TIAGO DE NOVAIS SILVEIRA",
-        "data": "2022-02-07",
+        "nome": "LUCAS CAMARGO CARDOSO",
+        "data": "2022-01-28",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LUCAS CAMARGO CARDOSO",
+        "data": "2022-06-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "RUI MOREIRA DE OLIVEIRA",
+        "data": "2010-12-21",
+        "destino": "aposentadoria"
+      }
+    ]
+  },
+  {
+    "orgao": "trt19",
+    "total": 6,
+    "details": [
+      {
+        "nome": "ANDERSON FÉLIX DA SILVA",
+        "data": "2023-11-22",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "DAVID JONES FERREIRA DE LUCENA",
+        "data": "2010-11-21",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "EDUARDO DE OLIVEIRA VASCONCELOS",
+        "data": "2011-11-22",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "JOYCE QUEIROZ",
+        "data": "2023-04-27",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JOYCE QUEIROZ E SILVA",
+        "data": "2023-05-02",
+        "destino": "posse em outro cargo"
+      },
+      {
+        "nome": "LUÍS CARLOS MOREIRA SILVA JÚNIOR",
+        "data": "2023-09-08",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
   },
   {
     "orgao": "trt1",
-    "total": 5,
+    "total": 6,
     "details": [
       {
         "nome": "EDITH MARIA CORRÊA TOURINHO",
@@ -4619,6 +4532,11 @@
         "nome": "EDITH TOURINHO",
         "data": "2016-02-22",
         "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "JOAO RAUL JARDIM MENESES",
+        "data": "2021-11-30",
+        "destino": "TRE-PE"
       },
       {
         "nome": "LUCAS BARRETO MENDES",
@@ -4638,174 +4556,49 @@
     ]
   },
   {
-    "orgao": "trt8",
+    "orgao": "Ministério da Gestão e da Inovação em Serviços Públicos",
     "total": 5,
     "details": [
       {
-        "nome": "EWERTON ALMEIDA SILVA",
-        "data": "2023-02-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "ALTAMIR ARAUJO GUIMARÃES JUNIOR",
+        "data": "2023-02-13",
+        "destino": "Serviços Públicos/Secretaria de Gestão Corporativa/Departamento de Gestão de Pessoas/Coordenação-Geral de Gestão de Pess"
       },
       {
-        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
-        "data": "2023-02-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "FÁBIO RODRIGO DA COSTA DIAS",
+        "data": "2023-02-08",
+        "destino": "Serviços Públicos/Secretaria de Gestão Corporativa/Departamento de Gestão de Pessoas URL: http://www"
       },
       {
-        "nome": "PAULO VINICIUS NASCIMENTO SANTOS DE CARVALHO",
-        "data": "2023-05-09",
-        "destino": "TRT"
+        "nome": "MARCELA GOMES CORRÊA",
+        "data": "2023-05-30",
+        "destino": "Serviços Públicos/Secretaria de Gestão Corporativa/Diretoria de Gestão de Pessoas/Coordenação-Geral de Gestão de Pessoas"
       },
       {
-        "nome": "RAPHAEL EUSTÁQUIO ALVES VILELA",
-        "data": "2021-09-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "PEDRO PAULO MENDES PEREIRA",
+        "data": "2023-03-20",
+        "destino": "Serviços Públicos/Secretaria de Gestão Corporativa/Departamento de Gestão de Pessoas/Coordenação-Geral de Gestão de Pess"
       },
       {
-        "nome": "RENAN COUTINHO DINIZ",
-        "data": "2023-06-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt23",
-    "total": 4,
-    "details": [
-      {
-        "nome": "ALEXANDRE ANTONIO SIMOES DE ALMEIDA",
-        "data": "2020-04-03",
-        "destino": "exoneração a pedido"
-      },
-      {
-        "nome": "CLAUDIO SANTANA DE VASCONCELOS",
-        "data": "2017-07-11",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "GHANEM YOUSSEF ARFOX",
-        "data": "2020-03-02",
-        "destino": "Interno (TRT23)"
-      },
-      {
-        "nome": "NAIR MONEGAT CAVALHEIRO",
-        "data": "2021-11-19",
-        "destino": "falecimento"
-      }
-    ]
-  },
-  {
-    "orgao": "trt4",
-    "total": 4,
-    "details": [
-      {
-        "nome": "ALEXANDRE KUPAC",
-        "data": "2010-05-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "FELIPE PETERSEN",
-        "data": "2021-02-09",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "GUILHERME COSTA MACIEL",
-        "data": "2018-05-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "KLAUS ALBERT SPITZ ENGELMANN",
-        "data": "2021-02-09",
-        "destino": "exoneração"
-      }
-    ]
-  },
-  {
-    "orgao": "trt18",
-    "total": 4,
-    "details": [
-      {
-        "nome": "ALÍPIO CORREIA MENDES",
-        "data": "2021-10-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "DANILO RODRIGUES DE CARVALHO",
-        "data": "2021-07-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "IL JOSÉ OLIVEIRA",
-        "data": "2022-01-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUCAS CAMARGO CARDOSO",
-        "data": "2022-01-28",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt19",
-    "total": 4,
-    "details": [
-      {
-        "nome": "ANDERSON FÉLIX DA SILVA",
-        "data": "2023-11-22",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "DAVID JONES FERREIRA DE LUCENA",
-        "data": "2010-11-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "EDUARDO DE OLIVEIRA VASCONCELOS",
-        "data": "2011-11-22",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "JOYCE QUEIROZ E SILVA",
-        "data": "2023-05-02",
-        "destino": "posse em outro cargo"
-      }
-    ]
-  },
-  {
-    "orgao": "trt16",
-    "total": 4,
-    "details": [
-      {
-        "nome": "CARLOS EDUARDO FERREIRA MARINS",
-        "data": "2017-03-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "JUCELINO COSTA DE OLIVEIRA",
-        "data": "2017-04-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
-        "data": "2018-08-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "TICIANE ANDRADE AGUIAR",
-        "data": "2021-07-22",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "ROGÉRIO SOUZA MASCARENHAS",
+        "data": "2023-07-10",
+        "destino": "Serviços Públicos/Secretaria de Governo Digital URL: http://www"
       }
     ]
   },
   {
     "orgao": "trt13",
-    "total": 4,
+    "total": 5,
     "details": [
       {
         "nome": "CRISTIANO LIMA SOBRINHO",
         "data": "2022-08-23",
         "destino": "falecimento"
+      },
+      {
+        "nome": "GABRIEL ROLETO CARDOSO",
+        "data": "2024-03-01",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
         "nome": "GLEISSON DE SOUZA FFREITAS",
@@ -4825,92 +4618,40 @@
     ]
   },
   {
-    "orgao": "trt14",
-    "total": 4,
+    "orgao": "trt17",
+    "total": 5,
     "details": [
       {
-        "nome": "FELYPP DE ASSIS OLIVEIRA",
-        "data": "2021-10-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JOAQUIM SILVA MENEZES",
-        "data": "2023-04-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARCO AURELIO SHIBAYAMA",
-        "data": "2021-11-04",
-        "destino": "Interno (TRT14)"
-      },
-      {
-        "nome": "WINDSON DE SOUSA VIANA",
-        "data": "2022-12-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt15",
-    "total": 4,
-    "details": [
-      {
-        "nome": "GABRIEL BRESSANE SILVA",
-        "data": "2013-03-24",
+        "nome": "DENILSON DE ALBUQUERQUE CARVALHO",
+        "data": "2012-01-24",
         "destino": "posse em outro cargo inacumulável"
       },
       {
-        "nome": "JOSÉ CARLOS DA SILVA",
-        "data": "2023-08-30",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "LUCAS DE OLIVEIRA",
-        "data": "2013-07-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "SAULO VALIM",
-        "data": "2024-11-20",
-        "destino": "posse em outro cargo inacumulável"
-      }
-    ]
-  },
-  {
-    "orgao": "trt15",
-    "total": 4,
-    "details": [
-      {
-        "nome": "GABRIEL BRESSANE SILVA",
-        "data": "2024-03-13",
+        "nome": "DISPENSAR ROSA CRISTINA RIBEIRO PAIVA",
+        "data": "2023-01-20",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "GEAN RIBEIRO DOS SANTOS",
-        "data": "2021-07-29",
+        "nome": "ELIAS CORREA SILVA",
+        "data": "2023-10-11",
+        "destino": "posse em outro cargo"
+      },
+      {
+        "nome": "RAQUEL VITÓRIA DA SILVA CASTELO BRANCO",
+        "data": "2022-10-21",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LUCAS DE OLIVEIRA",
-        "data": "2021-07-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "SAULO VALIM",
-        "data": "2020-11-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "ÁREA APOIO ESPECIALIZADO",
+        "data": "2023-07-11",
+        "destino": "TRT20"
       }
     ]
   },
   {
     "orgao": "trt6",
-    "total": 3,
+    "total": 5,
     "details": [
-      {
-        "nome": "ANDERSON DA SILVA SANTOS",
-        "data": "2023-06-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
       {
         "nome": "DIANA RUBIA RODRIGUES RICARDO",
         "data": "2023-09-01",
@@ -4920,76 +4661,7 @@
         "nome": "DIOGO COUCEIRO LEMOS",
         "data": "2023-02-16",
         "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt23",
-    "total": 3,
-    "details": [
-      {
-        "nome": "DANIEL ALVES DA FONSECA MACIEL",
-        "data": "2020-11-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
-      {
-        "nome": "GHANEM YOUSSEF ARFOX",
-        "data": "2020-03-05",
-        "destino": "TRT23"
-      },
-      {
-        "nome": "JOÃO BATISTA ARAUJO BARBOSA JUNIOR",
-        "data": "2022-07-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt18",
-    "total": 3,
-    "details": [
-      {
-        "nome": "DANILO RODRIGUES DE CARVALHO",
-        "data": "2021-06-28",
-        "destino": "posse em outro cargo"
-      },
-      {
-        "nome": "LUCAS CAMARGO CARDOSO",
-        "data": "2022-06-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "RUI MOREIRA DE OLIVEIRA",
-        "data": "2010-12-21",
-        "destino": "aposentadoria"
-      }
-    ]
-  },
-  {
-    "orgao": "trt17",
-    "total": 3,
-    "details": [
-      {
-        "nome": "Dispensar Rosa Cristina Ribeiro Paiva",
-        "data": "2023-01-20",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Raquel Vitória Da Silva Castelo Branco",
-        "data": "2022-10-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Área Apoio Especializado",
-        "data": "2023-07-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt6",
-    "total": 3,
-    "details": [
       {
         "nome": "EDNALDO DIAS DA SILVA",
         "data": "2022-07-07",
@@ -5004,6 +4676,272 @@
         "nome": "FLORISVALDA RODRIGUES DOS SANTOS",
         "data": "2024-08-22",
         "destino": "aposentadoria"
+      }
+    ]
+  },
+  {
+    "orgao": "Ministério da Ciência, Tecnologia e Inovações",
+    "total": 5,
+    "details": [
+      {
+        "nome": "JACKSON EMANUEL BENEVIDES PRADO JÚNIOR",
+        "data": "2022-03-21",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RENATO ARCHER",
+        "data": "2020-11-11",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "RENATO ARCHER",
+        "data": "2021-06-09",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "RENATO ARCHER",
+        "data": "2021-09-30",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "RENATO ARCHER",
+        "data": "2022-03-31",
+        "destino": "Aposentadoria"
+      }
+    ]
+  },
+  {
+    "orgao": "trt20",
+    "total": 4,
+    "details": [
+      {
+        "nome": "AIRTON ANTONIO DE JESUS JUNIOR",
+        "data": "2023-06-21",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "JOSE LUIZ DE OLIVEIRA",
+        "data": "2020-10-21",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "LEONARDO ARAUJO ZOEHLER BRUM",
+        "data": "2023-06-15",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "YURI RANIERI WANDERLEY KOYANAGI",
+        "data": "2015-09-21",
+        "destino": "falecimento"
+      }
+    ]
+  },
+  {
+    "orgao": "tre-ap",
+    "total": 4,
+    "details": [
+      {
+        "nome": "ALEXANDRE MATOS DE ARAUJO",
+        "data": "2022-09-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LÍVIO CORRÊA CARNEIRO",
+        "data": "2021-12-09",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "RENAN COUTINHO DINIZ",
+        "data": "2023-06-01",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "WAINNER BRUM CAETANO",
+        "data": "2021-01-12",
+        "destino": "TRT14"
+      }
+    ]
+  },
+  {
+    "orgao": "trt5",
+    "total": 4,
+    "details": [
+      {
+        "nome": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
+        "data": "2012-06-23",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
+        "data": "2023-06-12",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ELZITA DE ANDRADE FRANCO BRANDÃO",
+        "data": "2022-08-01",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "MARCUS FLAVIUS BORBA LINS DA SILVA",
+        "data": "2023-01-13",
+        "destino": "aposentadoria"
+      }
+    ]
+  },
+  {
+    "orgao": "tre-mt",
+    "total": 4,
+    "details": [
+      {
+        "nome": "GUILHERME DE OLIVEIRA FALCÃO",
+        "data": "2022-05-25",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LASTENYA PEREIRA DA SILVEIRA",
+        "data": "2021-11-12",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LUÍS ANTÔNIO RIGOTTI",
+        "data": "2023-02-16",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ROBERTO RODRIGUES RENOVATO",
+        "data": "2021-12-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "Ministério da Ciência, Tecnologia, Inovações e Comunicações",
+    "total": 4,
+    "details": [
+      {
+        "nome": "RENATO ARCHER",
+        "data": "2019-04-29",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "RENATO ARCHER",
+        "data": "2019-10-22",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "RENATO ARCHER",
+        "data": "2020-06-25",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "YURI NUNES RANGEL COSTA",
+        "data": "2020-07-21",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "trt22",
+    "total": 3,
+    "details": [
+      {
+        "nome": "ALÉSSIO ANUNCIADO SILVA",
+        "data": "2023-03-21",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LUCAS ALÉSSIO ANUNCIADO SILVA",
+        "data": "2023-03-21",
+        "destino": "posse em outro cargo"
+      },
+      {
+        "nome": "NÃO IDENTIFICADO",
+        "data": "2023-04-04",
+        "destino": "TRF2"
+      }
+    ]
+  },
+  {
+    "orgao": "trt9",
+    "total": 3,
+    "details": [
+      {
+        "nome": "CION AYRES DO NASCIMENTO",
+        "data": "2022-11-03",
+        "destino": "exoneração a pedido"
+      },
+      {
+        "nome": "RODRIGO NOHLACK CORREA CESAR",
+        "data": "2013-12-22",
+        "destino": "posse em outro cargo inacumulável"
+      },
+      {
+        "nome": "RODRIGO NOHLACK CORREA CESAR",
+        "data": "2022-12-13",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "trt24",
+    "total": 3,
+    "details": [
+      {
+        "nome": "EDMUNDO BORGES DO AMARAL JUNIOR",
+        "data": "2021-09-30",
+        "destino": "Interno (TRT24)"
+      },
+      {
+        "nome": "JACIRA ROSA DOS SANTOS ALVES",
+        "data": "2023-04-20",
+        "destino": "aposentadoria"
+      },
+      {
+        "nome": "TIAGO DE NOVAIS SILVEIRA",
+        "data": "2022-02-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "tre-pa",
+    "total": 3,
+    "details": [
+      {
+        "nome": "ELVIS RODRIGUES RIBEIRO SILVA",
+        "data": "2020-11-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
+        "data": "2022-06-20",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
+        "data": "2022-08-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "Tribunal de Justiça do Distrito Federal e dos Territórios",
+    "total": 3,
+    "details": [
+      {
+        "nome": "JAIRO SIMÃO SANTANA MELO",
+        "data": "2023-02-09",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "NÃO IDENTIFICADO",
+        "data": "2024-02-26",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ÁREA JUDICIÁRIA",
+        "data": "2019-11-11",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
   },
@@ -5029,206 +4967,194 @@
     ]
   },
   {
-    "orgao": "trt20",
+    "orgao": "Superior Tribunal Militar",
     "total": 2,
     "details": [
       {
-        "nome": "AIRTON ANTONIO DE JESUS JUNIOR",
-        "data": "2023-06-21",
+        "nome": "ADRIANO CESAR DE OLIVEIRA",
+        "data": "2024-02-08",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "LEONARDO ARAUJO ZOEHLER BRUM",
-        "data": "2023-06-15",
+        "nome": "ALESSANDRO COELHO PORTO",
+        "data": "2023-02-14",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
   },
   {
-    "orgao": "trt5",
+    "orgao": "tre-ce",
     "total": 2,
     "details": [
       {
-        "nome": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
-        "data": "2012-06-23",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "ALBERTO SAMPAIO DE ARAÚJO NETO",
+        "data": "2019-05-03",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "MARCUS FLAVIUS BORBA LINS DA SILVA",
-        "data": "2023-01-13",
-        "destino": "aposentadoria"
+        "nome": "ERICK TEIXEIRA BARRETO",
+        "data": "2021-12-01",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
   },
   {
-    "orgao": "trt5",
+    "orgao": "trf6",
     "total": 2,
     "details": [
       {
-        "nome": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
-        "data": "2023-06-12",
+        "nome": "CASSIO ALVES DE OLIVEIRA",
+        "data": "2024-01-30",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       },
       {
-        "nome": "Elzita De Andrade Franco Brandão",
-        "data": "2022-08-01",
+        "nome": "GUSTAVO EMANUEL OLIVEIRA BASTOS",
+        "data": "2024-01-29",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "tse",
+    "total": 2,
+    "details": [
+      {
+        "nome": "FRANKLEY FRANCOLINO DA ROCHA",
+        "data": "2021-01-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "ÁREA APOIO ESPECIALIZADO",
+        "data": "2020-11-27",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "tre-to",
+    "total": 2,
+    "details": [
+      {
+        "nome": "HEVERSON DE ALMEIDA BRAGA",
+        "data": "2023-10-02",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "HUDSON PENA MAGALHÃES",
+        "data": "2022-11-07",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "tre-pe",
+    "total": 2,
+    "details": [
+      {
+        "nome": "IARA DE MORAIS",
+        "data": "2023-05-18",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "JOÃO GABRIEL CORDEIRO D",
+        "data": "2021-01-18",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "tre-ba",
+    "total": 2,
+    "details": [
+      {
+        "nome": "JENVAL GONÇALVES DE FARIAS",
+        "data": "2023-10-24",
+        "destino": "Aposentadoria"
+      },
+      {
+        "nome": "LEVI LOPES SOARES",
+        "data": "2020-09-18",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "Ministério da Justiça e Segurança Pública",
+    "total": 2,
+    "details": [
+      {
+        "nome": "JOAO PAULO MONTENEGRO COELHO",
+        "data": "2023-07-06",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      },
+      {
+        "nome": "MÁRIO OLIVEIRA CANOSSI",
+        "data": "2024-02-08",
+        "destino": "Outro Órgão (Cargo Inacumulável)"
+      }
+    ]
+  },
+  {
+    "orgao": "Ministério do Planejamento e Orçamento",
+    "total": 2,
+    "details": [
+      {
+        "nome": "LUCAS BENEVIDES DIAS",
+        "data": "2023-06-28",
+        "destino": "Poder Legislativo"
+      },
+      {
+        "nome": "SUPERINTENDÊNCIA ESTADUAL DO IBGE",
+        "data": "2024-01-12",
+        "destino": "Morrinhos, do(a) Superintendência Estadual do IBGE em Goiás, FCE - 1"
+      }
+    ]
+  },
+  {
+    "orgao": "trf2",
+    "total": 2,
+    "details": [
+      {
+        "nome": "MÁRCIO MAGALHÃES DE ANDRADE SILVA",
+        "data": "2021-11-12",
+        "destino": "TRT8"
+      },
+      {
+        "nome": "SUELI DA SILVA GUILHERME CALMON",
+        "data": "2022-12-15",
         "destino": "Aposentadoria"
       }
     ]
   },
   {
-    "orgao": "trt22",
-    "total": 2,
+    "orgao": "tre-am",
+    "total": 1,
     "details": [
       {
-        "nome": "Aléssio Anunciado Silva",
-        "data": "2023-03-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "Não identificado",
-        "data": "2023-04-04",
-        "destino": "TRT17"
-      }
-    ]
-  },
-  {
-    "orgao": "trt9",
-    "total": 2,
-    "details": [
-      {
-        "nome": "CION AYRES DO NASCIMENTO",
-        "data": "2022-11-03",
-        "destino": "exoneração a pedido"
-      },
-      {
-        "nome": "RODRIGO NOHLACK CORREA CESAR",
-        "data": "2013-12-22",
-        "destino": "posse em outro cargo inacumulável"
-      }
-    ]
-  },
-  {
-    "orgao": "trt17",
-    "total": 2,
-    "details": [
-      {
-        "nome": "DENILSON DE ALBUQUERQUE CARVALHO",
-        "data": "2012-01-24",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "ELIAS CORREA SILVA",
-        "data": "2023-10-11",
-        "destino": "posse em outro cargo"
-      }
-    ]
-  },
-  {
-    "orgao": "trt20",
-    "total": 2,
-    "details": [
-      {
-        "nome": "JOSE LUIZ DE OLIVEIRA",
-        "data": "2020-10-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "YURI RANIERI WANDERLEY KOYANAGI",
-        "data": "2015-09-21",
-        "destino": "falecimento"
-      }
-    ]
-  },
-  {
-    "orgao": "trt19",
-    "total": 2,
-    "details": [
-      {
-        "nome": "JOYCE QUEIROZ",
-        "data": "2023-04-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUÍS CARLOS MOREIRA SILVA JÚNIOR",
-        "data": "2023-09-08",
+        "nome": "APOIO ESPECIALIZADO",
+        "data": "2024-03-11",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
   },
   {
-    "orgao": "trt13",
+    "orgao": "Entidades de Fiscalização do Exercício das Profissões Liberais",
     "total": 1,
     "details": [
       {
-        "nome": "GABRIEL ROLETO CARDOSO",
-        "data": "2024-03-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "ASSESSOR ANALISTA I",
+        "data": "2021-04-12",
+        "destino": "conjunto com a Secretária da Autarquia, no uso de suas competências legais e regimentais conferidas na Lei nº 5"
       }
     ]
   },
   {
-    "orgao": "trt24",
+    "orgao": "trf5",
     "total": 1,
     "details": [
       {
-        "nome": "JACIRA ROSA DOS SANTOS ALVES",
-        "data": "2023-04-20",
-        "destino": "aposentadoria"
-      }
-    ]
-  },
-  {
-    "orgao": "trt1",
-    "total": 1,
-    "details": [
-      {
-        "nome": "JOAO RAUL JARDIM MENESES",
-        "data": "2021-11-30",
-        "destino": "TRT"
-      }
-    ]
-  },
-  {
-    "orgao": "trt22",
-    "total": 1,
-    "details": [
-      {
-        "nome": "LUCAS ALÉSSIO ANUNCIADO SILVA",
-        "data": "2023-03-21",
-        "destino": "posse em outro cargo"
-      }
-    ]
-  },
-  {
-    "orgao": "trt10",
-    "total": 1,
-    "details": [
-      {
-        "nome": "MARCELA GOMES CORREA",
-        "data": "2024-03-04",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt2",
-    "total": 1,
-    "details": [
-      {
-        "nome": "Nobuyuki Yoshida",
-        "data": "2022-06-21",
-        "destino": "Aposentadoria"
-      }
-    ]
-  },
-  {
-    "orgao": "trt9",
-    "total": 1,
-    "details": [
-      {
-        "nome": "RODRIGO NOHLACK CORREA CESAR",
-        "data": "2022-12-13",
+        "nome": "CLEIRTON MONTE DE SOUSA",
+        "data": "2023-05-16",
         "destino": "Outro Órgão (Cargo Inacumulável)"
       }
     ]
