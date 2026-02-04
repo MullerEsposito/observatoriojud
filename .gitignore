@@ -25,7 +25,6 @@ share/python-wheels/
 MANIFEST
 
 # Cache and local files
-cache/
 .bd_project_id
 .env
 
