@@ -224,6 +224,12 @@ def find_trt_context(text: str) -> str:
 
     if re.search(r"TRIBUNAL\s+REGIONAL\s+ELEITORAL", text, re.IGNORECASE):
         return "TRE"
+
+    # TSE/TST
+    if re.search(r"TRIBUNAL\s+SUPERIOR\s+ELEITORAL", text, re.IGNORECASE):
+        return "TSE"
+    if re.search(r"TRIBUNAL\s+SUPERIOR\s+DO\s+TRABALHO", text, re.IGNORECASE):
+        return "TST"
         
     return "DESCONHECIDO"
 

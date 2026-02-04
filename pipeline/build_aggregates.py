@@ -143,6 +143,20 @@ def categorize_destino(destino: str) -> str:
 def normalize_orgao(orgao: str) -> str:
     orgao_upper = orgao.upper().strip()
 
+    # Órgãos Superiores e Conselhos
+    if orgao_upper in ["STF", "SUPREMO TRIBUNAL FEDERAL"]:
+        return "stf"
+    if orgao_upper in ["CNJ", "CONSELHO NACIONAL DE JUSTIÇA"]:
+        return "cnj"
+    if orgao_upper in ["STJ", "SUPERIOR TRIBUNAL DE JUSTIÇA"]:
+        return "stj"
+    if orgao_upper in ["STM", "SUPERIOR TRIBUNAL MILITAR"]:
+        return "stm"
+    if orgao_upper in ["TSE", "TRIBUNAL SUPERIOR ELEITORAL"]:
+        return "tse"
+    if orgao_upper in ["TST", "TRIBUNAL SUPERIOR DO TRABALHO"]:
+        return "tst"
+
     # TRT: Numerico (14) ou Prefixo (TRT14)
     if orgao.isdigit():
         return f"trt{orgao}"
@@ -221,12 +235,19 @@ def build_outputs(events: List[Event], out_dir: str):
         aggregated_by_label[orgao_label].extend(items)
 
     top_orgaos = []
+    # Órgãos do judiciário federal permitidos
+    ALLOWED_PREFIXES = ["stf", "cnj", "stj", "stm", "tse", "tst", "trt", "trf", "tre"]
+
     for label, items in aggregated_by_label.items():
-        top_orgaos.append({
-            "orgao": label,
-            "total": len(items),
-            "details": items
-        })
+        # Filtra apenas os órgãos solicitados
+        is_allowed = any(label.startswith(p) for p in ALLOWED_PREFIXES)
+
+        if is_allowed:
+            top_orgaos.append({
+                "orgao": label,
+                "total": len(items),
+                "details": items
+            })
     
     top_orgaos.sort(key=lambda x: x["total"], reverse=True)
     top_orgaos = top_orgaos[:50] # Increase limit to show more organs
