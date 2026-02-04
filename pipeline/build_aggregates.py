@@ -1,8 +1,19 @@
 import json
+import re
 from collections import Counter, defaultdict
 from typing import List
 from datetime import datetime
 from detect_events import Event
+
+STATES_MAP = {
+    "ACRE": "ac", "ALAGOAS": "al", "AMAPÁ": "ap", "AMAZONAS": "am",
+    "BAHIA": "ba", "CEARÁ": "ce", "DISTRITO FEDERAL": "df", "ESPÍRITO SANTO": "es",
+    "GOIÁS": "go", "MARANHÃO": "ma", "MATO GROSSO": "mt", "MATO GROSSO DO SUL": "ms",
+    "MINAS GERAIS": "mg", "PARÁ": "pa", "PARAÍBA": "pb", "PARANÁ": "pr",
+    "PERNAMBUCO": "pe", "PIAUÍ": "pi", "RIO DE JANEIRO": "rj", "RIO GRANDE DO NORTE": "rn",
+    "RIO GRANDE DO SUL": "rs", "RONDÔNIA": "ro", "RORAIMA": "rr", "SANTA CATARINA": "sc",
+    "SÃO PAULO": "sp", "SERGIPE": "se", "TOCANTINS": "to"
+}
 
 def write_json(path: str, obj):
     with open(path, "w", encoding="utf-8") as f:
@@ -34,8 +45,8 @@ def deduplicate_events(events: List[Event]) -> List[Event]:
             deduplicated.append(e)
             continue
             
-        # Key includes TRT and type to allow fast transitions between different seats
-        key = (e.nome, e.trt, e.tipo)
+        # Key includes orgao and type to allow fast transitions between different seats
+        key = (e.nome, e.orgao, e.tipo)
         
         if key in last_event_by_name:
             last_date, last_ref_date = last_event_by_name[key]
@@ -67,12 +78,12 @@ def match_destinations(events: List[Event]) -> List[Event]:
     evasions = [e for e in events if e.tipo == "evasão"]
     entries = [e for e in events if e.tipo == "ingresso"]
     
-    # Mapeia ingressos por nome para busca rápida: nome -> lista de (data_obj, trt)
+    # Mapeia ingressos por nome para busca rápida: nome -> lista de (data_obj, orgao)
     entry_map = defaultdict(list)
     for en in entries:
         try:
             d_obj = datetime.strptime(en.date, "%Y-%m-%d")
-            entry_map[en.nome].append((d_obj, en.trt))
+            entry_map[en.nome].append((d_obj, en.orgao))
         except:
             continue
             
@@ -90,17 +101,19 @@ def match_destinations(events: List[Event]) -> List[Event]:
                 continue
                 
             # Procura nomeação ocorrida em uma janela de 45 dias
-            for en_date, en_trt in entry_map[ev.nome]:
+            for en_date, en_orgao in entry_map[ev.nome]:
                 diff = abs((ev_date - en_date).days)
                 if diff <= 45:
                     # Helper to format organ name
                     def format_organ(o):
+                        if o.startswith("trt") or o.startswith("trf") or o.startswith("tre"):
+                            return o.upper()
                         return f"TRT{o}" if o.isdigit() else o
 
-                    if ev.trt == en_trt:
-                        ev.destino = f"Interno ({format_organ(en_trt)})"
+                    if ev.orgao == en_orgao:
+                        ev.destino = f"Interno ({format_organ(en_orgao)})"
                     else:
-                        ev.destino = format_organ(en_trt)
+                        ev.destino = format_organ(en_orgao)
                         
                     ev.confidence += "_matched"
                     matched_count += 1
@@ -127,6 +140,66 @@ def categorize_destino(destino: str) -> str:
     else:
         return "outros órgãos"
 
+def normalize_orgao(orgao: str) -> str:
+    orgao_upper = orgao.upper().strip()
+
+    # Órgãos Superiores e Conselhos
+    if orgao_upper in ["STF", "SUPREMO TRIBUNAL FEDERAL"]:
+        return "stf"
+    if orgao_upper in ["CNJ", "CONSELHO NACIONAL DE JUSTIÇA"]:
+        return "cnj"
+    if orgao_upper in ["STJ", "SUPERIOR TRIBUNAL DE JUSTIÇA"]:
+        return "stj"
+    if orgao_upper in ["STM", "SUPERIOR TRIBUNAL MILITAR"]:
+        return "stm"
+    if orgao_upper in ["TSE", "TRIBUNAL SUPERIOR ELEITORAL"]:
+        return "tse"
+    if orgao_upper in ["TST", "TRIBUNAL SUPERIOR DO TRABALHO"]:
+        return "tst"
+
+    # TRT: Numerico (14) ou Prefixo (TRT14)
+    if orgao.isdigit():
+        return f"trt{orgao}"
+    elif orgao_upper.startswith("TRT") and any(c.isdigit() for c in orgao):
+        # Remove espaços e hífens para padronizar TRT 14 -> trt14
+        return orgao_upper.replace(" ", "").replace("-", "").lower()
+
+    # TRF: Regionalizado (trf1, trf2...)
+    elif orgao_upper.startswith("TRF"):
+        return orgao_upper.replace(" ", "").replace("-", "").lower()
+    elif "TRIBUNAL REGIONAL FEDERAL" in orgao_upper:
+        m = re.search(r"(\d{1,2})", orgao_upper)
+        return f"trf{m.group(1)}" if m else "trf_indefinido"
+
+    # TRE: Regionalizado (tre-sp, tre-rj...)
+    elif orgao_upper.startswith("TRE"):
+        # Extrai o estado (pode ser sigla ou nome completo)
+        # Remove o prefixo TRE e qualquer hífen/espaço
+        state_part = re.sub(r"^TRE[\s-]*", "", orgao_upper).strip()
+        if not state_part:
+            return "tre_indefinido"
+        else:
+            # Tenta mapear se for nome completo, senão usa o que sobrou (sigla?)
+            abbr = STATES_MAP.get(state_part, state_part.lower())
+            return f"tre-{abbr}"
+    elif "TRIBUNAL REGIONAL ELEITORAL" in orgao_upper:
+        # Tenta achar o estado no nome longo usando o STATES_MAP
+        # Ordena por tamanho decrescente para pegar match mais longo (ex: Mato Grosso do Sul antes de Mato Grosso)
+        found_state = None
+        sorted_names = sorted(STATES_MAP.keys(), key=len, reverse=True)
+        for name in sorted_names:
+            if name in orgao_upper:
+                found_state = STATES_MAP[name]
+                break
+        return f"tre-{found_state}" if found_state else "tre_indefinido"
+
+    # Genérico ou outros
+    elif orgao_upper in ["TRT", "TRIBUNAL REGIONAL DO TRABALHO", "DESCONHECIDO"]:
+        return "trt_indefinido"
+    else:
+        # Outros órgãos
+        return orgao.lower() if len(orgao) < 15 else orgao
+
 def build_outputs(events: List[Event], out_dir: str):
     from collections import Counter, defaultdict
     
@@ -148,43 +221,33 @@ def build_outputs(events: List[Event], out_dir: str):
         if "Não informado" in dest_display or "Desconhecido" in dest_display:
             dest_display = "Outro Órgão"
 
-        trts_agg[e.trt].append({
+        trts_agg[e.orgao].append({
             "nome": e.nome,
             "data": e.date,
             "destino": dest_display
         })
         
-    # Agrega e formata o ranking
-    top_orgaos = []
+    # Agrega e formata o ranking por orgao_label (ex: TRT14 e 14 -> trt14)
+    # Isso garante que diferentes nomes para o mesmo órgão sejam agrupados
+    aggregated_by_label = defaultdict(list)
     for orgao, items in trts_agg.items():
-        # TRT: Numerico (14) ou Prefixo (TRT14)
-        if orgao.isdigit():
-            orgao_label = f"trt{orgao}"
-        elif orgao.upper().startswith("TRT") and any(c.isdigit() for c in orgao):
-            orgao_label = orgao.lower()
-            
-        # TRF: Prefixo TRF (TRF1)
-        elif orgao.upper().startswith("TRF"):
-            orgao_label = orgao.lower()
-            
-        # TRE: Prefixo TRE (TRE SP -> tre_sp)
-        elif orgao.upper().startswith("TRE"):
-            # Normalize spaces/dashes to underscore
-            clean_tre = orgao.replace(" ", "_").replace("-", "_")
-            orgao_label = clean_tre.lower()
-            
-        # Genérico ou outros
-        elif orgao.upper() == "TRT":
-            orgao_label = "trt_indefinido"
-        else:
-            # Outros órgãos (mantém original, mas talvez lowercase?)
-            orgao_label = orgao.lower() if len(orgao) < 10 else orgao
+        orgao_label = normalize_orgao(orgao)
+        aggregated_by_label[orgao_label].extend(items)
 
-        top_orgaos.append({
-            "orgao": orgao_label,
-            "total": len(items),
-            "details": items
-        })
+    top_orgaos = []
+    # Órgãos do judiciário federal permitidos
+    ALLOWED_PREFIXES = ["stf", "cnj", "stj", "stm", "tse", "tst", "trt", "trf", "tre"]
+
+    for label, items in aggregated_by_label.items():
+        # Filtra apenas os órgãos solicitados
+        is_allowed = any(label.startswith(p) for p in ALLOWED_PREFIXES)
+
+        if is_allowed:
+            top_orgaos.append({
+                "orgao": label,
+                "total": len(items),
+                "details": items
+            })
     
     top_orgaos.sort(key=lambda x: x["total"], reverse=True)
     top_orgaos = top_orgaos[:50] # Increase limit to show more organs

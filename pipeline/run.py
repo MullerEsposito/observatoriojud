@@ -68,7 +68,7 @@ def main():
     event_dicts = []
     for e in events:
         d = {
-            "trt": e.trt,
+            "orgao": e.orgao,
             "destino": e.destino,
             "date": e.date,
             "mes": e.mes,

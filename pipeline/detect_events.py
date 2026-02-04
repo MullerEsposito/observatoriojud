@@ -42,7 +42,7 @@ def get_nlp():
 
 @dataclass
 class Event:
-    trt: str
+    orgao: str
     destino: str
     date: str   # YYYY-MM-DD
     mes: str    # YYYY-MM
@@ -203,8 +203,35 @@ def find_trt_context(text: str) -> str:
     m2 = re.search(r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})", text, re.IGNORECASE)
     if m2:
         return f"TRT{m2.group(1)}"
+
+    # TRF Match
+    m3 = re.search(r"\bTRF[-\s]?(\d{1,2})\b", text, re.IGNORECASE)
+    if m3:
+        return f"TRF{m3.group(1)}"
+
+    m4 = re.search(r"TRIBUNAL\s+REGIONAL\s+FEDERAL\s+DA\s+(\d{1,2})", text, re.IGNORECASE)
+    if m4:
+        return f"TRF{m4.group(1)}"
+
+    # TRE Match
+    m5 = re.search(r"TRIBUNAL\s+REGIONAL\s+ELEITORAL\s+(?:DO|DA|DE)\s+([A-ZÀ-Ú ]+)", text, re.IGNORECASE)
+    if m5:
+        state_name = m5.group(1).split("/")[0].strip()
+        state_name = re.sub(r"Estado\s+(?:do|da|de)\s+", "", state_name, flags=re.IGNORECASE)
+        # Take up to 4 words for state name (catches "MATO GROSSO DO SUL")
+        state_name = " ".join(state_name.split()[:4])
+        return f"TRE {state_name}"
+
+    if re.search(r"TRIBUNAL\s+REGIONAL\s+ELEITORAL", text, re.IGNORECASE):
+        return "TRE"
+
+    # TSE/TST
+    if re.search(r"TRIBUNAL\s+SUPERIOR\s+ELEITORAL", text, re.IGNORECASE):
+        return "TSE"
+    if re.search(r"TRIBUNAL\s+SUPERIOR\s+DO\s+TRABALHO", text, re.IGNORECASE):
+        return "TST"
         
-    return "TRT"
+    return "DESCONHECIDO"
 
 def split_blocks(text: str) -> List[str]:
     # Quebra por linhas “fortes”; dá pra melhorar depois
@@ -236,7 +263,7 @@ def extract_destino(block: str) -> str:
 def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str) -> List[Event]:
     blocks = split_blocks(text)
     # Valor inicial (fallback)
-    trt = find_trt_context(text)
+    orgao_val = find_trt_context(text)
     mes = date_yyyy_mm_dd[:7]
 
     out: List[Event] = []
@@ -245,13 +272,14 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
     header_regex = r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})\b"
     
     # Regex para capturar metadado ORGAO inserido pelo ingest_dou.py
-    orgao_meta_regex = r"^ORGAO:\s*(.*)$"
+    # Como split_blocks remove quebras de linha, procuramos ORGAO em qualquer lugar do bloco
+    orgao_meta_regex = r"ORGAO:\s*(.*?)(?:\s+URL:|\s+---|$)"
 
     for b in blocks:
         bnorm = norm(b)
         
         # 0) Contexto: Tenta pegar do metadado ORGAO primeiro (mais confiável para DOU)
-        m_orgao = re.search(orgao_meta_regex, b, re.MULTILINE)
+        m_orgao = re.search(orgao_meta_regex, b, re.IGNORECASE)
         if m_orgao:
             raw_orgao = m_orgao.group(1).strip()
             
@@ -270,26 +298,28 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
             m_tse = re.search(r"Tribunal\s+Superior\s+Eleitoral", raw_orgao, re.IGNORECASE)
 
             if m_trt_num:
-                trt = f"{m_trt_num.group(1)}" 
+                orgao_val = f"trt{m_trt_num.group(1)}"
             elif m_trf_num:
-                trt = f"TRF{m_trf_num.group(1)}"
+                orgao_val = f"trf{m_trf_num.group(1)}"
             elif m_tre:
                 state_name = m_tre.group(1).split("/")[0].strip()
                 # Remove "Estado do"
                 state_name = re.sub(r"Estado\s+(?:do|da|de)\s+", "", state_name, flags=re.IGNORECASE)
-                trt = f"TRE {state_name}"
+                # Take up to 4 words for state name
+                state_name = " ".join(state_name.split()[:4])
+                orgao_val = f"tre-{state_name}"
             elif m_tse:
-                trt = "TSE"
+                orgao_val = "tse"
             else:
                 # Remove prefixes
                 cleaned = raw_orgao.replace("Poder Judiciário/", "").split("/")[0].strip()
-                trt = cleaned
+                orgao_val = cleaned
         
         # Se não achou no metadado, tenta procurar no texto (cabeçalho padrão de PDF)
         # Note: cabeçalhos de TRF/TRE podem variar, vamos focar no metadado pois vem do DOU estruturado
         m_head = re.search(header_regex, bnorm, re.IGNORECASE)
-        if m_head and trt == "TRT": # Só sobrescreve se ainda for o default genérico
-            trt = f"{m_head.group(1)}"
+        if m_head and orgao_val == "DESCONHECIDO": # Só sobrescreve se ainda for o default genérico
+            orgao_val = f"trt{m_head.group(1)}"
         
         # 1) filtros de exclusão (Retificação)
         if contains_any(bnorm, rules.get("skip_patterns", [])):
@@ -385,7 +415,7 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
             continue
 
         out.append(Event(
-            trt=trt,
+            orgao=orgao_val,
             destino=destino or "Desconhecido",
             date=data_efetiva,
             mes=data_efetiva[:7],
