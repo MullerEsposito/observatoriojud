@@ -203,8 +203,21 @@ def find_trt_context(text: str) -> str:
     m2 = re.search(r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})", text, re.IGNORECASE)
     if m2:
         return f"TRT{m2.group(1)}"
+
+    # TRF Match
+    m3 = re.search(r"\bTRF[-\s]?(\d{1,2})\b", text, re.IGNORECASE)
+    if m3:
+        return f"TRF{m3.group(1)}"
+
+    m4 = re.search(r"TRIBUNAL\s+REGIONAL\s+FEDERAL\s+DA\s+(\d{1,2})", text, re.IGNORECASE)
+    if m4:
+        return f"TRF{m4.group(1)}"
+
+    # TRE Match (Simplified in text, metadata is better)
+    if re.search(r"TRIBUNAL\s+REGIONAL\s+ELEITORAL", text, re.IGNORECASE):
+        return "TRE"
         
-    return "TRT"
+    return "DESCONHECIDO"
 
 def split_blocks(text: str) -> List[str]:
     # Quebra por linhas “fortes”; dá pra melhorar depois
@@ -245,13 +258,14 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
     header_regex = r"TRIBUNAL\s+REGIONAL\s+DO\s+TRABALHO\s+DA\s+(\d{1,2})\b"
     
     # Regex para capturar metadado ORGAO inserido pelo ingest_dou.py
-    orgao_meta_regex = r"^ORGAO:\s*(.*)$"
+    # Como split_blocks remove quebras de linha, procuramos ORGAO em qualquer lugar do bloco
+    orgao_meta_regex = r"ORGAO:\s*(.*?)(?:\s+URL:|\s+---|$)"
 
     for b in blocks:
         bnorm = norm(b)
         
         # 0) Contexto: Tenta pegar do metadado ORGAO primeiro (mais confiável para DOU)
-        m_orgao = re.search(orgao_meta_regex, b, re.MULTILINE)
+        m_orgao = re.search(orgao_meta_regex, b, re.IGNORECASE)
         if m_orgao:
             raw_orgao = m_orgao.group(1).strip()
             
@@ -288,7 +302,7 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
         # Se não achou no metadado, tenta procurar no texto (cabeçalho padrão de PDF)
         # Note: cabeçalhos de TRF/TRE podem variar, vamos focar no metadado pois vem do DOU estruturado
         m_head = re.search(header_regex, bnorm, re.IGNORECASE)
-        if m_head and trt == "TRT": # Só sobrescreve se ainda for o default genérico
+        if m_head and trt == "DESCONHECIDO": # Só sobrescreve se ainda for o default genérico
             trt = f"{m_head.group(1)}"
         
         # 1) filtros de exclusão (Retificação)

@@ -176,7 +176,7 @@ def build_outputs(events: List[Event], out_dir: str):
             orgao_label = "tre"
             
         # Genérico ou outros
-        elif orgao_upper == "TRT" or "TRIBUNAL REGIONAL DO TRABALHO" in orgao_upper:
+        elif orgao_upper in ["TRT", "TRIBUNAL REGIONAL DO TRABALHO", "DESCONHECIDO"]:
             orgao_label = "trt_indefinido"
         else:
             # Outros órgãos
