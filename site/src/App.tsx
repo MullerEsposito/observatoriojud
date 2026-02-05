@@ -68,7 +68,7 @@ export default function App() {
   const barOrgaos = useMemo(() => {
     const sorted = [...topOrgaos].sort((a, b) => b.total - a.total); // decrescente
     return sorted.map((r, i) => ({
-      label: `${i + 1}º ${r.orgao.toUpperCase()}`,
+      label: `${i + 1}º|${r.orgao.toUpperCase()}`,
       value: r.total,
       details: r.details,
     }));
@@ -140,7 +140,7 @@ export default function App() {
               <ChartBar
                 rows={[...barDestinos]
                   .sort((a, b) => b.value - a.value)
-                  .map((r, i) => ({ ...r, label: `${i + 1}º ${r.label}` }))}
+                  .map((r, i) => ({ ...r, label: `${i + 1}º|${r.label}` }))}
               />
             </Panel>
 

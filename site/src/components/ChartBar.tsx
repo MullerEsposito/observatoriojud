@@ -27,7 +27,8 @@ export function ChartBar({ rows, height = 320 }: { rows: Row[]; height?: number 
       axisPointer: { type: "shadow" },
       formatter: (params: any) => {
         const p = params[0];
-        return `<strong>${p.name}</strong><br/>Total: ${p.value}<br/><span style="font-size:11px;color:#93a4bd">Clique para detalhes</span>`;
+        const name = p.name.includes('|') ? p.name.split('|')[1] : p.name;
+        return `<strong>${name}</strong><br/>Total: ${p.value}<br/><span style="font-size:11px;color:#93a4bd">Clique para detalhes</span>`;
       }
     },
     grid: { left: 24, right: 18, top: 10, bottom: 28, containLabel: true },
@@ -53,7 +54,29 @@ export function ChartBar({ rows, height = 320 }: { rows: Row[]; height?: number 
       type: "category",
       inverse: true,
       data: labels,
-      axisLabel: { color: "rgba(231,237,247,0.8)", width: 160, overflow: "truncate" },
+      axisLabel: {
+        color: "rgba(231,237,247,0.8)",
+        width: 160,
+        overflow: "truncate",
+        formatter: (value: string) => {
+          const [rank, name] = value.split('|');
+          if (name) {
+            return `{rank|${rank}}{name|${name}}`;
+          }
+          return value;
+        },
+        rich: {
+          rank: {
+            width: 35,
+            align: 'left',
+            color: "rgba(231,237,247,0.4)",
+          },
+          name: {
+            width: 125,
+            align: 'right',
+          }
+        }
+      },
       axisLine: { lineStyle: { color: "rgba(255,255,255,0.12)" } },
     },
     series: [
@@ -82,7 +105,7 @@ export function ChartBar({ rows, height = 320 }: { rows: Row[]; height?: number 
       {expandedRow && expandedRow.details && (
         <div className="servantList">
           <div style={{ fontSize: 11, color: "var(--muted)", marginBottom: 4, fontWeight: 700 }}>
-            SERVIDORES EM {expandedLabel}:
+            SERVIDORES EM {expandedLabel?.includes('|') ? expandedLabel.split('|')[1] : expandedLabel}:
           </div>
           {expandedRow.details.map((d, i) => (
             <div key={i} className="servantItem">
