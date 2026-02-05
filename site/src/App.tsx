@@ -139,13 +139,12 @@ export default function App() {
             <Panel title="Top destinos (fora do Judiciário)">
               <ChartBar
                 rows={[...barDestinos]
-                  .sort((a, b) => b.value - a.value)
-                  .map((r, i) => ({ ...r, label: `${i + 1}º|${r.label}` }))}
+                  .sort((a, b) => b.value - a.value)}
               />
             </Panel>
 
             <Panel title="Evasões (origem)">
-              <ChartBar rows={barOrgaos} height={400} />
+              <ChartBar rows={barOrgaos} height={400} showRanking />
             </Panel>
           </div>
         </main>

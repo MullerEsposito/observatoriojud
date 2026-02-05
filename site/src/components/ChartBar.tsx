@@ -7,7 +7,7 @@ type Row = {
   details?: { nome: string; data: string; destino?: string }[]
 };
 
-export function ChartBar({ rows, height = 320 }: { rows: Row[]; height?: number }) {
+export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Row[]; height?: number; showRanking?: boolean }) {
   const [expandedLabel, setExpandedLabel] = useState<string | null>(null);
 
   const labels = rows.map((r) => r.label);
@@ -58,24 +58,26 @@ export function ChartBar({ rows, height = 320 }: { rows: Row[]; height?: number 
         color: "rgba(231,237,247,0.8)",
         width: 160,
         overflow: "truncate",
-        formatter: (value: string) => {
-          const [rank, name] = value.split('|');
-          if (name) {
-            return `{rank|${rank}}{name|${name}}`;
-          }
-          return value;
-        },
-        rich: {
-          rank: {
-            width: 35,
-            align: 'left',
-            color: "rgba(231,237,247,0.4)",
+        ...(showRanking && {
+          formatter: (value: string) => {
+            const [rank, name] = value.split('|');
+            if (name) {
+              return `{rank|${rank}}{name|${name}}`;
+            }
+            return value;
           },
-          name: {
-            width: 125,
-            align: 'right',
+          rich: {
+            rank: {
+              width: 35,
+              align: 'left',
+              color: "rgba(231,237,247,0.4)",
+            },
+            name: {
+              width: 125,
+              align: 'right',
+            }
           }
-        }
+        })
       },
       axisLine: { lineStyle: { color: "rgba(255,255,255,0.12)" } },
     },
