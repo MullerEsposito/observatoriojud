@@ -33,9 +33,9 @@ def query_dou_history(
     use_cache=True
 ):
     """
-    Query DOU for TRT personnel events (nominations, vacancies, etc.)
+    Query DOU for personnel events (nominations, vacancies, etc.)
     """
-    cache_name = f"dou_historical_{start_date.replace('-', '')}_{end_date.replace('-', '')}.parquet"
+    cache_name = f"dou_historical_without_judiciary_{start_date.replace('-', '')}_{end_date.replace('-', '')}.parquet"
     cache_path = os.path.join(CACHE_DIR, cache_name)
     
     if use_cache and os.path.exists(cache_path):
@@ -49,39 +49,13 @@ def query_dou_history(
     print(f"🔍 Consultando DOU BigQuery ({start_date} a {end_date})...")
     print(f"🔑 Projeto: {project_id}\n")
     
-    # SQL expanded to catch nominations in ANY federal organ (for cross-matching)
-    # plus any TRT-related personnel acts.
     query = f"""
-    SELECT 
-        data_publicacao,
-        secao,
-        orgao,
-        texto_completo as texto,
-        url
+    SELECT data_publicacao, secao, orgao, texto_completo as texto, url
     FROM `basedosdados.br_imprensa_nacional_dou.secao_2` 
     WHERE data_publicacao BETWEEN '{start_date}' AND '{end_date}'
-      AND (
-        -- 1. All Judiciary acts (TRT, TRF, TRE)
-        LOWER(orgao) LIKE '%tribunal regional do trabalho%'
-        OR LOWER(texto_completo) LIKE '%tribunal regional do trabalho%'
-        OR LOWER(orgao) LIKE '%tribunal regional federal%'
-        OR LOWER(texto_completo) LIKE '%tribunal regional federal%'
-        OR LOWER(orgao) LIKE '%tribunal regional eleitoral%'
-        OR LOWER(texto_completo) LIKE '%tribunal regional eleitoral%'
-        
-        -- 2. Broad Federal nominations/possessions with TI keywords
-        OR (
-          (LOWER(texto_completo) LIKE '%nomea%' OR LOWER(texto_completo) LIKE '%posse%')
-          AND (
-            LOWER(texto_completo) LIKE '%tecnologia da informação%'
-            OR LOWER(texto_completo) LIKE '%informática%'
-            OR LOWER(texto_completo) LIKE '%analista de sistemas%'
-            OR LOWER(texto_completo) LIKE '%desenvolvimento de sistemas%'
-            OR LOWER(texto_completo) LIKE '%infraestrutura de ti%'
-            OR LOWER(texto_completo) LIKE '%segurança da informação%'
-          )
-        )
-      )
+      -- 1. Fora do Judiciário
+      AND LOWER(orgao) NOT LIKE '%poder judiciário%'
+      -- 2. Movimentação funcional
       AND (
         LOWER(texto_completo) LIKE '%vago%'
         OR LOWER(texto_completo) LIKE '%exonera%'

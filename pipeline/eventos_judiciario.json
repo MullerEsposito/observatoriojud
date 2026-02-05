@@ -1,0 +1,16 @@
+[
+  {
+  "date": "YYYY-MM-DD",
+  "name": "NOME",
+  "type": "ingresso",
+  "orgao": "trt23",
+  "role": "Técnico Judiciário - Área de Apoio Especializado - Especialidade Tecnologia da Informação"
+},
+{
+  "date": "YYYY-MM-DD",
+  "name": "NOME",
+  "type": "saída",
+  "orgao": "trt23",
+  "role": "Analista Judiciário - Área de Apoio Especializado - Especialidade Tecnologia da Informação"
+}
+]

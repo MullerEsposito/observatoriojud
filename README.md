@@ -13,7 +13,7 @@ O foco é fornecer **dados agregados, auditáveis e metodologicamente defensáve
 Um evento é considerado **evasão** quando:
 
 - o servidor pertence ao **quadro efetivo** de um órgão do Poder Judiciário, **E**
-- exerce função/cargo relacionado à **Tecnologia da Informação**, **E**
+- exerce cargo relacionado à **Tecnologia da Informação**, **E**
 - ocorre **saída definitiva do quadro**, **E**
 - a saída ocorre por:
   - **Aposentadoria**
