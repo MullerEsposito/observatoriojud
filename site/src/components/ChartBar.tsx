@@ -51,6 +51,7 @@ export function ChartBar({ rows, height = 320 }: { rows: Row[]; height?: number 
     },
     yAxis: {
       type: "category",
+      inverse: true,
       data: labels,
       axisLabel: { color: "rgba(231,237,247,0.8)", width: 160, overflow: "truncate" },
       axisLine: { lineStyle: { color: "rgba(255,255,255,0.12)" } },

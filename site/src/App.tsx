@@ -66,8 +66,12 @@ export default function App() {
   );
 
   const barOrgaos = useMemo(() => {
-    const sorted = [...topOrgaos].sort((a, b) => a.total - b.total); // crescente para aparecer no topo
-    return sorted.map((r) => ({ label: r.orgao.toUpperCase(), value: r.total, details: r.details }));
+    const sorted = [...topOrgaos].sort((a, b) => b.total - a.total); // decrescente
+    return sorted.map((r, i) => ({
+      label: `${i + 1}º ${r.orgao.toUpperCase()}`,
+      value: r.total,
+      details: r.details,
+    }));
   }, [topOrgaos]);
 
   if (loading) {
@@ -133,7 +137,11 @@ export default function App() {
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
             <Panel title="Top destinos (fora do Judiciário)">
-              <ChartBar rows={[...barDestinos].sort((a, b) => a.value - b.value)} />
+              <ChartBar
+                rows={[...barDestinos]
+                  .sort((a, b) => b.value - a.value)
+                  .map((r, i) => ({ ...r, label: `${i + 1}º ${r.label}` }))}
+              />
             </Panel>
 
             <Panel title="Evasões (origem)">
