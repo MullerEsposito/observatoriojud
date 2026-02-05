@@ -4,7 +4,7 @@ import ReactECharts from "echarts-for-react";
 type Row = {
   label: string;
   value: number;
-  details?: { nome: string; data: string; destino?: string }[]
+  details?: { nome: string; data: string; destino?: string; role?: string }[]
 };
 
 export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Row[]; height?: number; showRanking?: boolean }) {
@@ -117,6 +117,8 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
               </span>
 
               <div className="servantTooltip">
+                <span className="tooltipTitle">Cargo Identificado</span>
+                <span className="tooltipContent">{d.role || "Não identificado"}</span>
                 <span className="tooltipTitle">Data do Ato</span>
                 <span className="tooltipContent">{d.data.split("-").reverse().join("/")}</span>
                 <span className="tooltipTitle">Destino</span>

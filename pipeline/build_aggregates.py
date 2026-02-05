@@ -224,7 +224,8 @@ def build_outputs(events: List[Event], out_dir: str):
         trts_agg[e.orgao].append({
             "nome": e.nome,
             "data": e.date,
-            "destino": dest_display
+            "destino": dest_display,
+            "role": e.role
         })
         
     # Agrega e formata o ranking por orgao_label (ex: TRT14 e 14 -> trt14)

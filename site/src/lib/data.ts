@@ -3,7 +3,7 @@ export type TopDestinoRow = { destino: string; total: number };
 export type TopOrgaoRow = {
   orgao: string;
   total: number;
-  details?: { nome: string; data: string; destino: string }[];
+  details?: { nome: string; data: string; destino: string; role?: string }[];
 };
 
 async function loadJson<T>(path: string): Promise<T> {

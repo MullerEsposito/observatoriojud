@@ -49,6 +49,7 @@ class Event:
     confidence: str  # "confirmada"
     source_pdf: str
     nome: str = "" # New field
+    role: str = "" # Job role field
     ref_date: str = "" # Reference publication date cited in text
     tipo: str = "evasão" # "evasão" or "ingresso"
 
@@ -76,6 +77,30 @@ BLACKLIST = [
     "INCISO", "ALÍNEA", "ARTIGO", "ART.", "RUBRICA", "PARÁGRAFO",
     "NÍVEL SUPERIOR", "NÍVEL INTERMEDIÁRIO", "NIVEL SUPERIOR", "NIVEL INTERMEDIARIO"
 ]
+
+def extract_role(block: str) -> str:
+    """
+    Extracts the job role from the text block.
+    """
+    # Patterns for Brazilian Judicial and Public Roles
+    patterns = [
+        # Match common roles with their areas/specialties
+        r"(?:cargo\s+de\s+)?((?:Analista|T[ée]cnico|Auxiliar)\s+Judici[áa]rio(?:\s*[,-]\s*[^;.]+)?)"
+    ]
+
+    for p in patterns:
+        m = re.search(p, block, re.IGNORECASE)
+        if m:
+            role = m.group(1).strip()
+            # Clean up trailing noise (common in administrative acts)
+            role = re.split(r",?\s+do\s+Quadro", role, flags=re.IGNORECASE)[0]
+            role = re.split(r",?\s+n[íi]vel", role, flags=re.IGNORECASE)[0]
+            role = re.split(r",?\s+da\s+Secretaria", role, flags=re.IGNORECASE)[0]
+            role = re.split(r",?\s+matr[íi]cula", role, flags=re.IGNORECASE)[0]
+            # Strip trailing dots or spaces
+            return role.strip(". ")
+
+    return "Não identificado"
 
 def extract_nome(block: str) -> str:
     # List of patterns to find names in administrative acts
@@ -332,23 +357,34 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
         if not is_saida and not is_ingresso:
             continue
             
+        # 4) Extrair nome da pessoa (O SUJEITO)
+        nome_pessoa = extract_nome(bnorm) or "Não identificado"
+
+        # 4.1) Extrair cargo (ROLE)
+        cargo = extract_role(bnorm)
+
         if not contains_any(bnorm, rules["ti_keywords"]):
             continue
 
-        # FILTRO EXTRA: Evitar falsos positivos de outros cargos (Oficial de Justiça, etc.)
-        # Se o texto contém termos de TI mas também contém termos de outros cargos FORTES,
-        # e o termo de cargo for o mais próximo do verbo, ignoramos.
-        non_ti_roles = ["OFICIAL DE JUSTIÇA", "ANALISTA JUDICIÁRIO - ÁREA JUDICIÁRIA", "MÉDICO", "ENFERMEIRO"]
-        if contains_any(bnorm, non_ti_roles):
-            # Se contém cargo não-TI, verificamos se o termo de TI é apenas ruído lateral
-            # (Ex: "Nomear X para Analista Judiciário que vagou por posse de Y [TI]")
-            # Se for esse o caso, o bloco pode ser complexo.
-            # Por segurança, se não houver citação EXPLICITA de TI vinculada ao cargo do sujeito:
-            if not re.search(r"TI|TECNOLOGIA|INFORMAÇÃO|INFORM[ÁA]TICA", bnorm, re.IGNORECASE):
-                 continue
+        # FILTRO DE CARGO: Apenas servidores de TI
+        # Se o cargo identificado contiver explicitamente áreas administrativas ou outras sem TI, ignoramos.
+        ti_keywords = rules.get("ti_keywords", [])
+        is_ti_role = contains_any(cargo, ti_keywords)
 
-        # 4) Extrair nome da pessoa (O SUJEITO)
-        nome_pessoa = extract_nome(bnorm) or "Não identificado"
+        # Se o cargo não é identificado ou não contém keywords de TI,
+        # mas o bloco contém TI keywords, pode ser que o cargo esteja mal extraído.
+        # No entanto, se o cargo for explicitamente ADMINISTRATIVO, devemos ignorar.
+        non_ti_patterns = ["ADMINISTRATIVA", "JUDICIÁRIA", "MÉDICO", "ENFERMEIRO", "OFICIAL DE JUSTIÇA", "ODONTÓLOGO", "PSICÓLOGO", "SOCIAL"]
+        if any(p in cargo.upper() for p in non_ti_patterns) and not is_ti_role:
+            continue
+
+        # Se não conseguimos identificar o cargo mas o bloco tem TI keywords,
+        # damos o benefício da dúvida apenas se não houver outros cargos fortes citados.
+        if cargo == "Não identificado":
+            if any(p in bnorm.upper() for p in non_ti_patterns):
+                # Se tem administrativ/judiciari no bloco e não identificamos cargo de TI, melhor ignorar
+                if not is_ti_role:
+                    continue
 
         # 5) destino + classificação
         destino = extract_destino(bnorm)
@@ -422,6 +458,7 @@ def detect_events(text: str, rules: Dict, date_yyyy_mm_dd: str, source_pdf: str)
             confidence=confidence,
             source_pdf=source_pdf,
             nome=nome_pessoa,
+            role=cargo,
             ref_date=extract_cited_date(bnorm, nome_pessoa) or "",
             tipo=tipo
         ))
