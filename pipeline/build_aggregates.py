@@ -1,9 +1,9 @@
 import json
 import re
+import os
 from collections import Counter, defaultdict
 from typing import List
 from datetime import datetime
-from detect_events import Event
 
 STATES_MAP = {
     "ACRE": "ac", "ALAGOAS": "al", "AMAPÁ": "ap", "AMAZONAS": "am",
@@ -16,131 +16,12 @@ STATES_MAP = {
 }
 
 def write_json(path: str, obj):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
 
-def deduplicate_events(events: List[Event]) -> List[Event]:
-    """
-    Remove eventos duplicados para o mesmo servidor em um intervalo de 30 dias.
-    Mantém apenas o registro mais antigo no período.
-    """
-    # Ordena por nome e data para processamento sequencial
-    events.sort(key=lambda x: (x.nome, x.date))
-    
-    deduplicated = []
-    last_event_by_name = {} # (nome, trt, tipo) -> (data, ref_date)
-    
-    print(f"🧹 Deduplicando {len(events)} eventos...")
-    removed_count = 0
-    
-    for e in events:
-        if not e.nome or e.nome == "Não identificado":
-            deduplicated.append(e)
-            continue
-            
-        try:
-            current_date = datetime.strptime(e.date, "%Y-%m-%d")
-        except:
-            # Fallback se a data estiver em formato ruim
-            deduplicated.append(e)
-            continue
-            
-        # Key includes orgao and type to allow fast transitions between different seats
-        key = (e.nome, e.orgao, e.tipo)
-        
-        if key in last_event_by_name:
-            last_date, last_ref_date = last_event_by_name[key]
-            
-            # Condição 1: Mesma data de referência (citação explícita)
-            if e.ref_date and (e.ref_date == last_ref_date or e.ref_date == last_date.strftime("%Y-%m-%d")):
-                removed_count += 1
-                continue
-                
-            # Condição 2: Regra de janela de 30 dias para o MESMO cargo/local
-            if (current_date - last_date).days < 30:
-                removed_count += 1
-                continue
-        
-        deduplicated.append(e)
-        last_event_by_name[key] = (current_date, e.ref_date)
-        
-    if removed_count > 0:
-        print(f"✅ {removed_count} duplicatas removidas (regra de 30 dias).")
-    
-    return deduplicated
-
-def match_destinations(events: List[Event]) -> List[Event]:
-    """
-    Tenta associar destinos para eventos de evasão baseando-se em nomeações
-    ocorridas em uma janela de 45 dias.
-    """
-    # Filtra por tipo
-    evasions = [e for e in events if e.tipo == "evasão"]
-    entries = [e for e in events if e.tipo == "ingresso"]
-    
-    # Mapeia ingressos por nome para busca rápida: nome -> lista de (data_obj, orgao)
-    entry_map = defaultdict(list)
-    for en in entries:
-        try:
-            d_obj = datetime.strptime(en.date, "%Y-%m-%d")
-            entry_map[en.nome].append((d_obj, en.orgao))
-        except:
-            continue
-            
-    matched_count = 0
-    for ev in evasions:
-        # Só tentamos se o destino é genérico/desconhecido
-        is_generic = "Não informado" in ev.destino or "Outro Órgão" in ev.destino or ev.destino == "Desconhecido"
-        if not is_generic:
-            continue
-            
-        if ev.nome in entry_map:
-            try:
-                ev_date = datetime.strptime(ev.date, "%Y-%m-%d")
-            except:
-                continue
-                
-            # Procura nomeação ocorrida em uma janela de 45 dias
-            for en_date, en_orgao in entry_map[ev.nome]:
-                diff = abs((ev_date - en_date).days)
-                if diff <= 45:
-                    # Helper to format organ name
-                    def format_organ(o):
-                        if o.startswith("trt") or o.startswith("trf") or o.startswith("tre"):
-                            return o.upper()
-                        return f"TRT{o}" if o.isdigit() else o
-
-                    if ev.orgao == en_orgao:
-                        ev.destino = f"Interno ({format_organ(en_orgao)})"
-                    else:
-                        ev.destino = format_organ(en_orgao)
-                        
-                    ev.confidence += "_matched"
-                    matched_count += 1
-                    break
-                    
-    if matched_count > 0:
-        print(f"🎯 {matched_count} destinos identificados via cruzamento de nomeações.")
-        
-    return evasions
-
-def categorize_destino(destino: str) -> str:
-    """
-    Categoriza destinos em 3 grupos:
-    - falecimento
-    - aposentadoria
-    - outros órgãos
-    """
-    destino_lower = destino.lower()
-    
-    if "falecimento" in destino_lower or "falec" in destino_lower or "óbito" in destino_lower:
-        return "falecimento"
-    elif "aposentadoria" in destino_lower or "aposentar" in destino_lower:
-        return "aposentadoria"
-    else:
-        return "outros órgãos"
-
 def normalize_orgao(orgao: str) -> str:
+    if not orgao: return "desconhecido"
     orgao_upper = orgao.upper().strip()
 
     # Órgãos Superiores e Conselhos
@@ -173,18 +54,12 @@ def normalize_orgao(orgao: str) -> str:
 
     # TRE: Regionalizado (tre-sp, tre-rj...)
     elif orgao_upper.startswith("TRE"):
-        # Extrai o estado (pode ser sigla ou nome completo)
-        # Remove o prefixo TRE e qualquer hífen/espaço
         state_part = re.sub(r"^TRE[\s-]*", "", orgao_upper).strip()
         if not state_part:
             return "tre_indefinido"
-        else:
-            # Tenta mapear se for nome completo, senão usa o que sobrou (sigla?)
-            abbr = STATES_MAP.get(state_part, state_part.lower())
-            return f"tre-{abbr}"
+        abbr = STATES_MAP.get(state_part, state_part.lower())
+        return f"tre-{abbr}"
     elif "TRIBUNAL REGIONAL ELEITORAL" in orgao_upper:
-        # Tenta achar o estado no nome longo usando o STATES_MAP
-        # Ordena por tamanho decrescente para pegar match mais longo (ex: Mato Grosso do Sul antes de Mato Grosso)
         found_state = None
         sorted_names = sorted(STATES_MAP.keys(), key=len, reverse=True)
         for name in sorted_names:
@@ -193,55 +68,53 @@ def normalize_orgao(orgao: str) -> str:
                 break
         return f"tre-{found_state}" if found_state else "tre_indefinido"
 
-    # Genérico ou outros
-    elif orgao_upper in ["TRT", "TRIBUNAL REGIONAL DO TRABALHO", "DESCONHECIDO"]:
-        return "trt_indefinido"
-    else:
-        # Outros órgãos
-        return orgao.lower() if len(orgao) < 15 else orgao
+    return orgao.lower()
 
-def build_outputs(events: List[Event], out_dir: str):
-    from collections import Counter, defaultdict
+def build_outputs(json_path: str, out_dir: str):
+    if not os.path.exists(json_path):
+        print(f"❌ Erro: {json_path} não encontrado.")
+        return
+
+    with open(json_path, 'r', encoding='utf-8') as f:
+        events = json.load(f)
+
+    # Filtrar apenas evasões
+    evasion_events = [e for e in events if e.get('type') == 'saída']
     
-    # 1. Deduplicação
-    events = deduplicate_events(events)
+    # 1. Série Mensal
+    by_month = Counter()
+    for e in evasion_events:
+        date = e.get('date', '2000-01-01')
+        mes = date[:7]
+        by_month[mes] += 1
     
-    # 2. Match de Destinos
-    evasion_events = match_destinations(events)
-    
-    # série mensal
-    by_month = Counter(e.mes for e in evasion_events)
     series = [{"mes": m, "evasoes": by_month[m]} for m in sorted(by_month.keys())]
 
-    # top trts with details
+    # 2. Top Órgãos (Origem)
     trts_agg = defaultdict(list)
     for e in evasion_events:
-        # Formata o destino para exibição amigável
-        dest_display = e.destino
-        if "Não informado" in dest_display or "Desconhecido" in dest_display:
-            dest_display = "Outro Órgão"
-
-        trts_agg[e.orgao].append({
-            "nome": e.nome,
-            "data": e.date,
-            "destino": dest_display
-        })
+        orgao_origem = e.get('orgao', 'desconhecido')
+        orgao_label = normalize_orgao(orgao_origem)
         
-    # Agrega e formata o ranking por orgao_label (ex: TRT14 e 14 -> trt14)
-    # Isso garante que diferentes nomes para o mesmo órgão sejam agrupados
-    aggregated_by_label = defaultdict(list)
-    for orgao, items in trts_agg.items():
-        orgao_label = normalize_orgao(orgao)
-        aggregated_by_label[orgao_label].extend(items)
+        # Formata o destino para exibição
+        dest = e.get('destino', 'Outro Órgão')
+        if not dest or dest == "Desconhecido":
+            dest = "Outro Órgão"
+            
+        trts_agg[orgao_label].append({
+            "nome": e.get('name', 'Não identificado'),
+            "data": e.get('date', ''),
+            "destino": dest,
+            "role": e.get('role', 'Não identificado'),
+            "motivo": e.get('motivo', 'Não identificado'),
+            "cargo_destino": e.get('cargo_destino', '')
+        })
 
     top_orgaos = []
-    # Órgãos do judiciário federal permitidos
     ALLOWED_PREFIXES = ["stf", "cnj", "stj", "stm", "tse", "tst", "trt", "trf", "tre"]
-
-    for label, items in aggregated_by_label.items():
-        # Filtra apenas os órgãos solicitados
+    
+    for label, items in trts_agg.items():
         is_allowed = any(label.startswith(p) for p in ALLOWED_PREFIXES)
-
         if is_allowed:
             top_orgaos.append({
                 "orgao": label,
@@ -250,16 +123,30 @@ def build_outputs(events: List[Event], out_dir: str):
             })
     
     top_orgaos.sort(key=lambda x: x["total"], reverse=True)
-    top_orgaos = top_orgaos[:50] # Increase limit to show more organs
 
-    # top destinos
+    # 3. Top Destinos (Categorizados)
     destino_categories = Counter()
     for e in evasion_events:
-        category = categorize_destino(e.destino)
-        destino_categories[category] += 1
+        dest = e.get('destino', '').lower()
+        if "falecimento" in dest:
+            cat = "falecimento"
+        elif "aposentadoria" in dest:
+            cat = "aposentadoria"
+        else:
+            cat = "outros órgãos"
+        destino_categories[cat] += 1
     
     top_destinos = [{"destino": k, "total": v} for k, v in destino_categories.most_common()]
 
-    write_json(f"{out_dir}/series_mensal.json", series)
-    write_json(f"{out_dir}/top_orgaos.json", top_orgaos)
-    write_json(f"{out_dir}/top_destinos.json", top_destinos)
+    # Escrever arquivos
+    write_json(os.path.join(out_dir, "series_mensal.json"), series)
+    write_json(os.path.join(out_dir, "top_orgaos.json"), top_orgaos)
+    write_json(os.path.join(out_dir, "top_destinos.json"), top_destinos)
+    
+    print(f"✅ Agregados gerados com sucesso em {out_dir}")
+
+if __name__ == "__main__":
+    build_outputs(
+        json_path="pipeline/eventos_judiciario.json",
+        out_dir="site/public/data"
+    )

@@ -1,27 +1,38 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import ReactECharts from "echarts-for-react";
 
 type Row = {
   label: string;
   value: number;
-  details?: { nome: string; data: string; destino?: string }[]
+  details?: {
+    nome: string;
+    data: string;
+    destino?: string;
+    role?: string;
+    motivo?: string;
+    cargo_destino?: string;
+  }[]
 };
 
 export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Row[]; height?: number; showRanking?: boolean }) {
   const [expandedLabel, setExpandedLabel] = useState<string | null>(null);
 
-  const labels = rows.map((r) => r.label);
-  const data = rows.map((r) => ({
+  const labels = useMemo(() => rows.map((r) => r.label), [rows]);
+  const data = useMemo(() => rows.map((r) => ({
     value: r.value,
     details: r.details,
-  }));
+    itemStyle: {
+      borderRadius: [0, 4, 4, 0],
+      color: r.label === expandedLabel ? "#4369ff" : "#3b82f6"
+    }
+  })), [rows, expandedLabel]);
 
   const onChartClick = (params: any) => {
     const clickedLabel = params.name;
     setExpandedLabel(prev => prev === clickedLabel ? null : clickedLabel);
   };
 
-  const option = {
+  const option = useMemo(() => ({
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
@@ -37,7 +48,7 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
         type: 'inside',
         yAxisIndex: 0,
         start: 0,
-        end: Math.min(100, (10 / labels.length) * 100), // Show 10 items initially
+        end: Math.min(100, (10 / labels.length) * 100),
         zoomOnMouseWheel: false,
         moveOnMouseWheel: true,
         moveOnMouseMove: false,
@@ -56,7 +67,7 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
       data: labels,
       axisLabel: {
         color: "rgba(231,237,247,0.8)",
-        width: 160,
+        width: 100,
         overflow: "truncate",
         ...(showRanking && {
           formatter: (value: string) => {
@@ -73,7 +84,7 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
               color: "rgba(231,237,247,0.4)",
             },
             name: {
-              width: 125,
+              width: 65,
               align: 'right',
             }
           }
@@ -86,15 +97,11 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
         type: "bar",
         data: data,
         barMaxWidth: 18,
-        itemStyle: {
-          borderRadius: [0, 4, 4, 0],
-          color: (params: any) => params.name === expandedLabel ? "#4369ff" : "#3b82f6"
-        }
       },
     ],
-  };
+  }), [labels, data, showRanking, expandedLabel]);
 
-  const expandedRow = rows.find(r => r.label === expandedLabel);
+  const expandedRow = useMemo(() => rows.find(r => r.label === expandedLabel), [rows, expandedLabel]);
 
   return (
     <div>
@@ -102,6 +109,8 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
         option={option}
         style={{ height, width: "100%" }}
         onEvents={{ 'click': onChartClick }}
+        notMerge={false}
+        lazyUpdate={true}
       />
 
       {expandedRow && expandedRow.details && (
@@ -117,10 +126,18 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
               </span>
 
               <div className="servantTooltip">
-                <span className="tooltipTitle">Data do Ato</span>
-                <span className="tooltipContent">{d.data.split("-").reverse().join("/")}</span>
+                <span className="tooltipTitle">Cargo Identificado</span>
+                <span className="tooltipContent" style={{ color: "#fff" }}>{d.role || "Não identificado"}</span>
+                <span className="tooltipTitle">Motivo da Saída</span>
+                <span className="tooltipContent" style={{ color: "#3b82f6", fontWeight: 700 }}>{d.motivo || "Não identificado"}</span>
                 <span className="tooltipTitle">Destino</span>
-                <span className="tooltipContent">{d.destino || "Outro Órgão"}</span>
+                <span className="tooltipContent" style={{ color: "#fff" }}>{d.destino || "Outro Órgão"}</span>
+                {d.cargo_destino && d.cargo_destino !== "Não identificado" && (
+                  <>
+                    <span className="tooltipTitle">Novo Cargo</span>
+                    <span className="tooltipContent" style={{ color: "#10b981" }}>{d.cargo_destino}</span>
+                  </>
+                )}
               </div>
             </div>
           ))}

@@ -48,6 +48,7 @@ def apply_ground_truth(events: List[Dict], ground_truth_path: str) -> List[Dict]
             "confidence": "ground_truth",
             "source_pdf": "DOU_AUDIT",
             "nome": gt.get("name", "").upper(),
+            "role": gt.get("role", "Não identificado"),
             "ref_date": gt.get("date", ""),
             "tipo": gt.get("type", "evasão")
         }

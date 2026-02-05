@@ -1,0 +1,2656 @@
+[
+  {
+    "date": "2021-08-31",
+    "name": "JOÃO PAULO DE ANDRADE CONTI",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Informática",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-08-31",
+    "name": "ERIKA FERRAZ CAMPOS FLORENTINO",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática",
+    "destino": "Tribunal de Contas da União",
+    "data_nomeacao": "2021-08-27",
+    "cargo_destino": "Auditor Federal de Controle Externo",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-09-03",
+    "name": "ANGELO LEMOS VIDAL DE NEGREIROS",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática (Desenvolvimento)"
+  },
+  {
+    "date": "2024-01-24",
+    "name": "LEANDRO CANGUSSU DE OLIVEIRA ROCHA",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2024-01-24",
+    "name": "RAFAEL TIUSSI BROSEGHINI",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2024-01-02",
+    "name": "MACIEL MESQUITA DE SOUSA",
+    "type": "saída",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2023-12-27",
+    "name": "PAULO JOSE ROLIM BRAGA FILHO",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática (Infraestrutura)"
+  },
+  {
+    "date": "2022-12-15",
+    "name": "PAOLO RICCARDO MIRANDA DE ARAUJO",
+    "type": "ingresso",
+    "orgao": "tre-rn",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática"
+  },
+  {
+    "date": "2022-05-12",
+    "name": "GUILHERME COSTA MACIEL",
+    "type": "saída",
+    "orgao": "trt4",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-05-16",
+    "name": "LEONARDO DOS SANTOS LAGE",
+    "type": "ingresso",
+    "orgao": "trt8",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-11-08",
+    "name": "CYRIUS GENNYSON PINTO DE ALMEIDA",
+    "type": "ingresso",
+    "orgao": "trt16",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-11-07",
+    "name": "ISABELLE CECILIA DE ANDRADE",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática"
+  },
+  {
+    "date": "2022-01-25",
+    "name": "LUCAS CAMARGO CARDOSO",
+    "type": "saída",
+    "orgao": "trt18",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional Eleitoral de São Paulo",
+    "data_nomeacao": "2021-12-29",
+    "cargo_destino": "Técnico Judiciário - Área Apoio Especializado - Especialidade Programação de Sistemas",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-05-12",
+    "name": "FERNANDO ANTONIO BOAVENTURA CERQUEIRA",
+    "type": "saída",
+    "orgao": "trt5",
+    "role": "Técnico Judiciário/Apoio Especializado/Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-06-15",
+    "name": "EDUARDO DA ROCHA PEREIRA",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário - Área de Apoio Especializado - Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-06-21",
+    "name": "DIOGO PIRES GILI",
+    "type": "saída",
+    "orgao": "trt4",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-06-23",
+    "name": "ISAAC LEAL DE ARGOLO",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-16",
+    "name": "EZEQUIEL LAGE DE CARVALHO ARAGÃO",
+    "type": "ingresso",
+    "orgao": "trt10",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-16",
+    "name": "DIEGO VIEIRA SOUTO",
+    "type": "ingresso",
+    "orgao": "trt10",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-07-09",
+    "name": "FRANCISCO WILTON MENDES DE SANTANA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática (Desenvolvimento)"
+  },
+  {
+    "date": "2021-05-03",
+    "name": "LUCAS DE OLIVEIRA",
+    "type": "saída",
+    "orgao": "trt15",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-06-28",
+    "name": "PAULO VINÍCIUS AFONSO COSTA",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-08-28",
+    "name": "DIEGO KOVAGS MOREIRA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2021-08-21",
+    "name": "HIAGO WILLIAM PETRIS",
+    "type": "saída",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-07-14",
+    "name": "RAFAEL MARDONES GOMES",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "Técnico Judiciário/Informática"
+  },
+  {
+    "date": "2022-10-24",
+    "name": "GABRIEL DOS SANTOS TAMBUR",
+    "type": "saída",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2022-10-25",
+    "name": "BRUNO ALEXANDRE BEZERRA DE AQUINO SIQUEIRA CAMPOS",
+    "type": "ingresso",
+    "orgao": "trt6",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-25",
+    "name": "EDUARDO FERREIRA DE SOUZA",
+    "type": "ingresso",
+    "orgao": "trt6",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-07-31",
+    "name": "LUIZ GUSTAVO COIMBRA DA SILVA",
+    "type": "saída",
+    "orgao": "trt6",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Exoneração (A pedido)"
+  },
+  {
+    "date": "2023-07-28",
+    "name": "ADRIANA MARA DE ALMEIDA SOUZA",
+    "type": "ingresso",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-07-28",
+    "name": "RANIERI BATISTA DA COSTA",
+    "type": "ingresso",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-02-11",
+    "name": "SAMYR ABDO NUNES RAIM BARBOSA",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática"
+  },
+  {
+    "date": "2022-02-11",
+    "name": "VITOR CORREA OLIVEIRA",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática"
+  },
+  {
+    "date": "2020-11-03",
+    "name": "MÁRCIO MAGALHÃES DE ANDRADE SILVA",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "Técnico Judiciário/Informática"
+  },
+  {
+    "date": "2020-11-03",
+    "name": "PAULO FERNANDO DA SILVA MARTINS",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-30",
+    "name": "JOAO RAUL JARDIM MENESES",
+    "type": "saída",
+    "orgao": "trt1",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade - Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional Eleitoral de Pernambuco",
+    "data_nomeacao": "2021-11-23",
+    "cargo_destino": "Analista Judiciário",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-01-26",
+    "name": "MARCELO SILVEIRA DOS SANTOS",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2019-11-14",
+    "name": "AMANDA BEZERRA DE LIMA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2019-11-14",
+    "name": "ALEXANDRE MARCOLINO ALVES",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2023-03-08",
+    "name": "LEONARDO CARDOSO MONTEIRO",
+    "type": "saída",
+    "orgao": "trt1",
+    "role": "Analista Judiciário - Apoio Especializado - Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2023-08-24",
+    "name": "ROBERTO CARLOS DE OLIVEIRA",
+    "type": "saída",
+    "orgao": "trf3",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2023-09-01",
+    "name": "WILLER SONDREI OLIVEIRA MARQUES SILVA",
+    "type": "ingresso",
+    "orgao": "trt23",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-09-01",
+    "name": "CRISTOVÃO HENRIQUE DE SOUZA MACIEL",
+    "type": "saída",
+    "orgao": "trt23",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2020-12-14",
+    "name": "JONATHAN TERHORST RAUBER",
+    "type": "saída",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Tecnologia da Informação",
+    "destino": "Ministério da Educação/Universidade Federal da Fronteira Sul",
+    "data_nomeacao": "2020-11-25",
+    "cargo_destino": "ANALISTA DE TECNOLOGIA DA INFORMAÇÃO",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2019-10-23",
+    "name": "FERNANDO VINÍCIUS DOS REIS SOUZA",
+    "type": "saída",
+    "orgao": "stf",
+    "role": "Técnico Judiciário, área Apoio Especializado, Tecnologia da Informação",
+    "motivo": "Aposentadoria"
+  },
+  {
+    "date": "2022-07-04",
+    "name": "DOUGLAS BAYER SANTOS",
+    "type": "saída",
+    "orgao": "trt2",
+    "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE - TECNOLOGIA DA INFORMAÇÃO",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2022-06-07",
+    "name": "RUBEM NASCIMENTO DA ROCHA",
+    "type": "ingresso",
+    "orgao": "trt11",
+    "role": "Técnico Judiciário, Área: Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2021-12-07",
+    "name": "FELLIPE CASTRO DOS SANTOS",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-12-07",
+    "name": "DORNELIO MORI JUNIOR",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-12-07",
+    "name": "ANDRE FREITAS LOPES",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2022-08-12",
+    "name": "ISRAEL PEREIRA DE ALMEIDA",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-08-15",
+    "name": "ADVAIR CARVALHO SILVA",
+    "type": "ingresso",
+    "orgao": "tst",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2022-05-26",
+    "name": "LEOPOLDO ULISSIS MEIRELES ANDRIES",
+    "type": "saída",
+    "orgao": "trt4",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 7ª Região",
+    "data_nomeacao": "2022-05-24",
+    "cargo_destino": "Não identificado",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-05-26",
+    "name": "EVERTON LUÍS BERZ",
+    "type": "saída",
+    "orgao": "trt4",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-06-01",
+    "name": "RAFAEL SANTOS TARGINO",
+    "type": "saída",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário, Apoio Especializado - Tecnologia da Informação",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2021-03-23",
+    "name": "FELIPE FREITAS SOARES",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Desenvolvimento de Sistemas",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2021-03-22",
+    "name": "ANTONIO GIOVANI SILVERIO DA SILVA",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "motivo": "Falecimento"
+  },
+  {
+    "date": "2021-10-26",
+    "name": "MARCELO MARCHERT POSSARI",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Administrativa, Apoio Especializado Tecnologia da Informação"
+  },
+  {
+    "date": "2021-10-26",
+    "name": "EDMUNDO BORGES DO AMARAL JUNIOR",
+    "type": "saída",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Administrativa, Apoio Especializado Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-10-26",
+    "name": "FABIANA DOS SANTOS GUIMARÃES",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Administrativa, Apoio Especializado Tecnologia da Informação"
+  },
+  {
+    "date": "2021-10-26",
+    "name": "FABIANO GOMES DA SILVA",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Administrativa, Apoio Especializado Tecnologia da Informação"
+  },
+  {
+    "date": "2021-10-26",
+    "name": "PAULO AUGUSTO ARANTES VILELA",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Administrativa, Apoio Especializado Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-18",
+    "name": "CARLOS COSTA JORDAO",
+    "type": "ingresso",
+    "orgao": "tst",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-17",
+    "name": "CARLOS EDUARDO DIONIZIO FIUSA JUNIOR",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "TÉCNICO JUDICIÁRIO/INFORMÁTICA"
+  },
+  {
+    "date": "2023-05-17",
+    "name": "GELSON GUEDES RODRIGUES",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "TÉCNICO JUDICIÁRIO/INFORMÁTICA"
+  },
+  {
+    "date": "2023-05-17",
+    "name": "FLAVIO CESAR DOS SANTOS DE ALCANTARA",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "TÉCNICO JUDICIÁRIO/INFORMÁTICA"
+  },
+  {
+    "date": "2023-05-17",
+    "name": "LUIZ FELIPE DA SILVA SANTOS",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "TÉCNICO JUDICIÁRIO/INFORMÁTICA"
+  },
+  {
+    "date": "2023-05-17",
+    "name": "PEDRO FELIZOLA ZUCARINO STEFANO",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "TÉCNICO JUDICIÁRIO/INFORMÁTICA"
+  },
+  {
+    "date": "2023-04-24",
+    "name": "ALEXANDRE MARCOLINO ALVES",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-04-26",
+    "name": "GABRIEL MARIANO COSTA",
+    "type": "ingresso",
+    "orgao": "trt23",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-07-27",
+    "name": "ABRAAO RAFAEL BOLONHEZE",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2023-08-10",
+    "name": "JOÃO RIBEIRO DE ALMEIDA NETO",
+    "type": "saída",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 6ª Região",
+    "data_nomeacao": "2023-07-19",
+    "cargo_destino": "Analista Judiciário",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2023-05-29",
+    "name": "JOAQUIM SILVA MENEZES",
+    "type": "saída",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área: Apoio Especializado, Especialidade Tecnologia da Informação",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2020-12-15",
+    "name": "RAI VINICIUS MOREIRA FERNANDES",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico"
+  },
+  {
+    "date": "2022-02-11",
+    "name": "CRISTINA GARCIA GOMES OLIVEIRA",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Administrativa, Apoio Especializado Tecnologia da Informação"
+  },
+  {
+    "date": "2020-12-10",
+    "name": "CARLA CRISTINA BARROS",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "destino": "Tribunal de Contas da União",
+    "data_nomeacao": "2020-12-07",
+    "cargo_destino": "Auditor Federal de Controle Externo",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-11-09",
+    "name": "MACIEL MESQUITA DE SOUSA",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-09",
+    "name": "DANILO DE LIMA CAPOBIANCO",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-10",
+    "name": "FELLYPPE CARLOS SANTOS DE LIMA",
+    "type": "saída",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-11-08",
+    "name": "JEFFERSON SILVA DE AMORIM",
+    "type": "ingresso",
+    "orgao": "trt8",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-08",
+    "name": "RUAN GABRIEL ARAUJO FERREIRA",
+    "type": "ingresso",
+    "orgao": "trt8",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-08",
+    "name": "IGOR COSTA DO COUTO",
+    "type": "ingresso",
+    "orgao": "trt8",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-08",
+    "name": "WAGNER DE SOUZA TOLOSA",
+    "type": "ingresso",
+    "orgao": "trt8",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-08",
+    "name": "LÍVIO CORREA CARNEIRO",
+    "type": "ingresso",
+    "orgao": "trt8",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-09",
+    "name": "RAILAINE RAMOS DOS SANTOS",
+    "type": "ingresso",
+    "orgao": "trt9",
+    "role": "TÉCNICO JUDICIÁRIO ÁREA APOIO ESPECIALIZADO ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2021-11-09",
+    "name": "ROBERTO RODRIGUES RENOVATO",
+    "type": "ingresso",
+    "orgao": "trt9",
+    "role": "TÉCNICO JUDICIÁRIO ÁREA APOIO ESPECIALIZADO ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2021-11-11",
+    "name": "MAYANA DE CARVALHO SILVA BANDEIRA",
+    "type": "saída",
+    "orgao": "trt24",
+    "role": "Analista Judiciário - Apoio Especializado - Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 24ª Região/Diretoria-Geral",
+    "data_nomeacao": "2021-11-11",
+    "cargo_destino": "Analista Judiciário - Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2019-12-23",
+    "name": "ALEX AMORIM DUTRA",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área Apoio Especializado - Especialidade Desenvolvimento de Sistemas",
+    "destino": "Poder Judiciário/Superior Tribunal de Justiça/Conselho da Justiça Federal/Presidência",
+    "data_nomeacao": "2019-12-17",
+    "cargo_destino": "Analista Judiciário",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2019-10-29",
+    "name": "GISELLE DIAS MENDONÇA",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Especialidade Desenvolvimento de Sistemas",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2020-12-16",
+    "name": "WAINNER BRUM CAETANO",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2020-10-19",
+    "name": "FERNANDO HENRIQUE COELHO MORAES",
+    "type": "ingresso",
+    "orgao": "trt23",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-10-19",
+    "name": "GHANEM YOUSSEF ARFOX",
+    "type": "saída",
+    "orgao": "trt23",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 23ª Região",
+    "data_nomeacao": "2020-10-19",
+    "cargo_destino": "Técnico Judiciário",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2022-12-12",
+    "name": "IGOR MARCEL LEAL DE MORAIS",
+    "type": "saída",
+    "orgao": "trt6",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 6ª Região/Diretoria-Geral/Secretaria de Recursos Humanos",
+    "data_nomeacao": "2022-12-02",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2019-12-26",
+    "name": "AIRTON BORDIN JUNIOR",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2019-12-26",
+    "name": "GEORGE ARTHUR SILVA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2023-06-23",
+    "name": "AIRTON ANTONIO DE JESUS JUNIOR",
+    "type": "saída",
+    "orgao": "trt20",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 6ª Região",
+    "data_nomeacao": "2023-06-13",
+    "cargo_destino": "Analista Judiciário",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2023-06-23",
+    "name": "DANIEL GUILHERME COSTA DE ARAÚJO",
+    "type": "saída",
+    "orgao": "trt20",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 6ª Região",
+    "data_nomeacao": "2023-06-13",
+    "cargo_destino": "Analista Judiciário",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2023-09-25",
+    "name": "CAMILO PAIVA MATOS PIMENTEL",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2023-09-25",
+    "name": "THIAGO HENRIQUE SANTOS",
+    "type": "ingresso",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário - Área Apoio Especializado Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-04-13",
+    "name": "ALISSON TAVARES DE SOUZA",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Suporte Técnico",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2021-08-27",
+    "name": "BRUNO VINICIUS NISHIWAKI PASCHOAL",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-11-24",
+    "name": "FABIO JOSE BORGES FONSECA",
+    "type": "saída",
+    "orgao": "trt15",
+    "role": "Técnico Judiciário, área Apoio Especializado, especialidade Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2020-07-31",
+    "name": "FELIPE LUIZ CHRISTOFOLLI GIOTTO",
+    "type": "saída",
+    "orgao": "trt4",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-02-12",
+    "name": "ANDERSON RODRIGUES MORO",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-12-18",
+    "name": "BRUNO DÜCK FERREIRA DA SILVA",
+    "type": "ingresso",
+    "orgao": "tre-ms",
+    "role": "TÉCNICO JUDICIÁRIO, Área: Apoio Especializado - Especialidade: Programação de Sistemas"
+  },
+  {
+    "date": "2020-11-09",
+    "name": "FELIPE FERNANDES DE MIRANDA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2020-11-09",
+    "name": "RICARDO LIMA DA SILVA",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-08-24",
+    "name": "DANIEL SANTIAGO DE PAULA",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-06-24",
+    "name": "EDUARDO MARTINS DA ROCHA",
+    "type": "saída",
+    "orgao": "trt4",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2020-09-04",
+    "name": "LEVI LOPES SOARES E SILVA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2023-06-27",
+    "name": "VITOR VALSICHI CUZIOL",
+    "type": "ingresso",
+    "orgao": "trt3",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-07-26",
+    "name": "LEONARDO DE SOUSA DIAS",
+    "type": "saída",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "destino": "Ministério da Justiça e Segurança Pública/Polícia Federal/Diretoria de Gestão de Pessoas",
+    "data_nomeacao": "2023-07-17",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2023-07-26",
+    "name": "THIAGO GONCALVES DA SILVA GOULART",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-12-17",
+    "name": "ROBSON NORIAKI YAMADA",
+    "type": "ingresso",
+    "orgao": "tre-rs",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Operação de Computadores"
+  },
+  {
+    "date": "2021-10-04",
+    "name": "DANILO BARBOSA DE ARAÚJO",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-10-04",
+    "name": "GLAUBERT DO NASCIMENTO SANTOS",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-10-20",
+    "name": "MARCO AURELIO SHIBAYAMA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-10-20",
+    "name": "UESLEI SANTOS LIMA",
+    "type": "ingresso",
+    "orgao": "trt20",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-02-23",
+    "name": "LEONARDO LUIZ CRUZ BUCHER",
+    "type": "ingresso",
+    "orgao": "tst",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2023-02-23",
+    "name": "NATÁLIA VICENTE PENSO",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "TÉCNICA JUDICIÁRIA/INFORMÁTICA"
+  },
+  {
+    "date": "2023-09-29",
+    "name": "ANGELA MARIA ALVES PINHEIRO",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2023-09-29",
+    "name": "ANDRÉ ALVES REVOREDO",
+    "type": "saída",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Exoneração"
+  },
+  {
+    "date": "2023-09-29",
+    "name": "EDWILSON DE SOUSA CARVALHO",
+    "type": "saída",
+    "orgao": "trt16",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2023-09-29",
+    "name": "LEANDRO BORGES DE REZENDE",
+    "type": "saída",
+    "orgao": "stf",
+    "role": "Técnico Judiciário, área Apoio Especializado, Tecnologia da Informação",
+    "motivo": "Exoneração (A pedido)"
+  },
+  {
+    "date": "2023-04-20",
+    "name": "CARLOS CESAR GOMES DOS SANTOS FILHO",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-09-21",
+    "name": "BRUNO PINHEIRO DE SOUSA",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistemas",
+    "destino": "Poder Judiciário/Superior Tribunal de Justiça",
+    "data_nomeacao": "2023-09-11",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2023-09-21",
+    "name": "LUAN GOMES DE ALMEIDA ARAÚJO",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2022-11-24",
+    "name": "DANILO MIKIO CUNHA",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-24",
+    "name": "GERALDO VALERIO ALVES LEAL",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-24",
+    "name": "EDUARDO DE OLIVEIRA VASCONCELOS",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-03-09",
+    "name": "ROOSEVELT DE ALMEIDA JUSTO",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-07",
+    "name": "DALIO LAGE DE MENDONCA NETO",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2023-07-07",
+    "name": "MARLON LUAN FERREIRA NASCIMENTO",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, área apoio especializado, especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-07-07",
+    "name": "FERNANDO FERREIRA TINELLI",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Analista Judiciário, área apoio especializado, especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-07-07",
+    "name": "LEANDRO CANGUSSU DE OLIVEIRA ROCHA",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Analista Judiciário, área apoio especializado, especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-07-07",
+    "name": "LUCAS MATIAS CAETANO",
+    "type": "saída",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Esp. Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 17ª Região",
+    "data_nomeacao": "2023-07-07",
+    "cargo_destino": "Técnico Judiciário",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2023-07-07",
+    "name": "VICENTE BISSOLI SESSA",
+    "type": "saída",
+    "orgao": "trt17",
+    "role": "Analista Judiciário, Área Apoio Especializado, Esp. Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 17ª Região",
+    "data_nomeacao": "2023-07-07",
+    "cargo_destino": "Técnico Judiciário",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2023-07-07",
+    "name": "BRUNO BEZERRA MARQUES",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2023-07-07",
+    "name": "JORGE PEIXOTO DE MORAIS NETO",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2023-06-14",
+    "name": "DIEGO VIEIRA SOUTO",
+    "type": "saída",
+    "orgao": "cjf",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Suporte Técnico",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 10ª Região",
+    "data_nomeacao": "2023-05-17",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2021-10-25",
+    "name": "GERALDO VALERIO ALVES LEAL",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2021-10-21",
+    "name": "EDSON ELIAS DOS REIS",
+    "type": "saída",
+    "orgao": "trt4",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 7ª Região/Diretoria-Geral/Secretaria Administrativa",
+    "data_nomeacao": "2021-09-22",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-10-21",
+    "name": "ICARO DE LIMA NOGUEIRA",
+    "type": "ingresso",
+    "orgao": "trt11",
+    "role": "Técnico Judiciário, Área: Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-25",
+    "name": "LUCAS DEMUTI DIAS",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário / Área Apoio Especializado / Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-25",
+    "name": "EDUARDO DE OLIVEIRA VASCONCELOS",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário / Área Apoio Especializado / Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-25",
+    "name": "THIAGO GONÇALVES DE MORAIS",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário / Área Apoio Especializado / Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-12-07",
+    "name": "JOAO ALFREDO JORDAO TAVEIRA",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2023-12-07",
+    "name": "DIEGO COSTA POZZI",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-08-20",
+    "name": "ADRIANO CESAR DE OLIVEIRA",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-08-20",
+    "name": "ERIC LOPES MELLO",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-08-20",
+    "name": "ALESSANDRE DE MOURA CAVALCANTE",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "ERICO JHON DO BOM FIM",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "THIAGO NUNES COSTA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "REINALDO GIL LIMA DE CARVALHO",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "FELYPP DE ASSIS OLIVEIRA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "ROBSON ANDRE SANTOS DE SOUZA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "JONATAS FREDMAN DE ALMEIDA DA SILVA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "JOAQUIM SILVA MENEZES",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "PAULO HENRIQUE GUYSS",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-10",
+    "name": "GABRIEL CARRIJO BENTO TEIXEIRA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-01-24",
+    "name": "FILIPE SAMPAIO CANITO",
+    "type": "saída",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2022-07-15",
+    "name": "RAFAEL DA SILVA XIMENES",
+    "type": "saída",
+    "orgao": "cjf",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 7ª Região/Diretoria-Geral/Secretaria de Pessoal",
+    "data_nomeacao": "2022-06-15",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2022-07-15",
+    "name": "CARLOS TRAJANO DE OLIVEIRA",
+    "type": "saída",
+    "orgao": "trf5",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Informática",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 7ª Região/Diretoria-Geral/Secretaria de Pessoal",
+    "data_nomeacao": "2022-06-15",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2021-04-12",
+    "name": "ELTON DOS SANTOS MORAIS",
+    "type": "saída",
+    "orgao": "trf3",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2023-11-20",
+    "name": "DENILSON DE ALBUQUERQUE CARVALHO",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, área apoio especializado, especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-11-20",
+    "name": "LUCAS NOVAIS ASSUNCAO",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, área apoio especializado, especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-08-10",
+    "name": "YAN UEHARA DE MORAES",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-11-21",
+    "name": "PAULO VINÍCIUS NASCIMENTO SANTOS DE CARVALHO",
+    "type": "saída",
+    "orgao": "trt8",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 8ª Região/Secretaria/Coordenação de Recursos Humanos",
+    "data_nomeacao": "2023-11-10",
+    "cargo_destino": "Analista Judiciário",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2022-02-09",
+    "name": "FRANCISCO ERISVELTO MENDES RABELO",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-03-16",
+    "name": "JACKSON BRAGA RODRIGUES",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Desenvolvimento de Sistemas"
+  },
+  {
+    "date": "2023-02-07",
+    "name": "GENIVAN SILVEIRA DE SOUZA",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-12-28",
+    "name": "SIMONE TARDIN FAGUNDES",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-12-28",
+    "name": "LUIZ ROBERTO RODRIGUES",
+    "type": "ingresso",
+    "orgao": "trt10",
+    "role": "Analista Judiciário, Classe \"A\", Padrão 1, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2019-10-24",
+    "name": "JIMMY ANDERSON COSTA DA TRINDADE",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2024-03-20",
+    "name": "JUN MIYAZAKI",
+    "type": "ingresso",
+    "orgao": "trt3",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-02-08",
+    "name": "CHRYSTINNE OLIVEIRA FERNANDES",
+    "type": "saída",
+    "orgao": "trf2",
+    "role": "Técnica Judiciária/Informática",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2020-11-26",
+    "name": "ANA CAROLINA LOPES DE JESUS",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado: Desenvolvimento de Sistemas"
+  },
+  {
+    "date": "2022-11-03",
+    "name": "EVERSON JOSÉ DA SILVA",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-01-25",
+    "name": "IL JOSÉ OLIVEIRA E REBOUÇAS",
+    "type": "saída",
+    "orgao": "trt18",
+    "role": "Técnico Judiciário, Apoio Especializado - Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2023-05-08",
+    "name": "MARCELA GOMES CORRÊA",
+    "type": "ingresso",
+    "orgao": "trt10",
+    "role": "Analista Judiciário, Classe \"A\", Padrão 1, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-08",
+    "name": "LAÍS BARRETO DE ARAÚJO",
+    "type": "ingresso",
+    "orgao": "trt10",
+    "role": "Analista Judiciário, Classe \"A\", Padrão 1, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-08",
+    "name": "FELIPE MACIEL DINIZ",
+    "type": "ingresso",
+    "orgao": "trt10",
+    "role": "Analista Judiciário, Classe \"A\", Padrão 1, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-08-18",
+    "name": "DIEGO JESUS TALARICO FERREIRA",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Analista Judiciário, Área Apoio Especializado, Sistemas de Tecnologia da Informação"
+  },
+  {
+    "date": "2023-08-18",
+    "name": "ISMAEL STANGHERLINI",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Analista Judiciário, Área Apoio Especializado, Sistemas de Tecnologia da Informação"
+  },
+  {
+    "date": "2023-08-18",
+    "name": "RAFAEL DE OLIVEIRA CARVALHO",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Tecnologia da Informação"
+  },
+  {
+    "date": "2023-08-18",
+    "name": "NAYARA BENEVENUTO LANNA",
+    "type": "ingresso",
+    "orgao": "tst",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Segurança da Informação"
+  },
+  {
+    "date": "2023-08-18",
+    "name": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
+    "type": "ingresso",
+    "orgao": "trt16",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-12-15",
+    "name": "JOÃO LUIZ LAGÔAS DE ALMEIDA BERTOLINO",
+    "type": "ingresso",
+    "orgao": "trf2",
+    "role": "ANALISTA JUDICIÁRIO/INFORMÁTICA-DESENVOLVIMENTO"
+  },
+  {
+    "date": "2022-12-15",
+    "name": "JHONY LOPES LANZZA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (INFRAESTRUTURA)"
+  },
+  {
+    "date": "2020-05-13",
+    "name": "DIEGO HELENO LOUZEIRO",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2020-05-13",
+    "name": "VITOR GABRIEL JAIME PAIVA",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2020-05-13",
+    "name": "VINICIUS OLIVEIRA DA ROSA",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2020-05-13",
+    "name": "CLAUDIO FERREIRA DA SILVA",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2021-12-03",
+    "name": "FRANCISCO DE ASSIS MENEZES LEITE JUNIOR",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (INFRAESTRUTURA)"
+  },
+  {
+    "date": "2021-12-03",
+    "name": "FILIPE SAMPAIO CANITO",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "HERBERT COSTA DOS REIS",
+    "type": "ingresso",
+    "orgao": "trt10",
+    "role": "Analista Judiciário, Classe \"A\", Padrão 1, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "VINÍCIUS DOS SANTOS MOREIRA",
+    "type": "ingresso",
+    "orgao": "trt10",
+    "role": "Analista Judiciário, Classe \"A\", Padrão 1, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "LUCAS ALESSIO ANUNCIADO SILVA",
+    "type": "ingresso",
+    "orgao": "trt22",
+    "role": "TÉCNICO JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "DENILSON ARAUJO DA PASCOA",
+    "type": "ingresso",
+    "orgao": "trt22",
+    "role": "TÉCNICO JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2022-12-05",
+    "name": "CARLOS EDUARDO FERREIRA MARINS",
+    "type": "ingresso",
+    "orgao": "trt22",
+    "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2023-04-26",
+    "name": "RAQUEL CORREIA DE MELO",
+    "type": "saída",
+    "orgao": "trt23",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 23ª Região",
+    "data_nomeacao": "2023-04-26",
+    "cargo_destino": "Técnico Judiciário - Área Administrativa - Especialidade Segurança e Transporte (Agente de Polícia Judicial) para compor o Quadro de Pessoal da Justiça do Trabalho de Mato Grosso em Cuiabá",
+    "motivo": "Exoneração (A pedido)"
+  },
+  {
+    "date": "2023-04-26",
+    "name": "GUSTAVO EMANUEL OLIVEIRA BASTOS",
+    "type": "saída",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional Federal da 6ª Região",
+    "data_nomeacao": "2023-03-29",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2021-09-16",
+    "name": "NELSON ANTONIO FERREIRA CANDIDO NETO",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-06-29",
+    "name": "RUGGERY MEIRA NAVARRO RIBEIRO",
+    "type": "ingresso",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário - Área Apoio Especializado -Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-06-29",
+    "name": "ELLIACKIN MESSIAS DO NASCIMENTO FIGUEIREDO",
+    "type": "ingresso",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-06-29",
+    "name": "RÔMULO MENDES FIGUEIREDO",
+    "type": "ingresso",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-06-29",
+    "name": "MIGUEL DE OLIVEIRA ATAÍDE",
+    "type": "ingresso",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-06-29",
+    "name": "JAQUELINE FERNANDES DE MEDEIROS DUARTE",
+    "type": "ingresso",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-06-28",
+    "name": "MARCUS VINÍCIUS ALENCAR TERRA",
+    "type": "saída",
+    "orgao": "trt14",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-05-25",
+    "name": "MARCOS RICARDO DE SOUZA",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2023-04-17",
+    "name": "JOAQUIM SILVA MENEZES",
+    "type": "ingresso",
+    "orgao": "trt23",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-04-14",
+    "name": "ANTONIO HENRIQUE DE MELO COSTA",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2023-04-14",
+    "name": "LUIS FELIPE RABELLO TAVEIRA",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2021-06-15",
+    "name": "RAFAEL SIMONASSI",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Análise de Sistemas de Informação"
+  },
+  {
+    "date": "2021-06-15",
+    "name": "NAIRON NUNES DA SILVA",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Análise de Sistemas de Informação"
+  },
+  {
+    "date": "2021-06-15",
+    "name": "PAULO TIBERIO BULHÕES",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2021-06-15",
+    "name": "DANILO RODRIGUES DE CARVALHO",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2021-06-15",
+    "name": "FABRÍCIO ALVES DE SOUZA",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Tecnologia da Informação"
+  },
+  {
+    "date": "2023-04-27",
+    "name": "LEANDRO BARRA SANTANA DE SOUZA",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2023-05-03",
+    "name": "PAULO VINICIUS NASCIMENTO SANTOS DE CARVALHO",
+    "type": "saída",
+    "orgao": "trt8",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade em Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional Federal da 6ª Região",
+    "data_nomeacao": "2023-04-05",
+    "cargo_destino": "Não identificado",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-01-12",
+    "name": "GUSTAVO BRITO FLORES",
+    "type": "saída",
+    "orgao": "trf1",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Suporte Técnico",
+    "destino": "Ministério da Justiça e Segurança Pública/Polícia Federal/Diretoria de Gestão de Pessoal",
+    "data_nomeacao": "2020-12-22",
+    "cargo_destino": "Perito Criminal Federal",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2021-02-02",
+    "name": "BRUNO ROBERTO SANTOS",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2021-02-02",
+    "name": "ARTHUR HENRIQUE VILLA REAL FERREIRA RAMOS",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2021-02-03",
+    "name": "EDUARDO ALCANTARA DE OLIVEIRA",
+    "type": "ingresso",
+    "orgao": "trt4",
+    "role": "TÉCNICO JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2021-02-03",
+    "name": "EDSON ELIAS DOS REIS",
+    "type": "ingresso",
+    "orgao": "trt4",
+    "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2021-02-03",
+    "name": "MURILO COLZANI",
+    "type": "ingresso",
+    "orgao": "trt4",
+    "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2021-02-03",
+    "name": "LEOPOLDO ULISSIS MEIRELES ANDRIES",
+    "type": "ingresso",
+    "orgao": "trt4",
+    "role": "TÉCNICO JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2021-02-01",
+    "name": "JAIRO CORREA FERNANDES",
+    "type": "ingresso",
+    "orgao": "trt11",
+    "role": "Técnico Judiciário, Apoio Especializado, Área: Tecnologia da Informação"
+  },
+  {
+    "date": "2021-11-30",
+    "name": "JOAO BATISTA ARAUJO BARBOSA JUNIOR",
+    "type": "ingresso",
+    "orgao": "trt23",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-07-08",
+    "name": "DANILO RODRIGUES DE CARVALHO",
+    "type": "saída",
+    "orgao": "trt18",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Superior Tribunal de Justiça",
+    "data_nomeacao": "2021-06-16",
+    "cargo_destino": "Não identificado",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2023-03-30",
+    "name": "WINDSON DE SOUSA VIANA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2023-03-06",
+    "name": "VINICIUS LIMA DA SILVA",
+    "type": "saída",
+    "orgao": "trf3",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-09-14",
+    "name": "MARCELO RODRIGUES DE OLIVEIRA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-14",
+    "name": "ADRIANO DE LIMA VIEIRA",
+    "type": "ingresso",
+    "orgao": "trt20",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-24",
+    "name": "LEONARDO FILIPE RODRIGUES RIBEIRO",
+    "type": "saída",
+    "orgao": "trt1",
+    "role": "Analista Judiciário - Área de Especialidade: Tecnologia da Informação",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2022-10-26",
+    "name": "JOYCE QUEIROZ E SILVA",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Técnico Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-26",
+    "name": "RANDOLPH RODRIGUES OLIVEIRA DE FRANÇA",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-26",
+    "name": "EDUARDO DE OLIVEIRA VASCONCELOS",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Técnico Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-26",
+    "name": "GUILHERME RIBEIRO MOREIRA",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-26",
+    "name": "LUÍS CARLOS MOREIRA SILVA JÚNIOR",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Técnico Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-26",
+    "name": "MARCIEL MANOEL LEAL",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Técnico Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-26",
+    "name": "JOSÉ CÍCERO DOS SANTOS",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-10-26",
+    "name": "CARLOS RAFAEL ARAÚJO DA SILVA",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Técnico Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-22",
+    "name": "ERICK TEIXEIRA BARRETO",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-22",
+    "name": "MARCELO HENRIQUE DE OLIVEIRA LIMA",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-22",
+    "name": "EDSON ELIAS DOS REIS",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-22",
+    "name": "ELISEU BARROSO NETO",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-22",
+    "name": "SARAH BARRETO MARQUES",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2021-09-22",
+    "name": "MANOEL MARIANO SIQUEIRA JUNIOR",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-02-08",
+    "name": "CAIO RÉGIS CAROCA",
+    "type": "saída",
+    "orgao": "trt13",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2023-10-04",
+    "name": "GISLAINE COSTA DA SILVA",
+    "type": "ingresso",
+    "orgao": "trt16",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2024-03-22",
+    "name": "JOSUÉ LENNON DE SOUZA PAES",
+    "type": "ingresso",
+    "orgao": "trt3",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-08-09",
+    "name": "JOYCE QUEIROZ E SILVA",
+    "type": "saída",
+    "orgao": "trt16",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 5ª Região",
+    "data_nomeacao": "2023-07-11",
+    "cargo_destino": "Não identificado",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2022-12-14",
+    "name": "PABLO ROBERT PEREIRA ALVES",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (INFRAESTRUTURA)"
+  },
+  {
+    "date": "2022-12-14",
+    "name": "IBANEZ CAVALCANTI FERREIRA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2020-06-12",
+    "name": "CLÁUDIO FERREIRA DA SILVA",
+    "type": "saída",
+    "orgao": "trf5",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática (Infraestrutura)",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2023-09-19",
+    "name": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
+    "type": "saída",
+    "orgao": "trt16",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2023-09-19",
+    "name": "PEDRO TEIXEIRA DE ARAUJO",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2021-02-03",
+    "name": "THALES PINHEIRO RODRIGUES",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+    "motivo": "Vacância"
+  },
+  {
+    "date": "2021-05-24",
+    "name": "CASSIA DOS SANTOS FREITAS",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-05-24",
+    "name": "DOUGLAS DE ASSIS DA SILVA",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-05-24",
+    "name": "FERNANDO FERREIRA TINELLI",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-05-24",
+    "name": "SHARLENE ALISSA DA SILVA COSTA",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2021-05-24",
+    "name": "ANDRE BRAZ DA SILVA",
+    "type": "ingresso",
+    "orgao": "trf3",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2019-12-03",
+    "name": "WAGNER SILVA FROTA",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2019-12-03",
+    "name": "CELSO CARLOS NAVARRO MODESTO JUNIOR",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2019-12-03",
+    "name": "DOUGLAS BAYER SANTOS",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2019-12-03",
+    "name": "GUSTAVO EMANUEL OLIVEIRA BASTOS",
+    "type": "ingresso",
+    "orgao": "trt2",
+    "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-10-30",
+    "name": "SIRLENE INGRID DE REZENDE XAVIER",
+    "type": "ingresso",
+    "orgao": "trt3",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-03-08",
+    "name": "MARCELO HENRIQUE DE OLIVEIRA LIMA",
+    "type": "saída",
+    "orgao": "trt16",
+    "role": "Analista Judiciário, Área Apoio Especializado - Tecnologia da Informação",
+    "motivo": "Vacância (Posse outro cargo)"
+  },
+  {
+    "date": "2024-01-17",
+    "name": "VANESSA LARIZE ALVES DE CARVALHO",
+    "type": "ingresso",
+    "orgao": "trt6",
+    "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2021-09-23",
+    "name": "FELLYPPE CARLOS SANTOS DE LIMA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (INFRAESTRUTURA)"
+  },
+  {
+    "date": "2021-08-12",
+    "name": "RODRIGO FORTES BELLEI",
+    "type": "ingresso",
+    "orgao": "trf1",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2021-08-12",
+    "name": "HEBER AUGUSTO GUERREIRO DE MORAES",
+    "type": "saída",
+    "orgao": "trt15",
+    "role": "Técnico Judiciário, área Apoio Especializado, especialidade Tecnologia da Informação",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2023-08-29",
+    "name": "AARAO PEDRO PIRES DE MEDEIROS JUNIOR",
+    "type": "ingresso",
+    "orgao": "trt24",
+    "role": "TÉCNICO JUDICIÁRIO, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-11-23",
+    "name": "ALBERTO DE CARVALHO FRIEDMAN",
+    "type": "saída",
+    "orgao": "tst",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação",
+    "destino": "Tribunal de Contas da União",
+    "data_nomeacao": "2023-11-23",
+    "cargo_destino": "Auditor Federal de Controle Externs",
+    "motivo": "Aposentadoria"
+  },
+  {
+    "date": "2019-12-27",
+    "name": "THIAGO SIQUEIRA MORELLO",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-10-23",
+    "name": "PASCOAL GOMES DE FREITAS",
+    "type": "ingresso",
+    "orgao": "tst",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2023-10-23",
+    "name": "CLÁUDIO FERREIRA DA SILVA",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Informática (Infraestrutura)",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-10-27",
+    "name": "MÁRCIO MAGALHÃES DE ANDRADE SILVA",
+    "type": "saída",
+    "orgao": "trf2",
+    "role": "Técnico Judiciário/Informática, Área Apoio Especializado",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 8ª Região",
+    "data_nomeacao": "2021-10-01",
+    "cargo_destino": "carreira da categoria funcional de Analista Judiciário",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-11-11",
+    "name": "MARCOS KENNE BARBOSA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-01-23",
+    "name": "MARCELO DE FREITAS ANDRADE",
+    "type": "saída",
+    "orgao": "trt8",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-09-24",
+    "name": "FERNANDO CAMPELLO",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2021-10-01",
+    "name": "THIAGO NUNES COSTA",
+    "type": "saída",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional Federal da 2ª Região",
+    "data_nomeacao": "2021-10-01",
+    "cargo_destino": "TÉCNICO JUDICIÁRIO/INFORMÁTICA",
+    "motivo": "Outro (verificar)"
+  },
+  {
+    "date": "2021-10-01",
+    "name": "FELYPP DE ASSIS OLIVEIRA",
+    "type": "saída",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área: Apoio Especializado, Especialidade - Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 14ª Região/Diretoria-Geral",
+    "data_nomeacao": "2021-09-10",
+    "cargo_destino": "Analista Judiciário",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2020-07-23",
+    "name": "LUIS HENRIQUE DE ARAUJO FERREIRA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2020-07-23",
+    "name": "DANIEL LUNA SILVESTRE",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (INFRAESTRUTURA)"
+  },
+  {
+    "date": "2020-07-23",
+    "name": "DANIEL NUNES LIRA BARBOSA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (INFRAESTRUTURA)"
+  },
+  {
+    "date": "2020-07-23",
+    "name": "ERICK PEREIRA DE ALBUQUERQUE",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA"
+  },
+  {
+    "date": "2024-01-11",
+    "name": "DANIEL DE SOUZA VASCONCELOS",
+    "type": "ingresso",
+    "orgao": "stj",
+    "role": "Analista Judiciário, Área de Apoio Especializado - Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-07",
+    "name": "RAFAEL DA SILVA XIMENES",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-05-19",
+    "name": "FELLIPE CASTRO DOS SANTOS",
+    "type": "saída",
+    "orgao": "trf4",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-11-10",
+    "name": "EDUARDO DE OLIVEIRA VASCONCELOS",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Analista Judiciário, Área Apoio Especializado, Sistemas de Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-10",
+    "name": "FELIPE GHELLAR",
+    "type": "ingresso",
+    "orgao": "trf4",
+    "role": "Analista Judiciário, Área Apoio Especializado, Infraestrutura em Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-07",
+    "name": "EDUARDO ALCANTARA DE OLIVEIRA",
+    "type": "saída",
+    "orgao": "trt2",
+    "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 4ª Região/Diretoria-Geral de Coordenação Administrativa",
+    "data_nomeacao": "2022-10-18",
+    "cargo_destino": "Não identificado",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-11-09",
+    "name": "OSVALDO MARTINS RIBEIRO JÚNIOR",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Técnico Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-17",
+    "name": "JOSÉ CÍCERO DOS SANTOS",
+    "type": "saída",
+    "orgao": "trf5",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Informática",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 19ª Região",
+    "data_nomeacao": "2022-10-27",
+    "cargo_destino": "Analista Judiciário",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "WESLEY SOARES PIRES",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "RAFAEL SOARES MARRA MOLINA",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "DIEGO RODRIGUES DE SOUZA",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "HENRIQUE DE ARAUJO PORTO",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "MARCELO SOARES MOTA",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Segurança da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "FILIPE FAGUNDES VIEIRA",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Segurança da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "ADRIANE CARNEIRO DE AGUIAR",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Segurança da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "GIORDANNO AZEVEDO COSTA MARTINS",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Segurança da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "MARCOS CICERO SANTOS WANDERLEI",
+    "type": "ingresso",
+    "orgao": "tjdft",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Segurança da Informação"
+  },
+  {
+    "date": "2022-11-29",
+    "name": "IGOR MARCEL LEAL DE MORAIS",
+    "type": "ingresso",
+    "orgao": "trt6",
+    "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2022-11-30",
+    "name": "DIEGO RIBEIRO ALVES",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Técnico Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "RAFAEL DA SILVA XIMENES",
+    "type": "ingresso",
+    "orgao": "cjf",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2019-12-16",
+    "name": "ALEX AMORIM DUTRA",
+    "type": "ingresso",
+    "orgao": "cjf",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática"
+  },
+  {
+    "date": "2023-10-18",
+    "name": "VINICIUS AUGUSTO FINKLER",
+    "type": "ingresso",
+    "orgao": "trt4",
+    "role": "TÉCNICO JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2023-10-19",
+    "name": "NEUTON MARTINS COSTA",
+    "type": "ingresso",
+    "orgao": "tst",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação"
+  },
+  {
+    "date": "2023-11-27",
+    "name": "ERLAN LOPES DA COSTA",
+    "type": "ingresso",
+    "orgao": "trt9",
+    "role": "TÉCNICO JUDICIÁRIO ÁREA APOIO ESPECIALIZADO ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "BENITO SILVA COELHO",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "ANTONIO MARCOS LOPEZ FERNANDEZ CARIANHA",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "EDUARDO DE OLIVEIRA VASCONCELOS",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "GRAZIENO BARBOSA PELLEGRINO RIBEIRO",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "CLEYTON APARECIDO DIM",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "VICTOR ATAIDE DE ALBUQUERQUE",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "RAPHAEL ALVES DE JESUS LIMA",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "LEONARDO ARAUJO ZOEHLER BRUM",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "JOAO RIBEIRO DE ALMEIDA NETO",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-23",
+    "name": "GUILHERME FERNANDES LEMOS",
+    "type": "ingresso",
+    "orgao": "trt19",
+    "role": "Técnico Judiciário, Área de Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-22",
+    "name": "JEFFERSON TEIXEIRA GONÇALVES",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-05-22",
+    "name": "DANILO BARBOSA DE ARAÚJO",
+    "type": "ingresso",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2024-01-17",
+    "name": "DANIELE SOUZA DE ARAÚJO",
+    "type": "saída",
+    "orgao": "trt16",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-08-31",
+    "name": "DUILIO ASSIS NOBRE DOS SANTOS SILVA",
+    "type": "ingresso",
+    "orgao": "trt6",
+    "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2022-08-31",
+    "name": "JHOSEFER FRANÇA PEREIRA",
+    "type": "ingresso",
+    "orgao": "trt6",
+    "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO"
+  },
+  {
+    "date": "2022-09-13",
+    "name": "SUELEN MARCONSINI LOUREIRO",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-09-13",
+    "name": "LEANDRO PEÇANHA SCARDUA",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-09-13",
+    "name": "DOUGLAS NASCIMENTO DE JESUS DO SACRAMENTO",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-09-13",
+    "name": "LUCAS MATIAS CAETANO",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-09-13",
+    "name": "PATRICK FERREIRA SCHWAMBACH",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-09-13",
+    "name": "EDUARDO SOARES ALBUQUERQUE",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-09-13",
+    "name": "HELDER BRITO NASCIMENTO",
+    "type": "ingresso",
+    "orgao": "trt17",
+    "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-11-27",
+    "name": "IZABELA SALOTTI BRAGA GAGO",
+    "type": "ingresso",
+    "orgao": "trt1",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-11-27",
+    "name": "CLEBER DOS SANTOS FARINAZZO JUNIOR",
+    "type": "ingresso",
+    "orgao": "trt1",
+    "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2023-08-29",
+    "name": "ALAN DE SOUSA FONSECA",
+    "type": "ingresso",
+    "orgao": "trf5",
+    "role": "ANALISTA JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE INFORMÁTICA (DESENVOLVIMENTO)"
+  },
+  {
+    "date": "2022-04-29",
+    "name": "CÉSAR TULIO ALBUQUERQUE DE ALMEIDA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-29",
+    "name": "JULIANA CRUZ NOGUEIRA",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-29",
+    "name": "REYNALDO GARCIA JUNIOR",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-29",
+    "name": "BRUNO LAZARO DOS SANTOS",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2022-04-29",
+    "name": "MIKAELL BARBOSA DE ARAÚJO",
+    "type": "ingresso",
+    "orgao": "trt14",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação"
+  },
+  {
+    "date": "2023-02-16",
+    "name": "WENDELL MILITÃO FERNANDES MENDES",
+    "type": "saída",
+    "orgao": "trt7",
+    "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-07-13",
+    "name": "ALBERTO DE CARVALHO FRIEDMAN",
+    "type": "saída",
+    "orgao": "tst",
+    "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-07-27",
+    "name": "EDUARDO ALCANTARA DE OLIVEIRA",
+    "type": "saída",
+    "orgao": "trt4",
+    "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+    "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 2ª Região",
+    "data_nomeacao": "2022-07-01",
+    "cargo_destino": "Técnico Judiciário - Área Apoio Especializado",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2022-08-01",
+    "name": "JORGE AUGUSTO DE ARAÚJO MOREIRA",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2022-08-01",
+    "name": "CLÁUDIO LUIZ FRAGA SENA",
+    "type": "ingresso",
+    "orgao": "trt5",
+    "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação"
+  },
+  {
+    "date": "2020-08-06",
+    "name": "CAMILO PAIVA MATOS PIMENTEL",
+    "type": "saída",
+    "orgao": "stj",
+    "role": "Técnico Judiciário, Área de Apoio Especializado - Desenvolvimento de Sistemas",
+    "motivo": "Não identificado"
+  },
+  {
+    "date": "2020-02-26",
+    "name": "GHANEM YOUSSEF ARFOX",
+    "type": "ingresso",
+    "orgao": "trt23",
+    "role": "Analista Judiciário, Área Apoio Especializado Tecnologia da Informação"
+  }
+]

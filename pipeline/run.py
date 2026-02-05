@@ -38,7 +38,11 @@ def main():
     
     print("\n🔍 Verificando dados históricos do DOU...")
     # This will load from cache if already downloaded (9,187 records)
-    df_dou = query_dou_history(start_date="2019-01-01", end_date="2024-12-31", use_cache=True)
+    try:
+        df_dou = query_dou_history(start_date="2019-01-01", end_date="2024-12-31", use_cache=True)
+    except Exception as e:
+        print(f"⚠️ Erro ao acessar BigQuery: {e}")
+        df_dou = None
     
     if df_dou is not None and len(df_dou) > 0:
         print(f"⌛ Processando {len(df_dou)} registros do DOU...")

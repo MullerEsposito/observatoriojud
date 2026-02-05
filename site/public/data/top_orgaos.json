@@ -1,1653 +1,821 @@
 [
   {
-    "orgao": "trt14",
-    "total": 28,
+    "orgao": "stj",
+    "total": 11,
     "details": [
       {
-        "nome": "ALEX DE BASTOS DO AMARAL",
-        "data": "2017-11-21",
-        "destino": "aposentadoria"
+        "nome": "EDUARDO DA ROCHA PEREIRA",
+        "data": "2021-06-15",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área de Apoio Especializado - Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "ANDRESSA FABIANE FRATA DE ARAUJO",
-        "data": "2019-06-23",
-        "destino": "falecimento"
+        "nome": "ISRAEL PEREIRA DE ALMEIDA",
+        "data": "2022-08-12",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "BRENO VEISACK LARA",
-        "data": "2019-09-22",
-        "destino": "aposentadoria"
+        "nome": "FELIPE FREITAS SOARES",
+        "data": "2021-03-23",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área de Apoio Especializado - Desenvolvimento de Sistemas",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "CAMILA SILVA BAETA",
-        "data": "2013-10-21",
-        "destino": "aposentadoria"
+        "nome": "ALEX AMORIM DUTRA",
+        "data": "2019-12-23",
+        "destino": "Poder Judiciário/Superior Tribunal de Justiça/Conselho da Justiça Federal/Presidência",
+        "role": "Técnico Judiciário, Área Apoio Especializado - Especialidade Desenvolvimento de Sistemas",
+        "motivo": "Vacância",
+        "cargo_destino": "Analista Judiciário"
       },
       {
-        "nome": "DANILO ROGERIO GUIMARAES",
-        "data": "2022-06-23",
-        "destino": "aposentadoria"
+        "nome": "GISELLE DIAS MENDONÇA",
+        "data": "2019-10-29",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área de Apoio Especializado - Especialidade Desenvolvimento de Sistemas",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "ERICO JHON DO BOM FIM",
-        "data": "2010-09-21",
-        "destino": "falecimento"
+        "nome": "BRUNO BEZERRA MARQUES",
+        "data": "2023-07-07",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "FELIPE MEDEIROS RODRIGUES",
-        "data": "2021-09-20",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "JORGE PEIXOTO DE MORAIS NETO",
+        "data": "2023-07-07",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "FELYPP DE ASSIS OLIVEIRA",
-        "data": "2014-10-21",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "THALES PINHEIRO RODRIGUES",
+        "data": "2021-02-03",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "FELYPP DE ASSIS OLIVEIRA",
-        "data": "2021-10-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "CLÁUDIO FERREIRA DA SILVA",
+        "data": "2023-10-23",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Informática (Infraestrutura)",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "GEORGE FERREIRA PIMENTA",
-        "data": "2014-12-21",
-        "destino": "aposentadoria"
+        "nome": "FERNANDO CAMPELLO",
+        "data": "2021-09-24",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área de Apoio Especializado - Suporte Técnico",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "ISABELA VIANNA ALLENDE MOZZER",
-        "data": "2017-12-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "JOAQUIM SILVA MENEZES",
-        "data": "2023-04-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JONATAS FREDMAN DE ALMEIDA DA SILVA",
-        "data": "2019-10-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "JOSÉ AIRTON BEZERRA LIMA JUNIOR",
-        "data": "2013-12-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "JOÃO JOSINO SOBRINHO NETO",
-        "data": "2015-09-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "KATHISUCIA DOS ANJOS KRUTSCH",
-        "data": "2019-09-22",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "KLERISSON RODRIGUES",
-        "data": "2019-09-22",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "LEONARDO COURINOS LIMA DA SILVA",
-        "data": "2019-10-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "MARCO AURELIO SHIBAYAMA",
-        "data": "2020-10-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "MARCO AURELIO SHIBAYAMA",
-        "data": "2021-11-04",
-        "destino": "Interno (TRT14)"
-      },
-      {
-        "nome": "RAFAEL REALTO DA CRUZ",
-        "data": "2019-09-22",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "REINALDO GIL LIMA DE CARVALHO",
-        "data": "2019-10-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "ROBSON ANDRE SANTOS DE SOUZA",
-        "data": "2010-09-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "RODRIGO SEPEDA SOARES",
-        "data": "2019-09-22",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "TIAGO DE NOVAIS SILVEIRA",
-        "data": "2012-11-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "WAINNER BRUM CAETANO",
-        "data": "2016-12-20",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "WINDSON DE SOUSA VIANA",
-        "data": "2021-12-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "WINDSON DE SOUSA VIANA",
-        "data": "2022-12-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "CAMILO PAIVA MATOS PIMENTEL",
+        "data": "2020-08-06",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área de Apoio Especializado - Desenvolvimento de Sistemas",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       }
     ]
   },
   {
     "orgao": "trf1",
-    "total": 21,
+    "total": 10,
     "details": [
       {
-        "nome": "BRUNO PINHEIRO DE SOUSA",
-        "data": "2023-09-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "CARLA CRISTINA BARROS",
-        "data": "2020-12-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "DANIEL DE SOUZA VASCONCELOS",
-        "data": "2024-01-19",
-        "destino": "Superior Tribunal de Justiça"
-      },
-      {
-        "nome": "DANILO BARBOSA DE ARAÚJO",
-        "data": "2021-09-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ELIANDRA ISYS SANDES BELLE",
-        "data": "2023-10-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "JOÃO PAULO DE ANDRADE CONTI",
+        "data": "2021-08-31",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Informática",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
         "nome": "ERIKA FERRAZ CAMPOS FLORENTINO",
         "data": "2021-08-31",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "Tribunal de Contas da União",
+        "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática",
+        "motivo": "Não identificado",
+        "cargo_destino": "Auditor Federal de Controle Externo"
+      },
+      {
+        "nome": "ANTONIO GIOVANI SILVERIO DA SILVA",
+        "data": "2021-03-22",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+        "motivo": "Falecimento",
+        "cargo_destino": ""
+      },
+      {
+        "nome": "CARLA CRISTINA BARROS",
+        "data": "2020-12-10",
+        "destino": "Tribunal de Contas da União",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Auditor Federal de Controle Externo"
+      },
+      {
+        "nome": "ALISSON TAVARES DE SOUZA",
+        "data": "2021-04-13",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Suporte Técnico",
+        "motivo": "Vacância",
+        "cargo_destino": ""
+      },
+      {
+        "nome": "DANILO BARBOSA DE ARAÚJO",
+        "data": "2021-10-04",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
         "nome": "GLAUBERT DO NASCIMENTO SANTOS",
-        "data": "2021-09-10",
-        "destino": "Tribunal de Justiça do Distrito Federal e dos Territórios"
+        "data": "2021-10-04",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "GUSTAVO BRITO FLORES",
-        "data": "2020-12-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "HANS NEWTON FONSECA CANTANHEDE",
-        "data": "2024-02-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "HUGO DE PAULA SANTOS",
-        "data": "2023-11-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JOÃO PAULO DE ANDRADE CONTI",
-        "data": "2021-08-31",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "BRUNO PINHEIRO DE SOUSA",
+        "data": "2023-09-21",
+        "destino": "Poder Judiciário/Superior Tribunal de Justiça",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Desenvolvimento de Sistemas",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Não identificado"
       },
       {
         "nome": "LUAN GOMES DE ALMEIDA ARAÚJO",
-        "data": "2023-09-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "data": "2023-09-21",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "LUCAS BRAGA RIBEIRO",
-        "data": "2021-01-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARCO AURÉLIO DE AGUIAR SANTOS",
-        "data": "2021-07-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARIA CAROLINA REVOREDO MARTINIANO",
-        "data": "2022-03-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "NAYARA BENEVENUTO LANNA",
-        "data": "2023-08-25",
-        "destino": "Tribunal Superior do Trabalho"
-      },
-      {
-        "nome": "PAULO JORGE LINO SILVA JUNIOR",
-        "data": "2022-03-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "PIERRY ÂNGELO PEREIRA",
-        "data": "2022-07-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "SAMUEL VALERIO OZORIO DUTRA",
-        "data": "2022-01-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "SAMYR ABDO NUNES RAIM BARBOSA",
-        "data": "2023-03-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "WILLIAN VICTOR DA SILVA",
-        "data": "2024-03-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt7",
-    "total": 20,
-    "details": [
-      {
-        "nome": "ANTÔNIO EDWARD FACUNDO ARAÚJO",
-        "data": "2022-03-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "DANIEL CASTRO CIDADE",
-        "data": "2024-05-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "EDSON ELIAS DOS REIS",
-        "data": "2024-02-09",
-        "destino": "TRT3"
-      },
-      {
-        "nome": "FELLYPPE CARLOS SANTOS DE LIMA",
-        "data": "2011-11-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "FELLYPPE CARLOS SANTOS DE LIMA",
-        "data": "2021-11-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FILIPE SAMPAIO CANITO",
-        "data": "2022-01-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FILIPE SAMPAIO CANITO",
-        "data": "2024-01-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "FRANCISCO DAS CHAGAS PEDROSA JÚNIOR",
-        "data": "2019-04-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "JOSÉ RICARDO DE OLIVEIRA",
-        "data": "2022-07-16",
-        "destino": "exoneração"
-      },
-      {
-        "nome": "LEONARDO DE SOUSA DIAS",
-        "data": "2023-07-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEONARDO DE SOUSA DIAS",
-        "data": "2024-03-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "LUIS MIGUEL MESSIAS",
-        "data": "2022-11-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "MANOEL MARIANO SIQUEIRA JUNIOR",
-        "data": "2022-04-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MANOEL MARIANO SIQUEIRA JÚNIOR",
-        "data": "2022-04-11",
-        "destino": "posse em cargo inacumulável"
-      },
-      {
-        "nome": "MARCOS ANTONIO PEREIRA DA SILVA",
-        "data": "2019-04-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "RAFAEL DA SILVA XIMENES",
-        "data": "2011-04-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "RAMON PEREIRA RODRIGUES",
-        "data": "2012-05-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "RAYRONE ZIRTANY NUNES MARQUES",
-        "data": "2019-01-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "RAYRONE ZIRTANY NUNES MARQUES",
-        "data": "2021-01-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "WENDELL MILITÃO FERNANDES MENDES",
-        "data": "2023-03-23",
-        "destino": "posse em outro cargo inacumulável"
-      }
-    ]
-  },
-  {
-    "orgao": "stj",
-    "total": 17,
-    "details": [
-      {
-        "nome": "ALCIR AMARAL SILVA",
-        "data": "2022-09-20",
-        "destino": "TRF1"
-      },
-      {
-        "nome": "ALEX AMORIM DUTRA",
-        "data": "2019-12-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ANA CAROLINA LOPES DE JESUS",
-        "data": "2022-07-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ASSISTENTE II",
-        "data": "2021-06-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ASSISTENTE II",
-        "data": "2023-10-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ASSISTENTE II",
-        "data": "2024-01-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "CAMILO PAIVA MATOS PIMENTEL",
-        "data": "2020-08-28",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "CLAUDIO FERREIRA DA SILVA",
-        "data": "2023-11-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "CRISTIANO SOARES ABADIA",
-        "data": "2022-11-08",
-        "destino": "Tribunal Superior do Trabalho"
-      },
-      {
-        "nome": "GISELLE DIAS MENDONÇA",
-        "data": "2019-10-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "HENRIQUE PAULINO MENDES LIMA",
-        "data": "2021-09-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JOSÉ FREDSON DOS SANTOS",
-        "data": "2023-05-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEONARDO HENRIQUE DE JESUS SANTOS",
-        "data": "2019-12-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARINA DAOUD JUNGBLUT",
-        "data": "2024-02-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "PAULO HENRIQUE FÉLIX DE MELO",
-        "data": "2023-03-17",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RAFAEL DA SILVA XIMENES",
-        "data": "2022-07-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "VICTOR DE SOUZA OLIVEIRA",
-        "data": "2021-10-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "GUSTAVO BRITO FLORES",
+        "data": "2021-01-12",
+        "destino": "Ministério da Justiça e Segurança Pública/Polícia Federal/Diretoria de Gestão de Pessoal",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Suporte Técnico",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Perito Criminal Federal"
       }
     ]
   },
   {
     "orgao": "trt4",
-    "total": 17,
+    "total": 8,
     "details": [
       {
-        "nome": "ALEXANDRE KUPAC",
-        "data": "2010-05-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "DINEI ANDRÉ ROCKENBACH",
-        "data": "2021-10-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "GUILHERME COSTA MACIEL",
+        "data": "2022-05-12",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
         "nome": "DIOGO PIRES GILI",
-        "data": "2022-06-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "data": "2022-06-21",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "EDSON ELIAS DOS REIS",
-        "data": "2021-10-21",
-        "destino": "Interno (TRT4)"
+        "nome": "LEOPOLDO ULISSIS MEIRELES ANDRIES",
+        "data": "2022-05-26",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 7ª Região",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": "Não identificado"
       },
       {
-        "nome": "EDUARDO ALCANTARA DE OLIVEIRA",
-        "data": "2022-07-27",
-        "destino": "TRT2"
-      },
-      {
-        "nome": "EDUARDO MARTINS DA ROCHA",
-        "data": "2022-06-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "EMENDA CONSTITUCIONAL",
-        "data": "2021-05-10",
-        "destino": "Aposentadoria"
+        "nome": "EVERTON LUÍS BERZ",
+        "data": "2022-05-26",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
         "nome": "FELIPE LUIZ CHRISTOFOLLI GIOTTO",
         "data": "2020-07-31",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FELIPE PETERSEN",
-        "data": "2021-02-09",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "GUILHERME COSTA MACIEL",
-        "data": "2018-05-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "GUILHERME COSTA MACIEL",
-        "data": "2022-05-12",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "GUILHERME COSTA MACIEL",
-        "data": "2022-12-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "KLAUS ALBERT SPITZ ENGELMANN",
-        "data": "2021-02-09",
-        "destino": "exoneração"
-      },
-      {
-        "nome": "LEOPOLDO ULISSIS MEIRELES ANDRIES",
-        "data": "2022-06-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "PERSIO MARIANO",
-        "data": "2022-04-29",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "SILAS RODRIGUES DO REGO JUNIOR",
-        "data": "2023-10-04",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "THIAGO GREGORIO FAGUNDES",
-        "data": "2023-02-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt11",
-    "total": 16,
-    "details": [
-      {
-        "nome": "AFONSO GONÇALVES DE SOUZA NETO",
-        "data": "2019-12-16",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "ALEX FRANCO BASTOS",
-        "data": "2019-12-16",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "ALEXSANDRO RODRIGUES DE SOUZA",
-        "data": "2019-12-16",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "AUDALIPHAL HILDEBRANDO DA SILVA",
-        "data": "2024-03-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "FILLIPE DE OLIVEIRA MOTA",
-        "data": "2019-12-16",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "FLÁVIO MACHADO DA SILVA",
-        "data": "2019-12-16",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "GRAZZIELLA ROMÃO MACIEL",
-        "data": "2019-12-16",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "HELOÍSA HELENA SOUZA OLIVEIRA",
-        "data": "2019-12-16",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "JÚLIO AUGUSTO GROTH",
-        "data": "2019-12-16",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "KLEBER JORGE DE ARAÚJO",
-        "data": "2019-12-16",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "LAIRTO JOSÉ VELOSO",
-        "data": "2020-03-23",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "MATEUS AIRES CORREA DE SÁ",
-        "data": "2019-12-16",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "ORMY DA CONCEIÇÃO DIAS BENTES",
-        "data": "2015-09-22",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "SAID BOSCO FERREIRA RAMOS",
-        "data": "2021-12-15",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "SOLANGE MARIA SANTIAGO MORAIS",
-        "data": "2024-03-21",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "THADEU RIBEIRO PEREIRA",
-        "data": "2019-12-16",
-        "destino": "aposentadoria"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-sp",
-    "total": 14,
-    "details": [
-      {
-        "nome": "ALESSANDRO COELHO PORTO",
-        "data": "2023-10-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "CLARISSA GALBIATI GRAVA",
-        "data": "2021-07-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "FABIO RODRIGO DA COSTA DIAS",
-        "data": "2024-01-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
-        "data": "2023-03-22",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUCAS CAMARGO CARDOSO",
-        "data": "2022-10-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARIA CRISTINA NUNES DE OLIVEIRA RIBEIRO",
-        "data": "2021-11-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARIANA ABREU SOUZA DOS SANTOS",
-        "data": "2021-02-10",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "PABLO ROBERT PEREIRA ALVES",
-        "data": "2021-08-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "PEDRO ALEIXO DA SILVA NETO",
-        "data": "2023-03-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RAFAEL SILVA VASCONCELLOS",
-        "data": "2022-01-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RODOLFO MENJOU DE PAULA VIEIRA",
-        "data": "2022-11-04",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "ROGÉRIO MAIA MENDES",
-        "data": "2021-11-11",
-        "destino": "TRT6"
-      },
-      {
-        "nome": "SIMONE LUNA VALINS",
-        "data": "2020-03-06",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "TERRA CARNIO",
-        "data": "2021-08-31",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt8",
-    "total": 14,
-    "details": [
-      {
-        "nome": "EWERTON ALMEIDA SILVA",
-        "data": "2023-01-25",
-        "destino": "posse em outro cargo"
-      },
-      {
-        "nome": "GEORGE SOUZA FARIAS",
-        "data": "2017-06-20",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "GERALDO VALÉRIO ALVES LEAL",
-        "data": "2020-07-22",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
-        "data": "2023-01-24",
-        "destino": "posse em outro cargo"
-      },
-      {
-        "nome": "LEONARDO JUNQUEIRA DA SILVA VALENTE",
-        "data": "2014-04-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "LINDOMAR GOLÇALVES DE ALCANTARA NETO",
-        "data": "2023-06-13",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "MARCO AURÉLIO FIDELIS RÊGO",
-        "data": "2023-09-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARCUS AUGUSTO LOSADA MAIA",
-        "data": "2021-11-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "PAULO VINICIUS NASCIMENTO SANTOS DE CARVALHO",
-        "data": "2023-05-09",
-        "destino": "TRF6"
-      },
-      {
-        "nome": "RAPHAEL EUSTÁQUIO ALVES VILELA",
-        "data": "2021-09-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RENAN COUTINHO DINIZ",
-        "data": "2023-06-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "ROSINALDO DOS PASSOS LIMA",
-        "data": "2021-11-19",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "VILMAR FERREIRA DE MORAES JÚNIOR",
-        "data": "2010-11-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "WAGNER DE SOUZA TOLOSA",
-        "data": "2011-11-21",
-        "destino": "aposentadoria"
-      }
-    ]
-  },
-  {
-    "orgao": "trf4",
-    "total": 12,
-    "details": [
-      {
-        "nome": "ANDRÉ PORTO TRONCHINI",
-        "data": "2021-11-23",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "CLARA APARECIDA MILANEZ",
-        "data": "2022-07-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "EDUARDO DE OLIVEIRA VASCONCELOS",
-        "data": "2023-06-05",
-        "destino": "TRE-BA"
-      },
-      {
-        "nome": "FERNANDO FERREIRA TINELLI",
-        "data": "2021-12-20",
-        "destino": "TRT2"
-      },
-      {
-        "nome": "GLAUCO LUCIO GONÇALVES LOPES",
-        "data": "2021-01-19",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "IGOR PIRES FERREIRA",
-        "data": "2020-08-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JONATHAN TERHORST RAUBER",
-        "data": "2020-12-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "RICARDO BARBOSA CUEVAS",
-        "data": "2022-10-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "TAUAME AGUIAR PACCE",
-        "data": "2023-06-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "THIAGO NUNES COSTA",
-        "data": "2021-10-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "THOR CASTILHOS SANCHOTENE",
-        "data": "2024-02-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ÁLVARO LECHNER",
-        "data": "2022-03-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt16",
-    "total": 10,
-    "details": [
-      {
-        "nome": "CARLOS EDUARDO FERREIRA MARINS",
-        "data": "2017-03-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "CARLOS EDUARDO FERREIRA MARINS",
-        "data": "2022-12-19",
-        "destino": "TRT22"
-      },
-      {
-        "nome": "JOYCE QUEIROZ",
-        "data": "2023-08-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JUCELINO COSTA DE OLIVEIRA",
-        "data": "2017-04-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
-        "data": "2018-08-23",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
-        "data": "2023-08-24",
-        "destino": "Interno (TRT16)"
-      },
-      {
-        "nome": "MARCELO HENRIQUE DE OLIVEIRA LIMA",
-        "data": "2021-10-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ROGÉRIO CARVALHO DOS SANTOS",
-        "data": "2023-09-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "TICIANE ANDRADE AGUIAR",
-        "data": "2021-07-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "TICIANE ANDRADE AGUIAR",
-        "data": "2022-04-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
+      },
+      {
+        "nome": "EDUARDO MARTINS DA ROCHA",
+        "data": "2022-06-24",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
+      },
+      {
+        "nome": "EDSON ELIAS DOS REIS",
+        "data": "2021-10-21",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 7ª Região/Diretoria-Geral/Secretaria Administrativa",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Não identificado"
+      },
+      {
+        "nome": "EDUARDO ALCANTARA DE OLIVEIRA",
+        "data": "2022-07-27",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 2ª Região",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": "Técnico Judiciário - Área Apoio Especializado"
       }
     ]
   },
   {
     "orgao": "trt2",
-    "total": 9,
+    "total": 5,
     "details": [
       {
-        "nome": "ADRIANO CESAR DE OLIVEIRA",
-        "data": "2020-08-21",
-        "destino": "aposentadoria"
+        "nome": "MACIEL MESQUITA DE SOUSA",
+        "data": "2024-01-02",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": ""
       },
       {
-        "nome": "ALESSANDRE DE MOURA CAVALCANTE",
-        "data": "2020-08-21",
-        "destino": "aposentadoria"
+        "nome": "GABRIEL DOS SANTOS TAMBUR",
+        "data": "2022-10-24",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "AMANDA DIÓGENES LUCAS",
-        "data": "2013-01-20",
-        "destino": "aposentadoria"
+        "nome": "DOUGLAS BAYER SANTOS",
+        "data": "2022-07-04",
+        "destino": "Outro Órgão",
+        "role": "ANALISTA JUDICIÁRIO, ÁREA APOIO ESPECIALIZADO, ESPECIALIDADE - TECNOLOGIA DA INFORMAÇÃO",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": ""
       },
       {
-        "nome": "DANILO DE LIMA CAPOBIANCO",
-        "data": "2022-11-21",
-        "destino": "aposentadoria"
+        "nome": "GUSTAVO EMANUEL OLIVEIRA BASTOS",
+        "data": "2023-04-26",
+        "destino": "Poder Judiciário/Tribunal Regional Federal da 6ª Região",
+        "role": "Analista Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância",
+        "cargo_destino": "Não identificado"
       },
       {
         "nome": "EDUARDO ALCANTARA DE OLIVEIRA",
         "data": "2022-11-07",
-        "destino": "posse em outro cargo"
-      },
-      {
-        "nome": "LUIZ HIRAM DE AGUIAR BEZERRA",
-        "data": "2021-03-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "NOBUYUKI YOSHIDA",
-        "data": "2022-06-21",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "RILMA APARECIDA HEMETÉRIO",
-        "data": "2021-09-20",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "THIAGO VIANA FERNANDES",
-        "data": "2011-11-21",
-        "destino": "aposentadoria"
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 4ª Região/Diretoria-Geral de Coordenação Administrativa",
+        "role": "Técnico Judiciário - Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": "Não identificado"
       }
     ]
   },
   {
-    "orgao": "trt10",
-    "total": 8,
+    "orgao": "trt7",
+    "total": 5,
     "details": [
       {
-        "nome": "ALBERIQUE PINHEIRO NETO",
-        "data": "2022-12-05",
-        "destino": "aposentadoria"
+        "nome": "FELLYPPE CARLOS SANTOS DE LIMA",
+        "data": "2021-11-10",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "ALEX AUGUSTUS MELO DE ANDRADE",
-        "data": "2020-12-21",
-        "destino": "aposentadoria"
+        "nome": "LEONARDO DE SOUSA DIAS",
+        "data": "2023-07-26",
+        "destino": "Ministério da Justiça e Segurança Pública/Polícia Federal/Diretoria de Gestão de Pessoas",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Não identificado"
       },
       {
-        "nome": "FERNANDO CHAVARRY DA SILVA",
-        "data": "2022-12-05",
-        "destino": "aposentadoria"
+        "nome": "ANDRÉ ALVES REVOREDO",
+        "data": "2023-09-29",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Exoneração",
+        "cargo_destino": ""
       },
       {
-        "nome": "FLAVIA GONTIJO CORREA",
-        "data": "2022-12-05",
-        "destino": "aposentadoria"
+        "nome": "FILIPE SAMPAIO CANITO",
+        "data": "2022-01-24",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "MARCELA GOMES CORREA",
-        "data": "2019-03-24",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "MARCELA GOMES CORREA",
-        "data": "2024-03-04",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "MARIA EULILIA CAVALCANTE AMORIM PONTES",
-        "data": "2022-12-05",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "MAURILIO COSTA DA SILVA",
-        "data": "2023-03-13",
-        "destino": "posse em outro cargo"
+        "nome": "WENDELL MILITÃO FERNANDES MENDES",
+        "data": "2023-02-16",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       }
     ]
   },
   {
-    "orgao": "trt3",
-    "total": 8,
+    "orgao": "trt16",
+    "total": 5,
     "details": [
       {
-        "nome": "EDSON ELIAS DOS REIS",
-        "data": "2019-02-24",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "EDWILSON DE SOUSA CARVALHO",
+        "data": "2023-09-29",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": ""
       },
       {
-        "nome": "IGOR OLIVEIRA CRISÓSTOMO",
-        "data": "2017-08-23",
-        "destino": "aposentadoria"
+        "nome": "JOYCE QUEIROZ E SILVA",
+        "data": "2023-08-09",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 5ª Região",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Não identificado"
       },
       {
-        "nome": "JOSUÉ LENNON DE SOUZA PAES",
-        "data": "2022-03-24",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "MANOEL MARCONDES DE OLIVEIRA LIMA JUNIOR",
+        "data": "2023-09-19",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "JUN MIYAZAKI",
-        "data": "2020-03-24",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "MARCELO HENRIQUE DE OLIVEIRA LIMA",
+        "data": "2022-03-08",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área Apoio Especializado - Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "LUCAS BATISTA LEITE DE SOUZA",
-        "data": "2019-02-24",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "LUIS CARLOS MOREIRA SILVA JUNIOR",
-        "data": "2017-08-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "MÁRCIO RICARDO ALVES GADELHA DE ARAÚJO",
-        "data": "2017-08-23",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "THAYANNE ANTÃO VIEGAS",
-        "data": "2011-03-24",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "DANIELE SOUZA DE ARAÚJO",
+        "data": "2024-01-17",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       }
     ]
   },
   {
-    "orgao": "trt15",
-    "total": 8,
+    "orgao": "trf4",
+    "total": 4,
     "details": [
       {
-        "nome": "GABRIEL BRESSANE SILVA",
-        "data": "2013-03-24",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "HIAGO WILLIAM PETRIS",
+        "data": "2021-08-21",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "GABRIEL BRESSANE SILVA",
-        "data": "2024-03-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "JONATHAN TERHORST RAUBER",
+        "data": "2020-12-14",
+        "destino": "Ministério da Educação/Universidade Federal da Fronteira Sul",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "ANALISTA DE TECNOLOGIA DA INFORMAÇÃO"
       },
       {
-        "nome": "GEAN RIBEIRO DOS SANTOS",
-        "data": "2021-07-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "THIAGO NUNES COSTA",
+        "data": "2021-10-01",
+        "destino": "Poder Judiciário/Tribunal Regional Federal da 2ª Região",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Tecnologia da Informação",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": "TÉCNICO JUDICIÁRIO/INFORMÁTICA"
       },
       {
-        "nome": "JOSÉ CARLOS DA SILVA",
-        "data": "2023-08-30",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "LUCAS DE OLIVEIRA",
-        "data": "2013-07-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "LUCAS DE OLIVEIRA",
-        "data": "2021-07-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "SAULO VALIM",
-        "data": "2020-11-24",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "SAULO VALIM",
-        "data": "2024-11-20",
-        "destino": "posse em outro cargo inacumulável"
-      }
-    ]
-  },
-  {
-    "orgao": "trt23",
-    "total": 6,
-    "details": [
-      {
-        "nome": "ALEXANDRE ANTONIO SIMOES DE ALMEIDA",
-        "data": "2020-04-03",
-        "destino": "exoneração a pedido"
-      },
-      {
-        "nome": "CLAUDIO SANTANA DE VASCONCELOS",
-        "data": "2017-07-11",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "DANIEL ALVES DA FONSECA MACIEL",
-        "data": "2020-11-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "GHANEM YOUSSEF ARFOX",
-        "data": "2020-03-02",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "JOÃO BATISTA ARAUJO BARBOSA JUNIOR",
-        "data": "2022-07-05",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "NAIR MONEGAT CAVALHEIRO",
-        "data": "2021-11-19",
-        "destino": "falecimento"
+        "nome": "FELLIPE CASTRO DOS SANTOS",
+        "data": "2022-05-19",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       }
     ]
   },
   {
     "orgao": "trt18",
-    "total": 6,
+    "total": 3,
     "details": [
       {
-        "nome": "ALÍPIO CORREIA MENDES",
-        "data": "2021-10-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "LUCAS CAMARGO CARDOSO",
+        "data": "2022-01-25",
+        "destino": "Poder Judiciário/Tribunal Regional Eleitoral de São Paulo",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Técnico Judiciário - Área Apoio Especializado - Especialidade Programação de Sistemas"
+      },
+      {
+        "nome": "IL JOSÉ OLIVEIRA E REBOUÇAS",
+        "data": "2022-01-25",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Apoio Especializado - Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
         "nome": "DANILO RODRIGUES DE CARVALHO",
-        "data": "2021-06-28",
-        "destino": "posse em outro cargo"
-      },
-      {
-        "nome": "IL JOSÉ OLIVEIRA",
-        "data": "2022-01-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUCAS CAMARGO CARDOSO",
-        "data": "2022-01-28",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUCAS CAMARGO CARDOSO",
-        "data": "2022-06-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "RUI MOREIRA DE OLIVEIRA",
-        "data": "2010-12-21",
-        "destino": "aposentadoria"
+        "data": "2021-07-08",
+        "destino": "Poder Judiciário/Superior Tribunal de Justiça",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": "Não identificado"
       }
     ]
   },
   {
-    "orgao": "trt19",
-    "total": 6,
+    "orgao": "trt15",
+    "total": 3,
     "details": [
       {
-        "nome": "ANDERSON FÉLIX DA SILVA",
-        "data": "2023-11-22",
-        "destino": "aposentadoria"
+        "nome": "LUCAS DE OLIVEIRA",
+        "data": "2021-05-03",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "DAVID JONES FERREIRA DE LUCENA",
-        "data": "2010-11-21",
-        "destino": "aposentadoria"
+        "nome": "FABIO JOSE BORGES FONSECA",
+        "data": "2020-11-24",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, área Apoio Especializado, especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "EDUARDO DE OLIVEIRA VASCONCELOS",
-        "data": "2011-11-22",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "JOYCE QUEIROZ",
-        "data": "2023-04-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "JOYCE QUEIROZ E SILVA",
-        "data": "2023-05-02",
-        "destino": "posse em outro cargo"
-      },
-      {
-        "nome": "LUÍS CARLOS MOREIRA SILVA JÚNIOR",
-        "data": "2023-09-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "HEBER AUGUSTO GUERREIRO DE MORAES",
+        "data": "2021-08-12",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, área Apoio Especializado, especialidade Tecnologia da Informação",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": ""
       }
     ]
   },
   {
     "orgao": "trt1",
-    "total": 6,
+    "total": 3,
     "details": [
-      {
-        "nome": "EDITH MARIA CORRÊA TOURINHO",
-        "data": "2024-09-21",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "EDITH TOURINHO",
-        "data": "2016-02-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
       {
         "nome": "JOAO RAUL JARDIM MENESES",
         "data": "2021-11-30",
-        "destino": "TRE-PE"
+        "destino": "Poder Judiciário/Tribunal Regional Eleitoral de Pernambuco",
+        "role": "Analista Judiciário - Área Apoio Especializado - Especialidade - Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": "Analista Judiciário"
       },
       {
-        "nome": "LUCAS BARRETO MENDES",
-        "data": "2025-07-22",
-        "destino": "aposentadoria"
+        "nome": "LEONARDO CARDOSO MONTEIRO",
+        "data": "2023-03-08",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário - Apoio Especializado - Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "RACHEL HELENA RIBEIRO CARDINOT",
-        "data": "2023-02-28",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "SONIA CRISTINA ROCHA",
-        "data": "2023-02-28",
-        "destino": "falecimento"
+        "nome": "LEONARDO FILIPE RODRIGUES RIBEIRO",
+        "data": "2022-10-24",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário - Área de Especialidade: Tecnologia da Informação",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": ""
       }
     ]
   },
   {
-    "orgao": "trt13",
-    "total": 5,
+    "orgao": "trf3",
+    "total": 3,
     "details": [
       {
-        "nome": "CRISTIANO LIMA SOBRINHO",
-        "data": "2022-08-23",
-        "destino": "falecimento"
+        "nome": "ROBERTO CARLOS DE OLIVEIRA",
+        "data": "2023-08-24",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Informática",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "GABRIEL ROLETO CARDOSO",
-        "data": "2024-03-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "ELTON DOS SANTOS MORAIS",
+        "data": "2021-04-12",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "GLEISSON DE SOUZA FFREITAS",
-        "data": "2023-08-23",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "GLEISSON DE SOUZA FREITAS",
-        "data": "2021-09-23",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "THIAGO HENRIQUE SANTOS",
-        "data": "2025-09-23",
-        "destino": "falecimento"
+        "nome": "VINICIUS LIMA DA SILVA",
+        "data": "2023-03-06",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Informática",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       }
     ]
   },
   {
-    "orgao": "trt17",
-    "total": 5,
+    "orgao": "trt23",
+    "total": 3,
     "details": [
       {
-        "nome": "DENILSON DE ALBUQUERQUE CARVALHO",
-        "data": "2012-01-24",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "DISPENSAR ROSA CRISTINA RIBEIRO PAIVA",
-        "data": "2023-01-20",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ELIAS CORREA SILVA",
-        "data": "2023-10-11",
-        "destino": "posse em outro cargo"
-      },
-      {
-        "nome": "RAQUEL VITÓRIA DA SILVA CASTELO BRANCO",
-        "data": "2022-10-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ÁREA APOIO ESPECIALIZADO",
-        "data": "2023-07-11",
-        "destino": "TRT20"
-      }
-    ]
-  },
-  {
-    "orgao": "trt6",
-    "total": 5,
-    "details": [
-      {
-        "nome": "DIANA RUBIA RODRIGUES RICARDO",
+        "nome": "CRISTOVÃO HENRIQUE DE SOUZA MACIEL",
         "data": "2023-09-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "DIOGO COUCEIRO LEMOS",
-        "data": "2023-02-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "GHANEM YOUSSEF ARFOX",
+        "data": "2020-10-19",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 23ª Região",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": "Técnico Judiciário"
       },
       {
-        "nome": "EDNALDO DIAS DA SILVA",
-        "data": "2022-07-07",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "EVANDRO ARAUJO NASCIMENTO",
-        "data": "2022-09-15",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "FLORISVALDA RODRIGUES DOS SANTOS",
-        "data": "2024-08-22",
-        "destino": "aposentadoria"
+        "nome": "RAQUEL CORREIA DE MELO",
+        "data": "2023-04-26",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 23ª Região",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Exoneração (A pedido)",
+        "cargo_destino": "Técnico Judiciário - Área Administrativa - Especialidade Segurança e Transporte (Agente de Polícia Judicial) para compor o Quadro de Pessoal da Justiça do Trabalho de Mato Grosso em Cuiabá"
       }
     ]
   },
   {
-    "orgao": "trt20",
-    "total": 4,
+    "orgao": "trt14",
+    "total": 3,
     "details": [
       {
-        "nome": "AIRTON ANTONIO DE JESUS JUNIOR",
-        "data": "2023-06-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "JOAQUIM SILVA MENEZES",
+        "data": "2023-05-29",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Área: Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "JOSE LUIZ DE OLIVEIRA",
-        "data": "2020-10-21",
-        "destino": "aposentadoria"
+        "nome": "MARCUS VINÍCIUS ALENCAR TERRA",
+        "data": "2023-06-28",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade: Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "LEONARDO ARAUJO ZOEHLER BRUM",
-        "data": "2023-06-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "YURI RANIERI WANDERLEY KOYANAGI",
-        "data": "2015-09-21",
-        "destino": "falecimento"
+        "nome": "FELYPP DE ASSIS OLIVEIRA",
+        "data": "2021-10-01",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 14ª Região/Diretoria-Geral",
+        "role": "Técnico Judiciário, Área: Apoio Especializado, Especialidade - Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": "Analista Judiciário"
       }
     ]
   },
   {
-    "orgao": "tre-ap",
-    "total": 4,
+    "orgao": "trf5",
+    "total": 3,
     "details": [
       {
-        "nome": "ALEXANDRE MATOS DE ARAUJO",
-        "data": "2022-09-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "CARLOS TRAJANO DE OLIVEIRA",
+        "data": "2022-07-15",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 7ª Região/Diretoria-Geral/Secretaria de Pessoal",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Informática",
+        "motivo": "Vacância",
+        "cargo_destino": "Não identificado"
       },
       {
-        "nome": "LÍVIO CORRÊA CARNEIRO",
-        "data": "2021-12-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "CLÁUDIO FERREIRA DA SILVA",
+        "data": "2020-06-12",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Informática (Infraestrutura)",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       },
       {
-        "nome": "RENAN COUTINHO DINIZ",
-        "data": "2023-06-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "JOSÉ CÍCERO DOS SANTOS",
+        "data": "2022-11-17",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 19ª Região",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Informática",
+        "motivo": "Não identificado",
+        "cargo_destino": "Analista Judiciário"
+      }
+    ]
+  },
+  {
+    "orgao": "trt8",
+    "total": 3,
+    "details": [
+      {
+        "nome": "PAULO VINÍCIUS NASCIMENTO SANTOS DE CARVALHO",
+        "data": "2023-11-21",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 8ª Região/Secretaria/Coordenação de Recursos Humanos",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Analista Judiciário"
       },
       {
-        "nome": "WAINNER BRUM CAETANO",
-        "data": "2021-01-12",
-        "destino": "TRT14"
+        "nome": "PAULO VINICIUS NASCIMENTO SANTOS DE CARVALHO",
+        "data": "2023-05-03",
+        "destino": "Poder Judiciário/Tribunal Regional Federal da 6ª Região",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade em Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": "Não identificado"
+      },
+      {
+        "nome": "MARCELO DE FREITAS ANDRADE",
+        "data": "2023-01-23",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       }
     ]
   },
   {
     "orgao": "trt5",
-    "total": 4,
+    "total": 2,
     "details": [
       {
-        "nome": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
-        "data": "2012-06-23",
-        "destino": "posse em outro cargo inacumulável"
+        "nome": "FERNANDO ANTONIO BOAVENTURA CERQUEIRA",
+        "data": "2021-05-12",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário/Apoio Especializado/Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       },
       {
-        "nome": "ANTONIO RUY GARRIDO DE ABREU JUNIOR",
-        "data": "2023-06-12",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ELZITA DE ANDRADE FRANCO BRANDÃO",
-        "data": "2022-08-01",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "MARCUS FLAVIUS BORBA LINS DA SILVA",
-        "data": "2023-01-13",
-        "destino": "aposentadoria"
+        "nome": "JOÃO RIBEIRO DE ALMEIDA NETO",
+        "data": "2023-08-10",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 6ª Região",
+        "role": "Analista Judiciário/Área Apoio Especializado/Especialidade Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": "Analista Judiciário"
       }
     ]
   },
   {
-    "orgao": "tre-mt",
-    "total": 4,
+    "orgao": "trt6",
+    "total": 2,
     "details": [
       {
-        "nome": "GUILHERME DE OLIVEIRA FALCÃO",
-        "data": "2022-05-25",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "LUIZ GUSTAVO COIMBRA DA SILVA",
+        "data": "2023-07-31",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Exoneração (A pedido)",
+        "cargo_destino": ""
       },
       {
-        "nome": "LASTENYA PEREIRA DA SILVEIRA",
-        "data": "2021-11-12",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LUÍS ANTÔNIO RIGOTTI",
-        "data": "2023-02-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ROBERTO RODRIGUES RENOVATO",
-        "data": "2021-12-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "IGOR MARCEL LEAL DE MORAIS",
+        "data": "2022-12-12",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 6ª Região/Diretoria-Geral/Secretaria de Recursos Humanos",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Especialidade Tecnologia da Informação",
+        "motivo": "Vacância",
+        "cargo_destino": "Não identificado"
       }
     ]
   },
   {
-    "orgao": "trt22",
-    "total": 3,
+    "orgao": "stf",
+    "total": 2,
     "details": [
       {
-        "nome": "ALÉSSIO ANUNCIADO SILVA",
-        "data": "2023-03-21",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "FERNANDO VINÍCIUS DOS REIS SOUZA",
+        "data": "2019-10-23",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, área Apoio Especializado, Tecnologia da Informação",
+        "motivo": "Aposentadoria",
+        "cargo_destino": ""
       },
       {
-        "nome": "LUCAS ALÉSSIO ANUNCIADO SILVA",
-        "data": "2023-03-21",
-        "destino": "posse em outro cargo"
-      },
-      {
-        "nome": "NÃO IDENTIFICADO",
-        "data": "2023-04-04",
-        "destino": "TRF2"
+        "nome": "LEANDRO BORGES DE REZENDE",
+        "data": "2023-09-29",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, área Apoio Especializado, Tecnologia da Informação",
+        "motivo": "Exoneração (A pedido)",
+        "cargo_destino": ""
       }
     ]
   },
   {
-    "orgao": "trt9",
-    "total": 3,
+    "orgao": "trt13",
+    "total": 2,
     "details": [
       {
-        "nome": "CION AYRES DO NASCIMENTO",
-        "data": "2022-11-03",
-        "destino": "exoneração a pedido"
+        "nome": "RAFAEL SANTOS TARGINO",
+        "data": "2022-06-01",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário, Apoio Especializado - Tecnologia da Informação",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": ""
       },
       {
-        "nome": "RODRIGO NOHLACK CORREA CESAR",
-        "data": "2013-12-22",
-        "destino": "posse em outro cargo inacumulável"
-      },
-      {
-        "nome": "RODRIGO NOHLACK CORREA CESAR",
-        "data": "2022-12-13",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "CAIO RÉGIS CAROCA",
+        "data": "2022-02-08",
+        "destino": "Outro Órgão",
+        "role": "Técnico Judiciário - Área Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Vacância",
+        "cargo_destino": ""
       }
     ]
   },
   {
     "orgao": "trt24",
-    "total": 3,
+    "total": 2,
     "details": [
       {
         "nome": "EDMUNDO BORGES DO AMARAL JUNIOR",
-        "data": "2021-09-30",
-        "destino": "Interno (TRT24)"
+        "data": "2021-10-26",
+        "destino": "Outro Órgão",
+        "role": "TÉCNICO JUDICIÁRIO, Área Administrativa, Apoio Especializado Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": ""
       },
       {
-        "nome": "JACIRA ROSA DOS SANTOS ALVES",
-        "data": "2023-04-20",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "TIAGO DE NOVAIS SILVEIRA",
-        "data": "2022-02-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "MAYANA DE CARVALHO SILVA BANDEIRA",
+        "data": "2021-11-11",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 24ª Região/Diretoria-Geral",
+        "role": "Analista Judiciário - Apoio Especializado - Especialidade Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Analista Judiciário - Apoio Especializado - Especialidade Tecnologia da Informação"
       }
     ]
   },
   {
-    "orgao": "tre-pa",
-    "total": 3,
-    "details": [
-      {
-        "nome": "ELVIS RODRIGUES RIBEIRO SILVA",
-        "data": "2020-11-26",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
-        "data": "2022-06-20",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "LEONARDO DOS SANTOS LAGE DE OLIVEIRA",
-        "data": "2022-08-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trt21",
-    "total": 3,
-    "details": [
-      {
-        "nome": "PAULO GILSON LIMA",
-        "data": "2023-04-20",
-        "destino": "falecimento"
-      },
-      {
-        "nome": "RICARDO PINHEIRO DA SILVA",
-        "data": "2010-11-21",
-        "destino": "aposentadoria"
-      },
-      {
-        "nome": "RODRIGO PETROLI",
-        "data": "2020-04-23",
-        "destino": "falecimento"
-      }
-    ]
-  },
-  {
-    "orgao": "stm",
+    "orgao": "trt20",
     "total": 2,
     "details": [
       {
-        "nome": "ADRIANO CESAR DE OLIVEIRA",
-        "data": "2024-02-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "AIRTON ANTONIO DE JESUS JUNIOR",
+        "data": "2023-06-23",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 6ª Região",
+        "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO",
+        "motivo": "Vacância",
+        "cargo_destino": "Analista Judiciário"
       },
       {
-        "nome": "ALESSANDRO COELHO PORTO",
-        "data": "2023-02-14",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "DANIEL GUILHERME COSTA DE ARAÚJO",
+        "data": "2023-06-23",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 6ª Região",
+        "role": "TÉCNICO JUDICIÁRIO - ÁREA APOIO ESPECIALIZADO - ESPECIALIDADE TECNOLOGIA DA INFORMAÇÃO",
+        "motivo": "Vacância",
+        "cargo_destino": "Analista Judiciário"
       }
     ]
   },
   {
-    "orgao": "tre-ce",
+    "orgao": "trt17",
     "total": 2,
     "details": [
       {
-        "nome": "ALBERTO SAMPAIO DE ARAÚJO NETO",
-        "data": "2019-05-03",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "LUCAS MATIAS CAETANO",
+        "data": "2023-07-07",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 17ª Região",
+        "role": "Técnico Judiciário, Área Apoio Especializado, Esp. Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Técnico Judiciário"
       },
       {
-        "nome": "ERICK TEIXEIRA BARRETO",
-        "data": "2021-12-01",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trf6",
-    "total": 2,
-    "details": [
-      {
-        "nome": "CASSIO ALVES DE OLIVEIRA",
-        "data": "2024-01-30",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "GUSTAVO EMANUEL OLIVEIRA BASTOS",
-        "data": "2024-01-29",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tse",
-    "total": 2,
-    "details": [
-      {
-        "nome": "FRANKLEY FRANCOLINO DA ROCHA",
-        "data": "2021-01-08",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "ÁREA APOIO ESPECIALIZADO",
-        "data": "2020-11-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-to",
-    "total": 2,
-    "details": [
-      {
-        "nome": "HEVERSON DE ALMEIDA BRAGA",
-        "data": "2023-10-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      },
-      {
-        "nome": "HUDSON PENA MAGALHÃES",
-        "data": "2022-11-07",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-pe",
-    "total": 2,
-    "details": [
-      {
-        "nome": "IARA DE MORAIS",
-        "data": "2023-05-18",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "JOÃO GABRIEL CORDEIRO D",
-        "data": "2021-01-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-ba",
-    "total": 2,
-    "details": [
-      {
-        "nome": "JENVAL GONÇALVES DE FARIAS",
-        "data": "2023-10-24",
-        "destino": "Aposentadoria"
-      },
-      {
-        "nome": "LEVI LOPES SOARES",
-        "data": "2020-09-18",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "VICENTE BISSOLI SESSA",
+        "data": "2023-07-07",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 17ª Região",
+        "role": "Analista Judiciário, Área Apoio Especializado, Esp. Tecnologia da Informação",
+        "motivo": "Vacância (Posse outro cargo)",
+        "cargo_destino": "Técnico Judiciário"
       }
     ]
   },
@@ -1656,124 +824,42 @@
     "total": 2,
     "details": [
       {
-        "nome": "MÁRCIO MAGALHÃES DE ANDRADE SILVA",
-        "data": "2021-11-12",
-        "destino": "TRT8"
+        "nome": "CHRYSTINNE OLIVEIRA FERNANDES",
+        "data": "2023-02-08",
+        "destino": "Outro Órgão",
+        "role": "Técnica Judiciária/Informática",
+        "motivo": "Outro (verificar)",
+        "cargo_destino": ""
       },
       {
-        "nome": "SUELI DA SILVA GUILHERME CALMON",
-        "data": "2022-12-15",
-        "destino": "Aposentadoria"
+        "nome": "MÁRCIO MAGALHÃES DE ANDRADE SILVA",
+        "data": "2021-10-27",
+        "destino": "Poder Judiciário/Tribunal Regional do Trabalho da 8ª Região",
+        "role": "Técnico Judiciário/Informática, Área Apoio Especializado",
+        "motivo": "Não identificado",
+        "cargo_destino": "carreira da categoria funcional de Analista Judiciário"
       }
     ]
   },
   {
-    "orgao": "tre-am",
-    "total": 1,
+    "orgao": "tst",
+    "total": 2,
     "details": [
       {
-        "nome": "APOIO ESPECIALIZADO",
-        "data": "2024-03-11",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "trf5",
-    "total": 1,
-    "details": [
+        "nome": "ALBERTO DE CARVALHO FRIEDMAN",
+        "data": "2023-11-23",
+        "destino": "Tribunal de Contas da União",
+        "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação",
+        "motivo": "Aposentadoria",
+        "cargo_destino": "Auditor Federal de Controle Externs"
+      },
       {
-        "nome": "CLEIRTON MONTE DE SOUSA",
-        "data": "2023-05-16",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-pr",
-    "total": 1,
-    "details": [
-      {
-        "nome": "DANIEL CARVALHO DIAS",
-        "data": "2023-06-16",
-        "destino": "Interno (TRE-PR)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-sc",
-    "total": 1,
-    "details": [
-      {
-        "nome": "GILBERTO JOSÉ ROSSA JÚNIOR",
-        "data": "2024-02-09",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-go",
-    "total": 1,
-    "details": [
-      {
-        "nome": "LEVI MIRANDA DA SILVA",
-        "data": "2020-01-31",
-        "destino": "Aposentadoria"
-      }
-    ]
-  },
-  {
-    "orgao": "stf",
-    "total": 1,
-    "details": [
-      {
-        "nome": "LUIZ AUGUSTO DA SILVA ALVES",
-        "data": "2022-07-22",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-ma",
-    "total": 1,
-    "details": [
-      {
-        "nome": "LUIZ GONZAGA DE ALBUQUERQUE NETO",
-        "data": "2022-12-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-rs",
-    "total": 1,
-    "details": [
-      {
-        "nome": "PROCESSO N. 0005415-94.2021.6.21.8000",
-        "data": "2021-06-02",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-rj",
-    "total": 1,
-    "details": [
-      {
-        "nome": "SILLAS LABARBA MACIEL MOREIRA",
-        "data": "2023-02-15",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
-      }
-    ]
-  },
-  {
-    "orgao": "tre-es",
-    "total": 1,
-    "details": [
-      {
-        "nome": "ÁREA APOIO ESPECIALIZADO - PROGRAMAÇÃO DE SISTEMAS",
-        "data": "2024-02-27",
-        "destino": "Outro Órgão (Cargo Inacumulável)"
+        "nome": "ALBERTO DE CARVALHO FRIEDMAN",
+        "data": "2022-07-13",
+        "destino": "Outro Órgão",
+        "role": "Analista Judiciário, Área de Apoio Especializado, Especialidade Suporte em Tecnologia da Informação",
+        "motivo": "Não identificado",
+        "cargo_destino": ""
       }
     ]
   }
