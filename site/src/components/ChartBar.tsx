@@ -56,7 +56,7 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
       data: labels,
       axisLabel: {
         color: "rgba(231,237,247,0.8)",
-        width: 160,
+        width: 85,
         overflow: "truncate",
         ...(showRanking && {
           formatter: (value: string) => {
@@ -73,7 +73,7 @@ export function ChartBar({ rows, height = 320, showRanking = false }: { rows: Ro
               color: "rgba(231,237,247,0.4)",
             },
             name: {
-              width: 125,
+              width: 50,
               align: 'right',
             }
           }
